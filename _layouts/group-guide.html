@@ -1,0 +1,75 @@
+---
+layout: default
+---
+{% assign photos = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york %}
+<div class="page__content">
+
+
+
+  <div class="section bg--light-grey">
+    <div class="row row--padding">
+      <div class="row row--xl text--center">
+
+        <p class="text--lg">{{page.intro}}</p>
+
+        {% for section in page.sections %}
+        <a class="btn btn--primary" href="#{{section.title | slugify}}">{{section.title}}</a>
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="section">
+  {% for section in page.sections %}
+    <div class="section {% cycle 'bg--white','bg--light-grey' %}" id="{{section.title | slugify}}">
+
+      <div class="row">
+        <h2 class="title title--lg title--bold">{{section.title}}</h2>
+        {{section.content}}
+        <hr>
+      </div>
+
+      {% for item in section.items %}
+        {% assign photo = photos | where: "id", item.id %}
+        {% for photo in photo %}
+
+          <div class="row row--7-5-gutters row--valign" id="{{ item.id }}">
+
+            <a
+              href="javascript:void(0);"
+              class="col bg-img bg-img--4-3 js-open-modal"
+              data-modal-id="{{item.id}}"
+              style="background-image:url({{site.baseurl}}/img/content/{{photo.group}}/{{item.id}}.jpg);"></a>
+
+            <div class="col">
+              <h3 class="title title--xxs title--bold">{{photo.title}}</h5>
+              <h5 class="title title--xxxs title--bold"> Photo by {{photo.photographer}}</h5>
+              <p>{{photo.content}}</p>
+              <hr>
+              <ul>
+                {% for detail in photo.details %}
+                <li>
+                  <span class="text--bolder text--upper text--sm">{{detail.title}}</span> {{detail.content}}
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+
+          </div>
+        {% endfor %}
+      {% endfor %}
+
+    </div>
+  {% endfor %}
+  </div>
+
+
+
+</div><!-- END .page__content -->
+
+
+
+{% include components/modal-gallery.html type="carousel" %}

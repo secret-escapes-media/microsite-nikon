@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<div class="page__content">
+
+
+
+  <div class="section bg--light-grey">
+    <div class="row row--padding">
+      <div class="row row--xl text--center">
+        <p class="text--lg">{{page.intro}}</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  {{ content }}
+
+
+
+  <section class="bg--light-grey vpad-bottom--xl">
+    <div class="row row--6-6-gutters">
+
+    {% assign subpages = site.html_pages | where: "group", page.id | sort: "path" | sort: "group-order" %}
+    {% for subpage in subpages %}
+
+      <a href="{{ site.baseurl }}{{ subpage.url }}" class="col bg-img bg-img--xl-4-3 bg-img--16-9" style="background-image: url('{{ site.baseurl }}/img/bg/{{subpage.id}}/nav.jpg');">
+        <div class="bg-img__content">
+          <span class="text--white title title--lg title--upper title--bold">{{ subpage.title }}</span>
+        </div>
+      </a>
+
+    {% endfor %}
+
+    </div>
+  </section>
+
+
+
+</div><!-- END .page__content -->
+
+
+
+{% include components/modal-gallery.html type="single" %}
+
+

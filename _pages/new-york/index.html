@@ -1,0 +1,65 @@
+---
+layout: group
+id: new-york
+title: New York
+nav-order: 4
+
+intro: >
+  <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus consequatur ex saepe tempore quia odio debitis omnis neque molestiae eos eius vitae temporibus.</p>
+  <p>Charum repellat explicabo quam quos labore optio veniam, molestias in nesciunt, quod numquam. Et dolor tempore, ex minus delectus, hic nemo officiis illo ullam. Tempora, consequatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quibusdam reiciendis atque autem est dolorum quos, ad dignissimos iste amet voluptate laudantium saepe? Commodi, quasi, asperiores. Est consequatur repellat magnam.</p>
+
+sections:
+
+  - title: Town
+    image: waterfall-photo-1
+    content: >
+      <p class="p--lg">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui.</p>
+
+  - title: Town
+    image: glacier-photo-3
+    content: >
+      <p class="p--lg">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui.</p>
+
+  - title: Town
+    image: town-photo-2
+    content: >
+      <p class="p--lg">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui.</p>
+
+---
+{% assign photos = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york %}
+
+
+
+
+<div class="section">
+
+  <div class="row row--padding">
+
+    {% for section in page.sections %}
+      <div class="bob">
+
+        {% assign photo = photos | where: "id", section.image %}
+        {% for photo in photo %}
+        <a
+          href="javascript:void(0);"
+          class="bob__image bg-img bg-img--4-3 js-open-modal"
+          data-modal-id="{{section.image}}"
+          style="background-image:url({{site.baseurl}}/img/content/{{photo.group}}/{{section.image}}.jpg);">
+          <span class="bg-img__content">
+            Photo title: {{photo.title}}<br />
+            Photographer: {{photo.photographer}}<br />
+          </span>
+        </a>
+        {% endfor %}
+
+        <div class="bob__text">
+          <div class="title title--md title--bold">{{section.title}}</div>
+          <p class="text--lg">{{section.content}}</p>
+        </div>
+      </div>
+    {% endfor %}
+
+  </div>
+
+</div>
+

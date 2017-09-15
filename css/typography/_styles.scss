@@ -1,0 +1,122 @@
+// general typographic elements like paragraphs, lists, etc
+
+.text {
+  &--xxl      { font-size: $s3; }
+  &--xl       { font-size: $s2; }
+  &--lg       { font-size: $s1; }
+  &--sm       { font-size: $s-1; font-weight: 400; }
+  &--lighter  { font-weight: 100; }
+  &--light    { font-weight: 200; }
+  &--bold     { font-weight: 500; }
+  &--bolder   { font-weight: 600; }
+  &--boldest  { font-weight: 800; }
+  &--kerning  { letter-spacing: .1em; }
+  &--left     { text-align: left; }
+  &--right    { text-align: right; }
+  &--center   { text-align: center; }
+  &--upper    { text-transform: uppercase; }
+  &--black    { color: $text-dark; }
+  &--white    {
+    color: $white;
+    & .title, &.title { color: $white; }
+  }
+  &--default  {
+    color: $text;
+    & .title, &.title { color: $headline; }
+  }
+}
+
+.line-length {
+  max-width: 36rem;
+  &--lg { max-width: 47rem; }
+}
+
+
+// -------- general element styles --------
+
+.page__content {
+  * + p,
+  * + ul,
+  * + ol               { padding-top: $s1; }
+  p                    { max-width: $xl; }
+  .text--center p      { margin-left: auto; margin-right: auto; }
+  li                   { list-style-position: outside; margin-left: $s2; }
+  li + li              { padding-top: $s-2; }
+  ul li                { list-style-type: disc; }
+  ol li                { list-style-type: decimal; }
+  em                   { font-style: italic; font-weight: 400; }
+  strong               { font-weight: 700; }
+  a[href]:not([class]) {
+    color: $orange;
+    @include transition;
+    &:hover { color: $orange-darker; }
+  }
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: $grey-lightest;
+  margin: $s1 0;
+}
+
+
+
+// ==================================================================
+// TITLES
+// title & headline styles
+// ==================================================================
+
+
+
+.title {
+  font-family: $font-family-headline-01; // title wont be open sans so doesn't need to use global scale
+  line-height: 1.15;
+  letter-spacing: .015em;
+  color: $headline;
+  &--01 {
+    font-family: $font-family-headline-02;
+    line-height: 1.2;
+  }
+  &--core {
+    font-family: $font-family;
+    line-height: 1.25;
+  }
+
+  & + *         { padding-top: .75em; }
+  &--sub        { padding-top: 0 !important; }
+  &--super + *  { padding-top: 0 !important; }
+  &--lighter    { font-weight: 100; }
+  &--light      { font-weight: 200; }
+  &--bold       { font-weight: 500; }
+  &--bolder     { font-weight: 600; }
+  &--boldest    { font-weight: 800; }
+  &--kerning    { letter-spacing: .25em; }
+  &--kerning-lg { letter-spacing: .5em; }
+  &--tight      { line-height: .9; }
+  &--tighter    { line-height: .8; }
+  &--upper      { text-transform: uppercase; }
+
+  &--xxxxl { font-size: $s8; }
+  &--xxxl  { font-size: $s7; }
+  &--xxl   { font-size: $s6; }
+  &--xl    { font-size: $s5; }
+  &--lg    { font-size: $s4; }
+  &--md    { font-size: $s3; }
+  &--sm    { font-size: $s2; }
+  &--xs    { font-size: $s1; }
+  &--xxs   { font-size: $s0; }
+
+  @include bp(lg){
+    &--xxxxl { font-size: $s10; }
+    &--xxxl  { font-size: $s9; }
+    &--xxl   { font-size: $s8; }
+    &--xl    { font-size: $s7; }
+    &--lg    { font-size: $s6; }
+    &--md    { font-size: $s5; }
+    &--sm    { font-size: $s4; }
+    &--xs    { font-size: $s3; }
+    &--xxs   { font-size: $s2; }
+  }
+
+}

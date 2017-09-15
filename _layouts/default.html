@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include page/head.html %}
+
+  <body id="top" class="page--{{page.id}}{% if page.group %} group--{{page.group}}{% endif %}" data-current-page="{{page.id}}">
+
+    {% include page/tracking.html %}
+
+    {% include page/header.html %}
+
+    {% include page/banner.html %}
+
+    {% include nav/microsite-nav.html %}
+
+    {{ content }}
+
+    {% unless page.id == 'competition' %}{% include components/competition-promo.html %}{% endunless %}
+
+    {% include page/footer.html %}
+
+  </body>
+
+</html>

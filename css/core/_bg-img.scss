@@ -1,0 +1,80 @@
+// using background images for easy cropping and aspect ratio chaning
+
+@mixin ratios() {
+  &2-3:before   { padding-top: 133.33333333333%; }
+  &3-4:before   { padding-top: 125%; }
+  &1-1:before   { padding-top: 100%; }
+  &4-3:before   { padding-top: 75%; }
+  &3-2:before   { padding-top: 66.666666666667%; }
+  &16-9:before  { padding-top: 56.25%; }
+  &21-9:before  { padding-top: 42.8571429%; }
+  &circle       { border-radius: 9999999em; }
+}
+
+.bg-img {
+  display: block;
+  position: relative;
+  background-color: $grey-lighter;
+  @include background-attributes();
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+  }
+  &-- { @include ratios; }
+}
+
+
+
+// optional - allows more control to change the ratio on screen width
+
+.bg-img {
+  @include bp(sm) { &--sm- { @include ratios; } }
+  @include bp(md) { &--md- { @include ratios; } }
+  @include bp(lg) { &--lg- { @include ratios; } }
+  @include bp(xl) { &--xl- { @include ratios; } }
+  @include bp(xxl) { &--xxl- { @include ratios; } }
+  @include bp(xxxl) { &--xxxl- { @include ratios; } }
+}
+
+
+
+// styles for adding titles, links and hover effects for .bg-image
+
+.bg-img {
+  // Vertically centered content in bg-image
+  &__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content-overlay;
+  }
+  &__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: $z-content-upper;
+    width: 100%;
+    color: $white;
+    text-align: center;
+    .csstransforms.csstransforms3d & {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content;
+    @include background-attributes;
+    background-image: url(../img/img.jpg);
+    opacity: .8;
+    @include transition();
+  }
+  &:hover &__bg{ opacity: .6 }
+}

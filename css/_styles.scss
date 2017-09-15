@@ -1,0 +1,18 @@
+// general styles for the project that wouldn't be a reuseable component
+
+.bg {
+  &--white      { background-color: $white; }
+  &--light-grey { background-color: $grey-lightest; }
+  &--dark-grey { background-color: $grey-dark; }
+  &--theme { background-color: $theme-primary; }
+  &--theme-primary { background-color: $theme-primary; }
+  &--theme-secondary { background-color: $theme-secondary; }
+}
+
+.section {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  .touch & { background-attachment: scroll; }
+}

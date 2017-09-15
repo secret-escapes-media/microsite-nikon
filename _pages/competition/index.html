@@ -1,0 +1,36 @@
+---
+layout: default
+id: competition
+title: Competition
+nav-order: 7
+
+intro: >
+  <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus consequatur ex saepe tempore quia odio debitis omnis neque molestiae eos eius vitae temporibus.</p>
+  <p>Charum repellat explicabo quam quos labore optio veniam, molestias in nesciunt, quod numquam. Et dolor tempore, ex minus delectus, hic nemo officiis illo ullam. Tempora, consequatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quibusdam reiciendis atque autem est dolorum quos, ad dignissimos iste amet voluptate laudantium saepe? Commodi, quasi, asperiores. Est consequatur repellat magnam.</p>
+  <a href="#enter" class="btn btn--secondary">Enter now</a>
+
+---
+{% assign photos = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york %}
+
+
+
+
+<div class="section bg--light-grey">
+  <div class="row row--padding row--xl text--center">
+    {{page.intro}}
+  </div>
+</div>
+
+
+<div class="row row--100 row--4-4-4">
+  <div class="col bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/content/competition/01.jpg);"></div>
+  <div class="col bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/content/competition/02.jpg);"></div>
+  <div class="col bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/content/competition/03.jpg);"></div>
+</div>
+
+
+<div class="section bg--white" id="enter">
+  <div class="row row--padding row--xl text--center">
+    <h4 class="title title--sm title--bold">Enter below to be in to win!</h4>
+  </div>
+</div>

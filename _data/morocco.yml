@@ -1,0 +1,193 @@
+
+
+
+- id: atlas-mountains-photo-1
+  group: morocco
+  title: Nice Atlas Mountains Photo
+  photographer: Eleanor Cording Booth
+  location: Big Waterfall
+  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
+  details:
+    - title: Camera
+      content: Nikon D7500
+    - title: Lens
+      content: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+    - title: Aperture
+      content: f/6.3
+    - title: Shutter
+      content: 1/320
+    - title: Focal Length
+      content: 40mm
+
+
+
+
+- id: atlas-mountains-photo-2
+  group: morocco
+  title: Another Great Atlas Mountains Photo
+  photographer: Craig Howes
+  location: Big Waterfall
+  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
+  details:
+    - title: Camera
+      content: Nikon D850
+    - title: Lens
+      content: NIKKOR 16-70mm
+    - title: Aperture
+      content: f/6.3
+    - title: Shutter
+      content: 1/320
+    - title: Focal Length
+      content: 40mm
+
+
+
+- id: atlas-mountains-photo-3
+  group: morocco
+  title: Yet Another Atlas Mountains Photo
+  photographer: Eleanor Cording Booth
+  location: Big Waterfall
+  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
+  details:
+    - title: Camera
+      content: Nikon D7500
+    - title: Lens
+      content: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+    - title: Aperture
+      content: f/6.3
+    - title: Shutter
+      content: 1/320
+    - title: Focal Length
+      content: 40mm
+
+
+
+
+
+
+
+
+- id: souks-photo-1
+  group: morocco
+  title: Nice Souks Photo
+  photographer: Eleanor Cording Booth
+  location: Glacier
+  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
+  details:
+    - title: Camera
+      content: Nikon D7500
+    - title: Lens
+      content: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+    - title: Aperture
+      content: f/6.3
+    - title: Shutter
+      content: 1/320
+    - title: Focal Length
+      content: 40mm
+
+
+
+
+- id: souks-photo-2
+  group: morocco
+  title: Another Great Souks Photo
+  photographer: Craig Howes
+  location: Glacier
+  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
+  details:
+    - title: Camera
+      content: Nikon D850
+    - title: Lens
+      content: NIKKOR 16-70mm
+    - title: Aperture
+      content: f/6.3
+    - title: Shutter
+      content: 1/320
+    - title: Focal Length
+      content: 40mm
+
+
+
+- id: souks-photo-3
+  group: morocco
+  title: Yet Another Souks Photo
+  photographer: Eleanor Cording Booth
+  location: Glacier
+  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
+  details:
+    - title: Camera
+      content: Nikon D7500
+    - title: Lens
+      content: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+    - title: Aperture
+      content: f/6.3
+    - title: Shutter
+      content: 1/320
+    - title: Focal Length
+      content: 40mm
+
+
+
+
+
+
+
+
+- id: desert-photo-1
+  group: morocco
+  title: Nice Desert Photo
+  photographer: Eleanor Cording Booth
+  location: Town
+  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
+  details:
+    - title: Camera
+      content: Nikon D7500
+    - title: Lens
+      content: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+    - title: Aperture
+      content: f/6.3
+    - title: Shutter
+      content: 1/320
+    - title: Focal Length
+      content: 40mm
+
+
+
+
+- id: desert-photo-2
+  group: morocco
+  title: Another Great Desert Photo
+  photographer: Craig Howes
+  location: Town
+  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
+  details:
+    - title: Camera
+      content: Nikon D850
+    - title: Lens
+      content: NIKKOR 16-70mm
+    - title: Aperture
+      content: f/6.3
+    - title: Shutter
+      content: 1/320
+    - title: Focal Length
+      content: 40mm
+
+
+
+- id: desert-photo-3
+  group: morocco
+  title: Yet Another Desert Photo
+  photographer: Eleanor Cording Booth
+  location: Town
+  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
+  details:
+    - title: Camera
+      content: Nikon D7500
+    - title: Lens
+      content: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+    - title: Aperture
+      content: f/6.3
+    - title: Shutter
+      content: 1/320
+    - title: Focal Length
+      content: 40mm

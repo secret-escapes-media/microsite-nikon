@@ -1,0 +1,48 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import
+
+  // plugins
+  '../node_modules/reset-css/_reset',
+  '../node_modules/susy/sass/susy',
+
+  // core
+  'core/breakpoints',
+  'core/colours',
+  'core/z-index',
+  'core/core',
+  'core/scale',
+  'core/bg-img',
+
+  // typography
+  'typography/default',
+  'typography/styles',
+
+  // grid
+  'grid/spacing',
+  'grid/layouts/bob',
+  'grid/layouts/harvey',
+
+  // navigation
+  'nav/core-nav',
+  'nav/microsite-nav',
+
+  // page
+  'page/footer',
+  'page/banner',
+
+  // components
+  'components/logos',
+  'components/icons',
+  'components/buttons',
+  'components/modal',
+  'components/offer',
+  'components/offer-promo',
+  'components/poi',
+
+  // general
+  'styles'
+
+;

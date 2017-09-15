@@ -1,0 +1,54 @@
+
+
+// ---------- button ----------
+
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: $s2 $s6;
+  color: $text-white;
+  font-weight: 600;
+  font-size: $s-1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  line-height: 1.33;
+  border-radius: 3px;
+  cursor: pointer;
+  @include transition;
+  * + & { margin-top: 1.5em; }
+  &--sm {
+    padding: $s1 $s4;
+    font-size: $s-2;
+  }
+  &--lg { font-size: $s0; }
+  &--orange { background-color: $orange;
+    &:hover { background-color: $orange-dark; }
+  }
+  &--orange-outline {
+    color: $text;
+    background-color: $white;
+    &:before {
+      // creates a border within the button dimentions. useful if an outline
+      // button is inline with a solid colour button
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border: 1px solid $orange;
+      border-radius: inherit;
+    }
+    &:hover {
+      color: $text-white;
+      background-color: $orange;
+    }
+  }
+  &--primary { background-color: $theme-primary; color: $theme-secondary;
+    &:hover { background-color: darken($theme-primary,5); }
+  }
+  &--secondary { background-color: $theme-secondary; color: $theme-primary;
+    &:hover { background-color: lighten($theme-secondary,5); }
+  }
+}

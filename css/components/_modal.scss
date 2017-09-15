@@ -1,0 +1,150 @@
+
+$icon-size: 3em;
+$modaltransition-time: 300ms;
+$modaltransition-distance: 8em;
+@mixin modaltransition() { transition: all $modaltransition-time cubic-bezier(.5,0,.5,1); }
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: $z-overlay;
+  background-color: rgba($black,0.6);
+  cursor: pointer;
+  overflow: hidden;
+  &.is-open { display: block; }
+  &.is-closed { display: none; }
+
+  &__wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 0 !important;
+    max-width: $xxxl;
+    cursor: auto;
+    overflow: visible;
+    overflow-y: scroll;
+    padding-left: $modaltransition-distance;
+    padding-right: $modaltransition-distance;
+    .flexbox & {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__item {
+    @include modaltransition();
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    opacity: 0;
+    left: 0;
+    padding: inherit;
+
+    &.is-open     { left: 0; opacity: 1; }
+    &.is-opening  { left: 0; opacity: 1; }
+    &.is-closing-next  { left: -$modaltransition-distance; opacity: 0; }
+    &.is-closing-prev  { left: $modaltransition-distance; opacity: 0; }
+    &.is-closed   { left: 0; opacity: 0; }
+
+    &.is-prev     { left: -$modaltransition-distance; }
+    &.is-next     { left: $modaltransition-distance; }
+
+    // Modal image
+    &__img {
+
+    }
+
+    // Text content
+    &__content {
+      background-color: $white;
+      padding: 1.5em 2em;
+      margin: 0 2em;
+    }
+
+  }
+
+  &__cta {
+    position: absolute;
+    bottom: 2em;
+    left: 0; right: 0;
+  }
+
+  &__close {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 3em;
+    width: 3em;
+    background-color: rgba($black, .5);
+    background-image: url('../img/icons/close.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1em;
+    cursor: pointer;
+    z-index: $z-overlay-upper;
+    @include transition;
+    .svg & { background-image: url('../img/icons/close.svg'); }
+    &:hover{ background-color: $black; }
+  }
+
+
+
+
+
+  &__nav {
+    position: absolute;
+    bottom: -$icon-size;
+    z-index: $z-overlay-upper;
+    height: $icon-size;
+    width: 50%;
+    margin-top: -($icon-size/2);
+    background-color: rgba($black, .5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1em;
+    cursor: pointer;
+    user-select: none;
+    @include transition;
+    &--next {
+      border-left: 1px solid rgba($white,.25);
+      right: 0;
+      background-image: url('../img/icons/arrow-right.png');
+      .svg & { background-image: url('../img/icons/arrow-right.svg'); }
+    }
+    &--previous {
+      left: 0;
+      background-image: url('../img/icons/arrow-left.png');
+      .svg & { background-image: url('../img/icons/arrow-left.svg'); }
+    }
+    &:hover{ background-color: $black; }
+  }
+  @include bp(md){
+    &__nav{
+      top: 50%;
+      height: ($icon-size*2);
+      width: $icon-size;
+      &--next{
+        border-left: 0;
+      }
+    }
+  }
+
+
+}
+
+
+.disable-scroll {
+  overflow: hidden;
+  .page__content {
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+  }
+}

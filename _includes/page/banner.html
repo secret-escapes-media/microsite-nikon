@@ -1,0 +1,18 @@
+<section class="banner">
+  <div class="banner__wrap">
+    <div class="banner__bg" style="background-image: url({{site.baseurl}}/img/bg/{{page.id}}.jpg);"></div>
+    <div class="row">
+      <div class="banner__title">
+        <div class="banner__title-wrap">
+          {% if page.banner.content %}
+            {{page.banner.content}}
+          {% else %}
+            {% if page.banner.title-super %}<div class="title title--sm title--super title--kerning title--upper title--light">{{page.banner.title-super}}</div>{% endif %}
+            <h1 class="title title--xxxxl title--upper title--bolder">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
+            {% if page.banner.title-sub %}<div class="title title--sm title--sub title--kerning title--upper title--light">{{page.banner.title-sub}}</div>{% endif %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

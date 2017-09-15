@@ -1,0 +1,56 @@
+
+
+
+{% assign modal-items = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york %}
+
+
+<div class="js-modal modal is-closed{% if include.type == 'carousel' %} modal--carousel{% endif %}">
+
+  <div class="js-close-modal modal__close"></div>
+
+  {% if include.type == "carousel" %}
+  <div class="js-modal-nav modal__nav modal__nav--next" data-nav-direction="next"></div>
+  <div class="js-modal-nav modal__nav modal__nav--previous" data-nav-direction="previous"></div>
+  {% endif %}
+
+  <div class="modal__wrap row">
+
+
+    {% for photo in modal-items %}
+      {% assign photographer = site.data.photographers[photo.photographer] %}
+      <div class="modal__item modal__item--{{photo.id}} is-closed" id="modal-{{photo.id}}" data-content-category="{{photo.location | slugify}}">
+
+        <div class="modal__item__img bg-img bg-img--16-9" style="background-image:url({{site.baseurl}}/img/content/{{photo.group}}/{{photo.id}}.jpg);')"></div>
+
+        <div class="modal__item__content row row--7-5">
+
+          <div class="col">
+            <h3 class="title title--xs title--bold">{{photo.title}}</h3>
+            <h5 class="title title--xxxs title--bold">Photo by {{photographer.name}}</h5>
+            <p>{{photo.content}}</p>
+          </div>
+
+          <div class="col">
+            <ul>
+              {% for detail in photo.details %}
+              <li>
+                <p><span class="text--bolder text--upper text--sm">{{detail.title}}</span> {{detail.content}}</p>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      {% if include.type == "single" %}
+      <div class="modal__cta text--center">
+        <a href="{{site.baseurl}}/{{page.id}}/the-journey#{{photo.id}}" class="btn btn--large btn--primary">Experience the story behind the shot</a>
+      </div>
+      {% endif %}
+
+    {% endfor %}
+
+  </div>
+
+</div>
