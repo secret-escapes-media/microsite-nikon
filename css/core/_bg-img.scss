@@ -1,11 +1,13 @@
 // using background images for easy cropping and aspect ratio chaning
 
 @mixin ratios() {
-  &2-3:before   { padding-top: 133.33333333333%; }
-  &3-4:before   { padding-top: 125%; }
+  &9-21:before  { padding-top: 233.33333333%; }
+  &9-16:before  { padding-top: 177.77777778%; }
+  &2-3:before   { padding-top: 150%; }
+  &3-4:before   { padding-top: 133.33333333%; }
   &1-1:before   { padding-top: 100%; }
   &4-3:before   { padding-top: 75%; }
-  &3-2:before   { padding-top: 66.666666666667%; }
+  &3-2:before   { padding-top: 66.666666667%; }
   &16-9:before  { padding-top: 56.25%; }
   &21-9:before  { padding-top: 42.8571429%; }
   &circle       { border-radius: 9999999em; }
@@ -21,6 +23,7 @@
     content: "";
     width: 100%;
   }
+  & + * { margin-top: $s1; }
   &-- { @include ratios; }
 }
 
@@ -63,6 +66,16 @@
       top: 50%;
       transform: translateY(-50%);
     }
+  }
+  &__details {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    z-index: $z-content-upper;
+    color: $white;
+    background-color: rgba($grey-darker,0.8);
+    text-align: left;
+    padding: 1em;
   }
   &__bg {
     position: absolute;

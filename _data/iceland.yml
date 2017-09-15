@@ -3,6 +3,7 @@
 
 - id: waterfall-photo-1
   group: iceland
+  ratio: 3-4
   title: Nice Waterfall Photo
   photographer: Eleanor Cording Booth
   location: Big Waterfall
@@ -24,6 +25,7 @@
 
 - id: waterfall-photo-2
   group: iceland
+  ratio: 9-16
   title: Another Great Waterfall Photo
   photographer: Craig Howes
   location: Big Waterfall
@@ -44,6 +46,7 @@
 
 - id: waterfall-photo-3
   group: iceland
+  ratio: 21-9
   title: Yet Another Waterfall Photo
   photographer: Eleanor Cording Booth
   location: Big Waterfall
@@ -69,6 +72,7 @@
 
 - id: glacier-photo-1
   group: iceland
+  ratio: 21-9
   title: Nice Glacier Photo
   photographer: Eleanor Cording Booth
   location: Glacier
@@ -90,6 +94,7 @@
 
 - id: glacier-photo-2
   group: iceland
+  ratio: 4-3
   title: Another Great Glacier Photo
   photographer: Craig Howes
   location: Glacier
@@ -110,6 +115,7 @@
 
 - id: glacier-photo-3
   group: iceland
+  ratio: 16-9
   title: Yet Another Glacier Photo
   photographer: Eleanor Cording Booth
   location: Glacier
@@ -135,6 +141,7 @@
 
 - id: town-photo-1
   group: iceland
+  ratio: 3-2
   title: Nice Town Photo
   photographer: Eleanor Cording Booth
   location: Town
@@ -156,6 +163,7 @@
 
 - id: town-photo-2
   group: iceland
+  ratio: 16-9
   title: Another Great Town Photo
   photographer: Craig Howes
   location: Town
@@ -176,6 +184,7 @@
 
 - id: town-photo-3
   group: iceland
+  ratio: 21-9
   title: Yet Another Town Photo
   photographer: Eleanor Cording Booth
   location: Town

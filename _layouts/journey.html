@@ -38,11 +38,9 @@ layout: default
 
           <div class="row row--7-5-gutters row--valign" id="{{ item.id }}">
 
-            <a
-              href="javascript:void(0);"
-              class="col bg-img bg-img--4-3 js-open-modal"
-              data-modal-id="{{item.id}}"
-              style="background-image:url({{site.baseurl}}/img/content/{{photo.group}}/{{item.id}}.jpg);"></a>
+            <div class="col">
+              {% include components/photo.html ratio="16-9" %}
+            </div>
 
             <div class="col">
               <h3 class="title title--xxs title--bold">{{photo.title}}</h5>
@@ -72,4 +70,4 @@ layout: default
 
 
 
-{% include components/modal-gallery.html type="carousel" %}
+{% include modal/modal-gallery.html type="carousel" %}

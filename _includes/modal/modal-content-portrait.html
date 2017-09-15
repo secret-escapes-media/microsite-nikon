@@ -1,0 +1,21 @@
+<div class="modal__content modal__content--portrait row--6-6 row--valign">
+
+  <div class="col modal__content__img bg-img bg-img--{% if photo.ratio %}{{photo.ratio}}{% else %}9-16{% endif %}" style="background-image:url({{site.baseurl}}/img/content/{{photo.group}}/{{photo.id}}.jpg);')"></div>
+
+  <div class="col modal__content__text">
+
+    <h3 class="title title--xs title--bold">{{photo.title}}</h3>
+    <h5 class="title title--xxxs title--bold">Photo by {{photo.photographer}}</h5>
+    <p>{{photo.content}}</p>
+
+    <ul>
+      {% for detail in photo.details %}
+      <li>
+        <p><span class="text--bolder text--upper text--sm">{{detail.title}}</span> {{detail.content}}</p>
+      </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+
+</div>

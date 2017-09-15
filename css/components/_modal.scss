@@ -24,7 +24,8 @@ $modaltransition-distance: 8em;
     right: 0;
     bottom: 0;
     margin-top: 0 !important;
-    max-width: $xxxl;
+    margin-left: auto; margin-right: auto;
+    max-width: 1080px;
     cursor: auto;
     overflow: visible;
     overflow-y: scroll;
@@ -36,14 +37,22 @@ $modaltransition-distance: 8em;
     }
   }
 
+  // The item that is shown/hidden based on selector
   &__item {
     @include modaltransition();
     width: 100%;
     position: absolute;
     margin: auto;
     opacity: 0;
+    top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
     padding: inherit;
+    .flexbox & {
+      display: flex;
+      align-items: center;
+    }
 
     &.is-open     { left: 0; opacity: 1; }
     &.is-opening  { left: 0; opacity: 1; }
@@ -54,17 +63,26 @@ $modaltransition-distance: 8em;
     &.is-prev     { left: -$modaltransition-distance; }
     &.is-next     { left: $modaltransition-distance; }
 
-    // Modal image
-    &__img {
+  }
 
-    }
+  // The box with image and text contained in a module
+  &__content {
+    background-color: $white;
+    // Modal image
+    &__img {}
 
     // Text content
-    &__content {
-      background-color: $white;
+    &__text {
       padding: 1.5em 2em;
-      margin: 0 2em;
     }
+
+    &--landscape { margin: 0 2em; }
+    &--landscape &__img { margin: 0 -2em; }
+    &--landscape &__text { }
+
+    &--portrait { margin: 2em 0; }
+    &--portrait &__img { margin: -2em 0; }
+    &--portrait &__text { }
 
   }
 

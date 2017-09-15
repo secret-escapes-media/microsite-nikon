@@ -23,12 +23,7 @@ banner:
 
     {% assign intro-photo = photos | where:"id","rail-photo-1" %}
     {% for photo in intro-photo %}
-    <div class="bg-img bg-img--16-9" style="background-image:url({{site.baseurl}}/img/content/{{photo.group}}/{{photo.id}}.jpg);">
-      <div class="bg-img__content">
-        {{photo.title}}<br />
-        {{photo.photographer}}
-      </div>
-    </div>
+      {% include components/photo.html static="true" %}
     {% endfor %}
 
   </div>
@@ -65,4 +60,4 @@ banner:
 </div>
 
 
-{% include components/modal-gallery.html type="single" %}
+{% include modal/modal-gallery.html type="single" %}

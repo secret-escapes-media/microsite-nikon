@@ -19,8 +19,8 @@ layout: default
 
 
 
-  <section class="bg--light-grey vpad-bottom--xl">
-    <div class="row row--6-6-gutters">
+  <section class="bg--light-grey vpad--xl">
+    <div class="row row--padding row--6-6-gutters">
 
     {% assign subpages = site.html_pages | where: "group", page.id | sort: "path" | sort: "group-order" %}
     {% for subpage in subpages %}
@@ -42,6 +42,6 @@ layout: default
 
 
 
-{% include components/modal-gallery.html type="single" %}
+{% include modal/modal-gallery.html type="single" %}
 
 
