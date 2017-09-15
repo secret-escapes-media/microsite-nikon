@@ -13,51 +13,51 @@ banner:
   title-sub: I am Nikon
 ---
 {% assign photos = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york %}
+<div class="page__content">
 
 
 
 
-<div class="section bg--light-grey">
-  <div class="row row--padding row--xl text--center">
-    {{page.intro}}
-
-    {% assign intro-photo = photos | where:"id","rail-photo-1" %}
-    {% for photo in intro-photo %}
-      {% include components/photo.html static="true" %}
-    {% endfor %}
-
-  </div>
-</div>
-
-
-{% assign destinations = site.html_pages | where: "layout", "group" | sort: "nav-order" %}
-<div class="section">
-
-
-  <div class="row row--padding">
-    {% for destination in destinations %}
-    <div class="bob">
-      <div class="bob__image">
-        <a href="{{destination.url}}" class="bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/bg/{{destination.id}}.jpg);"></a>
-      </div>
-      <div class="bob__text">
-        <div class="title title--md title--bold">{{destination.title}}</div>
-        <p class="text--lg">{{ destination.intro | strip_html | strip_newlines | truncate: 160 }}</p>
-        <a href="{{destination.url}}" class="btn btn--secondary">Discover {{destination.title}} now</a>
-      </div>
+  <div class="section bg--light-grey">
+    <div class="row row--padding row--xl text--center">
+      {{page.intro}}
     </div>
-    {% endfor %}
   </div>
 
 
-  <div class="row row--xl vpad--lg text--center">
-    <div class="title title--md title--bold">Start Exploring</div>
-    <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cumque, assumenda deleniti ad laudantium itaque earum illum perferendis molestias saepe!</p>
-    <a href="{{site.baseurl}}/explore" class="btn btn--orange">Read about our Iceland Journey</a>
+  {% assign destinations = site.html_pages | where: "layout", "group" | sort: "nav-order" %}
+  <div class="section">
+
+
+    <div class="row row--padding">
+      {% for destination in destinations %}
+      <div class="bob">
+        <div class="bob__image">
+          <a href="{{destination.url}}" class="bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/bg/{{destination.id}}.jpg);"></a>
+        </div>
+        <div class="bob__text">
+          <div class="title title--md title--bold">{{destination.title}}</div>
+          <p class="text--lg">{{ destination.intro | strip_html | strip_newlines | truncate: 160 }}</p>
+          <a href="{{destination.url}}" class="btn btn--secondary">Discover {{destination.title}} now</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+
+    <div class="row row--xl vpad--lg text--center">
+      <div class="title title--md title--bold">Start Exploring</div>
+      <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cumque, assumenda deleniti ad laudantium itaque earum illum perferendis molestias saepe!</p>
+      <a href="{{site.baseurl}}/explore" class="btn btn--orange">Read about our Iceland Journey</a>
+    </div>
+
+
   </div>
 
 
-</div>
+
+</div><!-- END .page__content -->
+
 
 
 {% include modal/modal-gallery.html type="single" %}
