@@ -1,0 +1,13 @@
+<div class="banner__content">
+  <div class="banner__content-wrap row row--padding">
+
+    {% if page.banner.content %}
+      {{page.banner.content}}
+    {% else %}
+      {% if page.banner.title-super %}<div class="title title--sm title--super title--kerning title--upper">{{page.banner.title-super}}</div>{% endif %}
+      <h1 class="title title--xxxl title--upper title--bolder title--kerning">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
+      {% if page.banner.title-sub %}<div class="title title--sm title--sub title--kerning title--upper">{{page.banner.title-sub}}</div>{% endif %}
+    {% endif %}
+
+  </div>
+</div>

@@ -1,0 +1,22 @@
+
+
+<section class="banner{% if page.id == 'overview' %} banner--nav-bottom{% else %} banner--nav-top{% endif %}">
+
+
+  {% include banner/components/content.html %}
+
+
+  {% include banner/components/location.html %}
+
+
+  <div class="banner__overlay">
+    <div class="banner__overlay-title"></div>
+  </div>
+
+  <div class="banner__bg" style="background-image: url('{{site.baseurl}}/img/bg/banner/{{page.id}}.jpg');" data-location="{{page.banner.location}}"></div>
+
+
+  {% include banner/components/nav.html %}
+
+
+</section>

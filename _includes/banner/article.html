@@ -1,0 +1,47 @@
+
+
+<section class="banner banner--article banner--nav-top">
+
+
+  <div class="banner__content">
+    <div class="banner__content-wrap row row--padding">
+      <div class="banner__content-col">
+
+        <span class="title title--xxxs title--upper title--kerning">
+          <a href="{{site.baseurl}}/{{page.group}}" class="title title--bold title--kerning">
+            {% assign parent-page = site.html_pages | where:"id", page.group %}
+            {% for parent in parent-page %}{{parent.title}}{% endfor %}
+          </a>
+          {{page.title}}
+        </span>
+
+        <hr class="hr--margin">
+
+        {{page.banner.content}}
+
+        <hr class="hr--margin">
+
+        {% for section in page.sections %}
+          <p><a href="#{{section.title | slugify}}" class="title title--xxxs title--upper title--bold title--kerning">{{section.title}}</a></p>
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+
+
+  {% include banner/components/location.html %}
+
+
+  <div class="banner__overlay">
+    <div class="banner__overlay-title"></div>
+  </div>
+
+
+  <div class="banner__bg" style="background-image: url('{{site.baseurl}}/img/bg/banner/{{page.id}}.jpg');" data-location="{{page.banner.location}}"></div>
+
+
+  {% include banner/components/nav.html %}
+
+
+</section>

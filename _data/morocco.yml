@@ -1,6 +1,5 @@
 
 
-
 - id: atlas-mountains-photo-1
   group: morocco
   title: Nice Atlas Mountains Photo
@@ -18,8 +17,6 @@
       content: 1/320
     - title: Focal Length
       content: 40mm
-
-
 
 
 - id: atlas-mountains-photo-2
@@ -41,7 +38,6 @@
       content: 40mm
 
 
-
 - id: atlas-mountains-photo-3
   group: morocco
   title: Yet Another Atlas Mountains Photo
@@ -59,12 +55,6 @@
       content: 1/320
     - title: Focal Length
       content: 40mm
-
-
-
-
-
-
 
 
 - id: souks-photo-1
@@ -86,8 +76,6 @@
       content: 40mm
 
 
-
-
 - id: souks-photo-2
   group: morocco
   title: Another Great Souks Photo
@@ -105,7 +93,6 @@
       content: 1/320
     - title: Focal Length
       content: 40mm
-
 
 
 - id: souks-photo-3
@@ -127,12 +114,6 @@
       content: 40mm
 
 
-
-
-
-
-
-
 - id: desert-photo-1
   group: morocco
   title: Nice Desert Photo
@@ -152,8 +133,6 @@
       content: 40mm
 
 
-
-
 - id: desert-photo-2
   group: morocco
   title: Another Great Desert Photo
@@ -171,7 +150,6 @@
       content: 1/320
     - title: Focal Length
       content: 40mm
-
 
 
 - id: desert-photo-3

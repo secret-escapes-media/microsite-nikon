@@ -3,21 +3,45 @@
 
   {% include page/head.html %}
 
-  <body id="top" class="page--{{page.id}}{% if page.group %} group--{{page.group}}{% endif %}" data-current-page="{{page.id}}">
+  <body id="top" class="page--{{page.id}}{% if page.group %} group--{{page.group}}{% endif %} layout--{{page.layout}}" data-current-page="{% if page.group %}{{page.group}}{% else %}{{page.id}}{% endif %}">
+    {% assign photos = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york %}
+
 
     {% include page/tracking.html %}
 
-    {% include page/header.html %}
 
-    {% include page/banner.html %}
 
-    {% include nav/microsite-nav.html %}
+    <div class="site__content">
 
-    {{ content }}
+      {% include page/header.html %}
 
-    {% unless page.id == 'competition' %}{% include components/competition-promo.html %}{% endunless %}
+      {% if page.banner.images.size > 1 %}
+        {% include banner/carousel.html %}
+      {% elsif page.group %}
+        {% include banner/article.html %}
+      {% else %}
+        {% include banner/default.html %}
+      {% endif %}
 
-    {% include page/footer.html %}
+      {{ content }}
+
+      {% unless page.id == 'competition' %}
+        {% include components/competition-promo.html %}
+      {% endunless %}
+
+      {% include page/footer.html %}
+
+    </div><!-- END .site__content -->
+
+
+
+    {% if page.layout == "journey" %}
+      {% include modal/modal-gallery.html type="carousel" %}
+    {% else %}
+      {% include modal/modal-gallery.html type="single" %}
+    {% endif %}
+
+
 
   </body>
 

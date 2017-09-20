@@ -6,63 +6,37 @@ layout: default
 
 
 
-  <div class="section bg--light-grey">
-    <div class="row row--padding">
-      <div class="row row--xl text--center">
-
-        <p class="text--lg">{{page.intro}}</p>
-
-        {% for section in page.sections %}
-        <a class="btn btn--primary" href="#{{section.title | slugify}}">{{section.title}}</a>
-        {% endfor %}
-
-      </div>
-    </div>
-  </div>
-
-
-
-  <div class="section">
   {% for section in page.sections %}
-    <div class="section {% cycle 'bg--white','bg--light-grey' %}" id="{{section.title | slugify}}">
+  <section class="section text--white {% cycle 'bg--darkest-grey','bg--darker-grey' %}" id="{{section.title | slugify}}">
 
-      <div class="row">
-        <h2 class="title title--lg title--bold">{{section.title}}</h2>
-        {{section.content}}
-        <hr>
-      </div>
-
-      {% for item in section.items %}
-        {% assign photo = photos | where: "id", item.id %}
-        {% for photo in photo %}
-
-          <div class="row row--7-5-gutters row--valign" id="{{ item.id }}">
-
-            <div class="col">
-              {% include components/photo.html ratio="16-9" %}
-            </div>
-
-            <div class="col">
-              <h3 class="title title--xxs title--bold">{{photo.title}}</h5>
-              <h5 class="title title--xxxs title--bold"> Photo by {{photo.photographer}}</h5>
-              <p>{{photo.content}}</p>
-              <hr>
-              <ul>
-                {% for detail in photo.details %}
-                <li>
-                  <span class="text--bolder text--upper text--sm">{{detail.title}}</span> {{detail.content}}
-                </li>
-                {% endfor %}
-              </ul>
-            </div>
-
-          </div>
-        {% endfor %}
-      {% endfor %}
-
+    <div class="row row--padding vpad--xxl">
+      <span class="title title--super title--xxs title--kerning">{{section.time}} | {{section.coordinates}}</span>
+      <h2 class="title title--xxl title--bold title--upper title--kerning">{{section.title}}</h2>
+      {{section.content}}
     </div>
+
+    {% for item in section.items %}
+      {% assign photo = photos | where: "id", item.id %}
+      {% for photo in photo %}
+
+        <div class="row row--7-5-gutters row--valign" id="{{ item.id }}">
+
+          <div class="col">
+            {% include components/photo.html ratio="4-3" %}
+          </div>
+
+          <div class="col">
+            <h3 class="title title--sm title--bold">{{photo.title}}</h5>
+            <h5 class="title title--xxxs title--upper title--kerning"> Photo by <span class="title--bold">{{photo.photographer}}</span></h5>
+            <p>{{photo.content}}</p>
+          </div>
+
+        </div>
+      {% endfor %}
+    {% endfor %}
+
+  </section>
   {% endfor %}
-  </div>
 
 
 
@@ -70,4 +44,3 @@ layout: default
 
 
 
-{% include modal/modal-gallery.html type="carousel" %}

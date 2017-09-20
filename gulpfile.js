@@ -40,6 +40,7 @@ gulp.task('js', function(){
       './node_modules/jquery/dist/jquery.min.js',
       './node_modules/jquery-countdown/dist/jquery.countdown.min.js',
       './node_modules/fittext.js/jquery.fittext.js',
+      './node_modules/owl.carousel/dist/owl.carousel.min.js',
 
       // custom js - with on doc ready wrapper
       './js/_components/on-ready/start.js',
@@ -48,6 +49,7 @@ gulp.task('js', function(){
         './js/_components/standard.js',
         './js/_components/modal.js',
         './js/_components/offer-countdown.js',
+        './js/_components/banner-carousel.js',
 
         // custom js for project
         './js/script.js',

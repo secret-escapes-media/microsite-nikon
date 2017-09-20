@@ -1,0 +1,16 @@
+{% if page.banner.photo-id %}
+{% assign photo = photos | where: "id", page.banner.photo-id %}
+<div class="banner__info">
+  <div class="row row--padding">
+
+    <div class="banner__info-location">
+      {% for photo in photo %}
+      <a href="javascript:void(0);" class="js-open-modal" data-modal-id="{{photo.id}}">
+        <span class="title--bolder">{{photo.title}}</span>, {{photo.location}}
+      </a>
+      {% endfor %}
+    </div>
+
+  </div>
+</div>
+{% endif %}

@@ -4,6 +4,9 @@
   &--white      { background-color: $white; }
   &--light-grey { background-color: $grey-lightest; }
   &--dark-grey { background-color: $grey-dark; }
+  &--darker-grey { background-color: $grey-darker; }
+  &--darkest-grey { background-color: $grey-darkest; }
+
   &--theme { background-color: $theme-primary; }
   &--theme-primary { background-color: $theme-primary; }
   &--theme-secondary { background-color: $theme-secondary; }

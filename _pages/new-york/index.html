@@ -4,6 +4,11 @@ id: new-york
 title: New York
 nav-order: 4
 
+banner:
+  title:
+  title-sub:
+  location: Waterfall
+
 intro: >
   <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus consequatur ex saepe tempore quia odio debitis omnis neque molestiae eos eius vitae temporibus.</p>
   <p>Charum repellat explicabo quam quos labore optio veniam, molestias in nesciunt, quod numquam. Et dolor tempore, ex minus delectus, hic nemo officiis illo ullam. Tempora, consequatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quibusdam reiciendis atque autem est dolorum quos, ad dignissimos iste amet voluptate laudantium saepe? Commodi, quasi, asperiores. Est consequatur repellat magnam.</p>
@@ -55,59 +60,5 @@ poi-sections:
 
 
 ---
-{% assign photos = site.data.new-york %}
 
 
-
-
-<section class="bg--light-grey vpad-bottom--xl">
-
-  <div class="row row--padding">
-
-    {% for section in page.sections %}
-      <div class="bob">
-
-        <div class="bob__image">
-          {% assign photo = photos | where: "id", section.image %}
-          {% for photo in photo %}
-            {% include components/photo.html %}
-          {% endfor %}
-        </div>
-
-        <div class="bob__text">
-          <h3 class="title title--md title--bold">{{section.title}}</h3>
-          {{section.content}}
-        </div>
-      </div>
-    {% endfor %}
-
-  </div>
-
-</section>
-
-
-
-
-<section class="bg--white">
-
-  {% for section in page.poi-sections %}
-  <div class="vpad--xl row row--padding">
-    <div class="text--center">
-      <h3 class="title title--md title--bold">{{section.title}}</h3>
-      <p class="text--lg">{{section.content}}</p>
-    </div>
-    <hr />
-    <div class="row row--4-4-4-gutters">
-    {% for poi in section.pois %}
-      <div class="col">
-        <div class="bg-img bg-img--16-9" style="background-image: url();"></div>
-        <h5 class="title title--xs title--bold">{{poi.title}}</h5>
-        <p>{{poi.content}}</p>
-      </div>
-    {% endfor %}
-    </div>
-
-  </div>
-  {% endfor %}
-
-</section>

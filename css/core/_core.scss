@@ -2,13 +2,20 @@
 
 
 // enable 100% height
-body, html { height: 100%; }
+body, html {
+  height: 100%;
+  background-color: $grey-darkest;
+}
+
+.site__content { height: 100%; }
 
 // global box-sizing & font smoothing
 *,
 *:after,
 *:before {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
   font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;

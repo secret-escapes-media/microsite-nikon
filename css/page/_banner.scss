@@ -1,34 +1,27 @@
 // the title banner that appears at the top of every page. sometimes animated bgs
 
+$info-height: 70px;
+$core-nav-height:     $s8;
+$core-nav-height-sm:  $s7;
+$site-nav-height:     $s8;
+$site-nav-height-sm:  $s7;
+
 .banner {
   position: relative;
   height: 75%;
-  text-align: center;
   color: white;
+  background-color: $grey-darkest;
   & * { color: white; }
-  &__wrap,
-  &__wrap > .row {
-    height: 100%;
-    max-width: 100%;
-  }
-  &__bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: $z-background;
-    background-color: $grey-dark;
-    background-image: url('../img/bg/bg.jpg');
-    @include background-attributes;
-  }
-  &__title {
+
+
+
+  &__content {
     position: absolute;
     top: $core-nav-height;
+    bottom: 0;
     left: 0;
     right: 0;
-    bottom: 0;
-    z-index: $z-content;
+    z-index: $z-content-overlay;
     background-color: rgba($black,.15);
     &-wrap {
       position: absolute;
@@ -46,4 +39,219 @@
       }
     }
   }
+
+
+
+  &__info {
+    position: absolute;
+    left: $s2;
+    right: $s2;
+    bottom: 0;
+    z-index: $z-content-overlay;
+    height: $info-height;
+    @include bp(xxxl){
+      right: 0;
+      left: 0;
+    }
+    &-right,
+    &-left {
+      position: absolute;
+      top: 0;
+      z-index: $z-content-upper;
+      height: $info-height;
+      line-height: $info-height;
+    }
+    &-right { right: 0; }
+    &-left { left: 0; padding-right: 3.5em; }
+
+    &-location {
+      &:before {
+        content: "";
+        display: inline-block;
+        height: 1.5em;
+        width: 1.05em;
+        margin-right: .5em;
+        margin-bottom: .4em;
+        vertical-align: middle;
+        background-image: url( "../img/icons/map-pin-white.png" );
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-size: contain;
+        .svg & { background-image: url( "../img/icons/map-pin-white.svg" ); }
+      }
+    }
+  }
+
+
+
+  &__overlay {
+    position: absolute;
+    top: $core-nav-height;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content-upper;
+    background-color: rgba($grey-darker,0.2);
+    background-image: url('../img/bg/banner-vignette.png');
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    pointer-events: none;
+    &-title {
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 26px;
+      background-repeat: none;
+      background-size: 100% auto;
+      background-position: center left;
+      background-image: url('../img/bg/banner-sidetitle.png');
+      .svg &,
+      .svgasimg & {
+        background-image: url('../img/bg/banner-sidetitle.svg');
+      }
+    }
+  }
+
+
+
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content;
+    background-color: $grey-dark;
+    background-image: url('../img/bg/bg.jpg');
+    @include background-attributes;
+  }
+
+
+
+  &__slide {
+    transition: all 8000ms cubic-bezier(.25,0,.25,0.85);
+    @include background-attributes();
+    background-size: auto 100%;
+    background-position: center;
+    .owl-item.active & {
+      background-size: auto 115%;
+    }
+  }
+
+
+  /* ==================================
+  // MICROSITE NAV */
+
+  &__nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: $z-content-overlay;
+    background-color: rgba($grey-dark,0.85);
+    .banner--nav-top & {
+      top: $core-nav-height;
+    }
+    .banner--nav-bottom & {
+      bottom: 0;
+    }
+  }
+
+  &--nav-top {
+    .banner__overlay,
+    .banner__content {
+      top: $core-nav-height + $site-nav-height-sm;
+      @include bp(lg){
+        top: $core-nav-height + $site-nav-height;
+      }
+    }
+    .banner__info {
+      bottom: 0;
+      @include bp(lg){
+        bottom: 0;
+      }
+    }
+  }
+
+  &--nav-bottom {
+    .banner__overlay,
+    .banner__content {
+      top: $core-nav-height;
+      bottom: $site-nav-height-sm;
+      @include bp(lg){
+        bottom: $site-nav-height;
+      }
+    }
+    .banner__info {
+      bottom: $site-nav-height-sm;
+      @include bp(lg){
+        bottom: $site-nav-height;
+      }
+    }
+  }
+
+
+  /* ==================================
+  // CAROUSEL LAYOUT MODIFIERS */
+
+  &--carousel {
+    text-align: center;
+    height: 95%;
+    .banner__content { pointer-events: none; }
+  }
+
+
+  /* ==================================
+  // ARTICLE LAYOUT MODIFIERS */
+
+  &--article {
+    height: 100%;
+    margin-bottom: -$s4;
+    z-index: 0;
+
+    .banner__content {
+      &:after {
+        content: "";
+        position: absolute;
+        top: 0; left: 0; bottom: 0;
+        width: 50%;
+        background-color: rgba($grey-darkest,.85);
+        z-index: 0;
+      }
+      &-wrap { z-index: $z-content-upper; }
+      &-col {
+        width: 50%;
+        padding-right: 4em;
+      }
+    }
+    .banner__overlay {
+      background: none;
+      z-index: $z-content-overlay;
+    }
+    .banner__info {
+      text-align: right;
+    }
+
+    // inverted colours for guide pages
+    .layout--guide & {
+      .banner__content {
+        & * { color: $text; }
+        & .title { color: $headline; }
+        &:after { background-color: rgba($white,.85); }
+      }
+      .banner__overlay-title {
+        background-image: url('../img/bg/banner-sidetitle-black.png');
+        .svg &, .svgasimg & {
+          background-image: url('../img/bg/banner-sidetitle-black.svg');
+        }
+      }
+    }
+
+  }
+
+
+
 }

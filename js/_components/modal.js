@@ -6,7 +6,7 @@
 
 
 var modal           = $('.js-modal'),
-    modalWrap       = $('.js-modal,.modal__wrap'),
+    modalWrap       = $('.js-modal,.modal__wrap,.modal__item'),
     modalLaunchBtn  = $('.js-open-modal'),
     modalCloseBtn   = $('.js-close-modal'),
     modalTransition = 300; // must be the same as CSS transition duration

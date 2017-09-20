@@ -56,8 +56,18 @@
 hr {
   border: 0;
   height: 1px;
-  background-color: $grey-lightest;
+  background-color: $grey-light;
   margin: $s1 0;
+  padding: 0;
+  .title + & { padding-top: 0; }
+}
+.hr {
+  &--center { width: 80px; margin-left: auto; margin-right: auto; }
+  &--margin { margin-top: $s3; margin-bottom: $s3; }
+  &--white  { background-color: $grey-lightest; }
+  &--dark   { background-color: $grey-dark; }
+  &--darker { background-color: $grey-darker; }
+  &--black  { background-color: $grey-darkest; }
 }
 
 
@@ -91,8 +101,8 @@ hr {
   &--bold       { font-weight: 500; }
   &--bolder     { font-weight: 600; }
   &--boldest    { font-weight: 800; }
-  &--kerning    { letter-spacing: .25em; }
-  &--kerning-lg { letter-spacing: .5em; }
+  &--kerning    { letter-spacing: .15em; }
+  &--kerning-lg { letter-spacing: .3em; }
   &--tight      { line-height: .9; }
   &--tighter    { line-height: .8; }
   &--upper      { text-transform: uppercase; }

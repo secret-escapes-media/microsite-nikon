@@ -5,7 +5,7 @@
     {% capture slug    %}{{ section.url | split: "/"   | last                       }}{% endcapture %}
     {% capture current %}{{ section.url | remove: slug | remove: "//" | append: "/" }}{% endcapture %}
     {% if current == include.context %}
-    <li class="group-nav__item group-nav__item--{{section.id}}" style="background-image: url('{{ site.baseurl }}/img/bg/{{section.id}}/nav.jpg');">
+    <li class="group-nav__item group-nav__item--{{section.id}}" style="background-image: url('{{ site.baseurl }}/img/bg/nav/{{section.id}}.jpg');">
       <a class="group-nav__link" href="{{ site.baseurl }}{{ section.url }}"><span class="group-nav__link-wrap">{{ section.title }}</span></a>
     </li>
     {% endif %}

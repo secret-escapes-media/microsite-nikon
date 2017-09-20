@@ -27,7 +27,7 @@
       @include span(5 last);
       padding-top: 0;
     }
-    &:nth-child(even){
+    &:nth-child(odd){
       .bob__image { @include span(7 last); }
       .bob__text { @include span(5); }
       .flexbox & {

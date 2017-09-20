@@ -6,6 +6,8 @@ $site-nav-height-sm:  $s7;
 $nav-arrow-width: $s8;
 $nav-width-bp: 400px;
 
+
+
 .site-nav {
   height: $site-nav-height-sm;
   text-align: center;
@@ -14,10 +16,8 @@ $nav-width-bp: 400px;
   letter-spacing: .143em;
   line-height: $site-nav-height-sm;
   text-transform: uppercase;
-  color: $grey-dark;
-  background-color: $white;
-  border-top: 1px solid $grey-lightest;
-  border-bottom: 1px solid $grey-lightest;
+  color: $white;
+  background-color: $grey-darkest;
   overflow: hidden;
   @include bp(md){
     height: $site-nav-height;
@@ -63,25 +63,33 @@ $nav-width-bp: 400px;
   &__item {
     display: inline-block;
     white-space: nowrap;
-    border-left: .5px solid $grey-lightest;
+    border-left: .5px solid rgba($white,0.1);
     @include transition;
-    &:last-of-type { border-right: .5px solid $grey-lightest; }
-    &.is-current {
-      color: $orange;
-      background-color: $grey-lightest;
-      border-color: $grey-lightest;
-    }
+    &:last-of-type { border-right: .5px solid rgba($white,0.1); }
     &:hover {
-      background-color: $grey-lightest;
-      border-color: $grey-lightest;
+      border-color: rgba($white,0.1);
+      & .site-nav__link:after { background-color: $white; }
+    }
+    &.is-current {
+      color: $theme-primary;
+      border-color: rgba($white,0.1);
+      & .site-nav__link:after { background-color: $theme-primary; }
     }
     // changes neighbour item border
-    &:hover + & { border-color: $grey-lightest; }
+    &:hover + & { border-color: rgba($white,0.1); }
   }
   &__link {
     display: inline-block;
+    position: relative;
     padding-left: 2em;
     padding-right: 2em;
+    &:after {
+      content: "";
+      @include transition();
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 2px;
+    }
     &:hover,
     &--current { text-decoration: none; }
   }
@@ -117,7 +125,6 @@ $nav-width-bp: 400px;
     width: 100%;
     margin-left: -1px;
     margin-right: -1px;
-    color: $grey-dark;
     table-layout: fixed; // weird even columns table cell hack
     transition: all ($transition-time*2) ease;
     .csstransforms.csstransforms3d & {
@@ -144,7 +151,7 @@ $nav-width-bp: 400px;
     display: table;
     width: 100%;
     height: 100%;
-    background-color: rgba($white,.75);
+    background-color: rgba($black,.75);
     &-wrap {
       display: table-cell;
       vertical-align: middle;
