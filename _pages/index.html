@@ -5,20 +5,21 @@ title: Overview
 nav-order: 1
 
 banner:
-  title-super: I am
-  title: The Journey
-  title-sub: I am Nikon
+  title: Capture The Journey
+  title-sub: With Nikon
   images:
     - image: 01.jpg
-      photo-id: waterfall-photo-1
+      photo-id: skogafoss-1
     - image: 02.jpg
-      photo-id: waterfall-photo-2
+      photo-id: marrakech-1
     - image: 03.jpg
-      photo-id: waterfall-photo-3
+      photo-id: rail-1
 
-intro: >
+foreword: >
   <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus consequatur ex saepe tempore quia odio debitis omnis neque molestiae eos eius vitae temporibus.</p>
   <p>Charum repellat explicabo quam quos labore optio veniam, molestias in nesciunt, quod numquam. Et dolor tempore, ex minus delectus, hic nemo officiis illo ullam. Tempora, consequatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quibusdam reiciendis atque autem est dolorum quos, ad dignissimos iste amet voluptate laudantium saepe? Commodi, quasi, asperiores. Est consequatur repellat magnam.</p>
+  <p>Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quibusdam reiciendis atque autem est dolorum quos, ad dignissimos iste amet voluptate laudantium saepe? Commodi, quasi, asperiores. Est consequatur repellat magnam.</p>
 
 ---
 {% assign photos = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york %}
@@ -26,38 +27,55 @@ intro: >
 
 
 
-  <div class="section bg--darker-grey text--white text--center">
+  <div class="section bg--grey-darker text--white">
     <div class="row row--padding">
-      {{page.intro}}
+      {{page.foreword}}
     </div>
   </div>
 
 
 
   {% assign destinations = site.html_pages | where: "layout", "group" | sort: "nav-order" %}
-  <div class="vpad-bottom--xl bg--darker-grey text--white">
+  <div class="section bg--grey-darkest text--white">
 
 
     <div class="row row--padding">
       {% for destination in destinations %}
       <div class="bob">
+
         <div class="bob__image">
-          <a href="{{destination.url}}" class="bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/bg/banner/{{destination.id}}.jpg);"></a>
+
+          <a href="javascript:void(0);" data-modal="modal-video" data-modal-id="{{destination.id}}-guide" class="js-open-modal banner__video-link bg-img bg-img--16-9 bg--grey-darkest">
+            <div class="bg-img__content">
+              <img src="{{site.baseurl}}/img/icons/icon-play.png" class="js-svg-swap banner__video-link__icon" alt="Play">
+            </div>
+            <div class="bg-img__bg" style="background-image: url({{site.baseurl}}/img/content/{{destination.id}}/video-poster.jpg);"></div>
+          </a>
+
+          <div class="row--6-6-gutters">
+
+            <div class="col bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/{{destination.id}}-1.jpg);"></div>
+
+            <div class="col bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/{{destination.id}}-2.jpg);"></div>
+
+          </div>
         </div>
+
         <div class="bob__text">
           <div class="title title--md title--bold">{{destination.title}}</div>
-          <p class="text--lg">{{ destination.intro | strip_html | strip_newlines | truncate: 160 }}</p>
-          <a href="{{destination.url}}" class="btn btn--invert">Discover {{destination.title}} now</a>
+          {{ destination.intro }}
+          <a href="{{site.baseurl}}{{destination.url}}" class="btn btn--outline">Discover {{destination.title}} now</a>
         </div>
+
       </div>
       {% endfor %}
     </div>
 
 
     <div class="row row--xl vpad--lg text--center">
-      <div class="title title--md title--bold">Start Exploring</div>
+      <div class="title title--md title--bold">Get Equipped with Nikon</div>
       <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cumque, assumenda deleniti ad laudantium itaque earum illum perferendis molestias saepe!</p>
-      <a href="{{site.baseurl}}/iceland" class="btn btn--orange btn--pulse">Read about our Iceland Journey</a>
+      <a href="{{site.baseurl}}/nikon-range" class="btn btn--primary btn--pulse">Explore the range</a>
     </div>
 
 

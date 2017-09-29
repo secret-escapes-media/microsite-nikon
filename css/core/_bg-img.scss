@@ -16,7 +16,7 @@
 .bg-img {
   display: block;
   position: relative;
-  background-color: $grey-lighter;
+  overflow: hidden;
   @include background-attributes();
   &:before {
     display: block;
@@ -67,16 +67,6 @@
       transform: translateY(-50%);
     }
   }
-  &__details {
-    position: absolute;
-    bottom: 1em;
-    left: 1em;
-    z-index: $z-content-upper;
-    color: $white;
-    background-color: rgba($grey-darker,0.8);
-    text-align: left;
-    padding: 1em;
-  }
   &__bg {
     position: absolute;
     top: 0;
@@ -86,8 +76,45 @@
     z-index: $z-content;
     @include background-attributes;
     background-image: url(../img/img.jpg);
-    opacity: .8;
+    opacity: .5;
     @include transition();
   }
   &:hover &__bg{ opacity: .6 }
+  &__details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: $z-content-upper;
+    color: $white;
+    background-color: rgba($grey-darker,0.8);
+    text-align: left;
+    padding: 0.66em 1em;
+  }
+
+  &.js-open-modal.photo {
+    &:after {
+      @include transition();
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: $z-content-upper;
+      color: $white;
+      background-color: rgba($grey-darker,0.8);
+      text-align: center;
+      height: 40px; width: 40px;
+      background-image: url('../img/icons/icon-expand.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 24px;
+      .svg { background-image: url('../img/icons/icon-expand.svg'); }
+    }
+    &:hover:after { background-color: rgba($grey-darker,1); }
+  }
+
+
+  // quick styles
+  &--rounded { border-radius: 4px; }
+  &--circle { border-radius: 9999em; overflow: hidden; }
+  &--shadow { box-shadow: 0 0 10px 5px rgba($grey-darkest,0.2); }
 }

@@ -6,25 +6,29 @@ layout: default
 
 
 
-  <div class="section bg--darker-grey text--white">
-    <div class="row row--padding">
-      {{page.intro}}
-    </div>
-  </div>
+  {% include page/intro.html %}
 
 
 
-  <section class="bg--darker-grey text--white vpad-bottom--xl">
+  <section class="section bg--grey-darkest text--white">
     <div class="row row--padding row--6-6-gutters">
 
     {% assign subpages = site.html_pages | where: "group", page.id | sort: "path" | sort: "group-order" %}
     {% for subpage in subpages %}
 
-      <a href="{{ site.baseurl }}{{ subpage.url }}" class="col bg-img bg-img--xl-4-3 bg-img--16-9" style="background-image: url('{{ site.baseurl }}/img/bg/nav/{{subpage.id}}.jpg');">
-        <div class="bg-img__content">
-          <span class="text--white title title--lg title--upper title--bold">{{ subpage.title }}</span>
+      <div class="bob">
+        <div class="bob__image">
+          <a href="{{site.baseurl}}{{subpage.url}}" class="bg-img bg-img--16-9 bg-img--xl-4-3 bg-img--rounded">
+            <div class="bg-img__content">
+              <span class="text--white title title--lg title--upper title--bold">{{ subpage.title }}</span>
+            </div>
+            <div class="bg-img__bg" style="background-image: url('{{ site.baseurl }}/img/bg/nav/{{subpage.id}}.jpg');"></div>
+          </a>
         </div>
-      </a>
+        <div class="bob__text">
+          {{ subpage.intro }}
+        </div>
+      </div>
 
     {% endfor %}
 

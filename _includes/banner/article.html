@@ -3,15 +3,17 @@
 <section class="banner banner--article banner--nav-top">
 
 
+  {% include banner/components/nav.html %}
+
+
   <div class="banner__content">
     <div class="banner__content-wrap row row--padding">
-      <div class="banner__content-col">
+      <div class="banner__content-col {% if page.layout == 'journey' %}text--white{% endif %}">
 
-        <span class="title title--xxxs title--upper title--kerning">
-          <a href="{{site.baseurl}}/{{page.group}}" class="title title--bold title--kerning">
-            {% assign parent-page = site.html_pages | where:"id", page.group %}
-            {% for parent in parent-page %}{{parent.title}}{% endfor %}
-          </a>
+        <!-- Breadcrumbs -->
+        {% assign parent-page = site.html_pages | where:"id", page.group %}
+        <span class="banner__content-breadcrumbs title title--xxxs title--upper title--kerning">
+          <a href="{{site.baseurl}}/{{page.group}}" class="title title--bold title--kerning">{% for parent in parent-page %}{{parent.title}}{% endfor %}</a>
           {{page.title}}
         </span>
 
@@ -21,9 +23,7 @@
 
         <hr class="hr--margin">
 
-        {% for section in page.sections %}
-          <p><a href="#{{section.title | slugify}}" class="title title--xxxs title--upper title--bold title--kerning">{{section.title}}</a></p>
-        {% endfor %}
+        <a href="javascript:void(0);" data-modal="modal-video" data-modal-id="{{page.group}}-{{page.layout}}" class="js-open-modal btn btn--outline">Watch video</a>
 
       </div>
     </div>
@@ -34,14 +34,16 @@
 
 
   <div class="banner__overlay">
+    {% unless page.id == 'overview' %}
     <div class="banner__overlay-title"></div>
+    {% endunless %}
   </div>
 
 
   <div class="banner__bg" style="background-image: url('{{site.baseurl}}/img/bg/banner/{{page.id}}.jpg');" data-location="{{page.banner.location}}"></div>
 
 
-  {% include banner/components/nav.html %}
-
-
 </section>
+
+
+{% include page/page-nav.html %}

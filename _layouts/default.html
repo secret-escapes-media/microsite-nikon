@@ -41,6 +41,11 @@
       {% include modal/modal-gallery.html type="single" %}
     {% endif %}
 
+    {% if page.layout == 'guide' or page.layout == 'journey' or page.layout == 'group' %}
+      {% include modal/modal-video.html type="single" %}
+    {% elsif page.id == 'overview' %}
+      {% include modal/modal-video.html type="carousel" %}
+    {% endif %}
 
 
   </body>

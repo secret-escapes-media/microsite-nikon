@@ -1,0 +1,26 @@
+<div class="banner__content">
+  <div class="banner__content-wrap row row--padding row--6-6-gutters row--valign text--white">
+
+    <div class="col">
+    {% if page.banner.content %}
+      {{page.banner.content}}
+    {% else %}
+      {% if page.banner.title-super %}<div class="title title--sm title--super title--kerning title--upper">{{page.banner.title-super}}</div>{% endif %}
+      <h1 class="title title--xxxl title--upper title--bolder title--kerning">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
+      {% if page.banner.title-sub %}<div class="title title--sm title--sub title--kerning title--upper">{{page.banner.title-sub}}</div>{% endif %}
+    {% endif %}
+    </div>
+
+    <div class="col">
+
+      <a href="javascript:void(0);" data-modal="modal-video" data-modal-id="{{page.id}}-guide" class="js-open-modal banner__video-link bg-img bg-img--16-9 bg-img--rounded bg-img--shadow bg--grey-darkest">
+        <div class="bg-img__content">
+          <img src="{{site.baseurl}}/img/icons/icon-play.png" class="js-svg-swap banner__video-link__icon" alt="Play">
+        </div>
+        <div class="bg-img__bg" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/video-poster.jpg);"></div>
+      </a>
+
+    </div>
+
+  </div>
+</div>

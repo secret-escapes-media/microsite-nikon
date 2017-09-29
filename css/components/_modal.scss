@@ -1,7 +1,7 @@
 
 $icon-size: 3em;
 $modaltransition-time: 300ms;
-$modaltransition-distance: 8em;
+$modaltransition-distance: 4em;
 @mixin modaltransition() { transition: all $modaltransition-time cubic-bezier(.5,0,.5,1); }
 
 .modal {
@@ -25,7 +25,7 @@ $modaltransition-distance: 8em;
     bottom: 0;
     margin-top: 0 !important;
     margin-left: auto; margin-right: auto;
-    max-width: 1080px;
+    max-width: $xxxl;
     cursor: auto;
     overflow: visible;
     overflow-y: scroll;
@@ -67,21 +67,79 @@ $modaltransition-distance: 8em;
 
   // The box with image and text contained in a module
   &__content {
-    background-color: $white;
+    width: 100%;
+    background-color: $grey-darkest;
+    color: $white;
+    & .title { color: $white; }
+    // Modal title
+    &__title {
+      padding: 1em 2em;
+      &-cta {
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        text-align: right;
+        & span {
+          display: block;
+          float: right;
+          padding: 1em 2em;
+          margin: 1em;
+        }
+      }
+    }
     // Modal image
     &__img {}
+    &__video {
+      & iframe { position: absolute; top: 0; }
+    }
 
     // Text content
     &__text {
-      padding: 1.5em 2em;
+      margin-top: 0;
+      padding: 0 2em;
+      &-description, &-details {
+        padding: 1.5em 0;
+        width: 50%;
+      }
+      &-photographer {
+        display: inline-block;
+        width: 3em;
+        vertical-align: top;
+        margin-right: 0.5em;
+        margin-top: -1em;
+      }
+      &-description {}
+      &-details { border-left: 1px solid rgba($white,0.1); padding-left: 2em; }
+      &-camera {
+        position: relative;
+        & span {
+          display: block;
+          position: absolute;
+          top: -3em;
+          right: -5em;
+        }
+      }
+      &-tech {
+        @include gallery($gutters 4);
+        margin-bottom: gutter();
+      }
     }
 
     &--landscape { margin: 0 2em; }
-    &--landscape &__img { margin: 0 -2em; }
+    &--landscape &__img {
+      border-top: 2px solid $theme-primary;
+      border-bottom: 2px solid $theme-primary;
+      margin: 0 -2em;
+    }
     &--landscape &__text { }
 
     &--portrait { margin: 2em 0; }
-    &--portrait &__img { margin: -2em 0; }
+    &--portrait &__img {
+      border-right: 2px solid $theme-primary;
+      margin: -2em 0;
+    }
     &--portrait &__text { }
 
   }
@@ -116,11 +174,10 @@ $modaltransition-distance: 8em;
 
   &__nav {
     position: absolute;
-    bottom: -$icon-size;
+    bottom: 0;
     z-index: $z-overlay-upper;
     height: $icon-size;
     width: 50%;
-    margin-top: -($icon-size/2);
     background-color: rgba($black, .5);
     background-position: center;
     background-repeat: no-repeat;

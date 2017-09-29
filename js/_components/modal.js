@@ -5,8 +5,7 @@
 // ========================================*/
 
 
-var modal           = $('.js-modal'),
-    modalWrap       = $('.js-modal,.modal__wrap,.modal__item'),
+var modalWrap       = $('.js-modal,.modal__wrap,.modal__item'),
     modalLaunchBtn  = $('.js-open-modal'),
     modalCloseBtn   = $('.js-close-modal'),
     modalTransition = 300; // must be the same as CSS transition duration
@@ -19,6 +18,9 @@ var modal           = $('.js-modal'),
 function modalOpen(event){
 
   event.preventDefault();
+
+  var target = $(event.currentTarget).data('modal');
+  var modal = $('.js-modal#' + target);
 
   // hides all modal content
   $('.modal__item').addClass('is-closed').hide();
@@ -49,7 +51,7 @@ function modalClose(event){
     $('.modal__wrap').scrollTop(0);
   }, 280);
   // close modal with fade
-  modal.fadeOut(modalTransition, function(){
+  $('.js-modal.is-open').fadeOut(modalTransition, function(){
     $(this).removeClass('is-open').addClass('is-closed');
     $('.modal__item.is-open').removeClass('is-open').addClass('is-closed');
   });
@@ -184,12 +186,12 @@ $('.js-modal-nav').on('click', function(event) {
 });
 
 // keyboard next/previous navigation
-if( modal.hasClass('modal--carousel') ){
-  $(document).on('keyup', function(e) {
+$(document).on('keyup', function(e) {
+  if( $('.js-modal.is-open').hasClass('modal--carousel') ){
     if(e.which === 37){
       launchPreviousModal();
     }else if(e.which === 39) {
       launchNextModal();
     }
-  });
-}
+  }
+});

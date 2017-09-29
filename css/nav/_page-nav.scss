@@ -1,0 +1,117 @@
+// styles for the microsite nav
+
+
+$nav-height: $s7;
+$nav-arrow-width: $s8;
+$nav-width-bp: 400px;
+
+
+
+.page-nav {
+  @include transition();
+
+  height: $nav-height;
+  text-align: center;
+  font-weight: 600;
+  font-size: $s-1;
+  letter-spacing: .143em;
+  line-height: $nav-height;
+  text-transform: uppercase;
+  color: $white;
+  background-color: rgba($grey-darkest,0.8);
+  border-bottom: 1px solid rgba($white,0.1);
+  overflow: hidden;
+
+  position: fixed;
+  z-index: $z-nav;
+  top: -$nav-height;
+  left: 0; right: 0;
+  &.show { top: 0; }
+
+  @include bp(md){
+    height: $nav-height;
+    line-height: $nav-height;
+  }
+  &__wrap {
+    position: relative;
+    max-width: $xxxl;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__list {
+    padding-right: $nav-arrow-width;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    &:before {
+      // prompt for horizontal scroll on phone
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: $z-nav-upper;
+      display: block;
+      width: $nav-arrow-width;
+      height: $nav-height;
+      background-image: url("../img/icons/nav-arrow-light.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: $nav-arrow-width auto;
+      @include bp(md){
+        height: $nav-height;
+      }
+    }
+    @include bp($nav-width-bp){
+      // remove the prompt for sideways scroll
+      padding-right: 0;
+      overflow: visible;
+      &:before { display: none; }
+    }
+  }
+  &__item {
+    display: inline-block;
+    white-space: nowrap;
+    border-left: 1px solid rgba($white,0.1);
+    @include transition;
+    &:last-of-type { border-right: 1px solid rgba($white,0.1); }
+    &:hover {
+      border-color: rgba($white,0.1);
+      & .page-nav__link:after { background-color: $white; }
+    }
+    // changes neighbour item border
+    &:hover + & { border-color: rgba($white,0.1); }
+  }
+  &__link {
+    display: inline-block;
+    position: relative;
+    padding-left: 2em;
+    padding-right: 2em;
+    &:after {
+      content: "";
+      @include transition();
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 2px;
+    }
+    &:hover,
+    &--current { text-decoration: none; }
+  }
+  @include bp($nav-width-bp){
+    overflow: visible;
+    height: auto;
+    .flexbox & {
+      &__list {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+      }
+      &__item { flex-grow: 1; }
+      &__link {
+        padding: 0;
+        width: 100%;
+      }
+    }
+  }
+}
+

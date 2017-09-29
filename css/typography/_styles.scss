@@ -18,10 +18,12 @@
   &--black    { color: $text-dark; }
   &--white    {
     color: $white;
+    & * { color: $white; }
     & .title, &.title { color: $white; }
   }
   &--default  {
     color: $text;
+    & * { color: $text; }
     & .title, &.title { color: $headline; }
   }
 }
@@ -37,7 +39,7 @@
 .page__content {
   * + p,
   * + ul,
-  * + ol               { padding-top: $s1; }
+  * + ol               { padding-top: $s-2; }
   p                    { max-width: $xl; }
   .text--center p      { margin-left: auto; margin-right: auto; }
   li                   { list-style-position: outside; margin-left: $s2; }
@@ -60,6 +62,9 @@ hr {
   margin: $s1 0;
   padding: 0;
   .title + & { padding-top: 0; }
+  .text--white & {
+    background-color: rgba($white,0.1);
+  }
 }
 .hr {
   &--center { width: 80px; margin-left: auto; margin-right: auto; }
@@ -94,8 +99,8 @@ hr {
   }
 
   & + *         { padding-top: .75em; }
-  &--sub        { padding-top: 0 !important; }
-  &--super + *  { padding-top: 0 !important; }
+  &--sub        { padding-top: .25em; }
+  &--super + *  { padding-top: .25em; }
   &--lighter    { font-weight: 100; }
   &--light      { font-weight: 200; }
   &--bold       { font-weight: 500; }
@@ -107,8 +112,8 @@ hr {
   &--tighter    { line-height: .8; }
   &--upper      { text-transform: uppercase; }
 
-  &--xxxxl { font-size: $s8; }
-  &--xxxl  { font-size: $s7; }
+  &--xxxxl { font-size: $s8; line-height: 1; }
+  &--xxxl  { font-size: $s7; line-height: 1; }
   &--xxl   { font-size: $s6; }
   &--xl    { font-size: $s5; }
   &--lg    { font-size: $s4; }
@@ -116,6 +121,8 @@ hr {
   &--sm    { font-size: $s2; }
   &--xs    { font-size: $s1; }
   &--xxs   { font-size: $s0; }
+  &--xxxs   { font-size: $s0; }
+  &--xxxxs   { font-size: $s-1; }
 
   @include bp(lg){
     &--xxxxl { font-size: $s10; }
@@ -127,6 +134,8 @@ hr {
     &--sm    { font-size: $s4; }
     &--xs    { font-size: $s3; }
     &--xxs   { font-size: $s2; }
+    &--xxxs   { font-size: $s1; }
+    &--xxxxs   { font-size: $s-1; }
   }
 
 }

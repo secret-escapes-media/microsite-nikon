@@ -1,171 +1,147 @@
 
 
-- id: coney-island-photo-1
-  group: new-york
-  title: Nice Coney Island Photo
+- group: new-york
+  id: coney-island-1
+  ratio: 16-9
+  title: Coney Island
+  location: Coney Island
   photographer: Eleanor Cording Booth
-  location: Big Waterfall
-  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-  details:
-    - title: Camera
-      content: Nikon D7500
-    - title: Lens
-      content: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-    - title: Aperture
-      content: f/6.3
-    - title: Shutter
-      content: 1/320
-    - title: Focal Length
-      content: 40mm
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
 
 
-- id: coney-island-photo-2
-  group: new-york
-  title: Another Great Coney Island Photo
-  photographer: Craig Howes
-  location: Big Waterfall
-  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-  details:
-    - title: Camera
-      content: Nikon D850
-    - title: Lens
-      content: NIKKOR 16-70mm
-    - title: Aperture
-      content: f/6.3
-    - title: Shutter
-      content: 1/320
-    - title: Focal Length
-      content: 40mm
-
-
-- id: coney-island-photo-3
-  group: new-york
-  title: Yet Another Coney Island Photo
+- group: new-york
+  id: coney-island-2
+  ratio: 2-3
+  title: Coney Island
+  location: Coney Island
   photographer: Eleanor Cording Booth
-  location: Big Waterfall
-  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-  details:
-    - title: Camera
-      content: Nikon D7500
-    - title: Lens
-      content: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-    - title: Aperture
-      content: f/6.3
-    - title: Shutter
-      content: 1/320
-    - title: Focal Length
-      content: 40mm
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
 
 
-- id: rail-photo-1
-  group: new-york
-  title: Nice Rail Photo
+- group: new-york
+  id: coney-island-3
+  ratio: 3-2
+  title: Coney Island
+  location: Coney Island
   photographer: Eleanor Cording Booth
-  location: Glacier
-  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-  details:
-    - title: Camera
-      content: Nikon D7500
-    - title: Lens
-      content: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-    - title: Aperture
-      content: f/6.3
-    - title: Shutter
-      content: 1/320
-    - title: Focal Length
-      content: 40mm
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
 
 
-- id: rail-photo-2
-  group: new-york
-  title: Another Great Rail Photo
-  photographer: Craig Howes
-  location: Glacier
-  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-  details:
-    - title: Camera
-      content: Nikon D850
-    - title: Lens
-      content: NIKKOR 16-70mm
-    - title: Aperture
-      content: f/6.3
-    - title: Shutter
-      content: 1/320
-    - title: Focal Length
-      content: 40mm
 
 
-- id: rail-photo-3
-  group: new-york
-  title: Yet Another Rail Photo
+
+
+
+
+- group: new-york
+  id: rail-1
+  ratio: 16-9
+  title: Rail
+  location: Rail
   photographer: Eleanor Cording Booth
-  location: Glacier
-  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-  details:
-    - title: Camera
-      content: Nikon D7500
-    - title: Lens
-      content: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-    - title: Aperture
-      content: f/6.3
-    - title: Shutter
-      content: 1/320
-    - title: Focal Length
-      content: 40mm
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
 
 
-- id: time-square-photo-1
-  group: new-york
-  title: Nice Time Square Photo
+- group: new-york
+  id: rail-2
+  ratio: 9-16
+  title: Rail
+  location: Rail
   photographer: Eleanor Cording Booth
-  location: Town
-  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-  details:
-    - title: Camera
-      content: Nikon D7500
-    - title: Lens
-      content: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-    - title: Aperture
-      content: f/6.3
-    - title: Shutter
-      content: 1/320
-    - title: Focal Length
-      content: 40mm
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
 
 
-- id: time-square-photo-2
-  group: new-york
-  title: Another Great Time Square Photo
-  photographer: Craig Howes
-  location: Town
-  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-  details:
-    - title: Camera
-      content: Nikon D850
-    - title: Lens
-      content: NIKKOR 16-70mm
-    - title: Aperture
-      content: f/6.3
-    - title: Shutter
-      content: 1/320
-    - title: Focal Length
-      content: 40mm
-
-
-- id: time-square-photo-3
-  group: new-york
-  title: Yet Another Time Square Photo
+- group: new-york
+  id: rail-3
+  ratio: 3-2
+  title: Rail
+  location: Rail
   photographer: Eleanor Cording Booth
-  location: Town
-  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-  details:
-    - title: Camera
-      content: Nikon D7500
-    - title: Lens
-      content: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-    - title: Aperture
-      content: f/6.3
-    - title: Shutter
-      content: 1/320
-    - title: Focal Length
-      content: 40mm
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+
+
+
+
+
+
+
+- group: new-york
+  id: time-square-1
+  ratio: 3-2
+  title: Time Square
+  location: Time Square
+  photographer: Eleanor Cording Booth
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+
+- group: new-york
+  id: time-square-2
+  ratio: 3-2
+  title: Time Square
+  location: Time Square
+  photographer: Eleanor Cording Booth
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+
+- group: new-york
+  id: time-square-3
+  ratio: 2-3
+  title: Time Square
+  location: Time Square
+  photographer: Eleanor Cording Booth
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm

@@ -6,17 +6,17 @@
   {% include banner/components/content.html %}
 
 
-  <div class="banner__info">
+  <div class="banner__info text--white">
     <div class="row row--padding">
 
       <div class="banner__info-left">
-        <a href="javascript:void();" class="banner__info-location js-slide-photo js-open-modal" data-modal-id="{{photo.id}}">
+        <a href="javascript:void();" class="banner__info-location js-slide-photo js-open-modal" data-modal="modal-photo" data-modal-id="{{photo.id}}">
           <span class="title--bolder js-slide-photo-title">{{photo.title}}</span>, <span class="js-slide-photo-location">{{photo.location}}</span>
         </a>
       </div>
 
       <div class="banner__info-right">
-        <a class="btn btn--slide-info btn--white btn--sm js-slide-photo-link" href="">Get behind the lens</a>
+        <a class="btn btn--slide-info btn--white btn--sm js-slide-photo-link" href="{{site.baseurl}}{{photo.group}}/the-journey">Get behind the lens</a>
       </div>
 
     </div>
@@ -24,7 +24,9 @@
 
 
   <div class="banner__overlay">
+    {% unless page.id == 'overview' %}
     <div class="banner__overlay-title"></div>
+    {% endunless %}
   </div>
 
 

@@ -1,180 +1,228 @@
 
 
-- id: waterfall-photo-1
-  group: iceland
-  ratio: 3-4
-  title: Nice Waterfall Photo
-  photographer: Eleanor Cording Booth
-  location: Big Waterfall
-  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-  details:
-    - title: Camera
-      content: Nikon D7500
-    - title: Lens
-      content: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-    - title: Aperture
-      content: f/6.3
-    - title: Shutter
-      content: 1/320
-    - title: Focal Length
-      content: 40mm
-
-
-- id: waterfall-photo-2
-  group: iceland
-  ratio: 9-16
-  title: Another Great Waterfall Photo
-  photographer: Craig Howes
-  location: Big Waterfall
-  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-  details:
-    - title: Camera
-      content: Nikon D850
-    - title: Lens
-      content: NIKKOR 16-70mm
-    - title: Aperture
-      content: f/6.3
-    - title: Shutter
-      content: 1/320
-    - title: Focal Length
-      content: 40mm
-
-
-- id: waterfall-photo-3
-  group: iceland
-  ratio: 21-9
-  title: Yet Another Waterfall Photo
-  photographer: Eleanor Cording Booth
-  location: Big Waterfall
-  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-  details:
-    - title: Camera
-      content: Nikon D7500
-    - title: Lens
-      content: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-    - title: Aperture
-      content: f/6.3
-    - title: Shutter
-      content: 1/320
-    - title: Focal Length
-      content: 40mm
-
-
-- id: glacier-photo-1
-  group: iceland
-  ratio: 21-9
-  title: Nice Glacier Photo
-  photographer: Eleanor Cording Booth
-  location: Glacier
-  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-  details:
-    - title: Camera
-      content: Nikon D7500
-    - title: Lens
-      content: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-    - title: Aperture
-      content: f/6.3
-    - title: Shutter
-      content: 1/320
-    - title: Focal Length
-      content: 40mm
-
-
-- id: glacier-photo-2
-  group: iceland
-  ratio: 4-3
-  title: Another Great Glacier Photo
-  photographer: Craig Howes
-  location: Glacier
-  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-  details:
-    - title: Camera
-      content: Nikon D850
-    - title: Lens
-      content: NIKKOR 16-70mm
-    - title: Aperture
-      content: f/6.3
-    - title: Shutter
-      content: 1/320
-    - title: Focal Length
-      content: 40mm
-
-
-- id: glacier-photo-3
-  group: iceland
+- group: iceland
+  id: vik-1
   ratio: 16-9
-  title: Yet Another Glacier Photo
+  title: Vik Arch
+  location: Reynisfjara
   photographer: Eleanor Cording Booth
-  location: Glacier
-  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-  details:
-    - title: Camera
-      content: Nikon D7500
-    - title: Lens
-      content: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-    - title: Aperture
-      content: f/6.3
-    - title: Shutter
-      content: 1/320
-    - title: Focal Length
-      content: 40mm
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
 
 
-- id: town-photo-1
-  group: iceland
+- group: iceland
+  id: vik-2
+  ratio: 2-3
+  title: Vik Lighthouse
+  location: Reynisfjara
+  photographer: Eleanor Cording Booth
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+
+- group: iceland
+  id: vik-3
   ratio: 3-2
-  title: Nice Town Photo
+  title: Black Sands
+  location: Reynisfjara
   photographer: Eleanor Cording Booth
-  location: Town
-  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-  details:
-    - title: Camera
-      content: Nikon D7500
-    - title: Lens
-      content: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-    - title: Aperture
-      content: f/6.3
-    - title: Shutter
-      content: 1/320
-    - title: Focal Length
-      content: 40mm
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
 
 
-- id: town-photo-2
-  group: iceland
+- group: iceland
+  id: vik-4
+  ratio: 3-2
+  title: Crumbing Cliff
+  location: Reynisfjara
+  photographer: Eleanor Cording Booth
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+
+
+
+
+
+
+
+- group: iceland
+  id: skogafoss-1
   ratio: 16-9
-  title: Another Great Town Photo
-  photographer: Craig Howes
-  location: Town
-  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-  details:
-    - title: Camera
-      content: Nikon D850
-    - title: Lens
-      content: NIKKOR 16-70mm
-    - title: Aperture
-      content: f/6.3
-    - title: Shutter
-      content: 1/320
-    - title: Focal Length
-      content: 40mm
-
-
-- id: town-photo-3
-  group: iceland
-  ratio: 21-9
-  title: Yet Another Town Photo
+  title: Birds and Falls
+  location: Skogafoss
   photographer: Eleanor Cording Booth
-  location: Town
-  content: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-  details:
-    - title: Camera
-      content: Nikon D7500
-    - title: Lens
-      content: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-    - title: Aperture
-      content: f/6.3
-    - title: Shutter
-      content: 1/320
-    - title: Focal Length
-      content: 40mm
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+
+- group: iceland
+  id: skogafoss-2
+  ratio: 9-16
+  title: Secret Falls
+  location: Skogafoss
+  photographer: Eleanor Cording Booth
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+
+- group: iceland
+  id: skogafoss-3
+  ratio: 3-2
+  title: Hermits Hut
+  location: Skogafoss
+  photographer: Eleanor Cording Booth
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+
+
+
+
+
+
+
+- group: iceland
+  id: horses
+  ratio: 3-2
+  title: Horses
+  location: Horses and hills
+  photographer: Eleanor Cording Booth
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+
+- group: iceland
+  id: landscape-1
+  ratio: 2-3
+  title: Crevasses
+  location: Horses and hills
+  photographer: Eleanor Cording Booth
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+
+- group: iceland
+  id: redhouse-1
+  ratio: 9-16
+  title: Red House
+  location: Horses and hills
+  photographer: Eleanor Cording Booth
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+
+- group: iceland
+  id: mountains-1
+  ratio: 21-9
+  title: Moody Mountains
+  location: Horses and hills
+  photographer: Eleanor Cording Booth
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+
+
+
+
+
+
+
+- group: iceland
+  id: glacier-1
+  ratio: 3-2
+  title: Braving the elements
+  location: Jökulsárlón Glacier
+  photographer: Eleanor Cording Booth
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+
+- group: iceland
+  id: glacier-2
+  ratio: 3-2
+  title: Bergs
+  location: Jökulsárlón Glacier
+  photographer: Eleanor Cording Booth
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+
+- group: iceland
+  id: glacier-3
+  ratio: 2-3
+  title: Diamond Beach
+  location: Jökulsárlón Glacier
+  photographer: Eleanor Cording Booth
+  content: Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm

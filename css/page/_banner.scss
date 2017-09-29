@@ -8,10 +8,8 @@ $site-nav-height-sm:  $s7;
 
 .banner {
   position: relative;
-  height: 75%;
-  color: white;
+  min-height: 75%;
   background-color: $grey-darkest;
-  & * { color: white; }
 
 
 
@@ -38,6 +36,12 @@ $site-nav-height-sm:  $s7;
         transform: translateY(-50%);
       }
     }
+  }
+
+
+
+  &__video-link {
+    &__icon { width: 80%; max-width: 160px; max-height: 160px; }
   }
 
 
@@ -150,7 +154,7 @@ $site-nav-height-sm:  $s7;
     position: absolute;
     left: 0;
     right: 0;
-    z-index: $z-content-overlay;
+    z-index: $z-nav-upper;
     background-color: rgba($grey-dark,0.85);
     .banner--nav-top & {
       top: $core-nav-height;
@@ -199,7 +203,8 @@ $site-nav-height-sm:  $s7;
 
   &--carousel {
     text-align: center;
-    height: 95%;
+    min-height: 85%;
+    padding-top: 50%;
     .banner__content { pointer-events: none; }
   }
 
@@ -208,8 +213,8 @@ $site-nav-height-sm:  $s7;
   // ARTICLE LAYOUT MODIFIERS */
 
   &--article {
+    padding-top: 0;
     height: 100%;
-    margin-bottom: -$s4;
     z-index: 0;
 
     .banner__content {
@@ -226,11 +231,51 @@ $site-nav-height-sm:  $s7;
         width: 50%;
         padding-right: 4em;
       }
+
+      $breadcrumbs-arrow-width: 16px;
+      &-breadcrumbs {
+        & a {
+          position: relative;
+          margin-left: -$breadcrumbs-arrow-width*2;
+          &:before {
+            @include transition();
+            content: "";
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: $breadcrumbs-arrow-width; height: 15px;
+            position: relative;
+            display: inline-block;
+            vertical-align: text-top;
+            margin-left: $breadcrumbs-arrow-width*0.2;
+            margin-right: $breadcrumbs-arrow-width*0.8;
+            background-image: url('../img/icons/arrow-small-left.png');
+            .svg & {
+              background-image: url('../img/icons/arrow-small-left.svg');
+            }
+            .layout--guide & {
+              background-image: url('../img/icons/arrow-small-left-black.png');
+              .svg & {
+                background-image: url('../img/icons/arrow-small-left-black.svg');
+              }
+            }
+          }
+          &:hover {
+            &:before {
+              margin-left: 0;
+              margin-right: $breadcrumbs-arrow-width;
+            }
+          }
+        }
+      }
+
     }
+
     .banner__overlay {
       background: none;
       z-index: $z-content-overlay;
     }
+
     .banner__info {
       text-align: right;
     }
@@ -238,8 +283,6 @@ $site-nav-height-sm:  $s7;
     // inverted colours for guide pages
     .layout--guide & {
       .banner__content {
-        & * { color: $text; }
-        & .title { color: $headline; }
         &:after { background-color: rgba($white,.85); }
       }
       .banner__overlay-title {

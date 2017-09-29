@@ -1,11 +1,13 @@
 {% if include.static == "true" %}
 
-  <div class="bg-img bg-img--{% if include.ratio %}{{include.ratio}}{% else %}16-9{% endif %}" style="background-image:url({{site.baseurl}}/img/content/{{photo.group}}/{{photo.id}}.jpg);">
+  <div class="photo bg-img bg-img--{% if include.ratio %}{{include.ratio}}{% else %}16-9{% endif %}" style="background-image:url({{site.baseurl}}/img/content/{{photo.group}}/photos/{{photo.id}}.jpg);">
 
-    <div class="bg-img__details">
-      {{photo.title}}<br />
-      {{photo.photographer}}
-    </div>
+    {% if include.caption %}
+      <div class="bg-img__details">
+        {{photo.title}}<br />
+        {{photo.photographer}}
+      </div>
+    {% endif %}
 
   </div>
 
@@ -13,14 +15,16 @@
 
   <a
     href="javascript:void(0);"
-    class="js-open-modal bg-img bg-img--{% if include.ratio %}{{include.ratio}}{% else %}16-9{% endif %}"
-    data-modal-id="{{photo.id}}"
-    style="background-image:url({{site.baseurl}}/img/content/{{photo.group}}/{{photo.id}}.jpg);">
+    class="js-open-modal photo bg-img bg-img--{% if include.ratio %}{{include.ratio}}{% else %}16-9{% endif %}"
+    data-modal="modal-photo" data-modal-id="{{photo.id}}"
+    style="background-image:url({{site.baseurl}}/img/content/{{photo.group}}/photos/{{photo.id}}.jpg);">
 
-    <div class="bg-img__details">
-      {{photo.title}}<br />
-      {{photo.photographer}}
-    </div>
+    {% if include.caption %}
+      <div class="bg-img__details">
+        {{photo.title}}<br />
+        {{photo.photographer}}
+      </div>
+    {% endif %}
 
   </a>
 

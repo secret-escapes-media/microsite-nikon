@@ -71,7 +71,7 @@ $nav-width-bp: 400px;
       & .site-nav__link:after { background-color: $white; }
     }
     &.is-current {
-      color: $theme-primary;
+      color: $white;
       border-color: rgba($white,0.1);
       & .site-nav__link:after { background-color: $theme-primary; }
     }
@@ -156,15 +156,16 @@ $nav-width-bp: 400px;
       display: table-cell;
       vertical-align: middle;
       white-space: normal;
-      font-size: $s0;
+      font-size: 1.714rem;
+      letter-spacing: .15em;
       line-height: 1.33;
       padding-left: $s2;
       padding-right: $s2;
+
     }
     @include transition;
     &:hover {
-      text-decoration: none;
-      letter-spacing: .225em
+      background-color: rgba($black,.85);
     }
   }
 }

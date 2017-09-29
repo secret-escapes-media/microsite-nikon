@@ -18,11 +18,23 @@ intro: >
 
 
 
-  <div class="section bg--darker-grey text--white">
-    <div class="row row--padding">
-      {{page.intro}}
+  {% include page/intro.html %}
+
+
+
+  <section class="section">
+    <div class="row row--3-3-3-3-gutters">
+
+      <div class="col bg-img bg-img--1-1" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/01.jpg)"></div>
+
+      <div class="col bg-img bg-img--1-1" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/02.jpg)"></div>
+
+      <div class="col bg-img bg-img--1-1" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/03.jpg)"></div>
+
+      <div class="col bg-img bg-img--1-1" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/04.jpg)"></div>
+
     </div>
-  </div>
+  </section>
 
 
 

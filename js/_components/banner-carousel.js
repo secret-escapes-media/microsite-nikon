@@ -42,7 +42,7 @@ function sliderContentRefresh(){
   carouselPhotoTitle.text(currentPhotoTitle);
   carouselPhotoLocation.text(currentPhotoLocation);
   // can this be more dynamic?
-  carouselPhotoLink.attr('href', 'nikon/' + currentPhotoGroup + '/the-journey/#' + currentPhotoID );
+  carouselPhotoLink.attr('href', currentPhotoGroup + '/the-journey/' );
 }
 
 

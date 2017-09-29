@@ -49,11 +49,27 @@
     }
   }
 
+  &--outline {
+    color: $text;
+    background-color: transparent;
+    border: 1px solid $grey-light;
+    &:hover {
+      color: $text-dark;
+      background-color: $grey-light;
+    }
+    .text--white & {
+      color: $white;
+      border: 1px solid $white;
+      &:hover { color: $text-dark; background-color: $white; }
+    }
+  }
+
+
   &--white { background-color: $white; color: $headline;
     &:hover { background-color: rgba($white,0.9); }
   }
 
-  &--primary { background-color: $theme-primary; color: $theme-secondary;
+  &--primary { background-color: $theme-primary; color: $headline;
     &:hover { background-color: darken($theme-primary,5); }
   }
 

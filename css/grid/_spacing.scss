@@ -45,6 +45,7 @@ $page-margin: $s4;
   position: relative;
   @include container($xxxl);
   &--100 { @include container(100%);}
+  &--xxxl{ @include container($xxxl);}
   &--xxl { @include container($xxl);}
   &--xl  { @include container($xl);}
   &--lg  { @include container($lg);}
@@ -91,11 +92,24 @@ $page-margin: $s4;
     &--8-4-gutters { @include two-column-grid( 8, 4, gutters ); }
 
     // three columns without gutter
-    &--4-4-4 .col { @include gallery(4); }
+    &--4-4-4 .col {
+      @include gallery(4);
+    }
 
     // three columns with gutter
     &--4-4-4-gutters .col {
       @include gallery($gutters 4);
+      margin-bottom: gutter();
+    }
+
+    // three columns without gutter
+    &--3-3-3-3 .col {
+      @include gallery(3);
+    }
+
+    // three columns with gutter
+    &--3-3-3-3-gutters .col {
+      @include gallery($gutters 3);
       margin-bottom: gutter();
     }
   }

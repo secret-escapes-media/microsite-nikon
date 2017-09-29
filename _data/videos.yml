@@ -1,0 +1,39 @@
+
+
+#  DESTINATION VIDEO
+#==========================#
+
+- group: inspire
+  location: iceland
+  id: iceland-guide
+  video-id: GBejmOUoG_I
+
+- group: inspire
+  location: morocco
+  id: morocco-guide
+  video-id: GBejmOUoG_I
+
+- group: inspire
+  location: new-york
+  id: new-york-guide
+  video-id: GBejmOUoG_I
+
+
+
+#  BEHIND THE SCENES
+#==========================#
+
+- group: bts
+  location: iceland
+  id: iceland-journey
+  video-id: GBejmOUoG_I
+
+- group: bts
+  location: morocco
+  id: morocco-journey
+  video-id: GBejmOUoG_I
+
+- group: bts
+  location: new-york
+  id: new-york-journey
+  video-id: GBejmOUoG_I

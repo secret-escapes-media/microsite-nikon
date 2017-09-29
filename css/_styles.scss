@@ -3,9 +3,9 @@
 .bg {
   &--white      { background-color: $white; }
   &--light-grey { background-color: $grey-lightest; }
-  &--dark-grey { background-color: $grey-dark; }
-  &--darker-grey { background-color: $grey-darker; }
-  &--darkest-grey { background-color: $grey-darkest; }
+  &--grey-dark { background-color: $grey-dark; }
+  &--grey-darker { background-color: $grey-darker; }
+  &--grey-darkest { background-color: $grey-darkest; }
 
   &--theme { background-color: $theme-primary; }
   &--theme-primary { background-color: $theme-primary; }
@@ -19,3 +19,125 @@
   background-attachment: fixed;
   .touch & { background-attachment: scroll; }
 }
+
+
+
+.intro {
+  background-color: $grey-darker;
+  color: $text-white;
+  & .title { color: $text-white; }
+
+  &--guide {
+    background-color: $white;
+    color: $text;
+    & .title { color: $headline; }
+  }
+
+  &__content {
+    position: relative;
+    &:before {
+      content: "";
+      height: 2px;
+      position: absolute;
+      z-index: $z-content-upper;
+      top: -2px;
+      left: 0;
+      right: 0;
+      margin: 0 2em;
+      background-color: $theme-primary;
+    }
+  }
+
+  &__col-right {
+    padding-left: 2em;
+    border-left: 1px solid rgba($white,0.1);
+  }
+
+  &__photographer {
+    overflow: hidden;
+    vertical-align: middle;
+    &-image {
+      display: inline-block;
+      float: left;
+    }
+    &-title {
+      float: left;
+      padding: 0.5em 1em;
+    }
+  }
+}
+
+
+
+/* ==========================================
+   JOURNEY PAGE
+   ======================================== */
+
+.journey {
+
+  &__title {
+    &-meta {
+      &-icon { max-width: 28px; max-height: 28px; }
+    }
+    &-content {
+      position: relative;
+      padding-left: 7em;
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 1.7em;
+        width: 5em;
+        height: 2px;
+        background-color: #ffffff;
+      }
+    }
+  }
+
+  &__photo {
+    @include layout(12 1);
+    &__image {
+      max-width: $xl;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    &__text { padding-top: $s2; }
+    & + & { margin-top: $s4; }
+
+    @include bp(xxl){
+      &__text { padding-top: $s2; }
+      & + & { margin-top: $s8; }
+      .flexbox & {
+        display: flex;
+        align-items: center;
+      }
+      &__image { @include span(7); }
+      &__text {
+        @include span(5 last);
+        padding-top: 0;
+      }
+      &:nth-child(odd){
+        .journey__photo__image { @include span(7 last); }
+        .journey__photo__text { @include span(5); }
+        .flexbox & {
+          display: flex;
+          align-items: center;
+          flex-direction: row-reverse;
+        }
+      }
+    } // end media query
+
+    &--portrait {
+      @include bp(lg){
+        & .journey__photo__image { @include span(6); }
+        & .journey__photo__text { @include span(6 last); }
+        &:nth-child(odd){
+          .journey__photo__image { @include span(6 last); }
+          .journey__photo__text { @include span(6); }
+        }
+      }
+    }
+  }
+
+}
+

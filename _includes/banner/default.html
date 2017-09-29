@@ -2,15 +2,20 @@
 
 <section class="banner{% if page.id == 'overview' %} banner--nav-bottom{% else %} banner--nav-top{% endif %}">
 
-
-  {% include banner/components/content.html %}
+  {% if page.layout == "group" %}
+    {% include banner/components/content-video.html %}
+  {% else %}
+    {% include banner/components/content.html %}
+  {% endif %}
 
 
   {% include banner/components/location.html %}
 
 
   <div class="banner__overlay">
+    {% unless page.id == 'overview' %}
     <div class="banner__overlay-title"></div>
+    {% endunless %}
   </div>
 
   <div class="banner__bg" style="background-image: url('{{site.baseurl}}/img/bg/banner/{{page.id}}.jpg');" data-location="{{page.banner.location}}"></div>

@@ -15,7 +15,8 @@
 
 // reseting all of the owl-carousel styles. also using the classes it gives everything
 .owl-carousel {
-  position: relative;
+  position: absolute;
+  top: 0; left: 0;
   height: 100% !important;
   div:not(.owl-dots):not(.owl-dot):not(.owl-nav) {
  		height: 100% !important;

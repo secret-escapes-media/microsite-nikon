@@ -6,6 +6,10 @@ layout: default
 
 
 
+  {% include page/intro.html %}
+
+
+
   <section class="bg--white vpad-bottom--xl">
 
     <div class="row row--padding">
@@ -14,10 +18,14 @@ layout: default
         <div class="bob">
 
           <div class="bob__image">
-            {% assign photo = photos | where: "id", section.image %}
-            {% for photo in photo %}
-              {% include components/photo.html %}
-            {% endfor %}
+            {% if section.image %}
+              {% assign photo = photos | where: "id", section.image %}
+              {% for photo in photo %}
+                {% include components/photo.html %}
+              {% endfor %}
+            {% else %}
+              <div class="bg-img bg-img--4-3" style="background-image:url({{site.baseurl}}/img/content/iceland/pois/{{section.title|slugify}}.jpg);"></div>
+            {% endif %}
           </div>
 
           <div class="bob__text">
@@ -34,17 +42,18 @@ layout: default
 
 
 
-  <section class="bg--white vpad-top--xl">
+  <section class="bg--light-grey section">
 
     {% for section in page.poi-sections %}
       <div class="row row--padding text--center">
         <h3 class="title title--md title--bold">{{section.title}}</h3>
         <p class="text--lg">{{section.content}}</p>
       </div>
-      <div class="row row--padding row--4-4-4-gutters vpad-bottom--xl">
+      <div class="row row--padding row--4-4-4-gutters">
       {% for poi in section.pois %}
         <div class="col">
-          <div class="bg-img bg-img--16-9" style="background-image: url();"></div>
+          <div class="bg-img bg-img--16-9" style="background-image:url({{site.baseurl}}/img/content/iceland/pois/{{poi.title|slugify}}.jpg);">
+          </div>
           <h5 class="title title--xs title--bold">{{poi.title}}</h5>
           <p>{{poi.content}}</p>
         </div>

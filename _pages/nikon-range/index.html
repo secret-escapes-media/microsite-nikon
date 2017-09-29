@@ -1,0 +1,62 @@
+---
+layout: default
+id: nikon
+title: Nikon
+nav-order: 8
+
+banner:
+  title:
+  title-sub: Made for explorers
+  location: Waterfall
+
+intro: >
+  <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus consequatur ex saepe tempore quia odio debitis omnis neque molestiae eos eius vitae temporibus.</p>
+  <p>Charum repellat explicabo quam quos labore optio veniam, molestias in nesciunt, quod numquam. Et dolor tempore, ex minus delectus, hic nemo officiis illo ullam. Tempora, consequatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quibusdam reiciendis atque autem est dolorum quos, ad dignissimos iste amet voluptate laudantium saepe? Commodi, quasi, asperiores. Est consequatur repellat magnam.</p>
+---
+{% assign photos = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york %}
+<div class="page__content">
+
+
+
+  {% include page/intro.html %}
+
+
+
+  <section class="section">
+    <div class="row row--4-4-4-gutters">
+
+      <div class="col">
+        <a href="#" class="bg-img bg-img--4-3">
+          <span class="bg-img__content">
+            <img src="{{site.baseurl}}/img/content/{{page.id}}/d850-title.png" alt="D850">
+          </span>
+          <span class="bg-img__bg" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/d850.jpg)"></span>
+        </a>
+      </div>
+
+      <div class="col">
+        <a href="#" class="bg-img bg-img--4-3">
+          <span class="bg-img__content">
+            <img src="{{site.baseurl}}/img/content/{{page.id}}/d7500-title.png" alt="D850">
+          </span>
+          <span class="bg-img__bg" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/d7500.jpg)"></span>
+        </a>
+      </div>
+
+      <div class="col">
+        <a href="#" class="bg-img bg-img--4-3">
+          <span class="bg-img__content text--white">
+            <h4 class="title title--sm title--upper title--bolder">Explore the range</h4>
+            <p class="text--lg">Experience the difference</p>
+          </span>
+          <span class="bg-img__bg" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/d7500.jpg)"></span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+
+</div><!-- END .page__content -->
+

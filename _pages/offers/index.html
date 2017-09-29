@@ -14,11 +14,7 @@ intro: >
 
 
 
-  <div class="section bg--darker-grey text--white">
-    <div class="row row--padding">
-      {{page.intro}}
-    </div>
-  </div>
+  {% include page/intro.html %}
 
 
 
@@ -27,6 +23,8 @@ intro: >
       {% include components/offers.html %}
     </div>
   </section>
+
+
 
   <section class="section offer-promo">
     <div class="offer-promo__bgs">

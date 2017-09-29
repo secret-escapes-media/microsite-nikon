@@ -1,10 +1,13 @@
 
 
+{% if page.layout == 'journey' or page.layout == 'guide' %}
+  {% assign modal-items = site.data[page.group] %}
+{% else %}
+  {% assign modal-items = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york %}
+{% endif %}
 
-{% assign modal-items = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york %}
 
-
-<div class="js-modal modal is-closed{% if include.type == 'carousel' %} modal--carousel{% endif %}">
+<div id="modal-photo" class="js-modal modal is-closed{% if include.type == 'carousel' %} modal--carousel{% endif %}">
 
   <div class="js-close-modal modal__close"></div>
 
@@ -17,7 +20,7 @@
 
     {% for photo in modal-items %}
 
-      <div class="modal__item modal__item--{{photo.id}} is-closed" id="modal-{{photo.id}}" data-content-category="{{photo.location | slugify}}">
+      <div class="modal__item modal__item--{{photo.id}}{% if photo.ratio == '3-2' photo.ratio == '4-3' or photo.ratio == '9-16' or photo.ratio == '9-21' %} row--xxl{% else %} row--xxxl{% endif %} is-closed" id="modal-{{photo.id}}" data-content-category="{{photo.location | slugify}}">
 
 
 
@@ -33,14 +36,6 @@
 
           {% include modal/modal-content-landscape.html  %}
 
-        {% endif %}
-
-
-
-        {% if include.type == "single" %}
-        <div class="modal__cta text--center">
-          <a href="{{site.baseurl}}/{{photo.group}}/the-journey#{{photo.id}}" class="btn btn--large btn--primary">Discover the story behind the shot</a>
-        </div>
         {% endif %}
 
       </div>
