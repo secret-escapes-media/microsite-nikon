@@ -9,16 +9,10 @@
   {% endif %}
 
 
-  {% include banner/components/location.html %}
+  {% include banner/components/photo-meta.html %}
 
 
-  <div class="banner__overlay">
-    {% unless page.id == 'overview' %}
-    <div class="banner__overlay-title"></div>
-    {% endunless %}
-  </div>
-
-  <div class="banner__bg" style="background-image: url('{{site.baseurl}}/img/bg/banner/{{page.id}}.jpg');" data-location="{{page.banner.location}}"></div>
+  {% include banner/components/background.html %}
 
 
   {% include banner/components/nav.html %}

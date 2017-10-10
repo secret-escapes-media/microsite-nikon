@@ -8,9 +8,12 @@ layout: default
 
   <div class="intro{% if page.layout == 'guide' %} intro--guide{% endif %} text--white">
     <div class="section row row--padding intro__content row--7-5-gutters">
+
       <div class="col">
         {{page.intro}}
+        <a href="#journey" class="btn btn--sm btn--outline">Start the journey</a>
       </div>
+
       <div class="col intro__col-right">
         {% for photographer in page.photographers %}
           <div class="intro__photographer">
@@ -24,74 +27,76 @@ layout: default
           {% unless forloop.last %}<hr />{% endunless %}
         {% endfor %}
       </div>
+
     </div>
   </div>
 
 
+  <section class="journey" id="journey">
+    {% for section in page.sections %}
+    <div class="journey vpad--xxl text--white {% cycle 'bg--grey-darkest','bg--grey-darker' %}" id="{{section.title | slugify}}">
 
-  {% for section in page.sections %}
-  <section class="journey vpad--xxl text--white {% cycle 'bg--grey-darkest','bg--grey-darker' %}" id="{{section.title | slugify}}">
 
 
+      <div class="journey__title row row--padding row--8-4-gutters vpad-bottom--xxl">
 
-    <div class="journey__title row row--padding row--7-5-gutters vpad-bottom--xxl">
+        <div class="col">
+          <span class="journey__title-meta title title--super title--xxs title--kerning">
+            <img src="{{site.baseurl}}/img/icons/icon-clock.png" class="js-svg-swap journey__title-meta-icon" width="28">
+            {{section.time}}
+            <img src="{{site.baseurl}}/img/icons/icon-pin.png" class="js-svg-swap journey__title-meta-icon" width="28">
+           {{section.coordinates}}
+          </span>
 
-      <div class="col">
-        <span class="journey__title-meta title title--super title--xxs title--kerning">
-          <img src="{{site.baseurl}}/img/icons/icon-clock.png" class="js-svg-swap journey__title-meta-icon" width="28">
-          {{section.time}}
-          <img src="{{site.baseurl}}/img/icons/icon-pin.png" class="js-svg-swap journey__title-meta-icon" width="28">
-         {{section.coordinates}}
-        </span>
+          <h2 class="title title--xxxl title--bold title--upper title--kerning">{{section.title}}</h2>
 
-        <h2 class="title title--xxxl title--bold title--upper title--kerning">{{section.title}}</h2>
-
-        <div class="journey__title-content">
-          {{section.content}}
+          <div class="journey__title-content">
+            {{section.content}}
+          </div>
         </div>
+
+        <div class="col">
+
+        </div>
+
       </div>
 
-      <div class="col">
 
-      </div>
+
+      {% for item in section.items %}
+        {% assign photo = photos | where: "id", item.id %}
+        {% for photo in photo %}
+
+          {% if photo.ratio == '3-2' or photo.ratio == '4-3' %}
+          <div class="journey__photo row--xxl" id="{{ item.id }}">
+          {% elsif photo.ratio == '16-9' or photo.ratio == '21-9' %}
+          <div class="journey__photo row--xxxl" id="{{ item.id }}">
+          {% elsif photo.ratio == '2-3' or photo.ratio == '3-4' %}
+          <div class="journey__photo journey__photo--portrait row--xxl" id="{{ item.id }}">
+          {% elsif photo.ratio == '9-16' or photo.ratio == '9-21' %}
+          <div class="journey__photo journey__photo--portrait row--xl" id="{{ item.id }}">
+          {% endif %}
+
+            <div class="journey__photo__image">
+              {% include components/photo.html ratio=photo.ratio %}
+            </div>
+
+            <div class="journey__photo__text">
+              <h3 class="title title--sm title--bold">{{photo.title}}</h5>
+              <h5 class="title"> Photo by <span class="title--bold">{{photo.photographer}}</span></h5>
+              <p>{{photo.content}}</p>
+            </div>
+
+          </div>
+
+        {% endfor %}
+      {% endfor %}
+
+
 
     </div>
-
-
-
-    {% for item in section.items %}
-      {% assign photo = photos | where: "id", item.id %}
-      {% for photo in photo %}
-
-        {% if photo.ratio == '3-2' or photo.ratio == '4-3' %}
-        <div class="journey__photo row--xxl" id="{{ item.id }}">
-        {% elsif photo.ratio == '16-9' or photo.ratio == '21-9' %}
-        <div class="journey__photo row--xxxl" id="{{ item.id }}">
-        {% elsif photo.ratio == '2-3' or photo.ratio == '3-4' %}
-        <div class="journey__photo journey__photo--portrait row--xxl" id="{{ item.id }}">
-        {% elsif photo.ratio == '9-16' or photo.ratio == '9-21' %}
-        <div class="journey__photo journey__photo--portrait row--xl" id="{{ item.id }}">
-        {% endif %}
-
-          <div class="journey__photo__image">
-            {% include components/photo.html ratio=photo.ratio %}
-          </div>
-
-          <div class="journey__photo__text">
-            <h3 class="title title--sm title--bold">{{photo.title}}</h5>
-            <h5 class="title"> Photo by <span class="title--bold">{{photo.photographer}}</span></h5>
-            <p>{{photo.content}}</p>
-          </div>
-
-        </div>
-
-      {% endfor %}
     {% endfor %}
-
-
-
   </section>
-  {% endfor %}
 
 
   <section class="section bg--grey-dark text--white">

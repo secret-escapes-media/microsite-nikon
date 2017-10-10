@@ -1,0 +1,25 @@
+<div class="banner__overlay">
+  {% unless page.id == 'overview' %}
+  <div class="banner__overlay-title"></div>
+  {% endunless %}
+</div>
+
+
+{% if page.banner.images.size > 1 %}
+
+  <div class="owl-carousel">
+    {% for image in page.banner.images %}
+      {% if image.photo-id %}
+      {% assign photo = photos | where: "id", image.photo-id %}
+        {% for photo in photo %}
+          <div class="banner__slide" style="background-image: url('{{site.baseurl}}/img/bg/banner/overview/{{image.image}}');" data-link="{{site.baseurl}}/{{image.link}}" data-photo="{{photo.id}}" data-photo-title="{{photo.title}}" data-photo-group="{{photo.group}}" data-photo-location="{{photo.location}}"></div>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+{% else %}
+
+  <div class="banner__bg" style="background-image: url('{{site.baseurl}}/img/bg/banner/{{page.id}}.jpg');" data-location="{{page.banner.location}}"></div>
+
+{% endif %}

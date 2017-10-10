@@ -6,40 +6,10 @@
   {% include banner/components/content.html %}
 
 
-  <div class="banner__info text--white">
-    <div class="row row--padding">
-
-      <div class="banner__info-left">
-        <a href="javascript:void();" class="banner__info-location js-slide-photo js-open-modal" data-modal="modal-photo" data-modal-id="{{photo.id}}">
-          <span class="title--bolder js-slide-photo-title">{{photo.title}}</span>, <span class="js-slide-photo-location">{{photo.location}}</span>
-        </a>
-      </div>
-
-      <div class="banner__info-right">
-        <a class="btn btn--slide-info btn--white btn--sm js-slide-photo-link" href="{{site.baseurl}}{{photo.group}}/the-journey">Get behind the lens</a>
-      </div>
-
-    </div>
-  </div>
+  {% include banner/components/photo-meta.html %}
 
 
-  <div class="banner__overlay">
-    {% unless page.id == 'overview' %}
-    <div class="banner__overlay-title"></div>
-    {% endunless %}
-  </div>
-
-
-  <div class="owl-carousel">
-    {% for image in page.banner.images %}
-      {% if image.photo-id %}
-      {% assign photo = photos | where: "id", image.photo-id %}
-        {% for photo in photo %}
-          <div class="banner__slide" style="background-image: url('{{site.baseurl}}/img/bg/banner/overview/{{image.image}}');" data-link="{{site.baseurl}}/{{image.link}}" data-photo="{{photo.id}}" data-photo-title="{{photo.title}}" data-photo-group="{{photo.group}}" data-photo-location="{{photo.location}}"></div>
-        {% endfor %}
-      {% endif %}
-    {% endfor %}
-  </div>
+  {% include banner/components/background.html %}
 
 
   {% include banner/components/nav.html %}

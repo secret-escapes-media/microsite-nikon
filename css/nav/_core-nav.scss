@@ -103,7 +103,7 @@ $nav-list-bp: 730px;
     @include transition;
     &:hover,
     &--current {
-      color: $orange;
+      color: $theme-primary;
       text-decoration: none;
     }
   }

@@ -1,5 +1,101 @@
-// standard classes for easy development
 
+
+/*=====================================
+ VARIABLES & MIXINS
+=====================================*/
+
+// breakpoints
+
+$xxxl: 1200px;
+$xxl:  970px;
+$xl:   800px;
+$lg:   650px;
+$md:   450px;
+$sm:   330px;
+
+@mixin bp($width){
+  @if $width == xxxl { @media (min-width:$xxxl) {@content;} }
+  @if $width == xxl  { @media (min-width:$xxl)  {@content;} }
+  @if $width == xl   { @media (min-width:$xl)   {@content;} }
+  @if $width == lg   { @media (min-width:$lg)   {@content;} }
+  @if $width == md   { @media (min-width:$md)   {@content;} }
+  @if $width == sm   { @media (min-width:$sm)   {@content;} }
+  @else              { @media (min-width:$width){@content;} }
+}
+
+@mixin bp-vertical {
+  @media (max-height:$md) and (max-width:$lg) { @content; }
+}
+
+// colours
+
+$white:          #fff;
+$grey-lightest:  #f2f5f7;
+$grey-lighter:   #dadcdf;
+$grey-light:     #a1a5a9;
+$grey:           #626569;
+$grey-dark:      #202426;
+$grey-darker:    #15181b;
+$grey-darkest:   #0c0d0e;
+$black:          #000000;
+$orange-lighter: #feddb7;
+$orange-light:   #fdbe77;
+$orange:         #ff8c00;
+$orange-dark:    #e67812;
+$orange-darker:  #d66000;
+
+$headline:    $grey-darker;
+$text:        $grey;
+$text-dark:   $grey-darkest;
+$text-light:  $grey-light;
+$text-white:  $grey-lightest;
+
+$theme-primary: #ffe600;
+$theme-secondary: #000000;
+
+// units scale used for everything, type, sizes, spacing, etc
+// http://www.modularscale.com/?14,16&px&1.5
+
+$s16: 25.629rem;
+$s15: 19.527rem;
+$s14: 17.086rem;
+$s13: 13.018rem;
+$s12: 11.391rem;
+$s11: 8.679rem;
+$s10: 7.594rem;
+$s9:  5.786rem;
+$s8:  5rem;
+$s7:  3.8rem;
+$s6:  3.375rem;
+$s5:  2.571rem;
+$s4:  2.25rem;
+$s3:  1.714rem;
+$s2:  1.5rem;
+$s1:  1.243rem;
+$s0:  1rem;
+$s-1: .82rem;
+$s-2: .767rem;
+$s-3: .608rem;
+$s-4: .544rem;
+$s-5: .439rem;
+$s-6: .396rem;
+
+// z-index
+
+$z-overlay-upper:   30;
+$z-overlay:         25;
+$z-nav-upper:       20;
+$z-nav:             15;
+$z-content-overlay: 10;
+$z-content-upper:   5;
+$z-content:         0;
+$z-background:      -1;
+
+
+
+/*=====================================
+ STANDARD CLASSES FOR EASY DEVELOPMENT
+=====================================*/
 
 // enable 100% height
 body, html {

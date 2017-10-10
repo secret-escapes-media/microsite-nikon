@@ -19,6 +19,9 @@
 
     {% include modal/components/photo-details.html %}
 
+    {% if include.type == "single" %}
+    <a href="{{site.baseurl}}/{{photo.group}}/the-journey/" class="btn btn--primary btn--sm">Get behind the lens</a>
+    {% endif %}
   </div>
 
 </div>

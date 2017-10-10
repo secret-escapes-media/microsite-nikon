@@ -73,20 +73,14 @@ $modaltransition-distance: 4em;
     & .title { color: $white; }
     // Modal title
     &__title {
-      padding: 1em 2em;
+      padding: 0 2em 1em 2em;
+      position: relative;
+      border-bottom: 1px solid rgba($white,0.1);
       &-cta {
         position: absolute;
-        bottom: 0;
         top: 0;
-        left: 0;
         right: 0;
-        text-align: right;
-        & span {
-          display: block;
-          float: right;
-          padding: 1em 2em;
-          margin: 1em;
-        }
+        margin-top: 0;
       }
     }
     // Modal image
@@ -106,9 +100,8 @@ $modaltransition-distance: 4em;
       &-photographer {
         display: inline-block;
         width: 3em;
-        vertical-align: top;
         margin-right: 0.5em;
-        margin-top: -1em;
+        vertical-align: middle;
       }
       &-description {}
       &-details { border-left: 1px solid rgba($white,0.1); padding-left: 2em; }
@@ -129,7 +122,6 @@ $modaltransition-distance: 4em;
 
     &--landscape { margin: 0 2em; }
     &--landscape &__img {
-      border-top: 2px solid $theme-primary;
       border-bottom: 2px solid $theme-primary;
       margin: 0 -2em;
     }

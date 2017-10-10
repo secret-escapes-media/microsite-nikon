@@ -26,7 +26,8 @@ layout: default
           </a>
         </div>
         <div class="bob__text">
-          {{ subpage.intro }}
+          <p class="text--lg">{{ subpage.intro | strip_html | truncate: 200 }}</p>
+          <a href="{{site.baseurl}}{{subpage.url}}" class="btn btn--yellow">Read more</a>
         </div>
       </div>
 
