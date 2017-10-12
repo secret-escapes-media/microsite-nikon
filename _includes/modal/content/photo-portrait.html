@@ -1,0 +1,27 @@
+<div class="modal__content modal__content--portrait row--6-6 row--valign">
+
+  <div class="col modal__content__img bg-img bg-img--3-4" style="background-image:url({{site.baseurl}}/img/content/{{item.page}}/photos/{{item.id}}.jpg);')"></div>
+
+  <div class="col modal__content__text text--white">
+
+    <h3 class="title title--sm title--bolder title--upper">{{item.title}}</h3>
+    <hr>
+
+    <h5 class="title">
+      <span class="modal__content__text-photographer bg-img--circle">
+        <img src="{{site.baseurl}}/img/content/{{item.page}}/photographer-{{item.photographer|slugify}}.jpg" alt="">
+      </span>
+      Photo by <span class="title--bold">{{item.photographer}}</span>
+    </h5>
+    <p>{{item.content}}</p>
+
+    <hr>
+
+    {% include modal/components/photo-details.html %}
+
+    {% if include.type == "single" %}
+    <a href="{{site.baseurl}}/{{item.page}}/the-journey/" class="btn btn--primary btn--sm">Get behind the lens</a>
+    {% endif %}
+  </div>
+
+</div>

@@ -1,0 +1,33 @@
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvcJtBKtS2zAqS-nk2AsFJvpb0L37dDjg&callback=initMap" async defer></script>
+
+<script>
+
+
+function initMap() {
+
+  {% for section in page.sections %}
+    {% for item in section.items %}
+      {% assign photo = photos | where: "id", item.id %}
+      {% for photo in photo %}
+      {% if photo.coordinates %}
+
+        var {{photo.id|replace:'-',''}}_map = new google.maps.Map(document.getElementById('{{photo.id|replace:'-',''}}_map'), {
+          zoom: {{page.map-zoom}},
+          scrollwheel:  false,
+          center: new google.maps.LatLng( {{photo.coordinates}} ),
+          disableDefaultUI: true,
+          styles: {% include map/style.html %}
+        });
+        var marker = new google.maps.Marker({
+          position: new google.maps.LatLng( {{photo.coordinates}} ),
+          map: {{photo.id|replace:'-',''}}_map
+        });
+
+      {% endif %}
+      {% endfor %}
+    {% endfor %}
+  {% endfor %}
+
+}
+
+</script>

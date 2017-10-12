@@ -1,6 +1,6 @@
 {% if include.static == "true" %}
 
-  <div class="photo bg-img bg-img--{% if include.ratio %}{{include.ratio}}{% else %}16-9{% endif %}" style="background-image:url({{site.baseurl}}/img/content/{{photo.group}}/photos/{{photo.id}}.jpg);">
+  <div class="photo bg-img bg-img--{% if photo.orientation == 'portrait' %}3-4{% else %}16-9{% endif %}" style="background-image:url({{site.baseurl}}/img/content/{{photo.page}}/photos/{{photo.id}}.jpg);">
 
     {% if include.caption %}
       <div class="bg-img__details">
@@ -15,9 +15,10 @@
 
   <a
     href="javascript:void(0);"
-    class="js-open-modal photo bg-img bg-img--{% if include.ratio %}{{include.ratio}}{% else %}16-9{% endif %}"
-    data-modal="modal-photo" data-modal-id="{{photo.id}}"
-    style="background-image:url({{site.baseurl}}/img/content/{{photo.group}}/photos/{{photo.id}}.jpg);">
+    class="js-open-modal photo bg-img bg-img--{% if photo.orientation == 'portrait' %}3-4{% else %}16-9{% endif %}"
+    {% if include.carousel-group %}data-modal-group="{{include.carousel-group}}"{% endif %}
+    data-modal-item="{{photo.id}}"
+    style="background-image:url({{site.baseurl}}/img/content/{{photo.page}}/photos/{{photo.id}}.jpg);">
 
     {% if include.caption %}
       <div class="bg-img__details">

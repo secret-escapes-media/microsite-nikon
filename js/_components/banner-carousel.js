@@ -1,18 +1,18 @@
 
 
-/* =========================================
+// ========================================
 //  BANNER IMAGE SLIDER
-// ========================================*/
+// ========================================
 
 
-var homeCarousel          = $('.owl-carousel'),
+var homeCarousel          = $('.banner__carousel'),
     carouselContainer     = $('.banner--carousel, .banner__slide'),
     carouselPhotoID       = $('.js-slide-photo'),
     carouselPhotoTitle    = $('.js-slide-photo-title'),
     carouselPhotoLocation = $('.js-slide-photo-location'),
     carouselPhotoLink     = $('.js-slide-photo-link'),
     activeSlide           = $('.owl-item.active > .banner__slide'),
-    transitionSpeed       = 1250
+    transitionSpeed       = 1250;
 
 homeCarousel.owlCarousel({
   items:1,
@@ -27,7 +27,7 @@ homeCarousel.owlCarousel({
   smartSpeed: transitionSpeed,
   touchDrag: false,
   mouseDrag: false,
-  callbacks:true,
+  callbacks:true
 });
 
 
@@ -38,7 +38,7 @@ function sliderContentRefresh(){
       currentPhotoTitle    = $('.owl-item.active > .banner__slide').data('photo-title'),
       currentPhotoLocation = $('.owl-item.active > .banner__slide').data('photo-location'),
       currentPhotoGroup    = $('.owl-item.active > .banner__slide').data('photo-group');
-  carouselPhotoID.data('modal-id', currentPhotoID);
+  carouselPhotoID.data('modal-item', currentPhotoID);
   carouselPhotoTitle.text(currentPhotoTitle);
   carouselPhotoLocation.text(currentPhotoLocation);
   // can this be more dynamic?

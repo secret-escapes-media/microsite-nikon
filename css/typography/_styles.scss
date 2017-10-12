@@ -32,6 +32,7 @@ body {
   &--right    { text-align: right; }
   &--center   { text-align: center; }
   &--upper    { text-transform: uppercase; }
+  &--italic   { font-style: italic; }
   &--black    { color: $text-dark; }
   &--white    {
     color: $white;

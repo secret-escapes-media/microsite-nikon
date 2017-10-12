@@ -10,7 +10,6 @@
     {% include page/tracking.html %}
 
 
-
     <div class="site__content">
 
       {% include page/header.html %}
@@ -23,29 +22,20 @@
         {% include banner/default.html %}
       {% endif %}
 
-      {{ content }}
+      <div class="page__content">
+        {{ content }}
 
-      {% unless page.id == 'competition' %}
-        {% include components/competition-promo.html %}
-      {% endunless %}
+        {% unless page.id == 'competition' %}
+          {% include components/competition-promo.html %}
+        {% endunless %}
+      </div>
 
       {% include page/footer.html %}
 
     </div><!-- END .site__content -->
 
 
-
-    {% if page.layout == "journey" %}
-      {% include modal/modal-gallery.html type="carousel" %}
-    {% else %}
-      {% include modal/modal-gallery.html type="single" %}
-    {% endif %}
-
-    {% if page.layout == 'guide' or page.layout == 'journey' or page.layout == 'group' %}
-      {% include modal/modal-video.html type="single" %}
-    {% elsif page.id == 'overview' %}
-      {% include modal/modal-video.html type="carousel" %}
-    {% endif %}
+    {% include modal/modal.html %}
 
 
   </body>

@@ -1,0 +1,38 @@
+
+
+
+{% assign modal-items = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york | concat: site.data.videos %}
+
+
+
+<div class="js-modal modal is-closed">
+  <div class="js-close-modal modal__close"></div>
+
+  <div class="js-modal-nav modal__nav modal__nav--next" data-nav-direction="next"></div>
+  <div class="js-modal-nav modal__nav modal__nav--previous" data-nav-direction="previous"></div>
+
+  <div class="modal__wrap">
+
+    {% for item in modal-items %}
+
+    <div
+      class="modal__item modal__item--{{item.id}} is-closed"
+      id="modal-{{item.id}}"
+      data-group-page="{{item.page}}"
+      data-group-section="{{item.section}}">
+
+      {% if item.orientation == 'portrait' %}
+        {% include modal/content/photo-portrait.html %}
+      {% elsif item.orientation == 'landscape' %}
+        {% include modal/content/photo-landscape.html %}
+      {% else %}
+        {% include modal/content/video.html %}
+      {% endif %}
+
+    </div>
+
+    {% endfor %}
+
+  </div>
+
+</div>

@@ -45,15 +45,16 @@ gulp.task('js', function(){
       // custom js - with on doc ready wrapper
       './js/_components/on-ready/start.js',
 
-        // components
-        './js/_components/standard.js',
-        './js/_components/modal.js',
-        './js/_components/offer-countdown.js',
-        './js/_components/banner-carousel.js',
-        './js/_components/page-nav.js',
+      // components
+      './js/_components/standard.js',
+      './js/_components/modal.js',
+      './js/_components/offer-countdown.js',
+      './js/_components/banner-carousel.js',
+      './js/_components/page-nav.js',
+      './js/_components/accordion.js',
 
-        // custom js for project
-        './js/script.js',
+      // custom js for project
+      './js/script.js',
 
       './js/_components/on-ready/end.js'
       // end custom js

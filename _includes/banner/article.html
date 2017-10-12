@@ -23,7 +23,21 @@
 
         <hr class="hr--margin">
 
-        <a href="javascript:void(0);" data-modal="modal-video" data-modal-id="{{page.group}}-{{page.layout}}" class="js-open-modal btn btn--outline">Watch video</a>
+        {% for photographer in page.photographers %}
+          <div class="photographer">
+            <div class="photographer__title accordion__trigger" data-target="{{photographer.title|slugify}}-content">
+              <img src="{{site.baseurl}}/img/content/{{page.group}}/photographer-{{photographer.title|slugify}}.jpg" width="60" class="photographer-image bg-img--circle">
+              <span class="photographer-title">
+                <h4 class="title title--xxxs title--bold">{{photographer.title}}</h4>
+                <h5 class="title title--bold title--upper title--kerning text--sm">{{photographer.subtitle}}</h5>
+              </span>
+            </div>
+            <div class="photographer__content accordion" id="{{photographer.title|slugify}}-content">
+              <p>{{photographer.content}}</p>
+            </div>
+          </div>
+          {% unless forloop.last %}<hr class="hr--margin">{% endunless %}
+        {% endfor %}
 
       </div>
     </div>

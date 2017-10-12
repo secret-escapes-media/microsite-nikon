@@ -2,115 +2,122 @@
 layout: default
 ---
 {% assign photos = site.data[page.group] %}
-<div class="page__content">
+
+{% capture firstItem %}{% for section in page.sections limit:1 %}{% for item in section.items limit:1 %}{{item.id}}{% endfor %}{% endfor %}{% endcapture %}
+
+{% capture expert %}{% for photographer in page.photographers %}{% if photographer.expert %}{{photographer.title}}{% endif %}{% endfor %}{% endcapture %}
 
 
 
-  <div class="intro{% if page.layout == 'guide' %} intro--guide{% endif %} text--white">
-    <div class="section row row--padding intro__content row--7-5-gutters">
+<div class="intro{% if page.layout == 'guide' %} intro--guide{% endif %} text--white">
+  <div class="section row row--padding intro__content row--6-6-gutters">
 
-      <div class="col">
-        {{page.intro}}
-        <a href="#journey" class="btn btn--sm btn--outline">Start the journey</a>
+    <div class="col">
+
+      <a href="javascript:void(0);" data-modal-item="{{page.group}}-journey" class="js-open-modal intro__video bg-img bg-img--16-9 bg--grey-darkest bg-img--rounded">
+        <div class="bg-img__content">
+          <img src="{{site.baseurl}}/img/icons/icon-play.png" class="js-svg-swap banner__video-link__icon" alt="Play">
+        </div>
+        <div class="bg-img__bg" style="background-image: url({{site.baseurl}}/img/content/{{page.group}}/video-poster.jpg);"></div>
+      </a>
+
+      {{page.intro}}
+
+      <a href="#journey" class="btn btn--sm btn--primary">Start the journey</a>
+      <a href="javascript:void(0);" class="btn btn--sm btn--outline js-open-modal" data-modal-group="page" data-modal-item="{{firstItem}}">View the gallery</a>
+
+    </div>
+
+    <div class="col">
+      <div class="intro__expert">
+        <h5 class="intro__expert__title title title--upper title--kerning title--bold">Craig's top tips</h5>
+        {{page.intro-expert}}
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<section class="journey" id="journey">
+  {% for section in page.sections %}
+  <div class="journey vpad--xxl text--white {% cycle 'bg--grey-darkest','bg--grey-darker' %}" id="{{section.title | slugify}}">
+
+
+
+    <div class="journey__title row row--padding vpad-bottom--xl">
+
+      <h2 class="title title--xxxl title--bold title--upper title--kerning">{{section.title}}</h2>
+
+      <div class="journey__title-meta title title--super title--xxs title--kerning">
+        <img src="{{site.baseurl}}/img/icons/icon-pin.png" class="js-svg-swap journey__title-meta-icon" width="28">
+       {{section.coordinates}}
       </div>
 
-      <div class="col intro__col-right">
-        {% for photographer in page.photographers %}
-          <div class="intro__photographer">
-            <img src="{{site.baseurl}}/img/content/{{page.group}}/photographer-{{photographer.title|slugify}}.jpg" width="60" class="intro__photographer-image bg-img--circle">
-            <span class="intro__photographer-title">
-              <h4 class="title title--xxxs title--bold">{{photographer.title}}</h4>
-              <h5 class="title title--sub title--upper title--kerning">{{photographer.subtitle}}</h5>
-            </span>
-          </div>
-          <p>{{photographer.content}}</p>
-          {% unless forloop.last %}<hr />{% endunless %}
-        {% endfor %}
+      <div class="journey__title-content">
+        {{section.content}}
       </div>
 
     </div>
-  </div>
-
-
-  <section class="journey" id="journey">
-    {% for section in page.sections %}
-    <div class="journey vpad--xxl text--white {% cycle 'bg--grey-darkest','bg--grey-darker' %}" id="{{section.title | slugify}}">
 
 
 
-      <div class="journey__title row row--padding row--8-4-gutters vpad-bottom--xxl">
+    {% for item in section.items %}
 
-        <div class="col">
-          <span class="journey__title-meta title title--super title--xxs title--kerning">
-            <img src="{{site.baseurl}}/img/icons/icon-clock.png" class="js-svg-swap journey__title-meta-icon" width="28">
-            {{section.time}}
-            <img src="{{site.baseurl}}/img/icons/icon-pin.png" class="js-svg-swap journey__title-meta-icon" width="28">
-           {{section.coordinates}}
-          </span>
-
-          <h2 class="title title--xxxl title--bold title--upper title--kerning">{{section.title}}</h2>
-
-          <div class="journey__title-content">
-            {{section.content}}
-          </div>
-        </div>
-
-        <div class="col">
-
-        </div>
-
-      </div>
-
-
-
-      {% for item in section.items %}
+      {% if forloop.first %}
+        <div class="journey__photo journey__photo--large row" id="{{ item.id }}">
+      {% else %}
         {% assign photo = photos | where: "id", item.id %}
         {% for photo in photo %}
-
-          {% if photo.ratio == '3-2' or photo.ratio == '4-3' %}
-          <div class="journey__photo row--xxl" id="{{ item.id }}">
-          {% elsif photo.ratio == '16-9' or photo.ratio == '21-9' %}
-          <div class="journey__photo row--xxxl" id="{{ item.id }}">
-          {% elsif photo.ratio == '2-3' or photo.ratio == '3-4' %}
+        {% if photo.orientation == 'portrait' %}
           <div class="journey__photo journey__photo--portrait row--xxl" id="{{ item.id }}">
-          {% elsif photo.ratio == '9-16' or photo.ratio == '9-21' %}
-          <div class="journey__photo journey__photo--portrait row--xl" id="{{ item.id }}">
-          {% endif %}
+        {% else %}
+          <div class="journey__photo row" id="{{ item.id }}">
+        {% endif %}
+        {% endfor %}
+      {% endif %}
 
-            <div class="journey__photo__image">
-              {% include components/photo.html ratio=photo.ratio %}
-            </div>
+      {% assign photo = photos | where: "id", item.id %}
+      {% for photo in photo %}
+        <div class="journey__photo__image">
+          {% include components/photo.html carousel-group="section" %}
+        </div>
 
-            <div class="journey__photo__text">
-              <h3 class="title title--sm title--bold">{{photo.title}}</h5>
-              <h5 class="title"> Photo by <span class="title--bold">{{photo.photographer}}</span></h5>
-              <p>{{photo.content}}</p>
-            </div>
+        <div class="journey__photo__content">
 
+          <div class="journey__photo__text">
+            <h3 class="title title--sm title--bold">{{photo.title}}</h5>
+            <h5 class="title title--upper title--kerning"> Photo by <span class="title--bold">{{photo.photographer}}</span></h5>
+            <p>{{photo.content}}</p>
           </div>
 
+          {% if photo.coordinates %}
+          <div class="journey__photo__map">
+            <div id="{{photo.id|replace:'-',''}}_map" class="journey__photo__map-inner"></div>
+          </div>
+          {% endif %}
+
+        </div>
         {% endfor %}
-      {% endfor %}
 
+      </div>
 
-
-    </div>
     {% endfor %}
-  </section>
-
-
-  <section class="section bg--grey-dark text--white">
-    <div class="row row--xl vpad--lg text--center">
-      <h3 class="title title--md title--bold title--upper">Continue exploring {{page.group}}</h3>
-      <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cumque, assumenda deleniti ad laudantium itaque earum illum perferendis molestias saepe!</p>
-      <a href="{{site.baseurl}}/{{page.group}}/the-guide" class="btn btn--primary btn--pulse">Explore our travel guide</a>
-    </div>
-  </section>
 
 
 
+  </div>
+  {% endfor %}
+</section>
 
-</div><!-- END .page__content -->
+<section class="section bg--grey-dark text--white">
+  <div class="row row--xl vpad--lg text--center">
+    <h3 class="title title--lg title--bold">Continue exploring {{page.group}}</h3>
+    <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cumque, assumenda deleniti ad laudantium itaque earum illum perferendis molestias saepe!</p>
+    <a href="{{site.baseurl}}/{{page.group}}/the-guide" class="btn btn--primary btn--pulse">Explore our travel guide</a>
+  </div>
+</section>
 
 
 
+{% include map/map.html %}

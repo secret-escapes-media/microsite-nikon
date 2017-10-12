@@ -7,7 +7,7 @@
 
 {% if page.banner.images.size > 1 %}
 
-  <div class="owl-carousel">
+  <div class="banner__carousel owl-carousel">
     {% for image in page.banner.images %}
       {% if image.photo-id %}
       {% assign photo = photos | where: "id", image.photo-id %}

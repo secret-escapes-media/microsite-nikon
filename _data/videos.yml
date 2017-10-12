@@ -3,18 +3,18 @@
 #  DESTINATION VIDEO
 #==========================#
 
-- group: inspire
-  location: iceland
+- page: iceland
+  section: guide
   id: iceland-guide
   video-id: GBejmOUoG_I
 
-- group: inspire
-  location: morocco
+- page: morocco
+  section: guide
   id: morocco-guide
   video-id: GBejmOUoG_I
 
-- group: inspire
-  location: new-york
+- page: new-york
+  section: guide
   id: new-york-guide
   video-id: GBejmOUoG_I
 
@@ -23,17 +23,17 @@
 #  BEHIND THE SCENES
 #==========================#
 
-- group: bts
-  location: iceland
+- page: iceland
+  section: journey
   id: iceland-journey
   video-id: GBejmOUoG_I
 
-- group: bts
-  location: morocco
+- page: morocco
+  section: journey
   id: morocco-journey
   video-id: GBejmOUoG_I
 
-- group: bts
-  location: new-york
+- page: new-york
+  section: journey
   id: new-york-journey
   video-id: GBejmOUoG_I

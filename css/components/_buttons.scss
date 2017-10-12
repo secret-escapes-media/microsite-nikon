@@ -20,6 +20,7 @@
   &:hover { background-color: $orange-dark; }
 
   * + & { margin-top: 1.5em; }
+  & + & { margin-left: 1em; }
 
   &--sm { padding: $s0 $s4; font-size: $s-2; }
   &--lg { font-size: $s0; }

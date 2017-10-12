@@ -11,27 +11,25 @@ intro: >
 
 ---
 {% assign photos = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york %}
-<div class="page__content">
 
 
 
-  {% include page/intro.html %}
+{% include page/intro.html %}
 
 
 
-  <div class="row row--100 row--4-4-4">
-    <div class="col bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/content/competition/01.jpg);"></div>
-    <div class="col bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/content/competition/02.jpg);"></div>
-    <div class="col bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/content/competition/03.jpg);"></div>
+<div class="row row--100 row--4-4-4">
+  <div class="col bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/content/competition/01.jpg);"></div>
+  <div class="col bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/content/competition/02.jpg);"></div>
+  <div class="col bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/content/competition/03.jpg);"></div>
+</div>
+
+
+<div class="section bg--grey-darker text--white" id="enter">
+  <div class="row row--padding row--xl text--center">
+    <h4 class="title title--sm title--bold">Enter below to be in to win!</h4>
   </div>
-
-
-  <div class="section bg--grey-darker text--white" id="enter">
-    <div class="row row--padding row--xl text--center">
-      <h4 class="title title--sm title--bold">Enter below to be in to win!</h4>
-    </div>
-  </div>
+</div>
 
 
 
-</div><!-- END .page__content -->

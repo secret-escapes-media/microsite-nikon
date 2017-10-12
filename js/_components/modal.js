@@ -5,11 +5,11 @@
 // =========================================
 
 
-var modalWrap       = $('.js-modal,.modal__wrap,.modal__item'),
+var modal           = $('.js-modal'),
+    modalWrap       = $('.js-modal,.modal__wrap,.modal__item'),
     modalLaunchBtn  = $('.js-open-modal'),
     modalCloseBtn   = $('.js-close-modal'),
     modalTransition = 300; // must be the same as CSS transition duration
-
 
 
 // -----------------------------------------
@@ -19,16 +19,19 @@ function modalOpen(event){
 
   event.preventDefault();
 
-  var target = $(event.currentTarget).data('modal');
-  var modal = $('.js-modal#' + target);
+  if ( $(event.currentTarget).attr('data-modal-group') ) {
+    var modalGroup = $(event.currentTarget).data('modal-group');
+    modal.addClass('modal--carousel').addClass('modal--carousel-' + modalGroup);
+    modal.data(modalGroup);
+  }
 
   // hides all modal content
   $('.modal__item').addClass('is-closed').hide();
   // show specific modal content from element data attribute
-  var modalContent   = $(event.currentTarget).data('modal-id'),
-      modalContentId = '.modal__item--' + modalContent;
+  var modalItemID   = $(event.currentTarget).data('modal-item'),
+      modalItem = '.modal__item--' + modalItemID;
 
-  $(modalContentId).removeClass('is-closed').addClass('is-open').show();
+  $(modalItem).removeClass('is-closed').addClass('is-open').show();
   // disable scrolling on background content (doesn't work iOS)
   $('body').addClass('disable-scroll');
   // open modal
@@ -52,7 +55,7 @@ function modalClose(event){
   }, 280);
   // close modal with fade
   $('.js-modal.is-open').fadeOut(modalTransition, function(){
-    $(this).removeClass('is-open').addClass('is-closed');
+    $(this).removeClass('is-open').removeClass('modal--carousel').addClass('is-closed');
     $('.modal__item.is-open').removeClass('is-open').addClass('is-closed');
   });
 }
@@ -93,37 +96,48 @@ $(document).keyup(function(event) {
 // Next button : launch next modal
 
 function launchNextModal(){
-  var currentModal          = $('.modal__item.is-open'),
-      currentModalCategory  = currentModal.data('content-category'),
-      nextModal             = currentModal.next('.modal__item'),
-      nextModalCategory     = nextModal.data('content-category'),
-      firstModal            = $('.modal__item[data-content-category="'+ currentModalCategory +'"]:first'),
-      lastModal             = $('.modal__item[data-content-category="'+ currentModalCategory +'"]:last');
+
+  var currentItem = $('.modal__item.is-open'),
+      nextItem    = currentItem.next('.modal__item');
+
+  if( modal.hasClass('modal--carousel-page') ){
+    var currentItemGroup    = currentItem.data('group-page'),
+        nextItemGroup       = nextItem.data('group-page'),
+        firstItem           = $('.modal__item[data-group-page="'+ currentItemGroup +'"]:first'),
+        lastItem            = $('.modal__item[data-group-page="'+ currentItemGroup +'"]:last');
+  }else if( modal.hasClass('modal--carousel-section') ){
+    var currentItemGroup    = currentItem.data('group-section'),
+        nextItemGroup       = nextItem.data('group-section'),
+        firstItem           = $('.modal__item[data-group-section="'+ currentItemGroup +'"]:first'),
+        lastItem            = $('.modal__item[data-group-section="'+ currentItemGroup +'"]:last');
+  }
+
+
 
   // hides the current modal
-  currentModal.addClass('is-closing-next').removeClass('is-open');
+  currentItem.addClass('is-closing-next').removeClass('is-open');
   // position next modal for animation
-  if (nextModal && currentModalCategory === nextModalCategory ) {
-    nextModal.addClass('is-next');
+  if (nextItem && currentItemGroup === nextItemGroup ) {
+    nextItem.addClass('is-next');
   } else {
-    firstModal.addClass('is-next');
+    firstItem.addClass('is-next');
   }
   // delay to allow for CSS transition
   setTimeout(function() {
-    currentModal.removeClass('is-closing-next').addClass('is-closed').hide();
+    currentItem.removeClass('is-closing-next').addClass('is-closed').hide();
   }, modalTransition);
 
-  if (nextModal && currentModalCategory === nextModalCategory ) {
+  if (nextItem && currentItemGroup === nextItemGroup ) {
     // shows next modal
-    nextModal.show().removeClass('is-closed is-next').addClass('is-opening');
+    nextItem.show().removeClass('is-closed is-next').addClass('is-opening');
     setTimeout(function() {
-      nextModal.removeClass('is-opening').addClass('is-open');
+      nextItem.removeClass('is-opening').addClass('is-open');
     }, modalTransition);
   } else {
     // isn't another modal in category so goes back to beginning
-    firstModal.show().removeClass('is-closed is-next').addClass('is-opening');
+    firstItem.show().removeClass('is-closed is-next').addClass('is-opening');
     setTimeout(function() {
-      firstModal.removeClass('is-opening').addClass('is-open');
+      firstItem.removeClass('is-opening').addClass('is-open');
     }, modalTransition);
   }
 
@@ -135,40 +149,54 @@ function launchNextModal(){
 // Previous button : launch previous modal
 
 function launchPreviousModal(){
-  var currentModal          = $('.modal__item.is-open'),
-      currentModalCategory  = currentModal.data('content-category'),
-      previousModal         = currentModal.prev('.modal__item'),
-      previousModalCategory = previousModal.data('content-category'),
-      firstModal            = $('.modal__item[data-content-category="'+ currentModalCategory +'"]:first'),
-      lastModal             = $('.modal__item[data-content-category="'+ currentModalCategory +'"]:last');
+  var currentItem = $('.modal__item.is-open'),
+      previousItem    = currentItem.prev('.modal__item');
+
+  if( modal.hasClass('modal--carousel-page') ){
+    var currentItemGroup    = currentItem.data('group-page'),
+        previousItemGroup       = previousItem.data('group-page'),
+        firstItem           = $('.modal__item[data-group-page="'+ currentItemGroup +'"]:first'),
+        lastItem            = $('.modal__item[data-group-page="'+ currentItemGroup +'"]:last');
+  }else if( modal.hasClass('modal--carousel-section') ){
+    var currentItemGroup    = currentItem.data('group-section'),
+        previousItemGroup       = previousItem.data('group-section'),
+        firstItem           = $('.modal__item[data-group-section="'+ currentItemGroup +'"]:first'),
+        lastItem            = $('.modal__item[data-group-section="'+ currentItemGroup +'"]:last');
+  }
+
+
 
   // hides the current modal
-  currentModal.addClass('is-closing-prev').removeClass('is-open');
-  // position next modal for animation
-  if (previousModal && currentModalCategory === previousModalCategory ) {
-    previousModal.addClass('is-prev');
+  currentItem.addClass('is-closing-prev').removeClass('is-open');
+  // position prev modal for animation
+  if (previousItem && currentItemGroup === previousItemGroup ) {
+    previousItem.addClass('is-prev');
   } else {
-    lastModal.addClass('is-prev');
+    lastItem.addClass('is-prev');
   }
   // delay to allow for CSS transition
   setTimeout(function() {
-    currentModal.removeClass('is-closing-prev').addClass('is-closed').hide();
+    currentItem.removeClass('is-closing-prev').addClass('is-closed').hide();
   }, modalTransition);
 
-  if (previousModal && currentModalCategory === previousModalCategory ) {
-    // shows previous in category
-    previousModal.show().removeClass('is-closed is-prev').addClass('is-opening');
+  if (previousItem && currentItemGroup === previousItemGroup ) {
+    // shows prev modal
+    previousItem.show().removeClass('is-closed is-prev').addClass('is-opening');
     setTimeout(function() {
-      previousModal.removeClass('is-opening').addClass('is-open');
+      previousItem.removeClass('is-opening').addClass('is-open');
     }, modalTransition);
   } else {
-    // isn't another modal in category so goes to last
-    lastModal.show().removeClass('is-closed is-prev').addClass('is-opening');
+    // isn't another modal in category so goes back to beginning
+    lastItem.show().removeClass('is-closed is-prev').addClass('is-opening');
     setTimeout(function() {
-      lastModal.removeClass('is-opening').addClass('is-open');
+      lastItem.removeClass('is-opening').addClass('is-open');
     }, modalTransition);
   }
 }
+
+
+
+
 
 // button press next/previous navigation
 $('.js-modal-nav').on('click', function(event) {

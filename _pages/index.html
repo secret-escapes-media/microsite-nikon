@@ -9,78 +9,83 @@ banner:
   title-sub: With Nikon
   images:
     - image: 01.jpg
-      photo-id: skogafoss-1
+      photo-id: skogafoss-bird
     - image: 02.jpg
-      photo-id: marrakech-1
+      photo-id: skogafoss-bird
     - image: 03.jpg
-      photo-id: rail-1
+      photo-id: skogafoss-bird
 
-foreword: >
-  <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus consequatur ex saepe tempore quia odio debitis omnis neque molestiae eos eius vitae temporibus.</p>
-  <p>Charum repellat explicabo quam quos labore optio veniam, molestias in nesciunt, quod numquam. Et dolor tempore, ex minus delectus, hic nemo officiis illo ullam. Tempora, consequatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quibusdam reiciendis atque autem est dolorum quos, ad dignissimos iste amet voluptate laudantium saepe? Commodi, quasi, asperiores. Est consequatur repellat magnam.</p>
-  <p>Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quibusdam reiciendis atque autem est dolorum quos, ad dignissimos iste amet voluptate laudantium saepe? Commodi, quasi, asperiores. Est consequatur repellat magnam.</p>
+intro: >
+  <p class="text--lg">Immerse yourself in effortlessly photogenic destinations with Secret Escapes and Nikon.</p>
+  <p class="text--lg">Explore our photo-journals of three stunning destinations. From the high-rise metropolis of New York, the magical serenity of Iceland’s landscapes, and the fevered riot of spice and colour emanating from the souks of Morocco, you’ll find inspired and candid shots to help illuminate these bucket-list destinations. We’ve sent three of our colleagues to each, and with the help of Nikon Ambassadors, have crafted curated photo-guides that will send your wanderlust reeling.</p>
+  <p class="text--lg">Open our photo album to start exploring...</p>
 
 ---
 {% assign photos = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york %}
-<div class="page__content">
 
 
 
-  <div class="section bg--grey-darker text--white">
-    <div class="row row--padding">
-      {{page.foreword}}
-    </div>
+<div class="section bg--grey-darker text--white">
+  <div class="row row--xl row--padding text--center">
+    {{page.intro}}
   </div>
+</div>
 
 
 
-  {% assign destinations = site.html_pages | where: "layout", "group" | sort: "nav-order" %}
-  <div class="section bg--grey-darkest text--white">
+{% assign destinations = site.html_pages | where: "layout", "group" | sort: "nav-order" %}
+<div class="section bg--grey-darkest text--white">
 
 
-    <div class="row row--padding">
-      {% for destination in destinations %}
-      <div class="bob">
+  <div class="row row--padding">
+    {% for destination in destinations %}
+    <div class="bob">
 
-        <div class="bob__image">
+      <div class="bob__image">
 
-          <a href="javascript:void(0);" data-modal="modal-video" data-modal-id="{{destination.id}}-guide" class="js-open-modal banner__video-link bg-img bg-img--16-9 bg--grey-darkest">
-            <div class="bg-img__content">
-              <img src="{{site.baseurl}}/img/icons/icon-play.png" class="js-svg-swap banner__video-link__icon" alt="Play">
-            </div>
-            <div class="bg-img__bg" style="background-image: url({{site.baseurl}}/img/content/{{destination.id}}/video-poster.jpg);"></div>
-          </a>
-
-          <div class="row--6-6-gutters">
-
-            <div class="col bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/{{destination.id}}-1.jpg);"></div>
-
-            <div class="col bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/{{destination.id}}-2.jpg);"></div>
-
+        <a href="javascript:void(0);" data-modal-item="{{destination.id}}-guide" data-modal-group="section" class="js-open-modal banner__video-link bg-img bg-img--16-9 bg--grey-darkest">
+          <div class="bg-img__content">
+            <img src="{{site.baseurl}}/img/icons/icon-play.png" class="js-svg-swap banner__video-link__icon" alt="Play">
           </div>
-        </div>
+          <div class="bg-img__bg" style="background-image: url({{site.baseurl}}/img/content/{{destination.id}}/video-poster.jpg);"></div>
+        </a>
 
-        <div class="bob__text">
-          <div class="title title--md title--bold">{{destination.title}}</div>
-          {{ destination.intro }}
-          <a href="{{site.baseurl}}{{destination.url}}" class="btn btn--outline">Discover {{destination.title}} now</a>
-        </div>
+        <div class="row--6-6-gutters">
 
+          {% for image in destination.intro-images %}
+          {% if image.photo-id %}
+            <a
+              href="javascript:void(0);"
+              class="js-open-modal photo col bg-img bg-img--4-3"
+              data-modal-item="{{image.photo-id}}"
+              style="background-image:url({{site.baseurl}}/img/content/{{page.id}}/{{destination.id}}-{{image.image}});"></a>
+          {% else %}
+            <div class="col bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/{{destination.id}}-{{image.image}});"></div>
+          {% endif %}
+        {% endfor %}
+
+        </div>
       </div>
-      {% endfor %}
+
+      <div class="bob__text">
+        <div class="title title--md title--bold">{{destination.title}}</div>
+        {{ destination.intro }}
+        <a href="{{site.baseurl}}{{destination.url}}" class="btn btn--outline">Discover {{destination.title}} now</a>
+      </div>
+
     </div>
-
-
-    <div class="row row--xl vpad--lg text--center">
-      <div class="title title--md title--bold">Get Equipped with Nikon</div>
-      <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cumque, assumenda deleniti ad laudantium itaque earum illum perferendis molestias saepe!</p>
-      <a href="{{site.baseurl}}/nikon-range" class="btn btn--primary btn--pulse">Explore the range</a>
-    </div>
-
-
+    {% endfor %}
   </div>
 
 
+  <div class="row row--xl vpad--lg text--center">
+    <div class="title title--md title--bold">Get Equipped with Nikon</div>
+    <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cumque, assumenda deleniti ad laudantium itaque earum illum perferendis molestias saepe!</p>
+    <a href="{{site.baseurl}}/nikon-range" class="btn btn--primary btn--pulse">Explore the range</a>
+  </div>
 
-</div><!-- END .page__content -->
+
+</div>
+
+
+

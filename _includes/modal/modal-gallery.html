@@ -24,18 +24,10 @@
 
 
 
-        {% if
-          photo.ratio == "9-21" or
-          photo.ratio == "9-16" or
-          photo.ratio == "3-4" or
-          photo.ratio == "2-3" %}
-
-          {% include modal/modal-content-portrait.html  %}
-
+        {% if photo.orientation == "portrait" %}
+          {% include modal/content/photo-portrait.html  %}
         {% else %}
-
-          {% include modal/modal-content-landscape.html  %}
-
+          {% include modal/content/photo-landscape.html  %}
         {% endif %}
 
       </div>

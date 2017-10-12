@@ -2,42 +2,38 @@
 layout: default
 ---
 {% assign photos = site.data[page.group] %}
-<div class="page__content">
 
 
 
-  {% include page/intro.html %}
+{% include page/intro.html %}
 
 
 
-  <section class="section bg--grey-darkest text--white">
-    <div class="row row--padding row--6-6-gutters">
+<section class="section bg--grey-darkest text--white">
+  <div class="row row--padding row--6-6-gutters">
 
-    {% assign subpages = site.html_pages | where: "group", page.id | sort: "path" | sort: "group-order" %}
-    {% for subpage in subpages %}
+  {% assign subpages = site.html_pages | where: "group", page.id | sort: "path" | sort: "group-order" %}
+  {% for subpage in subpages %}
 
-      <div class="bob">
-        <div class="bob__image">
-          <a href="{{site.baseurl}}{{subpage.url}}" class="bg-img bg-img--16-9 bg-img--xl-4-3 bg-img--rounded">
-            <div class="bg-img__content">
-              <span class="text--white title title--lg title--upper title--bold">{{ subpage.title }}</span>
-            </div>
-            <div class="bg-img__bg" style="background-image: url('{{ site.baseurl }}/img/bg/nav/{{subpage.id}}.jpg');"></div>
-          </a>
-        </div>
-        <div class="bob__text">
-          <p class="text--lg">{{ subpage.intro | strip_html | truncate: 200 }}</p>
-          <a href="{{site.baseurl}}{{subpage.url}}" class="btn btn--yellow">Read more</a>
-        </div>
+    <div class="bob">
+      <div class="bob__image">
+        <a href="{{site.baseurl}}{{subpage.url}}" class="bg-img bg-img--16-9 bg-img--xl-4-3 bg-img--rounded">
+          <div class="bg-img__content">
+            <span class="text--white title title--lg title--upper title--bold">{{ subpage.title }}</span>
+          </div>
+          <div class="bg-img__bg" style="background-image: url('{{ site.baseurl }}/img/bg/nav/{{subpage.id}}.jpg');"></div>
+        </a>
       </div>
-
-    {% endfor %}
-
+      <div class="bob__text">
+        <p class="text--lg">{{ subpage.intro | strip_html }}</p>
+        <a href="{{site.baseurl}}{{subpage.url}}" class="btn btn--yellow">Read more</a>
+      </div>
     </div>
-  </section>
 
+  {% endfor %}
 
+  </div>
+</section>
 
-</div><!-- END .page__content -->
 
 

@@ -24,18 +24,7 @@
     {% for video in modal-items %}
 
     <div class="modal__item modal__item--{{video.id}} is-closed" id="modal-{{video.id}}" data-content-category="{{video.group}}">
-      <div class="modal__content">
-
-        <div class="modal__content__video bg-img bg-img--16-9">
-          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{video.video-id}}?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-      </div>
-
-      <div class="modal__cta text--center">
-        <a href="{{site.baseurl}}/{{video.location}}/the-journey" class="btn btn--large btn--primary">Continue the journey</a>
-      </div>
-
+      {% include modal/content/video.html %}
     </div><!-- end modal__item -->
 
     {% endfor %}
