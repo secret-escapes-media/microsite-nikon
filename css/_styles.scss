@@ -33,13 +33,35 @@
     & .title { color: $headline; }
   }
 
+  &--video {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    .touch & { background-attachment: scroll; }
+
+    padding-bottom: $s14;
+    &:after {
+      content: "";
+      height: $s14;
+      width: 100%;
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      background-image: url('../img/icons/gradient--grey-darkest.png');
+      background-size: auto 100%;
+      background-repeat: repeat-x;
+      background-position: bottom;
+    }
+  }
+
   &__content {
     position: relative;
+    z-index: $z-content-upper;
     &:before {
       content: "";
       height: 2px;
       position: absolute;
-      z-index: $z-content;
       top: -2px;
       left: 0;
       right: 0;
@@ -71,10 +93,16 @@
   }
 
   &__video {
-    margin-top: -8em;
     z-index: $z-content-upper;
+    margin-top: -8em;
   }
 
+}
+
+.competition-promo {
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
 }
 
 
@@ -85,146 +113,43 @@
   vertical-align: middle;
   &-image {
     display: inline-block;
+    margin-right: 0.5em
   }
   &-title {
     display: inline-block;
-    padding: 0.5em 1em;
+    padding: 0.5em 0;
+  }
+  &-subtitle {
+    margin-left: 0.5em;
   }
   &__title {
     width: 100%; display: block;
     cursor: pointer;
   }
   &__content {
-    padding-top: 2em;
+    padding-top: 1em;
     width: 100%; display: block;
   }
 }
 
 
-/* ==========================================
-   JOURNEY PAGE
-   ======================================== */
 
-.journey {
 
-  &__title {
-    &-meta {
-      margin-bottom: 1em;
-      &-icon { max-width: 28px; max-height: 28px; }
-    }
-    &-content {
-      position: relative;
-      padding-left: 7em;
-      &:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 1.25em;
-        width: 5em;
-        height: 2px;
-        background-color: #ffffff;
-      }
+
+.testimonials {
+  position: relative;
+  &__carousel {
+    position: relative;
+  }
+  &__slide {
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    padding: $s10 0;
+    .flexbox & {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
     }
   }
-
-  &__photo {
-    @include layout(12 0);
-    &__image {
-      max-width: $xl;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    &__content {
-      padding: $s2 $s4;
-    }
-    &__map { display: none; }
-
-    & + & { margin-top: $s4; }
-
-    @include bp(xxl){
-      & + & { margin-top: $s8; }
-      .flexbox & {
-        display: flex;
-        align-items: center;
-      }
-      &__image { @include span(7); }
-      &__content {
-        @include span(5 last);
-      }
-      &__map {
-        display: block;
-        position: relative;
-        margin-top: $s2;
-        &:before {
-          display: block;
-          content: "";
-          width: 100%;
-          padding-top: 50%;
-        }
-        &-inner {
-          position: absolute;
-          height: 100%;
-          left: -($s2*2.5);
-          top: 0;
-          right: 0;
-        }
-      }
-      &:nth-child(odd){
-        .journey__photo__image { @include span(7 last); }
-        .journey__photo__content { @include span(5); }
-        .journey__photo__map-inner { left: 0; right: -($s2*2.5); }
-        .flexbox & {
-          display: flex;
-          align-items: center;
-          flex-direction: row-reverse;
-        }
-      }
-    } // end media query
-
-    &--portrait {
-      @include bp(lg){
-        & .journey__photo__image { @include span(5); }
-        & .journey__photo__content { @include span(7 last); }
-        &:nth-child(odd){
-          .journey__photo__image { @include span(5 last); }
-          .journey__photo__content { @include span(7); }
-        }
-      }
-    }
-
-    &--large {
-      .flexbox & {
-        display: block;
-        align-items: center;
-      }
-      @include bp(lg){
-        & .journey__photo__image { @include span(12); max-width: 100%; }
-        & .journey__photo__content { @include span(12); }
-        & .journey__photo__text {
-          @include span(7);
-          padding-right: $s2;
-        }
-        & .journey__photo__map {
-          @include span(5 last);
-          margin-top: -($s2*2.5);
-          &-inner {
-            position: absolute;
-            height: 100%;
-            left: 0;
-            top: 0;
-            right: 0;
-          }
-        }
-      }
-    }
-
-  }
-
-}
-
-
-
-.gm-style-cc {
-  opacity: 0.7;
-  & * { background-color: white; color: $grey-dark !important; }
 }

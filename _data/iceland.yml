@@ -2,55 +2,86 @@
 
 - page: iceland
   section: reynisfjara
-  id: dyrholaey
+  id: e-dyrholaey
   title: Dyrhólaey
   location: Reynisfjara
-  coordinates: 63.403238, -19.036316
-  photographer: Eleanor Cording Booth
+  coordinates:
+  photographer: Eleanor Cording-Booth
   content: I wish there was something or someone in the photo to give Dyrhólaey arch a sense of scale – it’s huge! If I were to take this again, I’d go further along towards the lighthouse to get more light through the arch and make more of a feature of it. That said, there’s something wild and moody about this image.
-
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/8.0
+  shutterspeed: 1/80
+  focallength: 18mm
 
 
 
 - page: iceland
   section: reynisfjara
-  id: dyrholaey-lighthouse
-  title: Dyrhólaey lighthouse
+  id: e-dyrholaey-lighthouse
+  title: Dyrhólaey Lighthouse
   location: Dyrhólaey, Reynisfjara
   coordinates: 63.402759, -19.131002
-  photographer: Eleanor Cording Booth
+  photographer: Eleanor Cording-Booth
   content: At first, I positioned myself further up the cliff to try and capture the lighthouse, but Craig suggested I move to another spot a few feet along to get the beach into the shot too. I love how this new sense of perspective gives the illusion that the beach is infinite, it continues as far as the eye can see.
-
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  lens: 18-105mm f/3.5-5.6
   aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  shutterspeed: 1/250
+  focallength: 18mm
 
 
 
 - page: iceland
   section: reynisfjara
-  id: reynisfjara-black-sands
-  title: Reynisfjara Black Sands
+  id: e-reynisfjara-black-sands
+  title: Black Sands
   location: Reynisfjara
   coordinates: 63.403238, -19.036316
-  photographer: Eleanor Cording Booth
+  photographer: Eleanor Cording-Booth
   content: I wanted to capture the texture and depth of the black and grey, so for this image, I zoomed in on a little cove where jet-black sand met the cliffside. Jagged rocks the colour of charred wood gave an otherworldly feel. To juxtapose with the monochrome, Craig suggested I get the grassy hillside into the frame – I love the added texture and pop of colour.
-
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  lens: 18-105mm f/3.5-5.6
   aperture: f/6.3
+  shutterspeed: 1/100
+  focallength: 75mm
+
+
+
+- page: iceland
+  section: reynisfjara
+  id: c-dyrholaey-rock
+  title: The Stack
+  location: Reynisfjara
+  coordinates:
+  photographer: Craig Howes
+  content:
+  orientation: landscape
+  camera: Nikon D850
+  lens: 24-70mm f/2.8
+  aperture: f/4.5
   shutterspeed: 1/320
-  focallength: 40mm
+  focallength: 27mm
+
+
+
+- page: iceland
+  section: reynisfjara
+  id: c-dyrholaey
+  title: Black Cliffs
+  location: Reynisfjara
+  coordinates:
+  photographer: Craig Howes
+  content:
+  orientation: landscape
+  camera: Nikon D850
+  lens: 24-70mm f/2.8
+  aperture: f/4.5
+  shutterspeed: 1/320
+  focallength: 27mm
 
 
 
@@ -59,130 +90,174 @@
 
 - page: iceland
   section: skogafoss
-  id: skogafoss-bird
-  title: Skógafoss Birds
+  id: e-skogafoss-bird
+  title: In Flight
   location: Skógafoss
   coordinates: 63.532082, -19.511344
-  photographer: Eleanor Cording Booth
+  photographer: Eleanor Cording-Booth
   content: Most photos of Skogafoss will be taken from the bottom showing the gargantuan waterfall in its entirety, but Craig suggested we go for a different and more interesting angle. We climbed up the steps towards the top but stopped midway where there’s a precarious (unofficial) path to the edge. It was from here that the waterfall felt its most dramatic, with birds swooping down and spray filling the void below like thick fog.
-
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/7.1
+  shutterspeed: 1/200
+  focallength: 18mm
 
 
 
 - page: iceland
   section: skogafoss
-  id: skogafoss-kvernufoss
+  id: e-skogafoss-kvernufoss
   title: Secret Falls
   location: Kvernufoss
   coordinates: 63.528637, -19.480905
-  photographer: Eleanor Cording Booth
+  photographer: Eleanor Cording-Booth
   content: Head to the right of Skogafoss, past the Skogar Folk Museum (which is worth a visit, with some cool turf houses to photograph) and just beyond. There is a secret waterfall that you can get really close to and even walk behind. This photo is taken from the beautiful walk that leads up to it. You would need a wide-angle lens to take a great shot from the inside the cave, behind the waterfall.
-
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/9.0
+  shutterspeed: 1/100
+  focallength: 35mm
 
 
 
 - page: iceland
   section: skogafoss
-  id: skogafoss-hobbit-house
-  title: Hobbit House
+  id: e-skogafoss-hobbit-house
+  title: Cliff House
   location: Skogafoss
   coordinates:
-  photographer: Eleanor Cording Booth
+  photographer: Eleanor Cording-Booth
   content: Just before we arrived at the waterfalls, we spotted this sweet little turf-roofed shelter, so we pulled up to take a couple of quick shots as it had such a whimsical ‘Hobbit house’ look to it, especially with the pointed shape of the rock looming behind it. The great thing about Iceland is quirky sights like this are everywhere if you’re prepared to get out and explore.
-
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
-
-
-
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/5.6
+  shutterspeed: 1/250
+  focallength: 18mm
 
 
 
 - page: iceland
-  section: horses-and-hills
-  id: horses
-  title: Wild horses
-  location:
+  section: skogafoss
+  id: c-inside-waterfall
+  title: Inside the Falls
+  location: Skogafoss
   coordinates:
-  photographer: Eleanor Cording Booth
-  content: For this shot, Craig recommended that I use my zoom lens and, with that, I tried to capture how close they were and the contrast between the colours of their coats. I like this image because the light is beautiful and I think there's a calm tenderness between the horses.
+  photographer: Craig Howes
+  content:
+  orientation: portrait
+  camera: Nikon D850
+  lens:
+  aperture:
+  shutterspeed:
+  focallength:
 
+
+
+- page: iceland
+  section: skogafoss
+  id: c-behind-waterfall
+  title: Behind the Falls
+  location: Skogafoss
+  coordinates: 63.403238, -19.036316
+  photographer: Craig Howes
+  content:
   orientation: landscape
-  camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  camera: Nikon D850
+  lens:
+  aperture:
+  shutterspeed:
+  focallength:
+
+
+
 
 
 
 - page: iceland
   section: horses-and-hills
-  id: dramatic-formations
+  id: e-horses
+  title: Wild Horses
+  location:
+  coordinates: 63.403238, -19.036316
+  photographer: Eleanor Cording-Booth
+  content: For this shot, Craig recommended that I use my zoom lens and, with that, I tried to capture how close they were and the contrast between the colours of their coats. I like this image because the light is beautiful and I think there's a calm tenderness between the horses.
+  orientation: landscape
+  camera: Nikon D7500
+  lens: 70-300mm f/4.5-6.3
+  aperture: f/4.5
+  shutterspeed: 1/250
+  focallength: 70mm
+
+
+
+- page: iceland
+  section: horses-and-hills
+  id: e-dramatic-formations
   title: Dramatic Formations
   location: Horses and hills
   coordinates: 63.403238, -19.036316
-  photographer: Eleanor Cording Booth
+  photographer: Eleanor Cording-Booth
   content: Using the zoom lens to shoot, I noticed how the fog was rolling in over this hillside like a thick white blanket, yet without being so low as to cover the gorge in the hillside below it. Craig helped me balance the light in the shot to capture the dark, moody hues in the landscape whilst still highlighting the eerie white fog above it.
-
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 70-300mm f/4.5-6.3
+  aperture: f/4.8
+  shutterspeed: 1/500
+  focallength: 145mm
 
 
 
 - page: iceland
   section: horses-and-hills
-  id: redhouse
+  id: e-redhouse
   title: Red House
   location: Horses and hills
   coordinates: 63.403238, -19.036316
-  photographer: Eleanor Cording Booth
+  photographer: Eleanor Cording-Booth
   content: I had just been talking about wanting to photograph a colourful house when we passed this bright red building standing on its own in the middle of nowhere. I was particularly drawn to the colour pop against the towering green hills that appear to fold into themselves in the background.
-
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 70-300mm f/4.5-6.3
+  aperture: f/6.0
+  shutterspeed: 1/250
+  focallength: 240mm
 
 
 
 - page: iceland
   section: horses-and-hills
-  id: brooding-peaks
-  title: Brooding peaks
+  id: e-brooding-peaks
+  title: Brooding Peaks
   location: Horses and hills
   coordinates: 63.403238, -19.036316
-  photographer: Eleanor Cording Booth
+  photographer: Eleanor Cording-Booth
   content: The light is just gorgeous here – I love how dark the mountains and the foreground are against the window of blue sky and the sliver of sunlight that runs along the hilltops. If anything epitomises how dramatic and changeable the weather is in Iceland, it's this photo. Again, I'm using my zoom lens in this photo as the mountains were so far in the distance and I wanted to capture the detail.
-
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 70-300mm f/4.5-6.3
+  aperture: f/8.0
+  shutterspeed: 1/250
+  focallength: 70mm
+
+
+
+- page: iceland
+  section: horses-and-hills
+  id: c-horse
+  title: A Portrait
+  location: Horses and hills
+  coordinates:
+  photographer: Craig Howes
+  content:
+  orientation: landscape
+  camera: Nikon D850
+  lens:
+  aperture:
+  shutterspeed:
+  focallength:
 
 
 
@@ -190,53 +265,67 @@
 
 
 - page: iceland
-  section: jokulsarlon-glacier
-  id: braving-the-elements
-  title: Braving the elements
-  location: Jökulsárlón Glacier
-  coordinates: 64.079635, -16.230912
-  photographer: Eleanor Cording Booth
+  section: jokulsarlon-lagoon
+  id: e-braving-the-elements
+  title: Braving the Elements
+  location: Jökulsárlón Lagoon
+  coordinates:
+  photographer: Eleanor Cording-Booth
   content: This photo is the only one where I’ve used a flash and to be honest, it was a total accident. I was lining up a shot of Craig to capture his infamous red coat against the blue ice and I had my flash on without realising. In the end, I preferred this photo to the one I intended to take as it makes the colour so vibrant and it also highlights the rain pouring down his jacket, so I get more of a sense of what it felt like to be there.
-
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/4.5
+  shutterspeed: 1/125
   focallength: 40mm
 
 
 
 - page: iceland
-  section: jokulsarlon-glacier
-  id: icebergs
+  section: jokulsarlon-lagoon
+  id: e-icebergs
   title: Icebergs
-  location: Jökulsárlón Glacier
+  location: Jökulsárlón Lagoon
   coordinates: 64.079635, -16.230912
-  photographer: Eleanor Cording Booth
-  content: I think this shot looks like it could have been taken on the moon. It’s crazy to think that a sight like this is only a short flight and then a drive from the UK. Seals swum amongst the icebergs and the view changed constantly as the ice moved around. The rain was relentless but my Nikon was weatherproofed, so I could still shoot without worrying about breaking the camera.
-
+  photographer: Eleanor Cording-Booth
+  content: I think this shot looks like it could have been taken on the moon. It’s crazy to think that a sight like this is only a short flight and then a drive from the UK. Seals swam amongst the icebergs and the view changed constantly as the ice moved around. The rain was relentless but my Nikon was weatherproofed, so I could still shoot without worrying about breaking the camera.
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  lens: 18-105mm f/3.5-5.6
   aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  shutterspeed: 1/200
+  focallength: 18mm
 
 
 
 - page: iceland
-  section: jokulsarlon-glacier
-  id: diamond-beach
+  section: jokulsarlon-lagoon
+  id: e-diamond-beach
   title: Diamond Beach
-  location: Jökulsárlón Glacier
+  location: Jökulsárlón Lagoon
   coordinates: 64.079635, -16.230912
-  photographer: Eleanor Cording Booth
+  photographer: Eleanor Cording-Booth
   content: This photo was taken on the beach at Jökulsárlón glacier lagoon – also known as ‘diamond beach’ for obvious reasons! It was a real struggle to shoot anything here due to the weather, but I love the smooth texture of the clear chunk of ice in the foreground and Craig struggling against the wind in the distance. There’s some spray from the sea on my lens but in this instance, I think it works well.
-
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/6.3
+  shutterspeed: 1/200
+  focallength: 18mm
+
+
+
+- page: iceland
+  section: jokulsarlon-lagoon
+  id: c-ecb-glacier
+  title: Explorer
+  location: Jökulsárlón Lagoon
+  coordinates:
+  photographer: Craig Howes
+  content:
+  orientation: landscape
+  camera: Nikon D850
+  lens: 18-105mm f/3.5-5.6
   aperture: f/6.3
   shutterspeed: 1/320
   focallength: 40mm
@@ -247,16 +336,31 @@
 
 
 - page: iceland
-  id: mountain-contrast
-  title: Mountainscape
+  id: e-mountain-contrast
+  title: Mountains
+  location: Iceland
+  coordinates:
+  photographer: Eleanor Cording-Booth
+  content: Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+  orientation: portrait
+  camera: Nikon D7500
+  lens: 70-300mm f/4.5-6.3
+  aperture: f/9.0
+  shutterspeed: 1/320
+  focallength: 85mm
+
+
+
+- page: iceland
+  id: c-northern-lights
+  title: Emerald Skies
   location: Iceland
   coordinates: 64.079635, -16.230912
-  photographer: Eleanor Cording Booth
+  photographer: Craig Howes
   content: Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-
-  orientation: portrait
-  camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  orientation: landscape
+  camera: Nikon D850
+  lens:
+  aperture:
+  shutterspeed:
+  focallength:

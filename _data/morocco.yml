@@ -1,14 +1,408 @@
-- page: morocco
-  section: atlas-mountains
-  id: glacier-3
-  title: Diamond Beach
-  location: Jökulsárlón Glacier
-  photographer: Eleanor Cording Booth
-  content: This photo was taken on the beach at Jökulsárlón glacier lagoon – also known as ‘diamond beach’ for obvious reasons! It was a real struggle to shoot anything here due to the weather, but I love the smooth texture of the clear chunk of ice in the foreground and Craig struggling against the wind in the distance. There’s some spray from the sea on my lens but in this instance, I think it works well.
 
+## Louis Adams
+
+- page: morocco
+  section: markets
+  id: l-lanterns
+  title: Lanterns
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Louis Adams
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: landscape
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: markets
+  id: l-market-jewellery
+  title: Jeweller
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Louis Adams
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
   orientation: portrait
   camera: Nikon D7500
   lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
   aperture: f/6.3
   shutterspeed: 1/320
   focallength: 40mm
+
+- page: morocco
+  section: markets
+  id: l-market-spices
+  title: Spices
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Louis Adams
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: portrait
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: markets
+  id: l-market-stall
+  title: The Salesman
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Louis Adams
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: portrait
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: markets
+  id: r-market-birds
+  title: Birds
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Ross Walker
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: landscape
+  camera: Nikon D850
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: markets
+  id: r-market-stall
+  title: Market Stall
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Ross Walker
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: landscape
+  camera: Nikon D850
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+
+
+
+
+
+- page: morocco
+  section: architecture
+  id: l-garden-doorway
+  title: Exit
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Louis Adams
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: portrait
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: architecture
+  id: l-interior-doorway
+  title: Discovery
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Louis Adams
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: portrait
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: architecture
+  id: l-streets-buildings
+  title: Look up
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Louis Adams
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: landscape
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: architecture
+  id: l-tile-walls
+  title: Shelter
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Louis Adams
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: portrait
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: architecture
+  id: r-riad-interior
+  title: Riad
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Ross Walker
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: landscape
+  camera: Nikon D850
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: architecture
+  id: r-riad-white
+  title: Royalty
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Ross Walker
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: portrait
+  camera: Nikon D850
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+
+
+
+
+
+- page: morocco
+  section: streets
+  id: l-bike-alley
+  title: Back streets
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Louis Adams
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: portrait
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: streets
+  id: l-man-door
+  title: Framed
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Louis Adams
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: portrait
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: streets
+  id: l-men-street
+  title: Waiting game
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Louis Adams
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: landscape
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: streets
+  id: r-man-bike
+  title: Spotlight
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Ross Walker
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: portrait
+  camera: Nikon D850
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: streets
+  id: r-man-donkey
+  title: Rest
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Ross Walker
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: landscape
+  camera: Nikon D850
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: streets
+  id: r-man-stick
+  title: Meditate
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Ross Walker
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: landscape
+  camera: Nikon D850
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: streets
+  id: r-old-man
+  title: Wisdom
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Ross Walker
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: landscape
+  camera: Nikon D850
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: streets
+  id: r-warehouse
+  title: Golden hour
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Ross Walker
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: landscape
+  camera: Nikon D850
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+
+
+
+
+
+- page: morocco
+  section: atlas-mountains
+  id: l-mountain-village-2
+  title: Outpost
+  location: Atlas Mountains
+  coordinates: 31.633141, -7.981762
+  photographer: Louis Adams
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: portrait
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: atlas-mountains
+  id: l-mountain-village
+  title: Berber life
+  location: Atlas Mountains
+  coordinates: 31.633141, -7.981762
+  photographer: Louis Adams
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: portrait
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: atlas-mountains
+  id: l-donkey-silhouette
+  title: Silhouette
+  location: Atlas Mountains
+  coordinates: 31.633141, -7.981762
+  photographer: Louis Adams
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: landscape
+  camera: Nikon D7500
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: atlas-mountains
+  id: r-berber-woman
+  title: On the march
+  location: Atlas Mountains
+  coordinates: 31.633141, -7.981762
+  photographer: Ross Walker
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: landscape
+  camera: Nikon D850
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: atlas-mountains
+  id: r-children-donkey
+  title: Young explorers
+  location: Atlas Mountains
+  coordinates: 31.633141, -7.981762
+  photographer: Ross Walker
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: landscape
+  camera: Nikon D850
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: morocco
+  section: atlas-mountains
+  id: r-mountains-farmer
+  title: Surveying
+  location: Atlas Mountains
+  coordinates: 31.633141, -7.981762
+  photographer: Ross Walker
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  orientation: landscape
+  camera: Nikon D850
+  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+

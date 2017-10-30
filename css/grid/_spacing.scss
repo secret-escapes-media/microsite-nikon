@@ -220,12 +220,11 @@ $page-margin: $s4;
       @include span(5 last);
       padding-top: 0;
     }
-    &:nth-child(odd){
+    &:nth-child(even),
+    &.bob--swap {
       .bob__image { @include span(7 last); }
       .bob__text { @include span(5); }
       .flexbox & {
-        display: flex;
-        align-items: center;
         flex-direction: row-reverse;
       }
     }
@@ -249,6 +248,7 @@ $page-margin: $s4;
     padding: $s2 $s2 $s5;
   }
   &__image {
+    display: block;
     position: relative;
     width: 100%;
     background-color: $grey-light;

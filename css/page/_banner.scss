@@ -1,10 +1,10 @@
 // the title banner that appears at the top of every page. sometimes animated bgs
 
-$info-height: 70px;
-$core-nav-height:     $s8;
-$core-nav-height-sm:  $s7;
-$site-nav-height:     $s8;
-$site-nav-height-sm:  $s7;
+$info-height:         70px;
+$core-nav-height:     70px;
+$core-nav-height-sm:  55px;
+$site-nav-height:     70px;
+$site-nav-height-sm:  55px;
 
 .banner {
   position: relative;
@@ -20,7 +20,6 @@ $site-nav-height-sm:  $s7;
     left: 0;
     right: 0;
     z-index: $z-content-overlay;
-    background-color: rgba($black,.15);
     &-wrap {
       position: absolute;
       top: 0;
@@ -35,6 +34,22 @@ $site-nav-height-sm:  $s7;
         padding-top: 0;
         transform: translateY(-50%);
       }
+    }
+  }
+
+  &__iamnikon {
+    background-image: url('../img/bg/iamnikon.png');
+    background-size: cover;
+    width: 260px;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: $s3;
+    .svg & { background-image: url('../img/bg/iamnikon.svg'); }
+    &:after {
+      content: "";
+      display: block;
+      width: 100%;
+      padding-top: 21.36%;
     }
   }
 
@@ -92,30 +107,32 @@ $site-nav-height-sm:  $s7;
   &__overlay {
     position: absolute;
     top: $core-nav-height;
+    bottom: $site-nav-height;
     left: 0;
     right: 0;
-    bottom: 0;
     z-index: $z-content-upper;
-    background-color: rgba($grey-darker,0.2);
+    background-color: rgba($grey-darker,0.3);
     background-image: url('../img/bg/banner-vignette.png');
     background-repeat: none;
     background-size: cover;
     background-position: center;
     pointer-events: none;
-    &-title {
-      pointer-events: none;
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      width: 26px;
-      background-repeat: none;
-      background-size: 100% auto;
-      background-position: center left;
-      background-image: url('../img/bg/banner-sidetitle.png');
-      .svg &,
-      .svgasimg & {
-        background-image: url('../img/bg/banner-sidetitle.svg');
+    @include bp(xxxl){
+      &-title {
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 26px;
+        background-repeat: none;
+        background-size: 100% auto;
+        background-position: center left;
+        background-image: url('../img/bg/banner-sidetitle.png');
+        .svg &,
+        .svgasimg & {
+          background-image: url('../img/bg/banner-sidetitle.svg');
+        }
       }
     }
   }
@@ -157,7 +174,10 @@ $site-nav-height-sm:  $s7;
     z-index: $z-nav-upper;
     background-color: rgba($grey-dark,0.85);
     .banner--nav-top & {
-      top: $core-nav-height;
+      top: $core-nav-height-sm;
+      @include bp(lg){
+        top: $core-nav-height;
+      }
     }
     .banner--nav-bottom & {
       bottom: 0;
@@ -167,7 +187,8 @@ $site-nav-height-sm:  $s7;
   &--nav-top {
     .banner__overlay,
     .banner__content {
-      top: $core-nav-height + $site-nav-height-sm;
+      top: $core-nav-height-sm + $site-nav-height-sm;
+      bottom: 0;
       @include bp(lg){
         top: $core-nav-height + $site-nav-height;
       }
@@ -181,11 +202,11 @@ $site-nav-height-sm:  $s7;
   }
 
   &--nav-bottom {
-    .banner__overlay,
     .banner__content {
-      top: $core-nav-height;
+      top: $core-nav-height-sm;
       bottom: $site-nav-height-sm;
       @include bp(lg){
+        top: $core-nav-height;
         bottom: $site-nav-height;
       }
     }
@@ -209,34 +230,42 @@ $site-nav-height-sm:  $s7;
   }
 
 
+
   /* ==================================
   // ARTICLE LAYOUT MODIFIERS */
 
   &--article {
     padding-top: 0;
-    height: 100%;
+    height: 95%;
     z-index: 0;
 
     .banner__content {
+
+      &-col {}
+      &-wrap { z-index: $z-content-upper; }
       &:after {
         content: "";
         position: absolute;
         top: 0; left: 0; bottom: 0;
-        width: 50%;
-        background-color: rgba($grey-darkest,.85);
-        z-index: 0;
+        width: 100%;
+        background-color: rgba($grey-darkest,.7);
       }
-      &-wrap { z-index: $z-content-upper; }
-      &-col {
-        width: 50%;
-        padding-right: 4em;
+      @include bp(xxl){
+        &-col {
+          width: 50%;
+          padding-right: 2em;
+        }
+        &:after {
+          width: 50%;
+          background-color: rgba($grey-darkest,.85);
+        }
       }
 
       $breadcrumbs-arrow-width: 16px;
       &-breadcrumbs {
         & a {
           position: relative;
-          margin-left: -$breadcrumbs-arrow-width*2;
+          @include bp(xxxl){ margin-left: -$breadcrumbs-arrow-width*2; }
           &:before {
             @include transition();
             content: "";

@@ -1,17 +1,66 @@
 ---
 layout: default
-id: nikon
+id: nikon-range
 title: Nikon
 nav-order: 8
 
+
+
 banner:
-  title:
-  title-sub: Made for explorers
-  location: Waterfall
+  content: >
+    <h1 class="title title--xxxxl title--upper title--bolder title--kerning">Nikon</h1>
+    <p class="text--xl">Experience the ultimate in image quality and creative control with a Nikon DSLR</p>
+
+
 
 intro: >
-  <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus consequatur ex saepe tempore quia odio debitis omnis neque molestiae eos eius vitae temporibus.</p>
-  <p>Charum repellat explicabo quam quos labore optio veniam, molestias in nesciunt, quod numquam. Et dolor tempore, ex minus delectus, hic nemo officiis illo ullam. Tempora, consequatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quibusdam reiciendis atque autem est dolorum quos, ad dignissimos iste amet voluptate laudantium saepe? Commodi, quasi, asperiores. Est consequatur repellat magnam.</p>
+  <p class="text--lg">Begin your very own photographic journey with Nikon.</p>
+  <p>Whether you’re an amateur or a professional, make your next camera a Nikon. Graduate to the D7500, for crisp, high-definition shots with rich tonal gradations. It’s the perfect tool for stepping up your photography and capturing the perfect moment with ease.</p>
+  <p>If you’re already a fluent photographer, the D850 is built for you. Extreme resolution meets extreme speed, for a package that will offer a brand new perspective to your photographic creativity. </p>
+
+
+
+testimonials:
+
+  - by: Eleanor Cording-Booth
+    destination: iceland
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga excepturi optio sit at doloribus dolorem quaerat ratione reiciendis, amet iure inventore perferendis sint explicabo eius corporis assumenda quasi ab eos!
+
+  - by: Louis Adams
+    destination: morocco
+    content: Consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor sint explicabo eius corporis assumenda quasi ab eos! Nullam quis risus eget urna mollis ornare vel eu leo.
+
+  - by: Marianna Sgherri
+    destination: new-york
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga excepturi optio sit at doloribus dolorem quaerat ratione reiciendis, amet iure inventore perferendis sint explicabo eius corporis assumenda quasi ab eos!
+
+
+
+sections:
+
+  - title: Nikon D7500
+    link: https://www.europe-nikon.com/en_GB/product/digital-cameras/slr/consumer/d7500
+    content: The search for the perfect image can take you anywhere. Go there with the powerful, nimble, and fully connected D7500. Catch the beauty you find with flagship DX image quality inherited from Nikon’s D500.
+
+  - title: Nikon D850
+    link: https://www.europe-nikon.com/en_GB/product/digital-cameras/slr/professional/d850/camera-overview
+    content: When you’ve got the ultimate combination of resolution, speed, and light sensitivity to work with, you don’t just execute incredible work. You show your mastery.
+
+  - title: NIKKOR Lenses
+    link: https://www.europe-nikon.com/en_GB/product/nikkor-lenses/overview
+    content: A great camera is only as good as the lens you've chosen. Expand your creative vision and unlock your camera's full potential with a choice of over 90 NIKKOR lenses - each optimised to give crystal clear images, whatever the subject.
+
+
+
+nikon-school:
+  title: The Nikon school
+  link: https://nikonschool.co.uk/
+  content: >
+    <p class="text--lg">Join us at Nikon School to learn how to get the best from your camera, lenses and speedlights</p>
+    <p>Nikon School is a venue for photography training that aims to educate and inspire. Our workshops cater for every level of photographic ability, whether you are a beginner, keen amateur or professional photographer.</p>
+
+
+
 ---
 {% assign photos = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york %}
 
@@ -21,37 +70,64 @@ intro: >
 
 
 
-<section class="section">
-  <div class="row row--4-4-4-gutters">
+<section class="section bg--grey-dark">
+  {% for section in page.sections %}
+  <div class="bob row row--padding text--white">
 
-    <div class="col">
-      <a href="#" class="bg-img bg-img--4-3">
-        <span class="bg-img__content">
-          <img src="{{site.baseurl}}/img/content/{{page.id}}/d850-title.png" alt="D850">
-        </span>
-        <span class="bg-img__bg" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/d850.jpg)"></span>
-      </a>
-    </div>
+    <a href="{{section.link}}" class="bob__image bg-img bg-img--3-2 bg-img--rounded" style="background-image:url({{site.baseurl}}/img/content/{{page.id}}/{{section.title|slugify}}.jpg);">
+      <div class="bg-img__content">
+        <img src="{{site.baseurl}}/img/content/{{page.id}}/{{section.title|slugify}}-title.png">
+      </div>
+    </a>
 
-    <div class="col">
-      <a href="#" class="bg-img bg-img--4-3">
-        <span class="bg-img__content">
-          <img src="{{site.baseurl}}/img/content/{{page.id}}/d7500-title.png" alt="D850">
-        </span>
-        <span class="bg-img__bg" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/d7500.jpg)"></span>
-      </a>
-    </div>
-
-    <div class="col">
-      <a href="#" class="bg-img bg-img--4-3">
-        <span class="bg-img__content text--white">
-          <h4 class="title title--sm title--upper title--bolder">Explore the range</h4>
-          <p class="text--lg">Experience the difference</p>
-        </span>
-        <span class="bg-img__bg" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/d7500.jpg)"></span>
-      </a>
+    <div class="bob__text">
+      <h3 class="title title--md title--upper title--bold title--kerning">{{section.title}}</h3>
+      <p class="text--lg">{{section.content}}</p>
+      <a href="{{section.link}}" class="btn btn--yellow btn--sm">Find out more</a>
     </div>
 
   </div>
+  {% endfor %}
+</section>
+
+
+
+<section class="text--white text--center testimonials">
+
+  <div class="testimonials__carousel carousel owl-carousel" id="testimonial-carousel">
+    {% for testimonial in page.testimonials %}
+      <div class="testimonials__slide" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/testimonial-{{testimonial.destination}}.jpg);">
+        <div class="row row--xl row--padding">
+          <hr>
+          <p class="text--lg">{{testimonial.content}}</p>
+          <p class="photographer__title">
+            <img src="/nikon/img/content/{{testimonial.destination}}/photographer-{{testimonial.by|slugify}}.jpg" width="30" class="photographer-image bg-img--circle">
+            <span class="photographer-title title title--bold">{{testimonial.by}}</span>
+          </p>
+          <hr>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="carousel-nav">
+    <div class="carousel-navitem carousel-navitem-next" id="testimonial-carousel-next"></div>
+    <div class="carousel-navitem carousel-navitem-prev" id="testimonial-carousel-prev"></div>
+  </div>
+
+</section>
+
+
+
+<section class="harvey bg--white">
+
+  <a href="{{page.nikon-school.link}}" class="harvey__image" style="background-image:url({{site.baseurl}}/img/content/{{page.id}}/nikon-school.jpg);"></a>
+
+  <div class="harvey__text">
+    <h3 class="title title--md title--upper title--bold title--kerning">{{page.nikon-school.title}}</h3>
+    {{page.nikon-school.content}}
+    <a href="{{page.nikon-school.link}}" class="btn btn--yellow btn--sm">Find out more</a>
+  </div>
+
 </section>
 

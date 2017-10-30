@@ -17,27 +17,39 @@
           {{page.title}}
         </span>
 
-        <hr class="hr--margin">
+        <hr>
 
         {{page.banner.content}}
 
-        <hr class="hr--margin">
+        <hr>
 
         {% for photographer in page.photographers %}
           <div class="photographer">
             <div class="photographer__title accordion__trigger" data-target="{{photographer.title|slugify}}-content">
-              <img src="{{site.baseurl}}/img/content/{{page.group}}/photographer-{{photographer.title|slugify}}.jpg" width="60" class="photographer-image bg-img--circle">
+              <img src="{{site.baseurl}}/img/content/{{page.group}}/photographer-{{photographer.title|slugify}}.jpg" width="40" class="photographer-image bg-img--circle">
               <span class="photographer-title">
-                <h4 class="title title--xxxs title--bold">{{photographer.title}}</h4>
-                <h5 class="title title--bold title--upper title--kerning text--sm">{{photographer.subtitle}}</h5>
+                <h4 class="title title--bold">
+                  <span class="title--xxs">{{photographer.title}}</span>
+                  <span class="photographer-subtitle">{{photographer.subtitle}}</span>
+                </h4>
               </span>
             </div>
             <div class="photographer__content accordion" id="{{photographer.title|slugify}}-content">
               <p>{{photographer.content}}</p>
             </div>
           </div>
-          {% unless forloop.last %}<hr class="hr--margin">{% endunless %}
+          <hr>
         {% endfor %}
+
+        {% if page.layout == 'journey' %}
+
+          {% capture firstItem %}{% for section in page.sections limit:1 %}{% for item in section.items limit:1 %}{{item.id}}{% endfor %}{% endfor %}{% endcapture %}
+
+          <a href="#journey-start" class="btn btn--sm btn--primary">Start the journey</a>
+          <a href="javascript:void(0);" class="btn btn--sm btn--outline js-open-modal" data-modal-group="page" data-modal-item="{{firstItem}}">View the gallery</a>
+        {% else %}
+          <a href="#guide-start" class="btn btn--sm btn--outline">Read the guide</a>
+        {% endif %}
 
       </div>
     </div>
@@ -53,4 +65,6 @@
 </section>
 
 
+{% if page.sections %}
 {% include page/page-nav.html %}
+{% endif %}

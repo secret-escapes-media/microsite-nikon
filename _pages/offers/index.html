@@ -5,8 +5,8 @@ title: Offers
 nav-order: 6
 
 intro: >
-  <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus consequatur ex saepe tempore quia odio debitis omnis neque molestiae eos eius vitae temporibus.</p>
-  <p>Charum repellat explicabo quam quos labore optio veniam, molestias in nesciunt, quod numquam. Et dolor tempore, ex minus delectus, hic nemo officiis illo ullam. Tempora, consequatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quibusdam reiciendis atque autem est dolorum quos, ad dignissimos iste amet voluptate laudantium saepe? Commodi, quasi, asperiores. Est consequatur repellat magnam.</p>
+  <p class="text--lg">Start planning your own adventure, with enviable getaways to three enigmatic destinations.</p>
+  <p>Feeling inspired by our journey to Iceland, Morocco and New York? Browse luxurious breaks in all three destinations to start planning your very own photographic escape. </p>
 
 ---
 {% assign photos = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york %}
@@ -18,8 +18,14 @@ intro: >
 
 
 <section class="section">
-  <div class="row">
-    {% include components/offers.html %}
+  <div class="row offers">
+    {% assign offers = site.data.offers | sort: 'saved' | reverse %}
+    {% assign offer-type = include.type %}
+
+    {% for offer in offers %}
+      {% include components/offer.html theme="dark" %}
+    {% endfor %}
+
   </div>
 </section>
 
@@ -31,8 +37,8 @@ intro: >
     <div class="offer-promo__bg" style="background-image: url('{{ site.baseurl }}/img/offers/00-general-current-sales/02.jpg')"></div>
     <div class="offer-promo__bg" style="background-image: url('{{ site.baseurl }}/img/offers/00-general-current-sales/03.jpg')"></div>
   </div>
-  <div class="row row--xxl offer-promo__content text--white">
-    <h2 class="title title--core title--lg title--color title--light title--expanded">That’s not all we do...</h2>
+  <div class="row row--xxl offer-promo__content text--white text--center">
+    <h2 class="title title--lg">That’s not all we do...</h2>
     <p class="text--lg">Didn’t see anything to take your fancy? Well, we have loads more offers with savings of up to 70%!</p>
     <a href="https://www.secretescapes.com/current-sales" class="btn btn--orange">See All Current Sales</a>
   </div>

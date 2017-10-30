@@ -5,22 +5,30 @@
 
   <!-- TITLE -->
   <div class="modal__content__title">
-    <h3 class="title title--sm title--bolder title--upper">{{item.title}}</h3>
-    {% if include.type == "single" %}
-      <a href="{{site.baseurl}}/{{item.page}}/the-journey/" class="modal__content__title-cta btn btn--primary btn--sm">Get behind the lens</a>
-    {% endif %}
+
+    <div class="modal__content__title-left">
+      <h3 class="title title--sm">{{item.title}}</h3>
+    </div>
+
+    <div class="modal__content__title-right">
+      <h5 class="title">
+        <span class="modal__content__text-photographer bg-img--circle">
+          <img src="{{site.baseurl}}/img/content/{{item.page}}/photographer-{{item.photographer|slugify}}.jpg" alt="">
+        </span>
+        By <span class="title--bold">{{item.photographer}}</span>
+      </h5>
+
+      {% if include.type == "single" %}
+        <a href="{{site.baseurl}}/{{item.page}}/the-journey/" class="btn btn--primary btn--sm">Get behind the lens</a>
+      {% endif %}
+    </div>
+
   </div>
 
   <!-- CONTENT -->
   <div class="modal__content__text row row--6-6-gutters row--valign">
 
     <div class="col modal__content__text-description">
-      <h5 class="title">
-        <span class="modal__content__text-photographer bg-img--circle">
-          <img src="{{site.baseurl}}/img/content/{{item.page}}/photographer-{{item.photographer|slugify}}.jpg" alt="">
-        </span>
-        Photo by <span class="title--bold">{{item.photographer}}</span>
-      </h5>
       <p>{{item.content}}</p>
     </div>
 

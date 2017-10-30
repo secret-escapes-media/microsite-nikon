@@ -95,12 +95,12 @@
   }
   $circle-height: 50px;
   &__saved {
-      display: table-cell;
-      padding-right: $s1;
-      line-height: 1.2;
-      text-align: center;
-      border-right: 1px solid $grey-lighter;
-      vertical-align: bottom !important;
+    display: table-cell;
+    padding-right: $s1;
+    line-height: 1.2;
+    text-align: center;
+    border-right: 1px solid $grey-lighter;
+    vertical-align: bottom !important;
     &-num {
       display: block;
       width: $circle-height;
@@ -108,7 +108,7 @@
       margin-top: .2em;
       margin-left: .2em;
       text-align: center;
-      color: #fff;
+      color: $white;
       line-height: $circle-height;
       background-color: $orange;
       border-radius: $circle-height;
@@ -175,12 +175,26 @@
       }
     }
   }
+
+  // DARK THEME
+  &--dark {
+    & .offer__content {
+      background-color: $grey-darker;
+      color: $text-white;
+      border-left: 1px solid $grey-dark;
+      border-right: 1px solid $grey-dark;
+      border-bottom: 1px solid $grey-dark;
+    }
+    & .offer__location { color: $text-light; }
+    & .offer__saved { border-right: 1px solid $grey-dark; }
+  }
+
 }
 
 
 
 /*=====================================
- OFFER PROMO 
+ OFFER PROMO
 =====================================*/
 
 .offer-promo {
@@ -188,7 +202,7 @@
   padding-top: $s10;
   padding-bottom: $s10;
   color: $white;
-  background-color: rgba(60, 67, 76, 0.75);
+  background-color: rgba($grey-darkest, 0.85);
   text-align: center;
   &__bgs {
     position: absolute;

@@ -5,7 +5,7 @@
 // ========================================
 
 
-var homeCarousel          = $('.banner__carousel'),
+var homeCarousel          = $('#banner-carousel'),
     carouselContainer     = $('.banner--carousel, .banner__slide'),
     carouselPhotoID       = $('.js-slide-photo'),
     carouselPhotoTitle    = $('.js-slide-photo-title'),
@@ -22,7 +22,7 @@ homeCarousel.owlCarousel({
   autoplay:true,
   autoplayTimeout:8000,
   dots:false,
-  nav: true,
+  nav:false,
   navSpeed: transitionSpeed,
   smartSpeed: transitionSpeed,
   touchDrag: false,
@@ -74,4 +74,12 @@ $(document.documentElement).keyup(function (event) {
   } else if (event.keyCode == 39) {  // right key press
     homeCarousel.trigger('next.owl.carousel');
   }
+});
+
+// custom nav
+$("#owl-carousel-prev").click(function(){
+  homeCarousel.trigger('prev.owl.carousel')
+});
+$("#owl-carousel-next").click(function(){
+  homeCarousel.trigger('next.owl.carousel')
 });

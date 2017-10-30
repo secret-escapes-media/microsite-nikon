@@ -1,6 +1,8 @@
 
 {% if page.banner.images.size > 1 %}
 
+  {% if page.banner.photo-id %}
+  {% assign photo = photos | where: "id", page.banner.photo-id %}
   <div class="banner__info text--white">
     <div class="row row--padding">
 
@@ -16,6 +18,7 @@
 
     </div>
   </div>
+  {% endif %}
 
 {% else %}
 

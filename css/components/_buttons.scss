@@ -5,10 +5,8 @@
 .btn {
   position: relative;
   display: inline-block;
-  padding: $s2 $s6;
   color: $text-white;
   font-weight: 600;
-  font-size: $s-1;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: .25em;
@@ -16,14 +14,22 @@
   border-radius: 3px;
   background-color: $orange;
   cursor: pointer;
+  padding: $s-1 $s3;
+  font-size: $s-2;
+  @include bp(lg){
+    padding: $s1 $s4;
+    font-size: $s-1;
+  }
   @include transition;
   &:hover { background-color: $orange-dark; }
 
   * + & { margin-top: 1.5em; }
   & + & { margin-left: 1em; }
 
-  &--sm { padding: $s0 $s4; font-size: $s-2; }
-  &--lg { font-size: $s0; }
+  @include bp(lg){
+    &--sm { padding: $s-1 $s3; font-size: $s-1; }
+    &--lg { padding: $s2 $s8; }
+  }
 
   &--orange { background-color: $orange;
     &:hover { background-color: $orange-dark; }
@@ -51,12 +57,13 @@
   }
 
   &--outline {
-    color: $text;
+    color: $text-dark;
     background-color: transparent;
     border: 1px solid $grey-light;
     &:hover {
-      color: $text-dark;
-      background-color: $grey-light;
+      color: $text-white;
+      border: 1px solid $text-dark;
+      background-color: $text-dark;
     }
     .text--white & {
       color: $white;
@@ -70,6 +77,7 @@
     &:hover { background-color: rgba($white,0.9); }
   }
 
+  &--yellow,
   &--primary { background-color: $theme-primary; color: $headline;
     &:hover { background-color: darken($theme-primary,5); }
   }
