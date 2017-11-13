@@ -1,5 +1,9 @@
 
-$icon-size: 3em;
+$icon-size: 3.2em;
+@include bp(lg){
+  $icon-size: 4em;
+}
+$content-width: 30%;
 $modaltransition-time: 300ms;
 $modaltransition-distance: 4em;
 @mixin modaltransition() { transition: all $modaltransition-time cubic-bezier(.5,0,.5,1); }
@@ -25,10 +29,8 @@ $modaltransition-distance: 4em;
     bottom: 0;
     margin-top: 0 !important;
     margin-left: auto; margin-right: auto;
-    max-width: $xxxl;
     cursor: auto;
     overflow: visible;
-    overflow-y: scroll;
     padding-left: $modaltransition-distance;
     padding-right: $modaltransition-distance;
     .flexbox & {
@@ -48,7 +50,13 @@ $modaltransition-distance: 4em;
     left: 0;
     right: 0;
     bottom: 0;
-    padding: inherit;
+    padding-bottom: $icon-size;
+    overflow: scroll;
+    @include bp(lg){
+      overflow: auto;
+      padding: inherit;
+    }
+
     .flexbox & {
       display: flex;
       align-items: center;
@@ -67,73 +75,152 @@ $modaltransition-distance: 4em;
 
   // The box with image and text contained in a module
   &__content {
-    width: 100%;
-    background-color: $grey-darkest;
-    color: $white;
-    & .title { color: $white; }
-    // Modal title
-    &__title {
-      overflow: hidden;
-      padding: 0 2em 1em 2em;
-      position: relative;
-      border-bottom: 1px solid rgba($white,0.1);
-      &-left { float: left; }
-      &-right { float: right; text-align: right; }
-    }
-    // Modal image
-    &__img {}
+    max-width: 100%;
+    width: $xxxl;
+    margin: auto;
+
     &__video {
-      & iframe { position: absolute; top: 0; }
+      background-color: $grey-dark;
+      & iframe {
+        @include transition();
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        &--ready { opacity: 0; }
+        &.yt--ready { opacity: 0; }
+        &.yt--ready.modal__video--ready { opacity: 1; }
+      }
+    }
+
+    // Modal image
+    &__img {
+      position: relative;
+      z-index: $z-content;
+      display: flex;
+      align-items: center;
+      overflow-x: scroll;
+      padding: $s-1;
+      padding-top: $s4;
+      & .bg-img { width: 100%; }
+      @include bp(lg){
+        padding: $s3;
+        position: absolute;
+        top: 0; bottom: 0; left: 0; right: 0;
+      }
+
+      &--landscape {
+        width: 100%;
+        text-align: center;
+        img {
+          max-width: 100%;
+          max-height: 100%;
+          margin: auto;
+          @include bp(lg){}
+        }
+      }
+      &--portrait {
+        height: 100%;
+        @include bp(lg){
+          img {
+            height: 1080px;
+            max-height: 100%;
+            margin: auto;
+          }
+        }
+      }
+    }
+
+    // Title
+    &__title {
+      position: relative;
+      padding: 0em 1em 2.5em 1em;
+      text-align: center;
+      z-index: $z-content-upper;
+      width: 100%;
+      background: $grey-darkest;
+      background: -moz-linear-gradient(top, rgba($grey-darkest,1) 20%, rgba($grey-darkest,0) 100%);
+      background: -webkit-linear-gradient(top, rgba($grey-darkest,1) 20%,rgba($grey-darkest,0) 100%);
+      background: linear-gradient(to bottom, rgba($grey-darkest,1) 20%,rgba($grey-darkest,0) 100%);
+      @include bp(lg){
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 2em 6em;
+        text-align: left;
+      }
     }
 
     // Text content
     &__text {
-      margin-top: 0;
-      padding: 0 2em;
-      &-description, &-details {
-        padding: 1.5em 0;
-        width: 50%;
+      position: relative;
+      z-index: $z-content-upper;
+      color: $white;
+      & .title { color: $white; }
+      @include bp(lg){
+        position: absolute;
+        left: $icon-size*1.5;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      &-content {
+        width: 100%;
+        padding: 1.5em 2em;
+        background-color: rgba($grey-darkest,0.8);
+        border-top: 2px solid $theme-primary;
+        @include bp(lg){
+          max-width: 520px;
+        }
       }
       &-photographer {
         display: inline-block;
-        width: 2.5em;
-        margin-right: 0.5em;
+        width: 1.5em;
+        height: 1.5em;
+        margin: 0 0.5em;
         vertical-align: middle;
       }
-      &-description {}
-      &-details { border-left: 1px solid rgba($white,0.1); padding-left: 2em; }
       &-camera {
-        position: relative;
+        position: absolute;
+        right: 0; top: 0;
         & span {
           display: block;
           position: absolute;
-          top: -3em;
-          right: -5em;
-          max-width: 160px;
+          top: -4em;
+          right: 0;
+          width: 120px;
+        }
+        @include bp(lg){
+          position: relative;
+          right: auto; top: auto;
+          & span {
+            width: 160px;
+            top: -3em;
+          }
         }
       }
       &-tech {
         @include gallery($gutters 4);
         margin-bottom: gutter();
       }
-    }
-
-    &--landscape { margin: 0 2em; }
-    &--landscape &__img {
-      border-bottom: 2px solid $theme-primary;
-      margin: 0 -2em;
-    }
-    &--landscape &__text { }
-
-    &--portrait { margin: 2em 0; }
-    &--portrait &__img {
-      border-right: 2px solid $theme-primary;
-      margin: -2em 0;
-    }
-    &--portrait &__text { }
-    &--portrait &__title {
-      padding: 0 0 1em 0;
-      margin-bottom: 1em;
+      // btn to toggle info box
+      &-btn {
+        position: absolute;
+        top: -1.5em;
+        left: 0;
+        margin-bottom: -1px;
+        height: 2.5em;
+        width: 2.5em;
+        background-color: $theme-primary;
+        background-image: url('../img/icons/camera-black.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 1.5em;
+        cursor: pointer;
+        z-index: $z-overlay-upper;
+        .svg & { background-image: url('../img/icons/camera-black.svg'); }
+        @include bp(lg){
+          left: -0.5em;
+        }
+      }
     }
 
   }
@@ -148,18 +235,18 @@ $modaltransition-distance: 4em;
     position: fixed;
     right: 0;
     top: 0;
-    height: 3em;
-    width: 3em;
-    background-color: rgba($black, .5);
-    background-image: url('../img/icons/close.png');
+    height: $icon-size;
+    width: $icon-size;
+    background-color: rgba($white,0.8);
+    background-image: url('../img/icons/close-black.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1em;
     cursor: pointer;
     z-index: $z-overlay-upper;
     @include transition;
-    .svg & { background-image: url('../img/icons/close.svg'); }
-    &:hover{ background-color: $black; }
+    .svg & { background-image: url('../img/icons/close-black.svg'); }
+    &:hover{ background-color: $white; }
   }
 
 
@@ -174,10 +261,11 @@ $modaltransition-distance: 4em;
       display: block;
       position: absolute;
       bottom: 0;
-      z-index: $z-overlay-upper;
       height: $icon-size;
       width: 50%;
-      background-color: rgba($black, .5);
+      margin-top: -$icon-size;
+      z-index: $z-overlay-upper;
+      background-color: rgba($white,0.8);
       background-position: center;
       background-repeat: no-repeat;
       background-size: 1em;
@@ -185,24 +273,23 @@ $modaltransition-distance: 4em;
       user-select: none;
       @include transition;
       &--next {
-        border-left: 1px solid rgba($white,.25);
         right: 0;
-        background-image: url('../img/icons/arrow-right.png');
-        .svg & { background-image: url('../img/icons/arrow-right.svg'); }
+        border-right: 0;
+        background-image: url('../img/icons/arrow-right-dark.png');
+        .svg & { background-image: url('../img/icons/arrow-right-dark.svg'); }
       }
       &--previous {
         left: 0;
-        background-image: url('../img/icons/arrow-left.png');
-        .svg & { background-image: url('../img/icons/arrow-left.svg'); }
+        border-left: 0;
+        background-image: url('../img/icons/arrow-left-dark.png');
+        .svg & { background-image: url('../img/icons/arrow-left-dark.svg'); }
       }
-      &:hover{ background-color: $black; }
-      @include bp(md){
+      &:hover{ background-color: $white; }
+      @include bp(lg){
+        bottom: auto;
         top: 50%;
-        height: ($icon-size*2);
+        height: $icon-size*2;
         width: $icon-size;
-        &--next{
-          border-left: 0;
-        }
       }
     }
   }// if .modal--carousel

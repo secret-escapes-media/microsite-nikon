@@ -8,6 +8,7 @@ nav-order: 8
 
 banner:
   content: >
+    <div class="banner__iam banner__iam--chasing"></div>
     <h1 class="title title--xxxxl title--upper title--bolder title--kerning">Nikon</h1>
     <p class="text--xl">Experience the ultimate in image quality and creative control with a Nikon DSLR</p>
 
@@ -123,8 +124,10 @@ nikon-school:
 
   <a href="{{page.nikon-school.link}}" class="harvey__image" style="background-image:url({{site.baseurl}}/img/content/{{page.id}}/nikon-school.jpg);"></a>
 
-  <div class="harvey__text">
-    <h3 class="title title--md title--upper title--bold title--kerning">{{page.nikon-school.title}}</h3>
+  <div class="harvey__text text--center">
+    <h3 class="title title--md title--upper title--bold title--kerning row--sm">
+      <img src="{{site.baseurl}}/img/logo/logo-nikon-school.png" class="js-svg-swap" alt="{{page.nikon-school.title}}">
+    </h3>
     {{page.nikon-school.content}}
     <a href="{{page.nikon-school.link}}" class="btn btn--yellow btn--sm">Find out more</a>
   </div>

@@ -1,32 +1,28 @@
-<div class="modal__content modal__content--portrait row--6-6 row--valign">
+<div class="modal__content">
 
-  <div class="col modal__content__img bg-img bg-img--3-4" style="background-image:url({{site.baseurl}}/img/content/{{item.page}}/photos/{{item.id}}.jpg);')"></div>
+  <div class="modal__content__img modal__content__img--{{item.orientation}}">
+    <img src="{{site.baseurl}}/img/content/{{item.page}}/photos/{{item.id}}.jpg" alt="{{item.title}}">
+  </div>
 
-  <div class="col modal__content__text text--white">
+  <div class="modal__content__title text--white">
+    <h3 class="title title--xxs">
+      <span class="title--bold">{{item.title}}</span>
+      <span class="modal__content__text-photographer bg-img--circle">
+        <img src="{{site.baseurl}}/img/content/{{item.page}}/photographer-{{item.photographer|slugify}}.jpg" alt="">
+      </span>
+      By <span class="text--bold">{{item.photographer}}</span>
+    </h3>
+  </div>
 
-    <!-- TITLE -->
-    <div class="modal__content__title">
-
-      <h3 class="title title--sm">{{item.title}}</h3>
-
-      <p>
-        <span class="modal__content__text-photographer bg-img--circle">
-          <img src="{{site.baseurl}}/img/content/{{item.page}}/photographer-{{item.photographer|slugify}}.jpg" alt="">
-        </span>
-        By <span class="text--bold">{{item.photographer}}</span>
-      </p>
-
+  <div class="modal__content__text text--white">
+    <div class="modal__content__text-btn accordion__trigger" data-target="{{item.id}}-content"></div>
+    <div class="modal__content__text-content accordion accordion--open" id="{{item.id}}-content">
+      {% if item.content %}
+      <p>{{item.content}}</p>
+      <hr>
+      {% endif %}
+      {% include modal/components/photo-details.html %}
     </div>
-
-    <p>{{item.content}}</p>
-
-    <hr>
-
-    {% include modal/components/photo-details.html %}
-
-    {% if include.type == "single" %}
-    <a href="{{site.baseurl}}/{{item.page}}/the-journey/" class="btn btn--primary btn--sm">Get behind the lens</a>
-    {% endif %}
   </div>
 
 </div>

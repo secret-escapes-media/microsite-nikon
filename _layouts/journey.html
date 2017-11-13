@@ -11,19 +11,21 @@ layout: default
 
   <div class="intro__content vpad-top--xl row row--padding">
 
-    <a href="javascript:void(0);" data-modal-item="{{page.group}}-journey" class="js-open-modal bg-img bg-img--16-9 bg-img--rounded row--xl">
-      <div class="bg-img__content">
-        <img src="{{site.baseurl}}/img/icons/icon-play.png" class="js-svg-swap banner__video-link__icon" alt="Play">
-      </div>
-      <div class="bg-img__bg" style="background-image: url({{site.baseurl}}/img/content/{{page.group}}/video-poster.jpg);"></div>
-    </a>
+    {% assign video = site.data.videos | where: "id", page.video-id %}
+    {% for video in video %}
+      <a href="javascript:void(0);" data-modal-item="video" data-video-id="{{video.video-id}}" data-video-link="{{video.link}}" class="js-open-modal bg-img bg-img--16-9 bg-img--rounded row--xl video__link">
+        <div class="bg-img__content">
+          <img src="{{site.baseurl}}/img/icons/icon-play.png" class="js-svg-swap video__icon" alt="Play">
+        </div>
+        <div class="bg-img__bg" style="background-image: url({{site.baseurl}}/img/content/{{page.group}}/video-poster.jpg);"></div>
+      </a>
+    {% endfor %}
 
   </div>
 
 
   <div class="row row--padding journey__intro text--center" id="journey-start">
     <h2 class="title title--md">This is their journey...</h2>
-    <hr class="hr--center hr--bold">
   </div>
 
 
@@ -71,7 +73,7 @@ layout: default
 
           <div class="journey__photo__text">
             <h3 class="title title--sm title--bold title--upper title--kerning">{{photo.title}}</h3>
-            <p>Captured by <span class="text--bold">{{photo.photographer}}</span></p>
+            <p class="title title--upper title--kerning">Captured by <span class="text--bold">{{photo.photographer}}</span></p>
             <p>{{photo.content}}</p>
           </div>
 
@@ -94,8 +96,9 @@ layout: default
     <!-- Conclusion -->
     <div class="row row--padding row--6-6-gutters vpad-top--xxl text--white">
 
+
       <div class="col">
-        <h3 class="title title--sm title--bold title--upper title--kerning">Conclusion</h3>
+        <h2 class="title title--xxl title--bold title--upper title--kerning">Conclusion</h2>
         {{page.conclusion}}
       </div>
 
@@ -118,11 +121,26 @@ layout: default
 
 
 <!-- Continue -->
-<section class="section bg--grey-dark">
-  <div class="row row--xxl row--padding text--center text--white">
-    <h3 class="title title--sm">Start planning your very own adventure with our guide to this enigmatic destination</h3>
-    <a href="{{site.baseurl}}/{{page.group}}/the-guide" class="btn btn--white">Explore our travel guide</a>
+<section class="harvey section bg--grey-dark" style="background-image: url({{site.baseurl}}/img/content/{{page.group}}/video-banner.jpg);">
+
+  {% assign video = site.data.videos | where: "id", page.bts-video-id %}
+  {% for video in video %}
+    <a href="javascript:void(0);" data-modal-item="video" data-video-id="{{video.video-id}}" data-video-link="{{video.link}}" class="harvey__image js-open-modal bg-img video__link">
+      <div class="bg-img__content">
+        <img src="{{site.baseurl}}/img/icons/icon-play.png" class="js-svg-swap video__icon" alt="Play">
+      </div>
+      <div class="bg-img__bg" style="background-image: url({{site.baseurl}}/img/content/{{page.group}}/video-poster.jpg);"></div>
+    </a>
+  {% endfor %}
+
+  <div class="harvey__text">
+    <div class="row row--xxl row--padding text--center text--white">
+      <h3 class="title title--md">Now learn how to do it yourself</h3>
+      <p class="text--lg">Go behind the scenes to get more details on how you can capture your journey. Then start planning your very own adventure with our guide to this enigmatic destination...</p>
+      <a href="{{site.baseurl}}/{{page.group}}/the-guide" class="btn btn--white">Explore our travel guide</a>
+    </div>
   </div>
+
 </section>
 
 

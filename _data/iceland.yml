@@ -15,8 +15,6 @@
   shutterspeed: 1/80
   focallength: 18mm
 
-
-
 - page: iceland
   section: reynisfjara
   id: e-dyrholaey-lighthouse
@@ -31,8 +29,6 @@
   aperture: f/6.3
   shutterspeed: 1/250
   focallength: 18mm
-
-
 
 - page: iceland
   section: reynisfjara
@@ -49,8 +45,6 @@
   shutterspeed: 1/100
   focallength: 75mm
 
-
-
 - page: iceland
   section: reynisfjara
   id: c-dyrholaey-rock
@@ -66,12 +60,25 @@
   shutterspeed: 1/320
   focallength: 27mm
 
-
-
 - page: iceland
   section: reynisfjara
   id: c-dyrholaey
   title: Black Cliffs
+  location: Reynisfjara
+  coordinates:
+  photographer: Craig Howes
+  content:
+  orientation: landscape
+  camera: Nikon D850
+  lens: 24-70mm f/2.8
+  aperture: f/4.5
+  shutterspeed: 1/320
+  focallength: 27mm
+
+- page: iceland
+  section: reynisfjara
+  id: c-beach
+  title: The Beach
   location: Reynisfjara
   coordinates:
   photographer: Craig Howes
@@ -103,8 +110,6 @@
   shutterspeed: 1/200
   focallength: 18mm
 
-
-
 - page: iceland
   section: skogafoss
   id: e-skogafoss-kvernufoss
@@ -119,8 +124,6 @@
   aperture: f/9.0
   shutterspeed: 1/100
   focallength: 35mm
-
-
 
 - page: iceland
   section: skogafoss
@@ -137,8 +140,6 @@
   shutterspeed: 1/250
   focallength: 18mm
 
-
-
 - page: iceland
   section: skogafoss
   id: c-inside-waterfall
@@ -154,8 +155,6 @@
   shutterspeed:
   focallength:
 
-
-
 - page: iceland
   section: skogafoss
   id: c-behind-waterfall
@@ -165,6 +164,36 @@
   photographer: Craig Howes
   content:
   orientation: landscape
+  camera: Nikon D850
+  lens:
+  aperture:
+  shutterspeed:
+  focallength:
+
+- page: iceland
+  section: skogafoss
+  id: c-skogafoss
+  title: Skogafoss
+  location: Skogafoss
+  coordinates: 63.403238, -19.036316
+  photographer: Craig Howes
+  content:
+  orientation: landscape
+  camera: Nikon D850
+  lens:
+  aperture:
+  shutterspeed:
+  focallength:
+
+- page: iceland
+  section: skogafoss
+  id: c-skogafoss-climb
+  title: The Climb
+  location: Skogafoss
+  coordinates: 63.403238, -19.036316
+  photographer: Craig Howes
+  content:
+  orientation: portrait
   camera: Nikon D850
   lens:
   aperture:
@@ -191,8 +220,6 @@
   shutterspeed: 1/250
   focallength: 70mm
 
-
-
 - page: iceland
   section: horses-and-hills
   id: e-dramatic-formations
@@ -207,8 +234,6 @@
   aperture: f/4.8
   shutterspeed: 1/500
   focallength: 145mm
-
-
 
 - page: iceland
   section: horses-and-hills
@@ -225,8 +250,6 @@
   shutterspeed: 1/250
   focallength: 240mm
 
-
-
 - page: iceland
   section: horses-and-hills
   id: e-brooding-peaks
@@ -242,11 +265,24 @@
   shutterspeed: 1/250
   focallength: 70mm
 
-
-
 - page: iceland
   section: horses-and-hills
   id: c-horse
+  title: A Portrait
+  location: Horses and hills
+  coordinates:
+  photographer: Craig Howes
+  content:
+  orientation: landscape
+  camera: Nikon D850
+  lens:
+  aperture:
+  shutterspeed:
+  focallength:
+
+- page: iceland
+  section: horses-and-hills
+  id: c-horse-2
   title: A Portrait
   location: Horses and hills
   coordinates:
@@ -279,8 +315,6 @@
   shutterspeed: 1/125
   focallength: 40mm
 
-
-
 - page: iceland
   section: jokulsarlon-lagoon
   id: e-icebergs
@@ -295,8 +329,6 @@
   aperture: f/6.3
   shutterspeed: 1/200
   focallength: 18mm
-
-
 
 - page: iceland
   section: jokulsarlon-lagoon
@@ -313,12 +345,25 @@
   shutterspeed: 1/200
   focallength: 18mm
 
-
-
 - page: iceland
   section: jokulsarlon-lagoon
   id: c-ecb-glacier
   title: Explorer
+  location: Jökulsárlón Lagoon
+  coordinates:
+  photographer: Craig Howes
+  content:
+  orientation: landscape
+  camera: Nikon D850
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/6.3
+  shutterspeed: 1/320
+  focallength: 40mm
+
+- page: iceland
+  section: jokulsarlon-lagoon
+  id: c-icebergs
+  title: Freeze Frame
   location: Jökulsárlón Lagoon
   coordinates:
   photographer: Craig Howes
@@ -341,7 +386,7 @@
   location: Iceland
   coordinates:
   photographer: Eleanor Cording-Booth
-  content: Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+  content: These particular mountains were the view we woke up to every day and this shot was a quick, unplanned roadside snap. The clouds briefly parted and we got a beautiful mixture of sunlight and shadow as the mountain began to emerge from the rain clouds.
   orientation: portrait
   camera: Nikon D7500
   lens: 70-300mm f/4.5-6.3
@@ -357,7 +402,7 @@
   location: Iceland
   coordinates: 64.079635, -16.230912
   photographer: Craig Howes
-  content: Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+  content:
   orientation: landscape
   camera: Nikon D850
   lens:

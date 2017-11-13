@@ -18,10 +18,15 @@ body {
 // general typographic elements like paragraphs, lists, etc
 
 .text {
-  &--xxl      { font-size: $s3; }
-  &--xl       { font-size: $s2; }
-  &--lg       { font-size: $s1; }
+  &--xxl      { font-size: $s2; }
+  &--xl       { font-size: $s1; }
+  &--lg       { font-size: $s0; }
   &--sm       { font-size: $s-1; font-weight: 400; }
+  @include bp(lg){
+    &--xxl      { font-size: $s3; }
+    &--xl       { font-size: $s2; }
+    &--lg       { font-size: $s1; }
+  }
   &--lighter  { font-weight: 100; }
   &--light    { font-weight: 200; }
   &--bold     { font-weight: 600; }
@@ -54,11 +59,14 @@ body {
 
 // -------- general element styles --------
 
+p { max-width: $xl; }
+.text--center p,
+p.text--center { margin-left: auto; margin-right: auto; }
 .page__content {
   * + p,
   * + ul,
   * + ol               { padding-top: $s-2; }
-  p                    { max-width: $xxl; }
+  p                    { max-width: $xl; }
   .text--center p      { margin-left: auto; margin-right: auto; }
   li                   { list-style-position: outside; margin-left: $s2; }
   li + li              { padding-top: $s-2; }
@@ -134,10 +142,10 @@ hr {
   &--tighter    { line-height: .8; }
   &--upper      { text-transform: uppercase; }
 
-  &--xxxxl { font-size: $s8; line-height: 1; }
-  &--xxxl  { font-size: $s7; line-height: 1; }
-  &--xxl   { font-size: $s6; }
-  &--xl    { font-size: $s5; }
+  &--xxxxl { font-size: $s6; line-height: 1; }
+  &--xxxl  { font-size: $s5; line-height: 1; }
+  &--xxl   { font-size: $s5; }
+  &--xl    { font-size: $s4; }
   &--lg    { font-size: $s4; }
   &--md    { font-size: $s3; }
   &--sm    { font-size: $s2; }

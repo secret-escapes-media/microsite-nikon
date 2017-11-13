@@ -17,16 +17,18 @@
   &__title {
     &-content {
       position: relative;
-      padding-left: 7em;
       padding-top: 2em;
-      &:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        margin-top: 1em;
-        width: 5em;
-        height: 2px;
-        background-color: #ffffff;
+      @include bp(lg){
+        padding-left: 7em;
+        &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          margin-top: 1em;
+          width: 5em;
+          height: 2px;
+          background-color: #ffffff;
+        }
       }
     }
   }
@@ -107,12 +109,13 @@
         & .journey__photo__image { @include span(12); max-width: 100%; }
         & .journey__photo__content { @include span(12); padding: $s4 0; }
         & .journey__photo__text {
-          @include span(7);
+          @include span(8);
           padding-right: $s2;
         }
         & .journey__photo__map {
-          @include span(5 last);
-          margin-top: -($s2*2.5);
+          @include span(4 last);
+          margin-top: -$s10;
+          &:before { padding-top: 66.6667%; }
           &-inner {
             position: absolute;
             height: 100%;

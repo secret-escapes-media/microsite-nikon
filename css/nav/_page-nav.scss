@@ -3,7 +3,7 @@
 
 $nav-height: $s7;
 $nav-arrow-width: $s8;
-$nav-width-bp: 400px;
+$nav-width-bp: 720px;
 
 
 
@@ -54,7 +54,7 @@ $nav-width-bp: 400px;
       display: block;
       width: $nav-arrow-width;
       height: $nav-height;
-      background-image: url("../img/icons/nav-arrow-light.png");
+      background-image: url("../img/icons/nav-arrow-dark.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: $nav-arrow-width auto;

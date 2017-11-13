@@ -3,37 +3,31 @@
 #  DESTINATION VIDEO
 #==========================#
 
-- page: iceland
-  section: guide
-  id: iceland-guide
-  video-id: GBejmOUoG_I
+- id: iceland-journey
+  video-id: 3-I_P3ZJb18
+  link: iceland/the-journey
 
-- page: morocco
-  section: guide
-  id: morocco-guide
-  video-id: GBejmOUoG_I
+- id: morocco-journey
+  video-id: opkgS48MZU0
+  link: morocco/the-journey
 
-- page: new-york
-  section: guide
-  id: new-york-guide
-  video-id: GBejmOUoG_I
+- id: new-york-journey
+  video-id: _eEKitg2Sl0
+  link: new-york/the-journey
 
 
 
 #  BEHIND THE SCENES
 #==========================#
 
-- page: iceland
-  section: journey
-  id: iceland-journey
-  video-id: GBejmOUoG_I
+- id: iceland-bts
+  video-id: x0lug0laZDk
+  link: iceland/the-journey
 
-- page: morocco
-  section: journey
-  id: morocco-journey
-  video-id: GBejmOUoG_I
+- id: morocco-bts
+  video-id: mwO6KrKsgSA
+  link: morocco/the-journey
 
-- page: new-york
-  section: journey
-  id: new-york-journey
-  video-id: GBejmOUoG_I
+- id: new-york-bts
+  video-id: A0mmCE5yYMk
+  link: new-york/the-journey

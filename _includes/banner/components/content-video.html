@@ -13,12 +13,17 @@
 
     <div class="col">
 
-      <a href="javascript:void(0);" data-modal-item="{{page.id}}-guide" class="js-open-modal banner__video-link bg-img bg-img--16-9 bg-img--rounded bg-img--shadow bg--grey-darkest">
-        <div class="bg-img__content">
-          <img src="{{site.baseurl}}/img/icons/icon-play.png" class="js-svg-swap banner__video-link__icon" alt="Play">
-        </div>
-        <div class="bg-img__bg" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/video-poster.jpg);"></div>
-      </a>
+      <!-- VIDEO -->
+      {% assign video = site.data.videos | where: "id", page.banner.video-id %}
+      {% for video in video %}
+        <a href="javascript:void(0);" data-modal-item="video" data-video-id="{{video.video-id}}" data-video-link="{{video.link}}" class="js-open-modal video__link bg-img bg-img--16-9 bg-img--rounded bg-img--shadow bg--grey-darkest">
+          <div class="bg-img__content">
+            <img src="{{site.baseurl}}/img/icons/icon-play.png" class="js-svg-swap video__icon" alt="Play">
+          </div>
+          <div class="bg-img__bg" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/video-poster.jpg);"></div>
+        </a>
+      {% endfor %}
+
 
     </div>
 

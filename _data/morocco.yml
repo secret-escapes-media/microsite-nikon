@@ -1,5 +1,5 @@
 
-## Louis Adams
+
 
 - page: morocco
   section: markets
@@ -8,13 +8,13 @@
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Louis Adams
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content:
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/4.5
+  shutterspeed: 1/160
+  focallength: 35mm
 
 - page: morocco
   section: markets
@@ -23,13 +23,13 @@
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Louis Adams
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content:
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/4.5
+  shutterspeed: 1/160
+  focallength: 35mm
 
 - page: morocco
   section: markets
@@ -38,13 +38,13 @@
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Louis Adams
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content:
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/3.5
+  shutterspeed: 1/30
+  focallength: 18mm
 
 - page: morocco
   section: markets
@@ -53,43 +53,58 @@
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Louis Adams
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content:
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/5.3
+  shutterspeed: 1/100
+  focallength: 62mm
 
 - page: morocco
   section: markets
   id: r-market-birds
-  title: Birds
+  title: The Entertainer
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Ross Walker
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content: Capturing busy market scenes can sometimes be difficult when trying to draw attention to your subject. To solve this we lower the aperture in order to blur the background and keep your subject the focus of the shot. I chose to shoot this photo at a high shutter speed to keep the birds in focus but in retrospect it could also be interesting to slow the shutter speed in order to gain more blur and show movement in their wings.
   orientation: landscape
   camera: Nikon D850
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 70-200mm f/2.8
+  aperture: f/2.8
+  shutterspeed: 1/250
+  focallength: 190mm
 
 - page: morocco
   section: markets
   id: r-market-stall
-  title: Market Stall
+  title: Sweet Seller
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Ross Walker
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content: I feel you get the best out of people if they're acting naturally. Before I shot this photo we'd had a bit of conversation with this vendor and actually bought some of his sweets. Because we'd already had the friendly dialogue he felt relaxed when we asked for his photo. I then just sat back and tried to make myself discreet in order to get him looking as natural as possible. We were shooting at night but I wanted to get the detail in the sweets so needed to increase my aperture and ISO so it wasn't too dark.
   orientation: landscape
   camera: Nikon D850
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
+  lens:  24-70mm f/2.8
+  aperture: f/4.0
+  shutterspeed: 1/250
+  focallength: 35mm
+
+- page: morocco
+  section: markets
+  id: r-frozen
+  title: Frozen
+  location: Marrakesh
+  coordinates: 31.633141, -7.981762
+  photographer: Ross Walker
+  content:
+  orientation: landscape
+  camera: Nikon D850
+  lens: 24-70mm f/2.8
+  aperture: f/4.0
   shutterspeed: 1/320
-  focallength: 40mm
+  focallength: 70mm
 
 
 
@@ -99,17 +114,17 @@
 - page: morocco
   section: architecture
   id: l-garden-doorway
-  title: Exit
+  title: Doorway
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Louis Adams
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content:
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/9.0
+  shutterspeed: 1/80
+  focallength: 18mm
 
 - page: morocco
   section: architecture
@@ -118,28 +133,28 @@
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Louis Adams
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content:
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/9.0
+  shutterspeed: 1/125
+  focallength: 18mm
 
 - page: morocco
   section: architecture
   id: l-streets-buildings
-  title: Look up
+  title: Minaret
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Louis Adams
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content:
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/8.0
+  shutterspeed: 1/250
+  focallength: 18mm
 
 - page: morocco
   section: architecture
@@ -148,13 +163,13 @@
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Louis Adams
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content:
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/4.5
+  shutterspeed: 1/80
+  focallength: 18mm
 
 - page: morocco
   section: architecture
@@ -163,28 +178,28 @@
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Ross Walker
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content: The architecture of the buildings in Marrakech was phenomenal. The intricacy of the tiled floor and stone carvings were important to get in shot. To achieve this, a higher aperture setting would capture more detail. I would have loved to have got a subject in this shot to give it more perspective, but sadly nobody arrived who suited. Patience so often is one of the most valuable assets to your photography skill set.
   orientation: landscape
   camera: Nikon D850
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 14-24mm f/2.8
+  aperture: f/9.0
+  shutterspeed: 1/160
+  focallength: 21mm
 
 - page: morocco
   section: architecture
   id: r-riad-white
-  title: Royalty
+  title: Symmetry
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Ross Walker
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content: This photograph draws on the precise symmetry of the building to dramatise the architecture. I moved up and down the passage to find the best place for the photo and made sure my camera was positioned as close to the centre as possible. Trying to avoid having any or few people in this shot also helps maintain the feeling of serenity.
   orientation: portrait
   camera: Nikon D850
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 24-70mm f/2.8
+  aperture: f/10
+  shutterspeed: 1/160
+  focallength: 26mm
 
 
 
@@ -198,13 +213,13 @@
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Louis Adams
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content:
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/3.5
+  shutterspeed: 1/200
+  focallength: 18mm
 
 - page: morocco
   section: streets
@@ -213,28 +228,28 @@
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Louis Adams
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content:
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/3.5
+  shutterspeed: 1/125
+  focallength: 18mm
 
 - page: morocco
   section: streets
   id: l-men-street
-  title: Waiting game
+  title: Waiting
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Louis Adams
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content:
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  lens: 18-105mm f/3.5-5.6
   aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  shutterspeed: 1/160
+  focallength: 18mm
 
 - page: morocco
   section: streets
@@ -243,72 +258,72 @@
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Ross Walker
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content: We were wandering through the markets when we stumbled upon this lovely bit of light pouring down onto the alleyway. I sat and waited for the right subject to arrive and hoped that the smoke from the occasional scooter would still be there. If you find a nice spot with good light it's definitely worth hanging around waiting for the moment to come to you.
   orientation: portrait
   camera: Nikon D850
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 70-200mm f/2.8
+  aperture: f/2.8
+  shutterspeed: 1/640
+  focallength: 200mm
 
 - page: morocco
   section: streets
   id: r-man-donkey
-  title: Rest
+  title: Respite
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Ross Walker
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content: To escape the frantic atmosphere of the market we found the smaller alleyways quite a relief. Exploration is so vital to photography, so if you're not achieving what you want, don't be worried about finding somewhere new. I loved the shadows cast on this man's face and waited for him to turn his head to where I needed it. I shot this on quite a low aperture to blur the background but also keep him and his donkey in focus.
   orientation: landscape
   camera: Nikon D850
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 70-200mm f/2.8
+  aperture: f/3.2
+  shutterspeed: 1/125
+  focallength: 70mm
 
 - page: morocco
   section: streets
   id: r-man-stick
-  title: Meditate
+  title: Pause
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Ross Walker
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content: Perched on the curb this man seemed lost in his thoughts, so I sat at a distance and tried not to disturb him. I love when a photo translates an emotion to the audience. This photo is shot on low aperture to gain the bokeh in the background.
   orientation: landscape
   camera: Nikon D850
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 70-200mm f/2.8
+  aperture: f/2.8
+  shutterspeed: 1/640
+  focallength: 200mm
 
 - page: morocco
   section: streets
   id: r-old-man
-  title: Wisdom
+  title: The Man
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Ross Walker
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content: With so much of photography it's just 'right time, right place'. Having your camera on you as much as possible lessens the chance of missing an opportunity. With this photo I happened to notice this old man as he walked out of an alleyway. I offered him some money in order to take his photo. It's not always that tasteful paying, but if you really want the shot, handing over a bit of money can help.
   orientation: landscape
   camera: Nikon D850
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 14-24mm f/2.8
+  aperture: f/4.5
+  shutterspeed: 1/250
+  focallength: 21mm
 
 - page: morocco
   section: streets
   id: r-warehouse
-  title: Golden hour
+  title: Golden Hour
   location: Marrakesh
   coordinates: 31.633141, -7.981762
   photographer: Ross Walker
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content: Golden hour is considered by many to be the best time to shoot. It occurs shortly after sunrise or before sunset and gives your photo a certain magic. If you plan a photograph I'd definitely recommend scheduling the shot for the golden hour. I find the sunrise easier as there's usually less people around. For this shot Louis and I crouched down and waited for the right people to arrive. We were shooting on burst mode because lots of the traffic was moving quickly and we didn't want to miss the shot.
   orientation: landscape
   camera: Nikon D850
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
+  lens: 24-70mm f/2.8
+  aperture: f/4.5
+  shutterspeed: 1/250
   focallength: 40mm
 
 
@@ -323,28 +338,28 @@
   location: Atlas Mountains
   coordinates: 31.633141, -7.981762
   photographer: Louis Adams
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content:
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 70-300mm f/4.5-6.3
+  aperture: f/5.3
+  shutterspeed: 1/1000
+  focallength: 185mm
 
 - page: morocco
   section: atlas-mountains
   id: l-mountain-village
-  title: Berber life
+  title: Valley
   location: Atlas Mountains
   coordinates: 31.633141, -7.981762
   photographer: Louis Adams
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content:
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/4.5
+  shutterspeed: 1/2000
+  focallength: 34mm
 
 - page: morocco
   section: atlas-mountains
@@ -353,28 +368,28 @@
   location: Atlas Mountains
   coordinates: 31.633141, -7.981762
   photographer: Louis Adams
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content:
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 70-300mm f/4.5-6.3
+  aperture: f/5.0
+  shutterspeed: 1/1250
+  focallength: 150mm
 
 - page: morocco
   section: atlas-mountains
   id: r-berber-woman
-  title: On the march
+  title: Mountain Flock
   location: Atlas Mountains
   coordinates: 31.633141, -7.981762
   photographer: Ross Walker
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content: We were racing to reach a spot for the Golden Hour and when we arrived we were disappointed. Everyone bundled back into the van and we hurried back to the hills where we'd passed some Berber shepherds who were herding in their goats. This woman caught my eye so I attempted framing her with the goats in shot and the mountains in the distance. It's useful to break up a photo using foreground and background. I shot this on a zoom lens as she was quite a long distance away.
   orientation: landscape
   camera: Nikon D850
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  lens: 70-200mm f/2.8
   aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  shutterspeed: 1/250
+  focallength: 200mm
 
 - page: morocco
   section: atlas-mountains
@@ -383,26 +398,26 @@
   location: Atlas Mountains
   coordinates: 31.633141, -7.981762
   photographer: Ross Walker
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content: My favourite way to shoot is to walk in a place I imagine could have great photo opportunities - sadly that luxury isn't always there and most of the time you'll see something when you're travelling in a car and wish that you'd stopped and taken that photo. I'd recommend stopping. For this photo we were hurtling through the hills in our van when we noticed these boys galloping across the field on their donkey. We luckily stopped and I managed to take this shot. Having the bare hills in the background gives the impression these kids are in the middle of the wilderness.
   orientation: landscape
   camera: Nikon D850
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 70-200mm f/2.8
+  aperture: f/4.0
+  shutterspeed: 1/640
+  focallength: 70mm
 
 - page: morocco
   section: atlas-mountains
   id: r-mountains-farmer
-  title: Surveying
+  title: Keeping Watch
   location: Atlas Mountains
   coordinates: 31.633141, -7.981762
   photographer: Ross Walker
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+  content:
   orientation: landscape
   camera: Nikon D850
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 70-200mm f/2.8
+  aperture: f/4.0
+  shutterspeed: 1/640
+  focallength: 200mm
 

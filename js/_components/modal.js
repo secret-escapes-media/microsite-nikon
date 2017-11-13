@@ -24,6 +24,7 @@ function modalOpen(event){
     modal.addClass('modal--carousel').addClass('modal--carousel-' + modalGroup);
     modal.data(modalGroup);
   }
+  accordionReset(); // reset photo details to open state
 
   // hides all modal content
   $('.modal__item').addClass('is-closed').hide();
@@ -34,11 +35,24 @@ function modalOpen(event){
   $(modalItem).removeClass('is-closed').addClass('is-open').show();
   // disable scrolling on background content (doesn't work iOS)
   $('body').addClass('disable-scroll');
-  // open modal
 
+  // update video
+  if( $(event.currentTarget).attr('data-video-id') ){
+    var modalVideoId = $(event.currentTarget).data('video-id');
+    var modalVideoLink = $(event.currentTarget).data('video-link');
+    $('#modal__video').attr('src', 'https://www.youtube.com/embed/' + modalVideoId + '?enablejsapi=1');
+    $('.modal__cta__btn').attr('href', '/nikon/' + modalVideoLink);
+    // keep video hidden until url updates
+    setTimeout(function() {
+      $('#modal__video').addClass('modal__video--ready');
+    }, 500);
+  }
+
+  // open modal
   modal.fadeIn(modalTransition, function(){
     $(this).removeClass('is-closed').addClass('is-open');
   });
+
 }
 
 
@@ -58,6 +72,8 @@ function modalClose(event){
     $(this).removeClass('is-open').removeClass('modal--carousel').addClass('is-closed');
     $('.modal__item.is-open').removeClass('is-open').addClass('is-closed');
   });
+  accordionReset(); // reset photo details to open state
+  stopVideo();
 }
 
 // open modal when .js-open-modal is clicked
@@ -76,9 +92,9 @@ modalWrap.on('click', function(event) {
 
 // closes modal on escape key press
 $(document).keyup(function(event) {
-   if (event.keyCode == 27) {
-     modalClose(event);
-    }
+  if (event.keyCode == 27) {
+    modalClose(event);
+  }
 });
 
 
@@ -140,7 +156,9 @@ function launchNextModal(){
       firstItem.removeClass('is-opening').addClass('is-open');
     }, modalTransition);
   }
-
+  setTimeout(function() {
+    accordionReset(); // reset photo details to open state
+  }, modalTransition);
 }
 
 
@@ -192,6 +210,9 @@ function launchPreviousModal(){
       lastItem.removeClass('is-opening').addClass('is-open');
     }, modalTransition);
   }
+  setTimeout(function() {
+    accordionReset(); // reset photo details to open state
+  }, modalTransition);
 }
 
 

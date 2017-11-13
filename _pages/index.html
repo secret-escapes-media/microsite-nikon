@@ -8,7 +8,7 @@ nav-order: 1
 
 banner:
   content: >
-    <div class="banner__iamnikon"></div>
+    <div class="banner__iam"></div>
     <h1 class="title title--xxxl title--upper title--bolder title--kerning">Capture the Journey</h1>
   images:
     - image: 01.jpg
@@ -49,27 +49,30 @@ intro: >
 
       <div class="bob__image">
 
-        <a href="javascript:void(0);" data-modal-item="{{destination.id}}-guide" data-modal-group="section" class="js-open-modal banner__video-link bg-img bg-img--16-9 bg--grey-darkest">
+        {% assign video = site.data.videos | where: "id", destination.banner.video-id %}
+        {% for video in video %}
+        <a href="javascript:void(0);" data-modal-item="video" data-video-id="{{video.video-id}}" data-video-link="{{video.link}}" class="js-open-modal video__link bg-img bg-img--16-9 bg--grey-darkest">
           <div class="bg-img__content">
-            <img src="{{site.baseurl}}/img/icons/icon-play.png" class="js-svg-swap banner__video-link__icon" alt="Play">
+            <img src="{{site.baseurl}}/img/icons/icon-play.png" class="js-svg-swap video__icon" alt="Play">
           </div>
           <div class="bg-img__bg" style="background-image: url({{site.baseurl}}/img/content/{{destination.id}}/video-poster.jpg);"></div>
         </a>
+        {% endfor %}
 
-        <div class="row--6-6-gutters">
+        <div class="row row--nobp row--6-6-gutters">
 
           {% for image in destination.intro-images %}
-          {% if image.photo-id %}
-            <div class="col">
-              {% assign photo = photos | where: "id", image.photo-id %}
-              {% for photo in photo %}
-                {% include components/photo.html ratio="3-2" %}
-              {% endfor %}
-            </div>
-          {% else %}
-            <div class="col bg-img bg-img--3-2" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/{{destination.id}}-{{image.image}});"></div>
-          {% endif %}
-        {% endfor %}
+            {% if image.photo-id %}
+              <div class="col">
+                {% assign photo = photos | where: "id", image.photo-id %}
+                {% for photo in photo %}
+                  {% include components/photo.html ratio="3-2" %}
+                {% endfor %}
+              </div>
+            {% else %}
+              <div class="col bg-img bg-img--3-2" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/{{destination.id}}-{{image.image}});"></div>
+            {% endif %}
+          {% endfor %}
 
         </div>
       </div>
@@ -77,7 +80,7 @@ intro: >
       <div class="bob__text">
         <div class="title title--lg title--bold title--upper title--kerning">{{destination.title}}</div>
         {{ destination.parent-intro }}
-        <a href="{{site.baseurl}}{{destination.url}}" class="btn btn--outline">Discover {{destination.title}} now</a>
+        <a href="{{site.baseurl}}{{destination.url}}" class="btn btn--outline">Discover {{destination.title}}</a>
       </div>
 
     </div>
@@ -89,17 +92,16 @@ intro: >
 
 
 
-<section class="section bg--grey-darkest text--white">
+<section class="harvey bg--grey-darkest text--white">
 
-  <div class="row row--padding row--6-6 row--valign">
-    <div class="col">
-      <h3 class="title title--lg">Get equipped with Nikon</h3>
-      <p class="text--lg">Discover the Nikon D7500 and the D850, used by our photographers across this site...</p>
-      <a href="{{site.baseurl}}/nikon-range" class="btn btn--yellow">Explore the range</a>
-    </div>
-    <div class="col">
-      <a href="{{site.baseurl}}/nikon-range" class="bg-img bg-img--3-2" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/nikon-promo.jpg);"></a>
-    </div>
+  <a href="{{site.baseurl}}/nikon-range" class="harvey__image bg-img bg-img--3-2" style="background-image: url({{site.baseurl}}/img/content/nikon-promo.jpg);"></a>
+
+  <div class="harvey__text text--center">
+    <h2 class="title row--sm"><img src="{{site.baseurl}}/img/bg/iamchasing.png" class="js-svg-swap" alt="I am Chasing Moments"></h2>
+    <h4 class="title title--md">Get equipped with Nikon</h4>
+    <hr class="hr--center">
+    <p class="text--lg">Discover the Nikon D7500 and the D850, used by our photographers across this site...</p>
+    <a href="{{site.baseurl}}/nikon-range" class="btn btn--yellow">Explore the range</a>
   </div>
 
 </section>

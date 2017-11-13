@@ -5,36 +5,41 @@
 // =========================================
 
 
-function accordion(target,label,altLabel){
+function accordion(trigger,target){
   var accordion = $('.accordion');
   var targetAccordion = $('#' + target);
-  var btn = $(event.target);
 
   if(targetAccordion.hasClass('accordion--open')){
+    trigger.removeClass('accordion--triggered');
     targetAccordion.slideUp().removeClass('accordion--open').addClass('accordion--closed');
-    if(label){ btn.html(label); }
   }else{
+    $('.accordion__trigger.accordion--triggered').removeClass('accordion--triggered');
+    trigger.addClass('accordion--triggered');
     accordion.slideUp().removeClass('accordion--open').addClass('accordion--closed');
     targetAccordion.slideDown().removeClass('accordion--closed').addClass('accordion--open');
-    if(altLabel){ btn.html(altLabel); }
   }
 }
 
 
-$('.accordion').each(function(){
-  $(this).slideUp().addClass('accordion--closed');
+$('.accordion--closed').each(function(){
+  $(this).slideUp();
 });
 
 $('.accordion__trigger').click(function(event){
-
-  var label = $(this).attr('data-label');
-  var altLabel = $(this).attr('data-alt-label');
+  var trigger = $(this);
   var target = $(this).attr('data-target');
 
-  if( altLabel ){
-    accordion(target,label,altLabel);
-  }else{
-    accordion(target);
-  }
-
+  accordion(trigger,target);
 });
+
+
+function accordionReset(){
+  var trigger = $('.modal__content__text-btn.accordion--triggered');
+  var accordion = $('.modal__content__text-content.accordion--closed');
+  accordion.each(function(){
+    $(this).slideDown(0).removeClass('accordion--closed').addClass('accordion--open');
+  });
+  trigger.each(function(){
+    $(this).removeClass('accordion--triggered');
+  });
+}

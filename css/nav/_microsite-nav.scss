@@ -17,7 +17,7 @@ $nav-width-bp: 1080px;
   line-height: $site-nav-height-sm;
   text-transform: uppercase;
   color: $white;
-  background-color: $grey-darkest;
+  background-color: $grey-dark;
   overflow: hidden;
   @include bp(md){
     height: $site-nav-height;

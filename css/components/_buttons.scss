@@ -4,7 +4,7 @@
 
 .btn {
   position: relative;
-  display: inline-block;
+  display: block;
   color: $text-white;
   font-weight: 600;
   text-align: center;
@@ -16,18 +16,18 @@
   cursor: pointer;
   padding: $s-1 $s3;
   font-size: $s-2;
-  @include bp(lg){
-    padding: $s1 $s4;
-    font-size: $s-1;
-  }
   @include transition;
   &:hover { background-color: $orange-dark; }
-
+  @include bp(lg){
+    display: inline-block;
+    padding: $s1 $s3;
+    font-size: $s-1;
+    & + & { margin-left: 1em; }
+  }
   * + & { margin-top: 1.5em; }
-  & + & { margin-left: 1em; }
 
   @include bp(lg){
-    &--sm { padding: $s-1 $s3; font-size: $s-1; }
+    &--sm { padding: $s-1 $s2; font-size: $s-2; }
     &--lg { padding: $s2 $s8; }
   }
 
