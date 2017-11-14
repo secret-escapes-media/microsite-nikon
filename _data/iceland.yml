@@ -133,7 +133,7 @@
   coordinates:
   photographer: Eleanor Cording-Booth
   content: Just before we arrived at the waterfalls, we spotted this sweet little turf-roofed shelter, so we pulled up to take a couple of quick shots as it had such a whimsical ‘Hobbit house’ look to it, especially with the pointed shape of the rock looming behind it. The great thing about Iceland is quirky sights like this are everywhere if you’re prepared to get out and explore.
-  orientation: landscape
+  orientation: portrait
   camera: Nikon D7500
   lens: 18-105mm f/3.5-5.6
   aperture: f/5.6
@@ -268,21 +268,6 @@
 - page: iceland
   section: horses-and-hills
   id: c-horse
-  title: A Portrait
-  location: Horses and hills
-  coordinates:
-  photographer: Craig Howes
-  content:
-  orientation: landscape
-  camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
-
-- page: iceland
-  section: horses-and-hills
-  id: c-horse-2
   title: A Portrait
   location: Horses and hills
   coordinates:

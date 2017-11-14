@@ -19,13 +19,13 @@ layout: default
       <div class="bob">
 
         <div class="bob__image">
-          {% if section.image %}
-            {% assign photo = photos | where: "id", section.image %}
+          {% if section.photo-id %}
+            {% assign photo = photos | where: "id", section.photo-id %}
             {% for photo in photo %}
               {% include components/photo.html ratio="16-9" %}
             {% endfor %}
           {% else %}
-            <div class="bg-img bg-img--16-9" style="background-image:url({{site.baseurl}}/img/content/iceland/pois/{{section.title|slugify}}.jpg);"></div>
+            <div class="bg-img bg-img--16-9" style="background-image:url({{site.baseurl}}/img/content/{{page.group}}/pois/{{section.title|slugify}}.jpg);"></div>
           {% endif %}
         </div>
 
@@ -55,13 +55,13 @@ layout: default
       <div class="poi bg--light-grey col">
 
         <div class="poi__image">
-        {% if poi.image-id %}
-          {% assign photo = photos | where: "id", poi.image-id %}
+        {% if poi.photo-id %}
+          {% assign photo = photos | where: "id", poi.photo-id %}
           {% for photo in photo %}
             {% include components/photo.html ratio="16-9" %}
           {% endfor %}
         {% else %}
-          <div class="bg-img bg-img--16-9" style="background-image:url({{site.baseurl}}/img/content/iceland/pois/{{poi.id}}.jpg);"></div>
+          <div class="bg-img bg-img--16-9" style="background-image:url({{site.baseurl}}/img/content/{{page.group}}/pois/{{poi.id}}.jpg);"></div>
         {% endif %}
         </div>
 

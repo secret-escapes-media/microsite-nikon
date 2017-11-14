@@ -13,7 +13,7 @@
         <!-- Breadcrumbs -->
         {% assign parent-page = site.html_pages | where:"id", page.group %}
         <span class="banner__content-breadcrumbs title title--xxxs title--upper title--kerning">
-          <a href="{{site.baseurl}}/{{page.group}}" class="title title--bold title--kerning">{% for parent in parent-page %}{{parent.title}}{% endfor %}</a>
+          <a href="{{site.baseurl}}/{{page.group}}" class="title title--bolder title--kerning">{% for parent in parent-page %}{{parent.title}}{% endfor %}</a>
           {{page.title}}
         </span>
 
