@@ -35,7 +35,7 @@
   id: e-reynisfjara-black-sands
   title: Black Sands
   location: Reynisfjara
-  coordinates: 63.403238, -19.036316
+  coordinates: 63.40509, -19.0561
   photographer: Eleanor Cording-Booth
   content: I wanted to capture the texture and depth of the black and grey, so for this image, I zoomed in on a little cove where jet-black sand met the cliffside. Jagged rocks the colour of charred wood gave an otherworldly feel. To juxtapose with the monochrome, Craig suggested I get the grassy hillside into the frame – I love the added texture and pop of colour.
   orientation: landscape
@@ -52,22 +52,7 @@
   location: Reynisfjara
   coordinates:
   photographer: Craig Howes
-  content:
-  orientation: landscape
-  camera: Nikon D850
-  lens: 24-70mm f/2.8
-  aperture: f/4.5
-  shutterspeed: 1/320
-  focallength: 27mm
-
-- page: iceland
-  section: reynisfjara
-  id: c-dyrholaey
-  title: Black Cliffs
-  location: Reynisfjara
-  coordinates:
-  photographer: Craig Howes
-  content:
+  content: Shot from above, a touch of green adds a hint of colour to this otherwise monochrome image. Adding a little foreground offers a sense of depth and scale. The high viewpoint also avoids the danger of shooting on the beach itself – the ocean here is unpredictable and wild, always be mindful of how close you get to the waves!
   orientation: landscape
   camera: Nikon D850
   lens: 24-70mm f/2.8
@@ -78,11 +63,11 @@
 - page: iceland
   section: reynisfjara
   id: c-beach
-  title: The Beach
+  title: The Trolls
   location: Reynisfjara
   coordinates:
   photographer: Craig Howes
-  content:
+  content: The Reynisdrangar Trolls are an iconic part of Iceland’s coastline. The myths and legends surrounding these outcrops is something I wanted to capture, so I placed them in the background of the shot. The focus isn’t necessarily on them, so they loom mysteriously behind the hill in the foreground, slowly walking out to sea.
   orientation: landscape
   camera: Nikon D850
   lens: 24-70mm f/2.8
@@ -117,7 +102,7 @@
   location: Kvernufoss
   coordinates: 63.528637, -19.480905
   photographer: Eleanor Cording-Booth
-  content: Head to the right of Skogafoss, past the Skogar Folk Museum (which is worth a visit, with some cool turf houses to photograph) and just beyond. There is a secret waterfall that you can get really close to and even walk behind. This photo is taken from the beautiful walk that leads up to it. You would need a wide-angle lens to take a great shot from the inside the cave, behind the waterfall.
+  content: Head to the right of Skogafoss, past the Skogar Folk Museum (which is worth a visit, with some cool turf houses to photograph) and just beyond. There is a secret waterfall that you can get really close to and even walk behind. This photo is taken from the beautiful walk that leads up to it. You would need a wide-angle lens to take a great shot from the inside of the cave, behind the waterfall.
   orientation: portrait
   camera: Nikon D7500
   lens: 18-105mm f/3.5-5.6
@@ -142,33 +127,18 @@
 
 - page: iceland
   section: skogafoss
-  id: c-inside-waterfall
-  title: Inside the Falls
-  location: Skogafoss
-  coordinates:
-  photographer: Craig Howes
-  content:
-  orientation: portrait
-  camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
-
-- page: iceland
-  section: skogafoss
   id: c-behind-waterfall
   title: Behind the Falls
   location: Skogafoss
   coordinates: 63.403238, -19.036316
   photographer: Craig Howes
-  content:
+  content: A wide-angle lens is a must for this location as the area behind the falls isn’t particularly deep. To keep the edge of the cave in the shot, a 24/70mm lens works nicely. Keep a check on your exposure when shooting a bright scene from a dark space and consider finding a person to impart a sense of scale to your natural environment.
   orientation: landscape
   camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/9.0
+  shutterspeed: 1/100
+  focallength: 35mm
 
 - page: iceland
   section: skogafoss
@@ -177,13 +147,13 @@
   location: Skogafoss
   coordinates: 63.403238, -19.036316
   photographer: Craig Howes
-  content:
+  content: A neutral density filter is a great tool when photographing water. It tones down the reflections from the water and the surfaces around, smoothing the scene for great effect. Rather than trying to fit the whole fall into the shot, I framed the water amongst the cliffs, with a pop of colour from the grass contrasting with the blue overtones. Again, a person was used to impart a sense of scale.
   orientation: landscape
   camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/9.0
+  shutterspeed: 1/100
+  focallength: 35mm
 
 - page: iceland
   section: skogafoss
@@ -192,13 +162,13 @@
   location: Skogafoss
   coordinates: 63.403238, -19.036316
   photographer: Craig Howes
-  content:
+  content: Iceland’s sights are so dramatic they border on surreal. By shifting your perspective, you can capture this otherworldly atmosphere. Try hugging the ground, focusing on one aspect of a bigger scene. Here, by filling the background with the bottom of the falls, an ethereal backdrop is created. This is accentuated by the subject, who, from the perspective, appears small in comparison.
   orientation: portrait
   camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/9.0
+  shutterspeed: 1/100
+  focallength: 35mm
 
 
 
@@ -268,17 +238,17 @@
 - page: iceland
   section: horses-and-hills
   id: c-horse
-  title: A Portrait
+  title: Camera Shy
   location: Horses and hills
   coordinates:
   photographer: Craig Howes
-  content:
+  content: Animals are always a fascinating subject. You’ll pass these ponies regularly, make sure you stop and take pictures. Wait for a great background, like mountains, or shift your perspective by shooting from down low. It will help calm the animals too. A wide-angle lens works nicely for close-ups, distorting the edges and accentuating features like the long face of a pony.
   orientation: landscape
   camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/9.0
+  shutterspeed: 1/100
+  focallength: 35mm
 
 
 
@@ -337,7 +307,7 @@
   location: Jökulsárlón Lagoon
   coordinates:
   photographer: Craig Howes
-  content:
+  content: This location is simply stunning. On a clouded over day like this, colours become very blown out, lacking the contrast that makes your picture really pop. To offset the blue of the lagoon, consider adding the beach into the foreground with a subject like this one. The candid style and bright pop of the yellow mac, relegated to a third of the image, add contrast where it would otherwise be lacking.
   orientation: landscape
   camera: Nikon D850
   lens: 18-105mm f/3.5-5.6
@@ -348,11 +318,11 @@
 - page: iceland
   section: jokulsarlon-lagoon
   id: c-icebergs
-  title: Freeze Frame
+  title: Ice Sculptures
   location: Jökulsárlón Lagoon
   coordinates:
   photographer: Craig Howes
-  content:
+  content: The lagoon offers an incredible range of textures. From smooth, transparent sculptures to rough, dazzlingly-white icebergs, they make for fascinating shots. Watch your exposure, so you pick out as much of the varying textures and colours as possible. Look out for any break in the clouds to help illuminate the ice.
   orientation: landscape
   camera: Nikon D850
   lens: 18-105mm f/3.5-5.6
@@ -387,10 +357,10 @@
   location: Iceland
   coordinates: 64.079635, -16.230912
   photographer: Craig Howes
-  content:
+  content: The holy grail of any photography trip to Iceland. Planning is key – we got very lucky, but a bit of research goes a long way to ensuring you get that shot. You’ll need a good tripod. Have a fast lens to hand, ideally f2.8 opened up all the way. This will ensure that as much light enters the sensor as possible, whilst still keeping things sharp. It will also hinder needing a really high ISO which will introduce noise. Introducing the building here was a great way of adding depth to this shot.
   orientation: landscape
   camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
+  lens: 14-24mm f/2.8
+  aperture: f/2.8
+  shutterspeed: 3.0
+  focallength: 14mm

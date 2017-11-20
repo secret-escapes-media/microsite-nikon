@@ -15,9 +15,9 @@ banner:
 
 
 intro: >
-  <p class="text--lg">Begin your very own photographic journey with Nikon.</p>
-  <p>Whether you’re an amateur or a professional, make your next camera a Nikon. Graduate to the D7500, for crisp, high-definition shots with rich tonal gradations. It’s the perfect tool for stepping up your photography and capturing the perfect moment with ease.</p>
-  <p>If you’re already a fluent photographer, the D850 is built for you. Extreme resolution meets extreme speed, for a package that will offer a brand new perspective to your photographic creativity. </p>
+  <p class="text--xl">Begin your very own photographic journey with Nikon.</p>
+  <p class="text--lg">Whether you’re an aspiring or a professional photographer, make your next camera a Nikon. Graduate to the D7500, for crisp, high-definition shots with rich tonal gradations. It’s the perfect tool for stepping up your photography and capturing the perfect moment with ease.</p>
+  <p class="text--lg">If you’re already a fluent photographer, the D850 is built for you. Extreme resolution meets extreme speed, for a package that will offer a brand new perspective to your photographic creativity. </p>
 
 
 
@@ -25,15 +25,23 @@ testimonials:
 
   - by: Eleanor Cording-Booth
     destination: iceland
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga excepturi optio sit at doloribus dolorem quaerat ratione reiciendis, amet iure inventore perferendis sint explicabo eius corporis assumenda quasi ab eos!
+    content: The D7500 is the perfect choice for an adventurous destination like Iceland. The moveable touchscreen and weatherproofing mean you'll get some shots out in the elements without damaging the camera or having to crouch down in mud to get the angle you want.
 
   - by: Louis Adams
     destination: morocco
-    content: Consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor sint explicabo eius corporis assumenda quasi ab eos! Nullam quis risus eget urna mollis ornare vel eu leo.
+    content: The Nikon D7500 is super easy to use, but takes stunning pictures. In the bustling streets of Marrakech I found the burst mode especially helpful to capture the right shot, and quickly uploading them straight to my phone via the Snapbridge app was an added bonus!
+
+  - by: Craig Howes
+    destination: iceland
+    content: I really enjoyed the Nikon D850, it was a great durable camera that held up in Iceland’s harsh conditions. The dynamic range is incredible and one of my favorite features is the built in timelapse for those random Northern Lights that sometimes catch you by surprise
+
+  - by: Ross Walker
+    destination: morocco
+    content: I loved shooting on the Nikon as the speed of autofocus meant you were less likely to miss "that moment" - this was crucial in the fast-paced markets I love shooting in.
 
   - by: Marianna Sgherri
     destination: new-york
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga excepturi optio sit at doloribus dolorem quaerat ratione reiciendis, amet iure inventore perferendis sint explicabo eius corporis assumenda quasi ab eos!
+    content: The Nikon D7500 is the perfect camera for a trip to a metropolis like NYC. In a place where there's so much going on 24/7 you want to have a camera that works well in low light and has got a long-lasting battery. With the D7500 I didn't have to worry about getting that horrible 'noise' on my night street photos nor about the battery suddenly dying while shooting at the end of the day.
 
 
 
@@ -100,7 +108,7 @@ nikon-school:
       <div class="testimonials__slide" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/testimonial-{{testimonial.destination}}.jpg);">
         <div class="row row--xl row--padding">
           <hr>
-          <p class="text--lg">{{testimonial.content}}</p>
+          <p class="text--lg">"{{testimonial.content}}"</p>
           <p class="photographer__title">
             <img src="/nikon/img/content/{{testimonial.destination}}/photographer-{{testimonial.by|slugify}}.jpg" width="30" class="photographer-image bg-img--circle">
             <span class="photographer-title title title--bold">{{testimonial.by}}</span>
