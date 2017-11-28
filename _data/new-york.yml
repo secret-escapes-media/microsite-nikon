@@ -1,50 +1,48 @@
 
 
-
-
 - page: new-york
   section: the-streets
   id: m-street-reflection
   title: Reflection
   location: New York
-  coordinates: 40.758911, -73.985115
+  coordinates: 40.71575, -73.99703
   photographer: Marianna Sgherri
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/8.0
+  shutterspeed: 1/160
+  focallength: 18mm
 
 - page: new-york
   section: the-streets
   id: m-smile
   title: Moment
   location: New York
-  coordinates:
+  coordinates: 40.71496, -73.99965
   photographer: Marianna Sgherri
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
+  lens: 18-105mm f/3.5-5.6
   aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  shutterspeed: 1/500
+  focallength: 66mm
 
 - page: new-york
   section: the-streets
   id: m-fire-station
   title: The Fire Station
   location: New York
-  coordinates:
+  coordinates: 40.71531, -73.99289
   photographer: Marianna Sgherri
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/4.5
+  shutterspeed: 1/80
   focallength: 40mm
 
 - page: new-york
@@ -52,75 +50,75 @@
   id: m-police-wallst
   title: The Law
   location: New York
-  coordinates: 40.758911, -73.985115
+  coordinates: 40.70695, -74.00973
   photographer: Marianna Sgherri
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/5.6
+  shutterspeed: 1/80
+  focallength: 35mm
 
 - page: new-york
   section: the-streets
   id: m-subway
   title: Commuter
   location: New York
-  coordinates: 40.758911, -73.985115
+  coordinates: 40.71953, -74.00199
   photographer: Marianna Sgherri
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/5.0
+  shutterspeed: 1/50
+  focallength: 52mm
 
 - page: new-york
   section: the-streets
   id: v-street-girls
   title: Friends
   location: New York
-  coordinates: 40.758911, -73.985115
+  coordinates:
   photographer: Victoria Campbell
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: landscape
   camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
+  lens: 24-70mm f/2.8
+  aperture: f/6.3
+  shutterspeed: 1/60
+  focallength: 70mm
 
 - page: new-york
   section: the-streets
   id: v-little-italy
   title: Little Italy
   location: New York
-  coordinates:
+  coordinates: 40.71914, -73.99732
   photographer: Victoria Campbell
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: portrait
   camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
+  lens: 24-70mm f/2.8
+  aperture: f/7.1
+  shutterspeed: 1/500
+  focallength: 70mm
 
 - page: new-york
   section: the-streets
   id: v-games
   title: Chinese Chess
   location: New York
-  coordinates: 40.758911, -73.985115
+  coordinates: 40.71566, -73.99999
   photographer: Victoria Campbell
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: portrait
   camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
+  lens: 24-70mm f/2.8
+  aperture: f/6.3
+  shutterspeed: 1/500
+  focallength: 70mm
 
 - page: new-york
   section: the-streets
@@ -132,10 +130,10 @@
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: portrait
   camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
+  lens: 24-70mm f/2.8
+  aperture: f/6.3
+  shutterspeed: 1/500
+  focallength: 66mm
 
 
 
@@ -147,120 +145,120 @@
   id: m-brooklyn-bridge
   title: Brooklyn Bridge
   location: New York
-  coordinates: 40.758911, -73.985115
+  coordinates: 40.70608, -73.99686
   photographer: Marianna Sgherri
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 70-300mm f/4.5-6.3
+  aperture: f/11
+  shutterspeed: 1/200
+  focallength: 70mm
 
 - page: new-york
   section: across-the-river
   id: m-through-bridge
   title: Through the Bridge
   location: New York
-  coordinates:
+  coordinates: 40.70426, -73.99465
   photographer: Marianna Sgherri
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/13
+  shutterspeed: 1/200
+  focallength: 28mm
 
 - page: new-york
   section: across-the-river
   id: m-bridge-umbrella
   title: Umbrella
   location: New York
-  coordinates: 40.758911, -73.985115
+  coordinates: 40.70285, -73.9896
   photographer: Marianna Sgherri
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/10
+  shutterspeed: 1/200
+  focallength: 48mm
 
 - page: new-york
   section: across-the-river
   id: m-dock-view
   title: Docks
   location: New York
-  coordinates:
+  coordinates: 40.70029, -73.99669
   photographer: Marianna Sgherri
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/18
+  shutterspeed: 0.8 seconds
+  focallength: 18mm
 
 - page: new-york
   section: across-the-river
   id: v-brooklyn-bridge
   title: Symmetry
   location: New York
-  coordinates: 40.758911, -73.985115
+  coordinates: 40.70426, -73.99465
   photographer: Victoria Campbell
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: landscape
   camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
+  lens: 14-24mm f/2.8
+  aperture: f/22
+  shutterspeed: 1/500
+  focallength: 22mm
 
 - page: new-york
   section: across-the-river
   id: v-bridge-street-portrait
   title: Destination
   location: New York
-  coordinates:
+  coordinates: 40.70285, -73.9896
   photographer: Victoria Campbell
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: portrait
   camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
+  lens: 24-70mm f/2.8
+  aperture: f/9.0
+  shutterspeed: 1/100
+  focallength: 27mm
 
 - page: new-york
   section: across-the-river
   id: v-bridge-street
   title: River Crossing
   location: New York
-  coordinates: 40.758911, -73.985115
+  coordinates:
   photographer: Victoria Campbell
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: landscape
   camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
+  lens: 24-70mm f/2.8
+  aperture: f/14
+  shutterspeed: 1/100
+  focallength: 70mm
 
 - page: new-york
   section: across-the-river
   id: v-city-water
   title: East River
   location: New York
-  coordinates: 40.758911, -73.985115
+  coordinates: 40.70029, -73.99669
   photographer: Victoria Campbell
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: landscape
   camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
+  lens: 24-70mm f/2.8
+  aperture: f/20
+  shutterspeed: 15 seconds
+  focallength: 24mm
 
 
 
@@ -272,60 +270,60 @@
   id: m-down-from-rock
   title: From the Rock
   location: New York
-  coordinates:
+  coordinates: 40.75883, -73.97834
   photographer: Marianna Sgherri
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/5.6
+  shutterspeed: 1/40
+  focallength: 18mm
 
 - page: new-york
   section: metropolis
   id: m-rock-lookout
   title: Icon
   location: New York
-  coordinates: 40.758911, -73.985115
+  coordinates:
   photographer: Marianna Sgherri
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 70-300mm f/4.5-6.3
+  aperture: f/10
+  shutterspeed: 1/50
+  focallength: 70mm
 
 - page: new-york
   section: metropolis
   id: m-streets-from-rock
   title: Twilight
   location: New York
-  coordinates:
+  coordinates: 40.75883, -73.97834
   photographer: Marianna Sgherri
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/5.3
+  shutterspeed: 1/50
+  focallength: 62mm
 
 - page: new-york
   section: metropolis
   id: m-flatiron
   title: Flat Iron
   location: New York
-  coordinates: 40.758911, -73.985115
+  coordinates: 40.74106, -73.98969
   photographer: Marianna Sgherri
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
+  lens: 14-24mm f/2.8
+  aperture: f/18
   shutterspeed: 1/320
-  focallength: 40mm
+  focallength: 14mm
 
 - page: new-york
   section: metropolis
@@ -337,40 +335,40 @@
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: landscape
   camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
+  lens: 24-70mm f/2.8
+  aperture: f/10
+  shutterspeed: 1/800
+  focallength: 55mm
 
 - page: new-york
   section: metropolis
   id: v-empire-state
   title: Highrise
   location: New York
-  coordinates: 40.758911, -73.985115
+  coordinates: 40.75883, -73.97834
   photographer: Victoria Campbell
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: portrait
   camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
+  lens: 70-200mm f/2.8
+  aperture: f/8.0
+  shutterspeed: 1/40
+  focallength: 70mm
 
 - page: new-york
   section: metropolis
   id: v-subway
   title: Subway
   location: New York
-  coordinates: 40.758911, -73.985115
+  coordinates:
   photographer: Victoria Campbell
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: landscape
   camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
+  lens: 24-70mm f/2.8
+  aperture: f/4.5
+  shutterspeed: 1/80
+  focallength: 48mm
 
 
 
@@ -382,75 +380,75 @@
   id: m-street-night
   title: 24 Hrs
   location: New York
-  coordinates: 40.758911, -73.985115
+  coordinates: 40.75889, -73.98513
   photographer: Marianna Sgherri
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 18-105mm f/3.5-5.6
+  aperture: f/4.2
+  shutterspeed: 1/60
+  focallength: 34mm
 
 - page: new-york
   section: city-at-night
   id: m-time-sq
   title: Stripes
   location: New York
-  coordinates:
+  coordinates: 40.75889, -73.98513
   photographer: Marianna Sgherri
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: portrait
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 14-24mm f/2.8
+  aperture: f/7.1
+  shutterspeed: 1/125
+  focallength: 24mm
 
 - page: new-york
   section: city-at-night
   id: m-purple-night
   title: Glow
   location: New York
-  coordinates: 40.758911, -73.985115
+  coordinates:
   photographer: Marianna Sgherri
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: landscape
   camera: Nikon D7500
-  lens: AF-S DX NIKKOR 70-300mm f/3.5-5.6G
-  aperture: f/6.3
-  shutterspeed: 1/320
-  focallength: 40mm
+  lens: 70-300mm f/4.5-6.3
+  aperture: f/4.8
+  shutterspeed: 1/4
+  focallength: 105mm
 
 - page: new-york
   section: city-at-night
   id: v-time-sq-boy
   title: Patriot
   location: New York
-  coordinates:
+  coordinates: 40.75889, -73.98513
   photographer: Victoria Campbell
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: portrait
   camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
+  lens: 24-70mm f/2.8
+  aperture: f/5.6
+  shutterspeed: 1/640
+  focallength: 70mm
 
 - page: new-york
   section: city-at-night
   id: v-times-sq-cyclist
   title: Passing Through
   location: New York
-  coordinates: 40.758911, -73.985115
+  coordinates:
   photographer: Victoria Campbell
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: landscape
   camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
+  lens: 20mm f/1.4
+  aperture: f/5.0
+  shutterspeed: 1/320
+  focallength: 20mm
 
 - page: new-york
   section: city-at-night
@@ -462,7 +460,7 @@
   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   orientation: portrait
   camera: Nikon D850
-  lens:
-  aperture:
-  shutterspeed:
-  focallength:
+  lens: 20mm f/1.4
+  aperture: f/2.0
+  shutterspeed: 1/30
+  focallength: 20mm

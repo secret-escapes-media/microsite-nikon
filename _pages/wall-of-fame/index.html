@@ -6,31 +6,85 @@ nav-order: 5
 
 banner:
   title:
-  title-sub: The very best from our intrepid explorers
-  location: Waterfall
+  title-sub: The best travel photos from other intrepid explorers
+
+
 
 intro: >
-  <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus consequatur ex saepe tempore quia odio debitis omnis neque molestiae eos eius vitae temporibus.</p>
-  <p>Charum repellat explicabo quam quos labore optio veniam, molestias in nesciunt, quod numquam. Et dolor tempore, ex minus delectus, hic nemo officiis illo ullam. Tempora, consequatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quibusdam reiciendis atque autem est dolorum quos, ad dignissimos iste amet voluptate laudantium saepe? Commodi, quasi, asperiores. Est consequatur repellat magnam.</p>
+  <p class="text--xl text--bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  <p class="text--lg">Charum repellat explicabo quam quos labore optio veniam, molestias in nesciunt, quod numquam. Et dolor tempore, ex minus delectus, hic nemo officiis illo ullam. Tempora, consequatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+
+
+entry-details: >
+  <p>Charum repellat explicabo quam quos labore optio veniam, molestias in nesciunt, quod numquam. Et dolor tempore, ex minus delectus, hic nemo officiis illo ullam.</p>
+  <a href="https://www.instagram.com/" target="_blank" class="btn btn--sm btn--outline">Post a photo submission</a>
+
+
+
+images:
+
+  - id: BcABvvnhyLs
+    by: hamishjgray
+    name: 01
+    content: Nobis quibusdam reiciendis atque autem est dolorum quos, ad dignissimos iste amet voluptate laudantium saepe? Commodi, quasi, asperiores. Est consequatur repellat magnam.
+
+  - id: BcABvvnhyLs
+    by: hamishjgray
+    name: 02
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus consequatur ex saepe tempore quia odio debitis omnis neque molestiae eos eius vitae temporibus.
+
+  - id: BcABvvnhyLs
+    by: hamishjgray
+    name: 03
+    content: Nobis quibusdam reiciendis atque autem est dolorum quos, ad dignissimos iste amet voluptate laudantium saepe? Commodi, quasi, asperiores. Est consequatur repellat magnam.
+
+  - id: BcABvvnhyLs
+    by: hamishjgray
+    name: 04
+    content: Nobis quibusdam reiciendis atque autem est dolorum quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus consequatur ex saepe tempore quia odio debitis omnis neque molestiae eos eius vitae temporibus.
+
+  - id: BcABvvnhyLs
+    by: hamishjgray
+    name: 05
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus consequatur ex saepe tempore quia odio debitis omnis neque molestiae eos eius vitae temporibus. ad dignissimos iste amet voluptate laudantium saepe? Commodi, quasi, asperiores. Est consequatur repellat magnam.
+
+  - id: BcABvvnhyLs
+    by: hamishjgray
+    name: 06
+    content: Nobis quibusdam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus consequatur ex saepe tempore quia odio debitis omnis neque molestiae eos eius vitae temporibus.
+
+
 ---
-{% assign photos = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york %}
 
 
+<section class="vpad--lg bg--grey-darker text--white">
+  <div class="row row--padding row--7-5-gutters">
+    <div class="col">
+      {{page.intro}}
+    </div>
+    <div class="col bg--grey-darkest bg-img--rounded row--padding vpad--sm">
+      {{page.entry-details}}
+    </div>
+  </div>
+</section>
 
-{% include page/intro.html %}
 
+<section class="bg--grey-darker vpad-bottom--lg">
+  <div class="row row--4-4-4-gutters">
 
-
-<section class="section">
-  <div class="row row--3-3-3-3-gutters">
-
-    <div class="col bg-img bg-img--1-1" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/01.jpg)"></div>
-
-    <div class="col bg-img bg-img--1-1" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/02.jpg)"></div>
-
-    <div class="col bg-img bg-img--1-1" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/03.jpg)"></div>
-
-    <div class="col bg-img bg-img--1-1" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/04.jpg)"></div>
+    {% for image in page.images %}
+    <div class="col ig-post">
+      <a href="https://www.instagram.com/p/{{image.id}}" target="_blank" class="ig-post__img bg-img bg-img--1-1" style="background-image: url({{site.baseurl}}/img/content/wall-of-fame/{{image.name}}.jpg)"></a>
+      <div class="ig-post__content text--white">
+        <a href="https://www.instagram.com/{{image.by}}" target="_blank"><h4 class="title title--bold">
+          <img width="16" src="{{site.baseurl}}/img/icons/social-ig-white.png" class="js-svg-swap ig-post__icon">
+          {{image.by}}
+        </h4></a>
+        <p class="text--sm">{{image.content|truncate:90}}</p>
+      </div>
+    </div>
+    {% endfor %}
 
   </div>
 </section>

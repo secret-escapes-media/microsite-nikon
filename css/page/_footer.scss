@@ -3,7 +3,7 @@
   padding-top: $s6;
   padding-bottom: $s6;
   text-align: center;
-  background-color: $black;
+  background-color: $grey-darkest;
   &__logos {
     padding-bottom: $s0;
     .logo {
@@ -14,5 +14,6 @@
   &__info {
     font-size: .9em;
     color: $grey-light;
+    & p { margin-left: auto; margin-right: auto; }
   }
 }

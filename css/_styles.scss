@@ -12,6 +12,51 @@
   &--theme-secondary { background-color: $theme-secondary; }
 }
 
+
+
+.sharing {
+  z-index: 9999;
+  position: fixed;
+  bottom: 0; left: 0;
+  padding: $s2;
+  &__toggle {
+    @include transition();
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    width: 48px; height: 48px;
+    border: 2px solid $white;
+    border-radius: 999em;
+    padding: 9px 0;
+    float: left;
+    margin-right: 6px;
+    &:hover { border: 3px solid $white; padding: 8px 0; }
+    &-img { width: 18px; display: inline-block; }
+  }
+  &__options {
+    float: left;
+  }
+  &__option {
+    @include transition();
+    display: inline-block;
+    opacity: 0;
+    overflow: hidden;
+    text-align: center;
+    width: 36px; height: 36px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: -36px;
+  }
+
+  &:hover {
+    .sharing {
+      &__option { opacity: 1; margin-left: 3px; }
+    }
+  }
+}
+
+
+
 .section {
   background-repeat: no-repeat;
   background-position: top center;
@@ -141,3 +186,29 @@
 }
 
 
+
+
+.ig-post {
+  @include transition();
+  margin-bottom: $s4;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: $grey-darkest;
+  transform: scale(1);
+  box-shadow: 0;
+  &:hover {
+    transform: scale(1.025);
+    box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.33);
+  }
+
+  &__image {}
+  &__icon {
+    width: 16px;
+    vertical-align: middle;
+    margin-right: 0.25em;
+  }
+  &__content {
+    margin-top: 0;
+    padding: $s1 $s2;
+  }
+}

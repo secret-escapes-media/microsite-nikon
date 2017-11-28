@@ -1,0 +1,27 @@
+{% for photographer in page.photographers %}
+  <div class="banner__photographer">
+    <div class="banner__photographer__title accordion__trigger" data-target="{{photographer.title|slugify}}-content">
+      <!-- photo-->
+      <img src="{{site.baseurl}}/img/content/{{page.group}}/photographer-{{photographer.title|slugify}}.jpg" width="40" class="banner__photographer__title-image bg-img--circle">
+      <!-- title and subtitle-->
+      <h4 class="banner__photographer__title-title title title--bold">
+        <span class="title--xxs">{{photographer.title}}</span>
+        <span class="banner__photographer__title-subtitle">{{photographer.subtitle}}</span>
+      </h4>
+      <!-- button-->
+      <span class="banner__photographer__title-btn">
+        <img src="{{site.baseurl}}/img/icons/arrow-down.png" class="js-svg-swap">
+      </span>
+    </div>
+    <div class="banner__photographer__content accordion accordion--closed" id="{{photographer.title|slugify}}-content">
+      <!-- instagram-->
+      <a href="https://www.instagram.com/{{photographer.instagram}}" target="_blank" class="title title--bold title--xxxxs banner__photographer__content-ig">
+        <img width="16" src="{{site.baseurl}}/img/icons/social-ig-white.png" class="js-svg-swap banner__photographer__content-ig-icon">
+        {{photographer.instagram}}
+      </a>
+      <!-- bio-->
+      <p class="text--sm">{{photographer.content}}</p>
+    </div>
+  </div>
+  <hr>
+{% endfor %}

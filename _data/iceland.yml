@@ -20,7 +20,7 @@
   id: e-dyrholaey-lighthouse
   title: Dyrhólaey Lighthouse
   location: Dyrhólaey, Reynisfjara
-  coordinates: 63.402759, -19.131002
+  coordinates: 63.40271, -19.13091
   photographer: Eleanor Cording-Booth
   content: At first, I positioned myself further up the cliff to try and capture the lighthouse, but Craig suggested I move to another spot a few feet along to get the beach into the shot too. I love how this new sense of perspective gives the illusion that the beach is infinite, it continues as far as the eye can see.
   orientation: portrait
@@ -35,7 +35,7 @@
   id: e-reynisfjara-black-sands
   title: Black Sands
   location: Reynisfjara
-  coordinates: 63.40509, -19.0561
+  coordinates: 63.40291, -19.10577
   photographer: Eleanor Cording-Booth
   content: I wanted to capture the texture and depth of the black and grey, so for this image, I zoomed in on a little cove where jet-black sand met the cliffside. Jagged rocks the colour of charred wood gave an otherworldly feel. To juxtapose with the monochrome, Craig suggested I get the grassy hillside into the frame – I love the added texture and pop of colour.
   orientation: landscape
@@ -65,7 +65,7 @@
   id: c-beach
   title: The Trolls
   location: Reynisfjara
-  coordinates:
+  coordinates: 63.40277, -19.02833
   photographer: Craig Howes
   content: The Reynisdrangar Trolls are an iconic part of Iceland’s coastline. The myths and legends surrounding these outcrops is something I wanted to capture, so I placed them in the background of the shot. The focus isn’t necessarily on them, so they loom mysteriously behind the hill in the foreground, slowly walking out to sea.
   orientation: landscape
@@ -85,7 +85,7 @@
   id: e-skogafoss-bird
   title: In Flight
   location: Skógafoss
-  coordinates: 63.532082, -19.511344
+  coordinates: 63.53205, -19.51137
   photographer: Eleanor Cording-Booth
   content: Most photos of Skogafoss will be taken from the bottom showing the gargantuan waterfall in its entirety, but Craig suggested we go for a different and more interesting angle. We climbed up the steps towards the top but stopped midway where there’s a precarious (unofficial) path to the edge. It was from here that the waterfall felt its most dramatic, with birds swooping down and spray filling the void below like thick fog.
   orientation: landscape
@@ -100,7 +100,7 @@
   id: e-skogafoss-kvernufoss
   title: Secret Falls
   location: Kvernufoss
-  coordinates: 63.528637, -19.480905
+  coordinates: 63.52816, -19.48094
   photographer: Eleanor Cording-Booth
   content: Head to the right of Skogafoss, past the Skogar Folk Museum (which is worth a visit, with some cool turf houses to photograph) and just beyond. There is a secret waterfall that you can get really close to and even walk behind. This photo is taken from the beautiful walk that leads up to it. You would need a wide-angle lens to take a great shot from the inside of the cave, behind the waterfall.
   orientation: portrait
@@ -130,7 +130,7 @@
   id: c-behind-waterfall
   title: Behind the Falls
   location: Skogafoss
-  coordinates: 63.403238, -19.036316
+  coordinates: 63.52816, -19.48094
   photographer: Craig Howes
   content: A wide-angle lens is a must for this location as the area behind the falls isn’t particularly deep. To keep the edge of the cave in the shot, a 24/70mm lens works nicely. Keep a check on your exposure when shooting a bright scene from a dark space and consider finding a person to impart a sense of scale to your natural environment.
   orientation: landscape
@@ -145,7 +145,7 @@
   id: c-skogafoss
   title: Skogafoss
   location: Skogafoss
-  coordinates: 63.403238, -19.036316
+  coordinates:
   photographer: Craig Howes
   content: A neutral density filter is a great tool when photographing water. It tones down the reflections from the water and the surfaces around, smoothing the scene for great effect. Rather than trying to fit the whole fall into the shot, I framed the water amongst the cliffs, with a pop of colour from the grass contrasting with the blue overtones. Again, a person was used to impart a sense of scale.
   orientation: landscape
@@ -160,7 +160,7 @@
   id: c-skogafoss-climb
   title: The Climb
   location: Skogafoss
-  coordinates: 63.403238, -19.036316
+  coordinates: 63.53205, -19.51137
   photographer: Craig Howes
   content: Iceland’s sights are so dramatic they border on surreal. By shifting your perspective, you can capture this otherworldly atmosphere. Try hugging the ground, focusing on one aspect of a bigger scene. Here, by filling the background with the bottom of the falls, an ethereal backdrop is created. This is accentuated by the subject, who, from the perspective, appears small in comparison.
   orientation: portrait
@@ -180,7 +180,7 @@
   id: e-horses
   title: Wild Horses
   location:
-  coordinates: 63.403238, -19.036316
+  coordinates: 63.83037, -18.00041
   photographer: Eleanor Cording-Booth
   content: For this shot, Craig recommended that I use my zoom lens and, with that, I tried to capture how close they were and the contrast between the colours of their coats. I like this image because the light is beautiful and I think there's a calm tenderness between the horses.
   orientation: landscape
@@ -195,7 +195,7 @@
   id: e-dramatic-formations
   title: Dramatic Formations
   location: Horses and hills
-  coordinates: 63.403238, -19.036316
+  coordinates: 63.96872, -17.872
   photographer: Eleanor Cording-Booth
   content: Using the zoom lens to shoot, I noticed how the fog was rolling in over this hillside like a thick white blanket, yet without being so low as to cover the gorge in the hillside below it. Craig helped me balance the light in the shot to capture the dark, moody hues in the landscape whilst still highlighting the eerie white fog above it.
   orientation: portrait
@@ -210,7 +210,7 @@
   id: e-redhouse
   title: Red House
   location: Horses and hills
-  coordinates: 63.403238, -19.036316
+  coordinates:
   photographer: Eleanor Cording-Booth
   content: I had just been talking about wanting to photograph a colourful house when we passed this bright red building standing on its own in the middle of nowhere. I was particularly drawn to the colour pop against the towering green hills that appear to fold into themselves in the background.
   orientation: portrait
@@ -225,7 +225,7 @@
   id: e-brooding-peaks
   title: Brooding Peaks
   location: Horses and hills
-  coordinates: 63.403238, -19.036316
+  coordinates:
   photographer: Eleanor Cording-Booth
   content: The light is just gorgeous here – I love how dark the mountains and the foreground are against the window of blue sky and the sliver of sunlight that runs along the hilltops. If anything epitomises how dramatic and changeable the weather is in Iceland, it's this photo. Again, I'm using my zoom lens in this photo as the mountains were so far in the distance and I wanted to capture the detail.
   orientation: landscape
@@ -260,7 +260,7 @@
   id: e-braving-the-elements
   title: Braving the Elements
   location: Jökulsárlón Lagoon
-  coordinates:
+  coordinates: 64.04804, -16.18068
   photographer: Eleanor Cording-Booth
   content: This photo is the only one where I’ve used a flash and to be honest, it was a total accident. I was lining up a shot of Craig to capture his infamous red coat against the blue ice and I had my flash on without realising. In the end, I preferred this photo to the one I intended to take as it makes the colour so vibrant and it also highlights the rain pouring down his jacket, so I get more of a sense of what it felt like to be there.
   orientation: landscape
@@ -275,7 +275,7 @@
   id: e-icebergs
   title: Icebergs
   location: Jökulsárlón Lagoon
-  coordinates: 64.079635, -16.230912
+  coordinates: 64.04804, -16.18068
   photographer: Eleanor Cording-Booth
   content: I think this shot looks like it could have been taken on the moon. It’s crazy to think that a sight like this is only a short flight and then a drive from the UK. Seals swam amongst the icebergs and the view changed constantly as the ice moved around. The rain was relentless but my Nikon was weatherproofed, so I could still shoot without worrying about breaking the camera.
   orientation: landscape
@@ -290,7 +290,7 @@
   id: e-diamond-beach
   title: Diamond Beach
   location: Jökulsárlón Lagoon
-  coordinates: 64.079635, -16.230912
+  coordinates: 64.04288, -16.18229
   photographer: Eleanor Cording-Booth
   content: This photo was taken on the beach at Jökulsárlón glacier lagoon – also known as ‘diamond beach’ for obvious reasons! It was a real struggle to shoot anything here due to the weather, but I love the smooth texture of the clear chunk of ice in the foreground and Craig struggling against the wind in the distance. There’s some spray from the sea on my lens but in this instance, I think it works well.
   orientation: portrait
@@ -355,7 +355,7 @@
   id: c-northern-lights
   title: Emerald Skies
   location: Iceland
-  coordinates: 64.079635, -16.230912
+  coordinates: 63.44114, -18.9672
   photographer: Craig Howes
   content: The holy grail of any photography trip to Iceland. Planning is key – we got very lucky, but a bit of research goes a long way to ensuring you get that shot. You’ll need a good tripod. Have a fast lens to hand, ideally f2.8 opened up all the way. This will ensure that as much light enters the sensor as possible, whilst still keeping things sharp. It will also hinder needing a really high ISO which will introduce noise. Introducing the building here was a great way of adding depth to this shot.
   orientation: landscape

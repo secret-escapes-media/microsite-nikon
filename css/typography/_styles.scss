@@ -53,6 +53,7 @@ body {
 
 .line-length {
   max-width: 36rem;
+  &--sm { max-width: 24rem; }
   &--lg { max-width: 47rem; }
 }
 
@@ -88,9 +89,8 @@ hr {
   margin: $s1 0;
   padding: 0;
   .title + & { padding-top: 0; }
-  .text--white & {
-    background-color: rgba($white,0.1);
-  }
+  & + p { padding-top: 0 !important; }
+  .text--white & { background-color: rgba($white,0.1); }
 }
 .hr {
   &--center { width: 80px; margin-left: auto; margin-right: auto; }
@@ -102,6 +102,7 @@ hr {
   &--left { width: 80px; margin-left: 0; }
   &--bold { height: 3px; }
 }
+
 
 
 

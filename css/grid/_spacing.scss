@@ -156,6 +156,7 @@ $page-margin: $s4;
 // equal vertical padding for large elements
 // !!!!!!!!!! this could all be on the section, eg short section, massive section etc
 .vpad {
+  &--xs    { padding-top: $s1; padding-bottom: $s1; }
   &--sm    { padding-top: $s2; padding-bottom: $s2; }
   &--md    { padding-top: $s4; padding-bottom: $s4; }
   &--lg    { padding-top: $s6; padding-bottom: $s6; }
@@ -169,6 +170,7 @@ $page-margin: $s4;
     &--xxxxl { padding-top: $s14; padding-bottom: $s14; }
   }
   &-top {
+    &--xs    { padding-top: $s1; }
     &--sm    { padding-top: $s2; }
     &--md    { padding-top: $s4; }
     &--lg    { padding-top: $s6; }
@@ -183,6 +185,7 @@ $page-margin: $s4;
     }
   }
   &-bottom {
+    &--xs    { padding-bottom: $s1; }
     &--sm    { padding-bottom: $s2; }
     &--md    { padding-bottom: $s4; }
     &--lg    { padding-bottom: $s6; }
@@ -291,7 +294,7 @@ $page-margin: $s4;
       display: block;
       content: "";
       width: 100%;
-      padding-top: 66.666666666667%;
+      @include bp(xl){ padding-top: 66.666666666667%; }
     }
     &-link {
       position: absolute;
