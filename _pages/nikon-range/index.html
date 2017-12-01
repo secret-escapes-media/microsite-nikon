@@ -10,7 +10,7 @@ banner:
   content: >
     <div class="banner__iam banner__iam--chasing"></div>
     <h1 class="title title--xxxxl title--upper title--bolder title--kerning">Nikon</h1>
-    <p class="text--xl text--bold">Experience the ultimate in image quality and creative control with a Nikon DSLR</p>
+    <p class="text--xl text--bold">Experience the ultimate in image quality and creative control<br /> with a Nikon D-SLR</p>
 
 
 
@@ -45,7 +45,7 @@ testimonials:
 
 
 
-sections:
+products:
 
   - title: Nikon D7500
     link: https://www.europe-nikon.com/en_GB/product/digital-cameras/slr/consumer/d7500
@@ -80,7 +80,7 @@ nikon-school:
 
 
 <section class="section bg--grey-dark">
-  {% for section in page.sections %}
+  {% for section in page.products %}
   <div class="bob row row--padding text--white">
 
     <a href="{{section.link}}" class="bob__image bg-img bg-img--3-2 bg-img--rounded" style="background-image:url({{site.baseurl}}/img/content/{{page.id}}/{{section.title|slugify}}.jpg);">

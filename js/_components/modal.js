@@ -40,7 +40,7 @@ function modalOpen(event){
   if( $(event.currentTarget).attr('data-video-id') ){
     var modalVideoId = $(event.currentTarget).data('video-id');
     var modalVideoLink = $(event.currentTarget).data('video-link');
-    $('#modal__video').attr('src', 'https://www.youtube.com/embed/' + modalVideoId + '?enablejsapi=1');
+    $('#modal__video').attr('src', 'https://www.youtube.com/embed/' + modalVideoId + '?enablejsapi=1&controls=1&rel=0&showinfo=0&modestbranding=1');
     $('.modal__cta__btn').attr('href', '/nikon/' + modalVideoLink);
     // keep video hidden until url updates
     setTimeout(function() {

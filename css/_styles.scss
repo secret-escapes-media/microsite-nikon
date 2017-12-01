@@ -212,3 +212,71 @@
     padding: $s1 $s2;
   }
 }
+
+
+
+
+
+// COMPETITION PAGE
+
+.prize {
+  @include layout(12 1/2);
+  text-align: center;
+  &__image {
+    max-width: $lg;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__text { padding-bottom: $s2; }
+  & + & { margin-top: $s4; }
+  @include bp(xxl){
+    text-align: left;
+    &__text { padding-top: $s2; }
+    // GRID STUFF
+    & + & { margin-top: gutter(6); }
+    .flexbox & {
+      display: flex;
+      align-items: center;
+    }
+    &__image { @include span(5); }
+    &__text {
+      @include span(7 last);
+      padding-bottom: 0;
+    }
+    &:nth-child(even),
+    &.prize--swap {
+      .prize__image { @include span(5 last); }
+      .prize__text { @include span(7); }
+      .flexbox & {
+        flex-direction: row-reverse;
+      }
+    }
+    // END GRID STUFF
+  }
+}
+
+
+
+
+.countdown {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  &__item {
+    display: inline-block; width: 20%;
+    text-align: center;
+  }
+  &__num {
+    font-size: $s9;
+    font-weight: 200;
+    line-height: 1;
+    display: inline-block;
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: rgba($black,.2);
+    box-shadow: 0 0 50px 0px rgba($white,.2);
+  }
+}

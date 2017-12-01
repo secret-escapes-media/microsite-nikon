@@ -111,20 +111,34 @@ $page-margin: $s4;
       margin-bottom: gutter();
     }
   }
+}
 
-  .row--nobp {
-    &.row--4-8 { @include two-column-grid( 4, 8 ); }
-    &.row--5-7 { @include two-column-grid( 5, 7 ); }
-    &.row--6-6 { @include two-column-grid( 6, 6 ); }
-    &.row--7-5 { @include two-column-grid( 7, 5 ); }
-    &.row--8-4 { @include two-column-grid( 8, 4 ); }
-    &.row--4-8-gutters { @include two-column-grid( 4, 8, gutters ); }
-    &.row--5-7-gutters { @include two-column-grid( 5, 7, gutters ); }
-    &.row--6-6-gutters { @include two-column-grid( 6, 6, gutters ); }
-    &.row--7-5-gutters { @include two-column-grid( 7, 5, gutters ); }
-    &.row--8-4-gutters { @include two-column-grid( 8, 4, gutters ); }
-    & .col { margin-top: 0; }
+.row--nobp {
+  &.row--4-8 { @include two-column-grid( 4, 8 ); }
+  &.row--5-7 { @include two-column-grid( 5, 7 ); }
+  &.row--6-6 { @include two-column-grid( 6, 6 ); }
+  &.row--7-5 { @include two-column-grid( 7, 5 ); }
+  &.row--8-4 { @include two-column-grid( 8, 4 ); }
+  &.row--4-8-gutters { @include two-column-grid( 4, 8, gutters ); }
+  &.row--5-7-gutters { @include two-column-grid( 5, 7, gutters ); }
+  &.row--6-6-gutters { @include two-column-grid( 6, 6, gutters ); }
+  &.row--7-5-gutters { @include two-column-grid( 7, 5, gutters ); }
+  &.row--8-4-gutters { @include two-column-grid( 8, 4, gutters ); }
+
+  &.row--4-4-4 .col { @include gallery(4); }
+  &.row--4-4-4-gutters .col {
+    @include gallery($gutters 4);
+    margin-bottom: gutter();
   }
+
+  &.row--3-3-3-3 .col { @include gallery(3);   }
+  &.row--3-3-3-3-gutters .col {
+    @include gallery($gutters 3);
+    margin-bottom: gutter();
+  }
+
+  & .col { margin-top: 0; }
+  & .col + .col { margin-top: 0; }
 }
 
 

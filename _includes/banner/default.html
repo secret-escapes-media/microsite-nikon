@@ -2,7 +2,7 @@
 
 <section class="banner{% if page.id == 'overview' %} banner--nav-bottom{% else %} banner--nav-top{% endif %}">
 
-  {% if page.layout == "group" %}
+  {% if page.video-id %}
     {% include banner/components/content-video.html %}
   {% else %}
     {% include banner/components/content.html %}

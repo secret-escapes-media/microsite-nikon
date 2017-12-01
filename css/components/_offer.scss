@@ -189,7 +189,50 @@
     & .offer__saved { border-right: 1px solid $grey-dark; }
   }
 
+
+
+  // LARGE OFFER CARD
+  &--lg {
+    max-width: $xxl;
+    float: none !important;
+    margin-bottom: 0;
+    @include gallery(12);
+    @include clearfix;
+    .offer__images > .row__column { margin-top: 0; }
+    .offer__image-smaller {
+      display: inline-block;
+      width: 50%;
+      vertical-align: top;
+      @include bp(lg){
+        display: block;
+        width: 100%;
+      }
+    }
+    .offer__content {
+      padding: $s2 ($s2*1.25);
+      @include bp(lg){ padding: ($s2*1.25) ($s2*1.75); }
+    }
+    .offer__title {
+      @include bp(lg) {
+        font-size: 1.867em;
+      }
+    }
+    li {
+      margin-left: 1.5em;
+      letter-spacing: .015em;
+      list-style-position: outside;
+    }
+    .offer__bottom {
+      margin-top: 1.5em;
+      padding-top: 1.5em;
+      border-top: 1px solid $grey-lighter;
+    }
+  }
+
 }
+
+
+
 
 
 

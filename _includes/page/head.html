@@ -1,6 +1,5 @@
 <head>
 
-  <!-- this mess gets the correct meta description for the page & sets variable  -->
   {% if page.layout == 'destination' %}
     {% assign page-class = page.title | slugify %}
     {% assign destinations = site.data.[page.category] %}

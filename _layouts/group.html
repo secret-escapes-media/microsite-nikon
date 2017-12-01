@@ -2,6 +2,9 @@
 layout: default
 ---
 {% assign photos = site.data[page.group] %}
+{% assign subpages = site.html_pages | where: "group", page.id %}
+{% assign guide-page = subpages | where: "layout", "guide" %}
+{% assign journey-page = subpages | where: "layout", "journey" %}
 
 
 
@@ -9,30 +12,70 @@ layout: default
 
 
 
-<section class="section bg--grey-darkest text--white">
-  <div class="row row--padding row--6-6-gutters">
+<section class="section bg--grey-darkest text--white"  style="background-image: url({{site.baseurl}}/img/content/overview/{{page.id}}-background.png);">
 
-  {% assign subpages = site.html_pages | where: "group", page.id | sort: "path" | sort: "group-order" %}
-  {% for subpage in subpages %}
 
-    <div class="bob">
-      <div class="bob__image">
-        <a href="{{site.baseurl}}{{subpage.url}}" class="bg-img bg-img--16-9 bg-img--xl-3-2 bg-img--rounded">
-          <div class="bg-img__content text--white">
-            <span class="title title--lg title--upper title--bold title--kerning">{% cycle "The Journey", "The Guide" %}</span>
-          </div>
-          <div class="bg-img__bg" style="background-image: url('{{ site.baseurl }}/img/bg/nav/{{subpage.id}}.jpg');"></div>
-        </a>
+  {% for subpage in journey-page %}
+    {% if subpage.live-date %}
+
+      <div class="row text--center vpad-bottom--xl">
+        <h2 class="title title--xl">This journey is coming soon...</h2>
+        <p class="text--lg text--bold">Our photographers are currently out in the field, capturing images to inspire your very own adventure. Don't miss the launch!</p>
+        <div class="js-journey-countdown countdown row--xl" data-date="{{subpage.live-date}}"></div>
+        <a href="{{site.baseurl}}/{{page.id}}/{{page.id}}-guide" class="btn btn--primary btn--pulse">Get inspired</a>
       </div>
-      <div class="bob__text">
+
+    {% else %}
+
+      <div class="bob row row--padding">
+        <div class="bob__image">
+          <a href="{{site.baseurl}}{{subpage.url}}" class="bg--grey-darkest bg-img bg-img--16-9 bg-img--xxl-4-3 bg-img--rounded">
+            <div class="bg-img__content text--white">
+              <span class="title title--lg title--upper title--bold title--kerning">The Journey</span>
+            </div>
+            <div class="bg-img__frame"></div>
+            <div class="bg-img__bg" style="background-image: url('{{ site.baseurl }}/img/bg/nav/{{subpage.id}}.jpg');"></div>
+          </a>
+        </div>
+        <div class="bob__text">
+          <div class="row--lg">
+            <span class="title title--bold title--sm">{{subpage.banner.content|strip_html}}</span>
+            <hr class="hr--left">
+            {{subpage.parent-intro}}
+            <a href="{{site.baseurl}}{{subpage.url}}" class="btn btn--outline">Read more</a>
+          </div>
+        </div>
+      </div>
+
+    {% endif %}
+  {% endfor %}
+
+
+
+  {% for subpage in guide-page %}
+  <div class="bob row row--padding">
+    <div class="bob__image">
+      <a href="{{site.baseurl}}{{subpage.url}}" class="bg--grey-darkest bg-img bg-img--16-9 bg-img--xxl-4-3 bg-img--rounded">
+        <div class="bg-img__content text--white">
+          <span class="title title--lg title--upper title--bold title--kerning">The Guide</span>
+        </div>
+        <div class="bg-img__frame"></div>
+        <div class="bg-img__bg" style="background-image: url('{{ site.baseurl }}/img/bg/nav/{{subpage.id}}.jpg');"></div>
+      </a>
+    </div>
+    <div class="bob__text">
+      <div class="row--lg">
+        <span class="title title--bold title--sm">{{subpage.banner.content|strip_html}}</span>
+        <hr class="hr--left">
         {{subpage.parent-intro}}
         <a href="{{site.baseurl}}{{subpage.url}}" class="btn btn--outline">Read more</a>
       </div>
     </div>
-
+  </div>
   {% endfor %}
 
-  </div>
+
+
 </section>
 
 

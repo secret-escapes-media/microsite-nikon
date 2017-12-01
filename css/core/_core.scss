@@ -162,6 +162,19 @@ a { color: inherit; text-decoration:none; }
 
 // text selection
 ::selection {
-    background-color: $grey-darkest;
-    color: $theme-primary;
+  background-color: $grey-darkest;
+  color: $theme-primary;
+}
+
+
+@mixin clearfix() {
+  &:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+
+.clearfix {
+  @include clearfix();
 }
