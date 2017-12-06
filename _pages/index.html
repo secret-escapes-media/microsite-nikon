@@ -49,7 +49,7 @@ intro: >
 
       <div class="bob__image">
 
-        {% assign video = site.data.videos | where: "id", destination.banner.video-id %}
+        {% assign video = site.data.videos | where: "id", destination.video-id %}
         {% if video.size > 0 %}
           {% for video in video %}
             <a href="javascript:void(0);" data-modal-item="video" data-video-id="{{video.video-id}}" data-video-link="{{video.link}}" class="js-open-modal video__link bg-img bg-img--16-9 bg--grey-darkest">

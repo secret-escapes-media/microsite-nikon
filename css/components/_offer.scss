@@ -67,16 +67,19 @@
     line-height: 1.3;
   }
   &__location {
-    margin-top: 1em;
-    margin-left: 1.5em;
-    margin-bottom: 1em;
-    text-indent: -1.5em;
-    font-size: 0.75em;
-    line-height: 1.5;
+    font-size: 0.8em;
+    line-height: 2;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-weight: 600;
-    color: $text-light;
+    color: $grey-dark;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.5em 1em;
+    background-color: rgba($white, 0.8);
+    border-right: 1px solid $white;
+    border-bottom: 1px solid $white;
     &:before {
       content: "";
       display: inline-block;
@@ -185,7 +188,6 @@
       border-right: 1px solid $grey-dark;
       border-bottom: 1px solid $grey-dark;
     }
-    & .offer__location { color: $text-light; }
     & .offer__saved { border-right: 1px solid $grey-dark; }
   }
 

@@ -45,7 +45,7 @@ layout: default
 
 
 {% for section in page.sections %}
-  <section class="bg--white vpad-top--md{% if forloop.last %} vpad-bottom--xl{% endif %}" id="{{section.title|slugify}}">
+  <section class="bg--white vpad-top--xl{% if forloop.last %} vpad-bottom--xl{% endif %}" id="{{section.title|slugify}}">
     <div class="row row--padding text--center">
       {% unless forloop.first %}
       <hr class="hr--center hr--margin">
