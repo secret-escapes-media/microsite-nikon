@@ -36,16 +36,12 @@ function modalOpen(event){
   // disable scrolling on background content (doesn't work iOS)
   $('body').addClass('disable-scroll');
 
-  // update video
+  // // update video
   if( $(event.currentTarget).attr('data-video-id') ){
     var modalVideoId = $(event.currentTarget).data('video-id');
     var modalVideoLink = $(event.currentTarget).data('video-link');
-    $('#modal__video').attr('src', 'https://www.youtube.com/embed/' + modalVideoId + '?enablejsapi=1&controls=1&rel=0&showinfo=0&modestbranding=1');
+    $('#modal__'+modalItemID).attr('src', 'https://www.youtube.com/embed/' + modalVideoId + '?enablejsapi=1&controls=1&rel=0&showinfo=0&modestbranding=1');
     $('.modal__cta__btn').attr('href', '/nikon/' + modalVideoLink);
-    // keep video hidden until url updates
-    setTimeout(function() {
-      $('#modal__video').addClass('modal__video--ready');
-    }, 500);
   }
 
   // open modal
@@ -67,13 +63,17 @@ function modalClose(event){
   setTimeout(function() {
     $('.modal__wrap').scrollTop(0);
   }, 280);
+
   // close modal with fade
   $('.js-modal.is-open').fadeOut(modalTransition, function(){
     $(this).removeClass('is-open').removeClass('modal--carousel').addClass('is-closed');
     $('.modal__item.is-open').removeClass('is-open').addClass('is-closed');
   });
   accordionReset(); // reset photo details to open state
-  stopVideo();
+
+  // disable video
+  $('.modal__item.is-open .modal__iframe').attr('src', 'https://www.youtube.com/embed/');
+
 }
 
 // open modal when .js-open-modal is clicked
@@ -244,3 +244,40 @@ $(document).on('keyup', function(e) {
     }
   }
 });
+
+
+
+
+
+/* =========================================
+//  MODAL URL QUERY OPENING
+// ========================================*/
+
+function queryString(sParam){
+  var sPageURL = window.location.search.substring(1);
+  var sURLVariables = sPageURL.split("&");
+  for (var i = 0; i < sURLVariables.length; i++){
+    var sParameterName = sURLVariables[i].split("=");
+    if (sParameterName[0] == sParam){
+      return sParameterName[1];
+    }
+  }
+}
+
+// launches modal if query string
+var targetModalQuery = queryString('modal');
+if (targetModalQuery) {
+  var modalItem = '.modal__item--' + targetModalQuery;
+
+  $(modalItem).removeClass('is-closed').addClass('is-open').show();
+  $('body').addClass('disable-scroll');
+
+  // open modal
+  modal.fadeIn(modalTransition, function(){
+    $(this).removeClass('is-closed').addClass('is-open');
+  });
+}
+
+
+
+

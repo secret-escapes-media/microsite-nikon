@@ -135,8 +135,8 @@ hr {
   &--bold       { font-weight: 500; }
   &--bolder     { font-weight: 600; }
   &--boldest    { font-weight: 800; }
-  &--kerning    { letter-spacing: .15em; }
-  &--kerning-lg { letter-spacing: .3em; }
+  &--kerning    { letter-spacing: .05em; }
+  &--kerning-lg { letter-spacing: .05em; }
   &--leading  { line-height: 1.35;}
   &--leading-lg  { line-height: 1.65;}
   &--tight      { line-height: .9; }
@@ -151,7 +151,7 @@ hr {
   &--md    { font-size: $s3; }
   &--sm    { font-size: $s2; }
   &--xs    { font-size: $s1; }
-  &--xxs   { font-size: $s0; }
+  &--xxs   { font-size: $s1; }
   &--xxxs   { font-size: $s0; }
   &--xxxxs   { font-size: $s-1; }
 
@@ -167,6 +167,8 @@ hr {
     &--xxs   { font-size: $s2; }
     &--xxxs   { font-size: $s1; }
     &--xxxxs   { font-size: $s-1; }
+    &--kerning    { letter-spacing: .15em; }
+    &--kerning-lg { letter-spacing: .3em; }
   }
 
 }

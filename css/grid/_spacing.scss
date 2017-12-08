@@ -17,6 +17,7 @@ $susy:(
 $gutters:( gutters: 1/2 );
 $page-margin: $s4;
 
+section { overflow: hidden; }
 
 // -------- two col grid mixin --------
 // creates two columns in 12 column grid with optional gutters
@@ -255,7 +256,10 @@ $page-margin: $s4;
     margin-left: auto;
     margin-right: auto;
   }
-  &__text { padding-top: $s2; }
+  &__text {
+    padding-top: $s2;
+    & hr { margin-left: auto !important; margin-right: auto !important; }
+  }
   & + & { margin-top: $s4; }
   @include bp(xxl){
     text-align: left;

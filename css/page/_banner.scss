@@ -119,8 +119,8 @@ $site-nav-height-sm:  55px;
 
   &__overlay {
     position: absolute;
-    top: $core-nav-height;
-    bottom: $site-nav-height;
+    top: $core-nav-height-sm;
+    bottom: $site-nav-height-sm;
     left: 0;
     right: 0;
     z-index: $z-content-upper;
@@ -130,6 +130,10 @@ $site-nav-height-sm:  55px;
     background-size: cover;
     background-position: center;
     pointer-events: none;
+    @include bp(lg){
+      top: $core-nav-height;
+      bottom: $site-nav-height;
+    }
     @include bp(xxxl){
       &-title {
         pointer-events: none;
@@ -419,8 +423,8 @@ $site-nav-height-sm:  55px;
     }
 
     .banner__content-col {
-      padding-top: $s4;
-      padding-bottom: $s4;
+      padding-top: $s7;
+      padding-bottom: $s7;;
     }
 
     .banner__overlay {

@@ -8,26 +8,12 @@
   link: iceland/iceland-journey
 
 - id: morocco-journey
-  video-id: opkgS48MZU0
-  link: morocco/morocco-journey
 
 - id: new-york-journey
-  video-id: _eEKitg2Sl0
-  link: new-york/new-york-journey
 
 
 
 #  BEHIND THE SCENES
 #==========================#
 
-- id: iceland-bts
-  video-id: x0lug0laZDk
-  link: iceland/iceland-journey
-
-- id: morocco-bts
-  video-id: mwO6KrKsgSA
-  link: morocco/morocco-journey
-
-- id: new-york-bts
-  video-id: A0mmCE5yYMk
-  link: new-york/new-york-journey
+- id: behind-the-scenes

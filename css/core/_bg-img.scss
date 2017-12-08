@@ -125,34 +125,36 @@
   &--shadow { box-shadow: 0 0 10px 5px rgba($grey-darkest,0.2); }
 
   &__frame {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    &:before, &:after {
-      content: "";
-      @include transition();
+    @include bp(lg) {
       position: absolute;
-      z-index: 10;
-      width: 3em; height: 3em;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
-    &:before {
-      top: 1.5em; left: 1.5em;
-      background-image: url('../img/icons/frame-tl.png');
-      .svg & { background-image: url('../img/icons/frame-tl.svg'); }
-    }
-    &:after {
-      right: 1.5em; bottom: 1.5em;
-      background-image: url('../img/icons/frame-br.png');
-      .svg & { background-image: url('../img/icons/frame-br.svg'); }
-    }
-    .bg-img:hover & {
-      &:after { right: 2em; bottom: 2em; }
-      &:before { top: 2em; left: 2em; }
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      &:before, &:after {
+        content: "";
+        @include transition();
+        position: absolute;
+        z-index: 10;
+        width: 3em; height: 3em;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      &:before {
+        top: 1.5em; left: 1.5em;
+        background-image: url('../img/icons/frame-tl.png');
+        .svg & { background-image: url('../img/icons/frame-tl.svg'); }
+      }
+      &:after {
+        right: 1.5em; bottom: 1.5em;
+        background-image: url('../img/icons/frame-br.png');
+        .svg & { background-image: url('../img/icons/frame-br.svg'); }
+      }
+      .bg-img:hover & {
+        &:after { right: 2em; bottom: 2em; }
+        &:before { top: 2em; left: 2em; }
+      }
     }
   }
 }

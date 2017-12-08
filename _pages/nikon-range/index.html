@@ -10,7 +10,7 @@ banner:
   content: >
     <div class="banner__iam banner__iam--chasing"></div>
     <h1 class="title title--xxxxl title--upper title--bolder title--kerning">Nikon</h1>
-    <p class="text--xl text--bold">Experience the ultimate in image quality and creative control<br /> with a Nikon D-SLR</p>
+    <p class="text--lg text--bold">Experience the ultimate in image quality and creative control with a Nikon D-SLR</p>
 
 
 
@@ -87,8 +87,8 @@ nikon-school:
   {% for section in page.products %}
   <div class="bob row row--padding text--white">
 
-    <a href="{{section.link}}" class="bob__image bg-img bg-img--3-2 bg-img--rounded" style="background-image:url({{site.baseurl}}/img/content/{{page.id}}/{{section.title|slugify}}.jpg);">
-      <div class="bg-img__content">
+    <a href="{{section.link}}" class="bob__image bg-img bg-img--3-2 bg-img--rounded" id="tracking-{{section.title|slugify}}-image" style="background-image:url({{site.baseurl}}/img/content/{{page.id}}/{{section.title|slugify}}.jpg);">
+      <div class="bg-img__content row--padding">
         <img src="{{site.baseurl}}/img/content/{{page.id}}/{{section.title|slugify}}-title.png">
       </div>
     </a>
@@ -96,7 +96,7 @@ nikon-school:
     <div class="bob__text">
       <h3 class="title title--md title--upper title--bold title--kerning">{{section.title}}</h3>
       <p class="text--lg">{{section.content}}</p>
-      <a href="{{section.link}}" class="btn btn--yellow btn--sm">Find out more</a>
+      <a href="{{section.link}}" id="tracking-{{section.title|slugify}}-button" class="btn btn--yellow btn--sm">Find out more</a>
     </div>
 
   </div>
@@ -134,7 +134,7 @@ nikon-school:
 
 <section class="harvey bg--white">
 
-  <a href="{{page.nikon-school.link}}" class="harvey__image" style="background-image:url({{site.baseurl}}/img/content/{{page.id}}/nikon-school.jpg);"></a>
+  <a href="{{page.nikon-school.link}}" class="harvey__image" id="tracking-nikon-school-image" style="background-image:url({{site.baseurl}}/img/content/{{page.id}}/nikon-school.jpg);"></a>
 
   <div class="harvey__text text--center">
     <h3 class="title title--md title--upper title--bold title--kerning row--sm">
@@ -142,7 +142,7 @@ nikon-school:
     </h3>
     <div class="space--sm"></div>
     {{page.nikon-school.content}}
-    <a href="{{page.nikon-school.link}}" class="btn btn--yellow btn--sm">Find out more</a>
+    <a href="{{page.nikon-school.link}}" class="btn btn--yellow btn--sm" id="tracking-nikon-school-button">Find out more</a>
   </div>
 
 </section>

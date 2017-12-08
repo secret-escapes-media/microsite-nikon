@@ -2,6 +2,7 @@
 
 
 {% assign modal-items = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york %}
+{% assign modal-videos = site.data.videos %}
 
 
 
@@ -27,12 +28,13 @@
     </div>
     {% endfor %}
 
-    <div class="modal__item modal__item--video is-closed" id="modal-video">
+    {% for item in modal-videos %}
+    <div
+      class="modal__item modal__item--video modal__item--{{item.id}} is-closed">
       {% include modal/content/video.html %}
     </div>
+    {% endfor %}
 
   </div>
 
 </div>
-
-{% include modal/components/video-js.html %}

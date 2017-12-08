@@ -4,7 +4,7 @@ client:
   name: Nikon
   link: https://www.europe-nikon.com/en_GB/
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Immerse yourself in effortlessly photogenic destinations with Secret Escapes and Nikon. We sent three Secret Escapes colleagues, passionate about photography, to learn more about what it takes to capture the perfect shot.
 baseurl: "/nikon" # the subpath of your site, e.g. /blog/
 url: "http://mp.secretescapes.com" # the base hostname & protocol for your site
 

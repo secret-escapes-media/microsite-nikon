@@ -117,7 +117,7 @@ $mobile-nav-width: 75%;
   position: fixed;
   top: 0;
   bottom: 0;
-  z-index: $z-overlay;
+  z-index: $z-overlay-upper;
   width: $mobile-nav-width;
   color: $grey-lighter;
   font-family: $font-family;

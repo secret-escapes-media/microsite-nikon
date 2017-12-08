@@ -13,7 +13,7 @@ layout: default
 
     {% assign video = site.data.videos | where: "id", page.video-id %}
     {% for video in video %}
-      <a href="javascript:void(0);" data-modal-item="video" data-video-id="{{video.video-id}}" data-video-link="{{video.link}}" class="js-open-modal bg-img bg-img--16-9 bg-img--rounded row--xl video__link">
+      <a href="javascript:void(0);" id="tracking-video-journey" data-modal-item="{{video.id}}" data-video-id="{{video.video-id}}" data-video-link="{{video.link}}" class="js-open-modal bg-img bg-img--16-9 bg-img--rounded row--xl video__link">
         <div class="bg-img__content">
           <img src="{{site.baseurl}}/img/icons/icon-play.png" class="js-svg-swap video__icon" alt="Play">
         </div>
@@ -121,11 +121,11 @@ layout: default
 
 
 <!-- Continue -->
-<section class="harvey section bg--grey-dark" style="background-image: url({{site.baseurl}}/img/content/{{page.group}}/video-banner.jpg);">
+<!-- <section class="harvey section bg--grey-dark" style="background-image: url({{site.baseurl}}/img/content/{{page.group}}/video-banner.jpg);">
 
   {% assign video = site.data.videos | where: "id", page.bts-video-id %}
   {% for video in video %}
-    <a href="javascript:void(0);" data-modal-item="video" data-video-id="{{video.video-id}}" data-video-link="{{video.link}}" class="harvey__image js-open-modal bg-img video__link">
+    <a href="javascript:void(0);" data-modal-item="{{video.id}}" data-video-id="{{video.video-id}}" data-video-link="{{video.link}}" class="harvey__image js-open-modal bg-img video__link">
       <div class="bg-img__content">
         <img src="{{site.baseurl}}/img/icons/icon-play.png" class="js-svg-swap video__icon" alt="Play">
       </div>
@@ -141,7 +141,7 @@ layout: default
     </div>
   </div>
 
-</section>
+</section> -->
 
 
 

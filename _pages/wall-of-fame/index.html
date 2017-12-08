@@ -21,39 +21,6 @@ entry-details: >
 
 
 
-images:
-
-  - id: BcABvvnhyLs
-    by: hamishjgray
-    name: 01
-    content: Nobis quibusdam reiciendis atque autem est dolorum quos, ad dignissimos iste amet voluptate laudantium saepe? Commodi, quasi, asperiores. Est consequatur repellat magnam.
-
-  - id: BcABvvnhyLs
-    by: hamishjgray
-    name: 02
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus consequatur ex saepe tempore quia odio debitis omnis neque molestiae eos eius vitae temporibus.
-
-  - id: BcABvvnhyLs
-    by: hamishjgray
-    name: 03
-    content: Nobis quibusdam reiciendis atque autem est dolorum quos, ad dignissimos iste amet voluptate laudantium saepe? Commodi, quasi, asperiores. Est consequatur repellat magnam.
-
-  - id: BcABvvnhyLs
-    by: hamishjgray
-    name: 04
-    content: Nobis quibusdam reiciendis atque autem est dolorum quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus consequatur ex saepe tempore quia odio debitis omnis neque molestiae eos eius vitae temporibus.
-
-  - id: BcABvvnhyLs
-    by: hamishjgray
-    name: 05
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus consequatur ex saepe tempore quia odio debitis omnis neque molestiae eos eius vitae temporibus. ad dignissimos iste amet voluptate laudantium saepe? Commodi, quasi, asperiores. Est consequatur repellat magnam.
-
-  - id: BcABvvnhyLs
-    by: hamishjgray
-    name: 06
-    content: Nobis quibusdam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus consequatur ex saepe tempore quia odio debitis omnis neque molestiae eos eius vitae temporibus.
-
-
 ---
 
 
@@ -72,17 +39,21 @@ images:
 <section class="bg--grey-darker vpad-bottom--lg">
   <div class="row row--padding row--4-4-4-gutters">
 
-    {% for image in page.images %}
-    <div class="col ig-post">
-      <a href="https://www.instagram.com/p/{{image.id}}" target="_blank" class="ig-post__img bg-img bg-img--1-1" style="background-image: url({{site.baseurl}}/img/content/wall-of-fame/{{image.name}}.jpg)"></a>
-      <div class="ig-post__content text--white">
-        <a href="https://www.instagram.com/{{image.by}}" target="_blank"><h4 class="title title--bold">
-          <img width="16" src="{{site.baseurl}}/img/icons/social-ig-white.png" class="js-svg-swap ig-post__icon">
-          {{image.by}}
-        </h4></a>
-        <p class="text--sm">{{image.content|truncate:90}}</p>
+    {% assign images = site.data.instagram | reverse %}
+    {% for image in images %}
+      <div class="col ig-post">
+        <a href="https://www.instagram.com/p/{{image.id}}" target="_blank" class="ig-post__img bg-img bg-img--1-1" style="background-image: url({{site.baseurl}}/img/content/wall-of-fame/{{image.id}}.jpg)"></a>
+        <div class="ig-post__content text--white">
+          <p class="text--sm">
+            <a href="https://www.instagram.com/{{image.by}}" target="_blank">
+              <img width="16" src="{{site.baseurl}}/img/icons/social-ig-white.png" class="js-svg-swap ig-post__icon">
+              <span class="text--bolder">{{image.by}}</span>
+            </a>
+            <br />
+            {{image.content|truncate:85}}
+          </p>
+        </div>
       </div>
-    </div>
     {% endfor %}
 
   </div>
