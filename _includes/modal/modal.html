@@ -1,10 +1,5 @@
-
-
-
 {% assign modal-items = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york %}
 {% assign modal-videos = site.data.videos %}
-
-
 
 <div class="js-modal modal is-closed">
   <div class="js-close-modal modal__close"></div>
@@ -14,25 +9,47 @@
 
   <div class="modal__wrap">
 
+    <!-- loop through all photo modals -->
     {% for item in modal-items %}
-    <div
-      class="modal__item modal__item--{{item.id}} is-closed"
-      id="modal-{{item.id}}"
-      data-group-page="{{item.page}}"
-      data-group-section="{{item.section}}">
+      <!-- check if there is a pages attribute to evaluate -->
+      {% if item.pages %}
+        <!-- loop through the pages attribute as it might have multiple options -->
+        {% for item-page in item.pages %}
+          <!-- is it for this page or all pages on the site? -->
+          {% if item-page.id == page.id or item-page.id == 'all' %}
 
-      {% if item.orientation %}
-        {% include modal/content/photo.html %}
+          <div
+            class="modal__item modal__item--{{item.id}} is-closed"
+            id="modal-{{item.id}}"
+            data-group-page="{{item.page}}"
+            data-group-section="{{item.section}}">
+            {% if item.orientation %}
+              {% include modal/content/photo.html %}
+            {% endif %}
+          </div>
+
+          {% endif %}
+        {% endfor %}
       {% endif %}
-
-    </div>
     {% endfor %}
 
+    <!-- loop through all video modals -->
     {% for item in modal-videos %}
-    <div
-      class="modal__item modal__item--video modal__item--{{item.id}} is-closed">
-      {% include modal/content/video.html %}
-    </div>
+      <!-- check if there is a pages attribute to evaluate -->
+      {% if item.pages %}
+        <!-- loop through the pages attribute as it might have multiple options -->
+        {% for item-page in item.pages %}
+          <!-- is it for this page or all pages on the site? -->
+          {% if item-page.id == page.id or item-page.id == 'all' %}
+
+          <div
+            class="modal__item modal__item--video modal__item--{{item.id}} is-closed">
+            {% include modal/content/video.html %}
+          </div>
+
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     {% endfor %}
 
   </div>

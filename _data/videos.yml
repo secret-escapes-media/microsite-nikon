@@ -4,16 +4,20 @@
 #==========================#
 
 - id: iceland-journey
+  pages:
+    - id: overview
+    - id: iceland
+    - id: iceland-journey
   video-id: JQTv4JczS-M
   link: iceland/iceland-journey
 
-- id: morocco-journey
+# - id: morocco-journey
 
-- id: new-york-journey
+# - id: new-york-journey
 
 
 
 #  BEHIND THE SCENES
 #==========================#
 
-- id: behind-the-scenes
+# - id: behind-the-scenes

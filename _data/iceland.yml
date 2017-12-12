@@ -1,6 +1,8 @@
 
 
 - page: iceland
+  pages:
+    - id: iceland-journey
   section: reynisfjara
   id: e-dyrholaey
   title: Dyrhólaey
@@ -16,6 +18,8 @@
   focallength: 18mm
 
 - page: iceland
+  pages:
+    - id: iceland-journey
   section: reynisfjara
   id: e-dyrholaey-lighthouse
   title: Dyrhólaey Lighthouse
@@ -31,6 +35,9 @@
   focallength: 18mm
 
 - page: iceland
+  pages:
+    - id: iceland-journey
+    - id: iceland-guide
   section: reynisfjara
   id: e-reynisfjara-black-sands
   title: Black Sands
@@ -46,6 +53,8 @@
   focallength: 75mm
 
 - page: iceland
+  pages:
+    - id: iceland-journey
   section: reynisfjara
   id: c-dyrholaey-rock
   title: The Stack
@@ -61,6 +70,8 @@
   focallength: 27mm
 
 - page: iceland
+  pages:
+    - id: iceland-journey
   section: reynisfjara
   id: c-beach
   title: The Trolls
@@ -81,6 +92,8 @@
 
 
 - page: iceland
+  pages:
+    - id: iceland-journey
   section: skogafoss
   id: e-skogafoss-bird
   title: In Flight
@@ -96,6 +109,8 @@
   focallength: 18mm
 
 - page: iceland
+  pages:
+    - id: iceland-journey
   section: skogafoss
   id: e-skogafoss-kvernufoss
   title: Secret Falls
@@ -111,6 +126,9 @@
   focallength: 35mm
 
 - page: iceland
+  pages:
+    - id: iceland-journey
+    - id: iceland-guide
   section: skogafoss
   id: e-skogafoss-hobbit-house
   title: Cliff House
@@ -126,6 +144,8 @@
   focallength: 18mm
 
 - page: iceland
+  pages:
+    - id: iceland-journey
   section: skogafoss
   id: c-behind-waterfall
   title: Behind the Falls
@@ -141,6 +161,8 @@
   focallength: 35mm
 
 - page: iceland
+  pages:
+    - id: iceland-journey
   section: skogafoss
   id: c-skogafoss
   title: Skógafoss
@@ -156,6 +178,8 @@
   focallength: 35mm
 
 - page: iceland
+  pages:
+    - id: iceland-journey
   section: skogafoss
   id: c-skogafoss-climb
   title: The Climb
@@ -176,6 +200,9 @@
 
 
 - page: iceland
+  pages:
+    - id: iceland-journey
+    - id: overview
   section: horses-and-hills
   id: e-horses
   title: Wild Horses
@@ -191,6 +218,8 @@
   focallength: 70mm
 
 - page: iceland
+  pages:
+    - id: iceland-journey
   section: horses-and-hills
   id: e-dramatic-formations
   title: Dramatic Formations
@@ -206,6 +235,8 @@
   focallength: 145mm
 
 - page: iceland
+  pages:
+    - id: iceland-journey
   section: horses-and-hills
   id: e-redhouse
   title: Red House
@@ -221,6 +252,9 @@
   focallength: 240mm
 
 - page: iceland
+  pages:
+    - id: iceland-journey
+    - id: iceland-guide
   section: horses-and-hills
   id: e-brooding-peaks
   title: Brooding Peaks
@@ -236,6 +270,8 @@
   focallength: 70mm
 
 - page: iceland
+  pages:
+    - id: iceland-journey
   section: horses-and-hills
   id: c-horse
   title: Camera Shy
@@ -256,6 +292,8 @@
 
 
 - page: iceland
+  pages:
+    - id: iceland-journey
   section: jokulsarlon-lagoon
   id: e-braving-the-elements
   title: Braving the Elements
@@ -271,6 +309,8 @@
   focallength: 40mm
 
 - page: iceland
+  pages:
+    - id: iceland-journey
   section: jokulsarlon-lagoon
   id: e-icebergs
   title: Icebergs
@@ -286,6 +326,9 @@
   focallength: 18mm
 
 - page: iceland
+  pages:
+    - id: iceland-journey
+    - id: iceland-guide
   section: jokulsarlon-lagoon
   id: e-diamond-beach
   title: Diamond Beach
@@ -301,6 +344,9 @@
   focallength: 18mm
 
 - page: iceland
+  pages:
+    - id: iceland-journey
+    - id: overview
   section: jokulsarlon-lagoon
   id: c-ecb-glacier
   title: Explorer
@@ -316,6 +362,8 @@
   focallength: 40mm
 
 - page: iceland
+  pages:
+    - id: iceland-journey
   section: jokulsarlon-lagoon
   id: c-icebergs
   title: Ice Sculptures
@@ -336,6 +384,8 @@
 
 
 - page: iceland
+  pages:
+    - id: iceland-journey
   id: e-mountain-contrast
   title: Mountains
   location: Iceland
@@ -352,6 +402,9 @@
 
 
 - page: iceland
+  pages:
+    - id: iceland-journey
+    - id: iceland-guide
   id: c-northern-lights
   title: Emerald Skies
   location: Iceland
