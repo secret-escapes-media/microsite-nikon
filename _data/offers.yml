@@ -1,6 +1,3 @@
-
-
-
 - title: Iconic Iceland escape with bucket list-ticking tours
   id: iconic-iceland-escape-with-bucket-list-ticking-tours
   location: Iceland
@@ -9,30 +6,6 @@
   price-description: per person for 3 nights
   saved: 44
   link: https://www.secretescapes.com/iconic-iceland-escape-with-bucket-list-ticking-tours-centerhotel-arnarhvoll-reykjavik/sale?gce_bfpop=0&utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_Iceland_Dec2017
-
-
-
-- title: Dramatic city-to-country tour of Iceland
-  id: dramatic-city-to-country-tour-of-iceland
-  location: Iceland
-  description: A glacier lagoon, volcanoes and waterfalls in Iceland
-  price: 599
-  price-description: per person for 4 nights
-  saved: 45
-  link: https://www.secretescapes.com/dramatic-city-to-country-tour-of-iceland-five-day-trip-with-northern-lights-jokulsarlon-glacier-lagoon-and-more/sale?gce_bfpop=0&utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_Iceland_Dec2017
-
-
-
-- title: Breathtaking Iceland Northern Lights trip with top tours
-  id: breathtaking-iceland-northern-lights-trip-with-top-tours
-  location: Iceland
-  description: Iceland's Northern Lights and amazing optional tours
-  price: 349
-  price-description: per person for 3 nights
-  saved: 48
-  link: https://www.secretescapes.com/breathtaking-iceland-northern-lights-trip-with-top-tours-centerhotel-plaza-reykjavik/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_Iceland_Dec2017
-
-
 
 - title: Stylish Iceland break with a choice of epic tours
   id: stylish-iceland-break-with-a-choice-of-epic-tours
@@ -43,8 +16,6 @@
   saved: 26
   link: https://www.secretescapes.com/stylish-iceland-break-with-a-choice-of-epic-tours-canopy-by-hilton-reykjavik-city-centre/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_Iceland_Dec2017
 
-
-
 - title: Bucket-list Iceland break with a Northern Lights tour & optional excursions
   id: bucket-list-iceland-break-with-a-northern-lights-tour-optional-excursions
   location: Iceland
@@ -54,7 +25,41 @@
   saved: 36
   link: https://www.secretescapes.com/bucket-list-iceland-break-with-a-northern-lights-tour-and-optional-excursions-icelandair-hotel-reykjavik-natura/sale?gce_bfpop=0&utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_Iceland_Dec2017
 
+- title: Luxury suite stay in Iceland with Northern Lights & tour options
+  id: luxury-suite-stay-in-iceland-with-northern-lights-tour-options
+  location: Iceland
+  description: A hidden Reykjavik gem, with a Northern Lights hunt and more
+  price: 599
+  price-description: per person for 3 nights
+  saved: 42
+  link: https://www.secretescapes.com/luxury-suite-stay-in-iceland-with-northern-lights-and-tour-options1-reykjavik-marina-residence-iceland/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_Iceland
 
+- title: Spectacular Iceland Northern Lights & wellness break
+  id: spectacular-iceland-northern-lights-wellness-break
+  location: Iceland
+  description: A dazzling Iceland Northern Lights and wellness escape
+  price: 399
+  price-description: per person for 3 nights
+  saved: 44
+  link: https://www.secretescapes.com/spectacular-iceland-northern-lights-and-wellness-break-centerhotel-midgardur-reykjavik/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_Iceland
+
+- title: Stunning Iceland wellness city & country break with tours
+  id: stunning-iceland-wellness-city-country-break-with-tours
+  location: Iceland
+  description: Exquisite natural sights and culture in Iceland
+  price: 649
+  price-description: per person for 4 nights
+  saved: 39
+  link: https://www.secretescapes.com/stunning-iceland-wellness-city-and-country-break-with-tours-with-northern-lights-blue-lagoon-golden-circle-and-more/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_Iceland
+
+- title: Unforgettable tour of Northern Iceland's cinematic landscapes
+  id: unforgettable-tour-of-northern-iceland-s-cinematic-landscapes
+  location: Iceland
+  description: An Iceland adventure with waterfalls, fjords, lava fields, volcanoes and more
+  price: 649
+  price-description: per person for 4 nights
+  saved: 55
+  link: https://www.secretescapes.com/unforgettable-tour-of-northern-icelands-cinematic-landscapes-an-epic-tour-with-game-of-thrones-highlights/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_Iceland
 
 - title: Viceroy Central Park
   id: viceroy-central-park
@@ -65,40 +70,41 @@
   saved: 70
   link: https://www.secretescapes.com/viceroy-central-park-midtown-new-york/sale?gce_bfpop=0&utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_NewYork_Dec2017
 
-
-
-- title: Sensational Morocco city-to-desert break with optional camel trek
-  id: sensational-morocco-city-to-desert-break-with-optional-camel-trek
-  location: Morocco
-  description: Discover Morocco's vibrant city and stunning Sahara
-  price: 369
-  price-description: per person for 5 nights
-  saved: 23
-  link: https://www.secretescapes.com/sensational-morocco-city-to-desert-break-with-optional-camel-trek-marrakech-and-sahara-desert-morroco/sale?gce_bfpop=0&utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_Morocco_Dec2017
-
-
-
-- title: Riad Dar Grawa
-  id: riad-dar-grawa
-  location: Morocco
-  description: An authentic Marrakech riad overflowing with style
-  price: 62
+- title: The Benjamin
+  id: the-benjamin
+  location: New York
+  description: A one-of-a-kind, recently renovated base in New York City
+  price: 137
   price-description: per room per night
-  saved: 46
-  link: https://www.secretescapes.com/riad-dar-grawa-marrakech-morocco/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_Morocco_Dec2017
+  saved: 32
+  link: https://www.secretescapes.com/the-benjamin-midtown-new-york/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_NewYork
 
+- title: Paramount Hotel
+  id: paramount-hotel
+  location: New York
+  description: A boutique and historic Theatre District hotel in New York City
+  price: 92
+  price-description: per room per night
+  saved: 55
+  link: https://www.secretescapes.com/paramount-hotel-times-square-new-york/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_NewYork
 
+- title: Moxy NYC Times Square
+  id: moxy-nyc-times-square
+  location: New York
+  description: A stylish new Manhattan base with indoor/outdoor rooftop lounge
+  price: 76
+  price-description: per room per night
+  saved: 39
+  link: https://www.secretescapes.com/moxy-nyc-times-square-new-york-new-york/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_NewYork
 
-- title: 5* Marrakech break with Atlas Mountain views
-  id: 5-marrakech-break-with-atlas-mountain-views
-  location: Morocco
-  description: A five-star Marrakech hotel with Atlas Mountain views
-  price: 315
-  price-description: per person for 3 nights
-  saved: 23
-  link: https://www.secretescapes.com/5-star-all-inclusive-marrakech-break-with-atlas-mountain-views-kenzi-menara-palace-morocco1/sale?gce_bfpop=0&utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_Morocco_Dec2017
-
-
+- title: Hotel 50 Bowery NYC
+  id: hotel-50-bowery-nyc
+  location: New York
+  description: A boutique hotel with rooftop lounge on New York’s oldest street
+  price: 115
+  price-description: per room per night
+  saved: 32
+  link: https://www.secretescapes.com/hotel-50-bowery-nyc-new-york-new-york/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_NewYork
 
 - title: All-inclusive Marrakech break with Atlas Mountain views
   id: all-inclusive-marrakech-break-with-atlas-mountain-views
@@ -109,16 +115,11 @@
   saved: 49
   link: https://www.secretescapes.com/all-inclusive-marrakech-break-with-atlas-mountain-views-be-live-experience-marrakech-palmeraie-morocco1/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_Morocco_Dec2017
 
-
-
-- title: Caravan Serai
-  id: caravan-serai
+- title: Riad Asrari
+  id: riad-asrari
   location: Morocco
-  description: A luxurious hideaway in a serene corner of Marrakech
-  price: 74
-  price-description: per suite per night
-  saved: 64
-  link: https://www.secretescapes.com/caravan-serai-marrakech-morocco/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_Morocco_Dec2017
-
-
-
+  description: An authentic and charming Marrakech riad in the heart of the medina
+  price: 57
+  price-description: per room per night
+  saved: 73
+  link: https://www.secretescapes.com/riad-asrari-marrakech-morocco-uk/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_Morocco
