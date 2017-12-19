@@ -145,6 +145,7 @@
 
 - page: iceland
   pages:
+    - id: iceland
     - id: iceland-journey
   section: skogafoss
   id: c-behind-waterfall

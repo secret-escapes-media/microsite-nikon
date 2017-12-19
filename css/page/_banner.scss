@@ -74,6 +74,7 @@ $site-nav-height-sm:  55px;
 
 
   &__info {
+    pointer-events: none;
     position: absolute;
     left: $s2;
     right: $s2;
@@ -97,6 +98,7 @@ $site-nav-height-sm:  55px;
     &-left { left: 0; padding-right: 3.5em; }
 
     &-location {
+      & > a { pointer-events: all; }
       &:before {
         content: "";
         display: inline-block;

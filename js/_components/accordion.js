@@ -22,7 +22,7 @@ function accordion(trigger,target){
 
 
 $('.accordion--closed').each(function(){
-  $(this).slideUp();
+  $(this).hide();
 });
 
 $('.accordion__trigger').click(function(event){
