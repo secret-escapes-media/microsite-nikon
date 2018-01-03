@@ -1,6 +1,9 @@
 
 
 - page: morocco
+  pages:
+    - id: morocco-journey
+    - id: morocco-guide
   section: markets
   id: l-lanterns
   title: Lanterns
@@ -16,6 +19,8 @@
   focallength: 35mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: markets
   id: l-market-jewellery
   title: Jeweller
@@ -31,6 +36,10 @@
   focallength: 35mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
+    - id: morocco-guide
+    - id: overview
   section: markets
   id: l-market-spices
   title: Spices
@@ -46,6 +55,8 @@
   focallength: 18mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: markets
   id: l-market-stall
   title: The Salesman
@@ -61,6 +72,8 @@
   focallength: 62mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: markets
   id: r-market-birds
   title: The Entertainer
@@ -76,6 +89,8 @@
   focallength: 190mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: markets
   id: r-market-stall
   title: Sweet Seller
@@ -91,6 +106,8 @@
   focallength: 35mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: markets
   id: r-frozen
   title: Frozen
@@ -111,6 +128,8 @@
 
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: architecture
   id: l-streets-buildings
   title: Minaret
@@ -126,6 +145,8 @@
   focallength: 18mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: architecture
   id: l-garden-doorway
   title: Doorway
@@ -141,6 +162,10 @@
   focallength: 18mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
+    - id: morocco-guide
+    - id: morocco
   section: architecture
   id: l-interior-doorway
   title: Discovery
@@ -156,6 +181,8 @@
   focallength: 18mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: architecture
   id: l-tile-walls
   title: Shelter
@@ -171,6 +198,8 @@
   focallength: 18mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: architecture
   id: r-riad-interior
   title: Riad
@@ -186,6 +215,8 @@
   focallength: 21mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: architecture
   id: r-riad-white
   title: Symmetry
@@ -206,6 +237,8 @@
 
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: streets
   id: l-bike-alley
   title: Back streets
@@ -221,6 +254,8 @@
   focallength: 18mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: streets
   id: l-man-door
   title: Framed
@@ -236,6 +271,8 @@
   focallength: 18mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: streets
   id: l-men-street
   title: Waiting
@@ -251,6 +288,8 @@
   focallength: 18mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: streets
   id: r-man-bike
   title: Spotlight
@@ -266,6 +305,8 @@
   focallength: 200mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: streets
   id: r-man-donkey
   title: Respite
@@ -281,6 +322,8 @@
   focallength: 70mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: streets
   id: r-man-stick
   title: Pause
@@ -296,6 +339,8 @@
   focallength: 200mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: streets
   id: r-old-man
   title: The Man
@@ -311,6 +356,8 @@
   focallength: 21mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: streets
   id: r-warehouse
   title: Golden Hour
@@ -331,6 +378,9 @@
 
 
 - page: morocco
+  pages:
+    - id: morocco-journey
+    - id: overview
   section: atlas-mountains
   id: l-mountain-village-2
   title: Outpost
@@ -346,6 +396,8 @@
   focallength: 185mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: atlas-mountains
   id: l-mountain-village
   title: Valley
@@ -361,6 +413,8 @@
   focallength: 34mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: atlas-mountains
   id: l-donkey-silhouette
   title: Silhouette
@@ -376,6 +430,8 @@
   focallength: 150mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: atlas-mountains
   id: r-berber-woman
   title: Mountain Flock
@@ -391,6 +447,8 @@
   focallength: 200mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: atlas-mountains
   id: r-children-donkey
   title: Young explorers
@@ -406,11 +464,13 @@
   focallength: 70mm
 
 - page: morocco
+  pages:
+    - id: morocco-journey
   section: atlas-mountains
   id: r-mountains-farmer
   title: Keeping Watch
   location: Atlas Mountains
-  coordinates: 
+  coordinates:
   photographer: Ross Walker
   content: During our trip to the Atlas Mountains I noticed this solitary figure sat on the horizon. I used the zoom lens as he was quite far away and blurred the foreground using a lower aperture.
   orientation: landscape

@@ -11,7 +11,13 @@
   video-id: JQTv4JczS-M
   link: iceland/iceland-journey
 
-# - id: morocco-journey
+- id: morocco-journey
+  pages:
+    - id: overview
+    - id: morocco
+    - id: morocco-journey
+  video-id: 9yfYW7Es6zY
+  link: morocco/morocco-journey
 
 # - id: new-york-journey
 
