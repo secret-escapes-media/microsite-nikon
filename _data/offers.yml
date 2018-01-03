@@ -29,18 +29,6 @@
 
 
 
-- title: Epic Iceland Northern Lights trip with unforgettable tours
-  id: epic-iceland-northern-lights-trip-with-unforgettable-tours
-  location: Icelandair Hotel Reykjavik Marina, Reykjavik
-  destination: Iceland
-  description: Northern Lights, whale watching, snowmobiling and more in Iceland
-  price: 449
-  price-description: per person for 3 nights
-  saved: 45
-  link: https://www.secretescapes.com/spectacular-iceland-break-with-northern-lights-cruise-icelandair-hotel-reykjavik-marina-reykjavik/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Iceland_Dec2017
-
-
-
 - title: Iceland Northern Lights break with a superb hotel stay
   id: iceland-northern-lights-break-with-a-superb-hotel-stay
   location: Centerhotel Thingholt, Reykjavik
@@ -102,18 +90,6 @@
   price-description: per room per night
   saved: 70
   link: https://www.secretescapes.com/viceroy-central-park-midtown-new-york/sale?gce_bfpop=0&utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_NewYork_Dec2017
-
-
-
-- title: Paramount Hotel
-  id: paramount-hotel
-  location: Times Square, New York
-  destination: New York
-  description: A boutique and historic Theatre District hotel in New York City
-  price: 92
-  price-description: per room per night
-  saved: 55
-  link: https://www.secretescapes.com/paramount-hotel-times-square-new-york/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_NewYork
 
 
 
@@ -202,30 +178,6 @@
 
 
 ######## MOROCCO ########
-
-
-
-- title: Riad Asrari
-  id: riad-asrari
-  location: Marrakech, Morocco
-  destination: Morocco
-  description: An authentic and charming Marrakech riad in the heart of the medina
-  price: 57
-  price-description: per room per night
-  saved: 73
-  link: https://www.secretescapes.com/riad-asrari-marrakech-morocco-uk/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_Morocco
-
-
-
-- title: Stylish Morocco boutique riad break
-  id: stylish-morocco-boutique-riad-break
-  location: Riad l'Escale de Marrakech, Morocco
-  destination: Morocco
-  description: A boutique riad stay in the heart of Marrakech
-  price: 179
-  price-description: per person for 3 nights
-  saved: 23
-  link: https://www.secretescapes.com/stylish-morocco-boutique-riad-break-riad-lescale-de-marrakech-morocco/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Dec2017
 
 
 
