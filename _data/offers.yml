@@ -29,30 +29,6 @@
 
 
 
-- title: Iceland Northern Lights break with a superb hotel stay
-  id: iceland-northern-lights-break-with-a-superb-hotel-stay
-  location: Centerhotel Thingholt, Reykjavik
-  destination: Iceland
-  description: Iceland's must-dos and a stylish Reykjavik stay
-  price: 449
-  price-description: per person for 3 nights
-  saved: 42
-  link: https://www.secretescapes.com/epic-iceland-northern-lights-break-with-a-superb-hotel-stay-centerhotel-thingholt-reykjavik/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Iceland_Dec2017
-
-
-
-- title: Mesmerising Iceland Northern Lights trip with top tours
-  id: mesmerising-iceland-northern-lights-trip-with-top-tours
-  location: Centerhotel Plaza, Reykjavik
-  destination: Iceland
-  description: Discover Iceland's Northern Lights, plus a choice of epic tours
-  price: 399
-  price-description: per person for 3 nights
-  saved: 36
-  link: https://www.secretescapes.com/breathtaking-iceland-northern-lights-trip-with-top-tours-reykjavik-iceland/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Iceland_Dec2017
-
-
-
 - title: Award-winning Iceland break with Northern Lights & optional tours
   id: award-winning-iceland-break-with-northern-lights-optional-tours
   location: Hotel Holt, Reykjavik
@@ -77,6 +53,58 @@
 
 
 
+- title: Thrilling Iceland Northern Lights hunt from a modern hotel
+  id: thrilling-iceland-northern-lights-hunt-from-a-modern-hotel
+  location: Nordurey Reykjavik Road hotel, Hafnarfjörður
+  destination: Iceland
+  description: Insanely stunning Iceland tours from a new hotel
+  price: 299
+  price-description: per person for 3 nights
+  saved: 31
+  link: https://www.secretescapes.com/thrilling-iceland-northern-lights-hunt-from-a-modern-hotel-nordurey-reykjavik-road-hotel-hafnarfjorur/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Iceland_Jan2018
+
+
+
+######## MOROCCO ########
+
+
+
+- title: Riad Laurence Olivier
+  id: riad-laurence-olivier
+  location: Marrakech, Morocco
+  destination: Morocco
+  description: A boutique Marrakech riad with an unbeatable location
+  price: 50
+  price-description: per person per night
+  saved: 32
+  link: https://www.secretescapes.com/riad-laurence-olivier-marrakech-morocco78/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Jan2018
+
+
+
+- title: Boutique break to buzzing Marrakech
+  id: boutique-break-to-buzzing-marrakech
+  location: Kech Boutique Hotel & Spa, Morocco
+  destination: Morocco
+  description: A contemporary hotel with spacious rooms in vibrant Marrakech
+  price: 249
+  price-description: per person for 3 nights
+  saved: 32
+  link: https://www.secretescapes.com/boutique-break-to-buzzing-marrakech-kech-boutique-hotel-and-spa-morocco/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Jan2018
+
+
+
+- title: Hotel Les 5 Djellabas
+  id: hotel-les-5-djellabas
+  location: Marrakech, Morocco
+  destination: Morocco
+  description: A romantic retreat in a green corner of Marrakech
+  price: 77
+  price-description: per person per night
+  saved: 32
+  link: https://www.secretescapes.com/hotel-les-5-djellabas-marrakech-morocco/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Jan2018
+
+
+
 ######## NEW YORK ########
 
 
@@ -86,7 +114,7 @@
   location: Midtown, New York
   destination: New York
   description: Condé Nast Traveller recommended Big Apple stay with stunning views
-  price: 157
+  price: 149
   price-description: per room per night
   saved: 70
   link: https://www.secretescapes.com/viceroy-central-park-midtown-new-york/sale?gce_bfpop=0&utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_NewYork_Dec2017
@@ -110,7 +138,7 @@
   location: Midtown, New York
   destination: New York
   description: A legendary Manhattan hotel with Philippe Starck interiors
-  price: 65
+  price: 60
   price-description: per room per night
   saved: 46
   link: https://www.secretescapes.com/hudson-new-york-midtown-new-york/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYorK_Dec2017
@@ -122,22 +150,10 @@
   location: Chelsea, New York
   destination: New York
   description: A luxe boutique Chelsea hotel with hot rooftop bar
-  price: 164
+  price: 157
   price-description: per room per night
   saved: 37
   link: https://www.secretescapes.com/dream-downtown-chelsea-new-york/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYorK_Dec2017
-
-
-
-- title: Grand Hyatt New York
-  id: grand-hyatt-new-york
-  location: Midtown, New York
-  destination: New York
-  description: A historic, luxury Manhattan hotel with amazing views
-  price: 103
-  price-description: per room per night
-  saved: 44
-  link: https://www.secretescapes.com/grand-hyatt-new-york-midtown-new-york/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYorK_Dec2017
 
 
 
@@ -153,18 +169,6 @@
 
 
 
-- title: An epic New York State trip with Long Island & Manhattan stays
-  id: an-epic-new-york-state-trip-with-long-island-manhattan-stays
-  location: The Hamptons, Long Beach & New York City
-  destination: New York
-  description: An iconic New York trip with upstate stays
-  price: 929
-  price-description: per person for 6 nights
-  saved: 39
-  link: https://www.secretescapes.com/an-epic-new-york-state-trip-with-long-island-and-manhattan-stays-riverhead-long-beach-and-new-york-city/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Jan2018
-
-
-
 - title: Cassa Hotel
   id: cassa-hotel
   location: Midtown, New York
@@ -177,28 +181,87 @@
 
 
 
-######## MOROCCO ########
-
-
-
-- title: Art Place Hotel & Ryad
-  id: art-place-hotel-ryad
-  location: Marrakech, Morocco
-  destination: Morocco
-  description: Authentic five-star riad in Marrakech's medina
+- title: Life Hotel
+  id: life-hotel
+  location: Manhattan, New York
+  destination: New York
+  description: A new boutique hotel in Midtown’s trendy NoMad
   price: 107
   price-description: per room per night
-  saved: 30
-  link: https://www.secretescapes.com/art-place-hotel-and-ryad-marrakech-moroccoasd/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Dec2017
+  saved: 47
+  link: https://www.secretescapes.com/life-hotel-nomad-new-york-new-york/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Jan2018
 
 
 
-- title: Riad Omri
-  id: riad-omri
-  location: Marrakech, Morocco
-  destination: Morocco
-  description: A suite stay in a leafy Marrakech riad with a pool
-  price: 89
+- title: The Williamsburg Hotel
+  id: the-williamsburg-hotel
+  location: Brooklyn, New York
+  destination: New York
+  description: A stylish boutique base boasting designer interiors in Brooklyn
+  price: 111
+  price-description: per room per night
+  saved: 28
+  link: https://www.secretescapes.com/the-williamsburg-hotel-brooklyn-new-york/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Jan2018
+
+
+
+- title: Park South Hotel
+  id: park-south-hotel
+  location: Midtown, New York
+  destination: New York
+  description: Boutique interiors and phenomenal dining in NYC's Midtown
+  price: 99
+  price-description: per room per night
+  saved: 31
+  link: https://www.secretescapes.com/park-south-hotel-midtown-new-york-usa/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Jan2018
+
+
+
+- title: The William Vale
+  id: the-william-vale
+  location: Brooklyn, New York
+  destination: New York
+  description: A swanky stay at a buzzy new Brooklyn base
+  price: 160
+  price-description: per room per night
+  saved: 57
+  link: https://www.secretescapes.com/the-william-vale-brooklyn-new-york/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Jan2018
+
+
+
+- title: Gild Hall, a Thompson Hotel
+  id: gild-hall-a-thompson-hotel
+  location: Financial District, New York City
+  destination: New York
+  description: A stylish stay with prime access to NYC’s best neighbourhoods
+  price: 103
   price-description: per room per night
   saved: 45
-  link: https://www.secretescapes.com/riad-omri-marrakech-morocco94/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Jan2018
+  link: https://www.secretescapes.com/gild-hall-a-thompson-hotel-financial-district-new-york-city-1/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Jan2018
+
+
+
+- title: Le Parker Meridien New York
+  id: le-parker-meridien-new-york
+  location: Midtown Manhattan, New York
+  destination: New York
+  description: A luxe New York hotel with a rooftop pool and city views
+  price: 137
+  price-description: per room per night
+  saved: 36
+  link: https://www.secretescapes.com/le-parker-meridien-new-york-midtown-manhattan-new-york/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Jan2018
+
+
+
+- title: Sensational New York & Toronto holiday
+  id: sensational-new-york-toronto-holiday
+  location: Hotel Mela Times Square, USA & Radisson Admiral Hotel Toronto-Harbourfront, Canada
+  destination: New York
+  description: Transatlantic thrills in New York and Toronto
+  price: 899
+  price-description: per person for 6 nights
+  saved: 40
+  link: https://www.secretescapes.com/sensational-new-york-and-toronto-holiday-hotel-mela-times-square-usa-and-radisson-admiral-hotel-toronto-harbourfront-canada/sale?gce_nsr=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Jan2018
+
+
+
