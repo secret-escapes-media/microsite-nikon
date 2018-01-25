@@ -1,6 +1,8 @@
 
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: the-streets
   id: m-street-reflection
   title: Reflection
@@ -16,6 +18,8 @@
   focallength: 18mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: the-streets
   id: m-smile
   title: Moment
@@ -31,6 +35,8 @@
   focallength: 66mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: the-streets
   id: m-fire-station
   title: The Fire Station
@@ -46,6 +52,8 @@
   focallength: 40mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: the-streets
   id: m-police-wallst
   title: The Law
@@ -61,6 +69,8 @@
   focallength: 35mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: the-streets
   id: m-subway
   title: Commuter
@@ -76,6 +86,8 @@
   focallength: 52mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: the-streets
   id: v-street-girls
   title: Friends
@@ -91,6 +103,8 @@
   focallength: 70mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: the-streets
   id: v-little-italy
   title: Little Italy
@@ -106,6 +120,8 @@
   focallength: 70mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: the-streets
   id: v-games
   title: Chinese Chess
@@ -121,6 +137,8 @@
   focallength: 70mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: the-streets
   id: v-games-step
   title: Competition
@@ -141,6 +159,8 @@
 
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: across-the-river
   id: m-brooklyn-bridge
   title: Brooklyn Bridge
@@ -156,6 +176,8 @@
   focallength: 70mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: across-the-river
   id: m-through-bridge
   title: Through the Bridge
@@ -171,6 +193,8 @@
   focallength: 28mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: across-the-river
   id: m-bridge-umbrella
   title: Umbrella
@@ -186,6 +210,8 @@
   focallength: 48mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: across-the-river
   id: m-dock-view
   title: Docks
@@ -201,6 +227,8 @@
   focallength: 18mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: across-the-river
   id: v-brooklyn-bridge
   title: Symmetry
@@ -216,6 +244,8 @@
   focallength: 22mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: across-the-river
   id: v-bridge-street-portrait
   title: Destination
@@ -231,6 +261,8 @@
   focallength: 27mm
 
 # - page: new-york
+  pages:
+    - id: new-york-journey
 #   section: across-the-river
 #   id: v-bridge-street
 #   title: River Crossing
@@ -246,6 +278,8 @@
 #   focallength: 70mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: across-the-river
   id: v-city-water
   title: East River
@@ -266,6 +300,8 @@
 
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: metropolis
   id: m-down-from-rock
   title: From the Rock
@@ -281,6 +317,9 @@
   focallength: 18mm
 
 - page: new-york
+  pages:
+    - id: overview
+    - id: new-york-journey
   section: metropolis
   id: m-rock-lookout
   title: Icon
@@ -296,6 +335,8 @@
   focallength: 70mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: metropolis
   id: m-streets-from-rock
   title: Twilight
@@ -311,6 +352,8 @@
   focallength: 62mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: metropolis
   id: m-flatiron
   title: Flat Iron
@@ -326,6 +369,8 @@
   focallength: 14mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: metropolis
   id: v-graffiti
   title: Graffiti
@@ -341,6 +386,8 @@
   focallength: 55mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: metropolis
   id: v-empire-state
   title: Highrise
@@ -356,6 +403,8 @@
   focallength: 70mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: metropolis
   id: v-subway
   title: Subway
@@ -376,6 +425,8 @@
 
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: city-at-night
   id: m-street-night
   title: 24 Hrs
@@ -391,6 +442,8 @@
   focallength: 34mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: city-at-night
   id: m-time-sq
   title: Stripes
@@ -406,6 +459,8 @@
   focallength: 24mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: city-at-night
   id: m-purple-night
   title: Glow
@@ -421,6 +476,8 @@
   focallength: 105mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: city-at-night
   id: v-time-sq-boy
   title: Patriot
@@ -436,6 +493,9 @@
   focallength: 70mm
 
 - page: new-york
+  pages:
+    - id: overview
+    - id: new-york-journey
   section: city-at-night
   id: v-times-sq-cyclist
   title: Passing Through
@@ -451,6 +511,8 @@
   focallength: 20mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: city-at-night
   id: v-street-man
   title: Our Streets

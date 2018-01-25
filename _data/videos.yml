@@ -19,7 +19,13 @@
   video-id: aRtlRuBWv7U
   link: morocco/morocco-journey
 
-# - id: new-york-journey
+- id: new-york-journey
+  pages:
+    - id: overview
+    - id: new-york
+    - id: new-york-journey
+  video-id: aRtlRuBWv7U
+  link: new-york/new-york-journey
 
 
 
