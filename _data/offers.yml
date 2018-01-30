@@ -53,6 +53,18 @@
 
 
 
+- title: The essential 'Iceland in a nutshell' break
+  id: the-essential-iceland-in-a-nutshell-break
+  location: Hilton Reykjavik Nordica, Iceland
+  destination: Iceland
+  description:
+  price: 499
+  price-description: per person for 3 nights
+  saved: 38
+  link: https://www.secretescapes.com/the-essential-iceland-in-a-nutshell-break1-hilton-reykjavik-nordica-iceland/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Iceland_Jan2018
+
+
+
 ######## MOROCCO ########
 
 
@@ -69,30 +81,6 @@
 
 
 
-- title: Charming Marrakech riad stay with Atlas Mountain views
-  id: charming-marrakech-riad-stay-with-atlas-mountain-views
-  location: Al Mendili Private Resort & Spa, Morocco
-  destination: Morocco
-  description: Panoramic views from a traditional Marrakech riad
-  price: 235
-  price-description: per person for 3 nights
-  saved: 54
-  link: https://www.secretescapes.com/charming-marrakech-riad-stay-with-atlas-mountain-views-al-mendili-private-resort-and-spa-morocco/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco__Jan2018
-
-
-
-- title: 5* Marrakech break with Atlas Mountain views
-  id: 5-marrakech-break-with-atlas-mountain-views
-  location: Kenzi Menara Palace, Morocco
-  destination: Morocco
-  description: Five-star Marrakech hotel with Atlas Mountain views
-  price: 399
-  price-description: per person for 7 nights
-  saved: 34
-  link: https://www.secretescapes.com/5-star-marrakech-break-with-atlas-mountain-views-kenzi-menara-palace-morocco/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Jan2018
-
-
-
 - title: Kasbah Igoudar
   id: kasbah-igoudar
   location: Near Marrakech, Morocco
@@ -105,27 +93,27 @@
 
 
 
-- title: Riad Palais Blanc
-  id: riad-palais-blanc
+- title: Luxury Marrakech break at a boutique riad
+  id: luxury-marrakech-break-at-a-boutique-riad
+  location: Riad Emberiza Sahari, Morocco
+  destination: Morocco
+  description: A Marrakech riad with exquisite interiors and a tree-lined pool
+  price: 235
+  price-description: per room per night
+  saved: 31
+  link: https://www.secretescapes.com/luxury-marrakech-break-at-a-boutique-riad-riad-emberiza-sahari-morocco/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Jan2018
+
+
+
+- title: Riad Moulay
+  id: riad-moulay
   location: Marrakech, Morocco
   destination: Morocco
-  description: A newly opened Marrakech riad with impeccable style
-  price: 101
-  price-description: per room per night
-  saved: 40
-  link: https://www.secretescapes.com/riad-palais-blanc-marrakech-morocco-uk/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Jan2018
-
-
-
-- title: Vibrant Morocco tour with optional excursion
-  id: vibrant-morocco-tour-with-optional-excursion
-  location: Marrakech, Fez and Chefchaouen
-  destination: Morocco
-  description: A superb seven-night tour of Morcocco, taking it city, scenery and sands
-  price: 545
+  description: An authentic riad stay in the heart of Marrakech
+  price: 18
   price-description: per person per night
-  saved: 43
-  link: https://www.secretescapes.com/vibrant-morocco-tour-with-optional-excursion-marrakech-fez-and-chefchaouen/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Jan2018
+  saved: 53
+  link: https://www.secretescapes.com/riad-moulay-marrakech-morocco/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Jan2018
 
 
 
@@ -178,18 +166,6 @@
   price-description: per room per night
   saved: 49
   link: https://www.secretescapes.com/warwick-new-york-midtown-manhattan-new-york-city/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Jan2018
-
-
-
-- title: Cassa Hotel
-  id: cassa-hotel
-  location: Midtown, New York
-  destination: New York
-  description: A boutique Midtown Manhattan hotel, just steps from Times Square
-  price: 137
-  price-description: per room per night
-  saved: 48
-  link: https://www.secretescapes.com/cassa-hotel-midtown-new-york/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Jan2018
 
 
 
@@ -298,18 +274,6 @@
   price-description: per room per night
   saved: 29
   link: https://www.secretescapes.com/roger-new-york-midtown-manhattan-new-york/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Jan2018
-
-
-
-- title: Awe-inspiring Niagara Falls & New York getaway
-  id: awe-inspiring-niagara-falls-new-york-getaway
-  location: Bucket-list destinations in Canada & USA with optional helicopter tour
-  destination: New York
-  description: Niagara's thundering Falls and glamorous New York in one
-  price: 759
-  price-description: per person for 7 nights
-  saved: 39
-  link: https://www.secretescapes.com/awe-inspiring-niagara-falls-and-new-york-getaway-sheraton-on-the-falls-hotel-and-four-points-by-sheraton-new-york-downtown-hotel/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Jan2018
 
 
 
