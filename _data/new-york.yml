@@ -1,6 +1,8 @@
 
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: the-streets
   id: m-street-reflection
   title: Reflection
@@ -16,6 +18,8 @@
   focallength: 18mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: the-streets
   id: m-smile
   title: Moment
@@ -31,6 +35,8 @@
   focallength: 66mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: the-streets
   id: m-fire-station
   title: The Fire Station
@@ -46,6 +52,8 @@
   focallength: 40mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: the-streets
   id: m-police-wallst
   title: The Law
@@ -61,6 +69,8 @@
   focallength: 35mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: the-streets
   id: m-subway
   title: Commuter
@@ -76,6 +86,8 @@
   focallength: 52mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: the-streets
   id: v-street-girls
   title: Friends
@@ -91,13 +103,15 @@
   focallength: 70mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: the-streets
   id: v-little-italy
   title: Little Italy
   location: New York
   coordinates: 40.71914, -73.99732
   photographer: Victoria Campbell
-  content: As Marianna so perfectly put, 'Little Italy is an exaggerated version of everything Italian' and I think this picture captures just that. I wasn’t sure if the man sat at the table was the owner of the restaurant or just a customer who fit so perfectly in with the vibe of this iconic street. I spent a few minutes observing him and was fascinated by his contentment in people watching. I originally imagined just capturing the man by himself but I like the addition of the tourist strolling past him, it felt truer to the moment and the location.
+  content: As Marianna so perfectly put whilst we were there, 'Little Italy is an exaggerated version of everything Italian', and I think this picture captures just that. I wasn’t sure if the man sat at the table was the owner of the restaurant or just a customer who fit so perfectly in with the vibe of this iconic street. I spent a few minutes observing him and was fascinated by his contentment in people watching. I originally imagined just capturing the man by himself but I like the addition of the tourist strolling past him, it felt truer to the moment and the location.
   orientation: portrait
   camera: Nikon D850
   lens: 24-70mm f/2.8
@@ -106,6 +120,8 @@
   focallength: 70mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: the-streets
   id: v-games
   title: Chinese Chess
@@ -121,6 +137,8 @@
   focallength: 70mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: the-streets
   id: v-games-step
   title: Competition
@@ -141,6 +159,8 @@
 
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: across-the-river
   id: m-brooklyn-bridge
   title: Brooklyn Bridge
@@ -156,6 +176,8 @@
   focallength: 70mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: across-the-river
   id: m-through-bridge
   title: Through the Bridge
@@ -171,13 +193,15 @@
   focallength: 28mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: across-the-river
   id: m-bridge-umbrella
   title: Umbrella
   location: New York
   coordinates: 40.70285, -73.9896
   photographer: Marianna Sgherri
-  content: It was raining heavily, so we decided to go back to Brooklyn to capture the iconic shot of the Manhattan bridge peeping between two red-bricked buildings. I like the fact there was a person crossing the street with an umbrella; apart from being right in the middle of the street (which makes a symmetry-obsessed person like me be proud), it adds an interesting perspective to the picture. I was so glad that the D7500 was weather sealed, meaning I worried less and shot more.
+  content: It was raining heavily, so we decided to go back to Brooklyn to capture the iconic shot of the Manhattan bridge peeping between two red-brick buildings. I like the fact there was a person crossing the street with an umbrella; apart from being right in the middle of the street (which I love the symmetry of), it adds an interesting perspective to the picture. I was so glad that the D7500 was weather sealed, meaning I worried less and shot more.
   orientation: portrait
   camera: Nikon D7500
   lens: 18-105mm f/3.5-5.6
@@ -186,13 +210,15 @@
   focallength: 48mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: across-the-river
   id: m-dock-view
   title: Docks
   location: New York
   coordinates: 40.70029, -73.99669
   photographer: Marianna Sgherri
-  content: Whilst these docks are famous for the superb view they offer of the skyline at sunset, we were pretty sure the golden light of dawn reflecting on the skyscrapers as going to be amazing, and it was! The low dawn light allowed us to take long exposure shots too. In this picture I kept my shutter open for a couple of seconds, allowing the camera to capture the movement of the water. The result is that shiny metallic smoothness you can see in the picture – I love it!
+  content: Whilst these docks are famous for the superb view they offer of the skyline at sunset, we were pretty sure the golden light of dawn reflecting on the skyscrapers was going to be amazing, and it was! The low dawn light allowed us to take long exposure shots too. In this picture I kept my shutter open for a couple of seconds, allowing the camera to capture the movement of the water. The result is that shiny metallic smoothness you can see in the picture – I love it!
   orientation: landscape
   camera: Nikon D7500
   lens: 18-105mm f/3.5-5.6
@@ -201,6 +227,8 @@
   focallength: 18mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: across-the-river
   id: v-brooklyn-bridge
   title: Symmetry
@@ -216,6 +244,8 @@
   focallength: 22mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: across-the-river
   id: v-bridge-street-portrait
   title: Destination
@@ -230,29 +260,16 @@
   shutterspeed: 1/100
   focallength: 27mm
 
-# - page: new-york
-#   section: across-the-river
-#   id: v-bridge-street
-#   title: River Crossing
-#   location: New York
-#   coordinates:
-#   photographer: Victoria Campbell
-#   content: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-#   orientation: landscape
-#   camera: Nikon D850
-#   lens: 24-70mm f/2.8
-#   aperture: f/14
-#   shutterspeed: 1/100
-#   focallength: 70mm
-
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: across-the-river
   id: v-city-water
   title: East River
   location: New York
   coordinates: 40.70029, -73.99669
   photographer: Victoria Campbell
-  content: This was actually our second attempt at Brooklyn Bridge Park. The first morning we went, we missed sunrise and it was overcast so we didn’t get the results we were looking for. Luckily, the second time there was a golden hue in the sky creating gorgeous shadows and reflections on the skyline. I loved the idea of combining water with the skyline. To get the misty, almost magical effect of the water I set my camera up on the tripod, brought my ISO down to 31 (in order to let as much light in as possible), set for a long exposure and brought my aperture to f20 to keep everything sharp. I also used an ND filter that lengthened my exposure time and softened the reflections. I highly recommend waking up extra early to capture the city at sunrise, there really is no comparison during the day.
+  content: This was actually our second attempt at Brooklyn Bridge Park. The first morning we went, we missed sunrise and it was overcast so we didn’t get the results we were looking for. Luckily, the second time there was a golden hue in the sky creating gorgeous shadows and reflections on the skyline. I loved the idea of combining water with the skyline. To get the misty, almost magical effect of the water I set my camera up on the tripod for a long exposure, brought my ISO down to LO1 (the equivalent of ISO 32) so that I could set a very low shutter speed, blurring the movement of the water and the clouds. I also used an ND filter that lengthened my exposure time and softened the reflections. I highly recommend waking up extra early to capture the city at sunrise, there really is no comparison during the day.
   orientation: landscape
   camera: Nikon D850
   lens: 24-70mm f/2.8
@@ -266,6 +283,8 @@
 
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: metropolis
   id: m-down-from-rock
   title: From the Rock
@@ -281,13 +300,16 @@
   focallength: 18mm
 
 - page: new-york
+  pages:
+    - id: overview
+    - id: new-york-journey
   section: metropolis
   id: m-rock-lookout
   title: Icon
   location: New York
   coordinates:
   photographer: Marianna Sgherri
-  content: One of the reasons why many people prefer Top of the Rock to the Empire State Building is that you can’t really see the latter from its top, can’t you? Despite the grumpy weather the visibility was good, and I spotted the Statue of Liberty on the horizon. I quite liked the idea of capturing two icons of NYC in one shot and decided to apply the ‘rule of thirds’ Vic had mentioned earlier, shifting the framing so that the Empire State Building is in the left-hand third of the picture.
+  content: One of the reasons why many people prefer the Top of the Rock to the Empire State Building is that you can actually see the iconic Empire State Building from the Top of the Rock! Despite the moody weather the visibility was good, and I spotted the Statue of Liberty on the horizon. I quite liked the idea of capturing two icons of NYC in one shot and decided to apply the ‘rule of thirds’ Vic had mentioned earlier, shifting the framing so that the Empire State Building is in the left-hand third of the picture.
   orientation: landscape
   camera: Nikon D7500
   lens: 70-300mm f/4.5-6.3
@@ -296,6 +318,8 @@
   focallength: 70mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: metropolis
   id: m-streets-from-rock
   title: Twilight
@@ -311,6 +335,8 @@
   focallength: 62mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: metropolis
   id: m-flatiron
   title: Flat Iron
@@ -326,6 +352,8 @@
   focallength: 14mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: metropolis
   id: v-graffiti
   title: Graffiti
@@ -341,6 +369,8 @@
   focallength: 55mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: metropolis
   id: v-empire-state
   title: Highrise
@@ -356,6 +386,8 @@
   focallength: 70mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: metropolis
   id: v-subway
   title: Subway
@@ -376,6 +408,8 @@
 
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: city-at-night
   id: m-street-night
   title: 24 Hrs
@@ -391,13 +425,15 @@
   focallength: 34mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: city-at-night
   id: m-time-sq
   title: Stripes
   location: New York
   coordinates: 40.75889, -73.98513
   photographer: Marianna Sgherri
-  content: While feeling like a kid in a candy shop in the bustling Time Square, I noticed an old couple sitting down in silence. The contrast between their calmness and the surrounding chaos simply needed to be captured. To avoid underexposure, I increased my ISO and aperture, and kept the shutter speed fast to freeze the moment.
+  content: While feeling like a kid in a candy shop in the bustling Times Square, I noticed an old couple sitting down in silence. The contrast between their calmness and the surrounding chaos simply needed to be captured. To avoid underexposure, I increased my ISO and aperture, and kept the shutter speed fast to freeze the moment.
   orientation: portrait
   camera: Nikon D7500
   lens: 14-24mm f/2.8
@@ -406,6 +442,8 @@
   focallength: 24mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: city-at-night
   id: m-purple-night
   title: Glow
@@ -421,6 +459,8 @@
   focallength: 105mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: city-at-night
   id: v-time-sq-boy
   title: Patriot
@@ -436,6 +476,9 @@
   focallength: 70mm
 
 - page: new-york
+  pages:
+    - id: overview
+    - id: new-york-journey
   section: city-at-night
   id: v-times-sq-cyclist
   title: Passing Through
@@ -451,6 +494,8 @@
   focallength: 20mm
 
 - page: new-york
+  pages:
+    - id: new-york-journey
   section: city-at-night
   id: v-street-man
   title: Our Streets
