@@ -1,15 +1,5 @@
 ######## ICELAND ########
 
-- title: Unforgettable tour of Northern Iceland's cinematic landscapes
-  id: unforgettable-tour-of-northern-iceland-s-cinematic-landscapes
-  location: An epic tour with Game of Thrones highlights
-  destination: Iceland
-  description: An Iceland adventure with waterfalls, fjords, lava fields, volcanoes and more
-  price: 649
-  price-description: per person for 4 nights
-  saved: 55
-  link: https://www.secretescapes.com/unforgettable-tour-of-northern-icelands-cinematic-landscapes-an-epic-tour-with-game-of-thrones-highlights/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Nikon_Iceland
-
 - title: The essential 'Iceland in a nutshell' break
   id: the-essential-iceland-in-a-nutshell-break
   location: Hilton Reykjavik Nordica, Iceland
@@ -30,16 +20,6 @@
   saved: 38
   link: https://www.secretescapes.com/stunning-iceland-wellness-city-and-country-break-with-tours1-a-five-day-tour-with-northern-lights-blue-lagoon-and-more/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Iceland_Feb2018
 
-- title: Affordable spring Iceland break with must-do tours
-  id: affordable-spring-iceland-break-with-must-do-tours
-  location: CenterHotel Skjaldbreid, Reykjavik
-  destination: Iceland
-  description: Discover Iceland's best bits over the scenic Spring months
-  price: 349
-  price-description: per person for 3 nights
-  saved: 32
-  link: https://www.secretescapes.com/affordable-spring-iceland-break-with-must-do-tours-centerhotel-skjaldbreid-reykjavik/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Iceland_Feb2018
-
 - title: Iceland summer wellness break with incredible tours
   id: iceland-summer-wellness-break-with-incredible-tours
   location: CenterHotel Midgardur, Reykjavik
@@ -50,43 +30,63 @@
   saved: 49
   link: https://www.secretescapes.com/spectacular-iceland-wellness-break-with-golden-circle-tour-centerhotel-midgardur-reykjavik/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Iceland_Feb201
 
+- title: Luxury Iceland suite stay with whale-watching & optional tours
+  id: luxury-iceland-suite-stay-with-whale-watching-optional-tours
+  location: Reykjavik Marina Residence, Reykjavik
+  destination: Iceland
+  description: A hidden Reykjavik gem with a whale-watching cruise and more
+  price: 599
+  price-description: per person for 3 nights
+  saved: 45
+  link: https://www.secretescapes.com/luxury-iceland-stay-with-whale-watching-and-optional-tours-reykjavik-marina-residence-reykjavik/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Iceland_Feb2018
+
 
 
 ######## MOROCCO ########
 
-- title: Riad Mimouna
-  id: riad-mimouna
-  location: Essaouira, Morocco
+- title: Morocco yoga break at an eco-friendly surfer haven
+  id: morocco-yoga-break-at-an-eco-friendly-surfer-haven
+  location: Paradis Plage, Agadir
   destination: Morocco
-  description: A romantic riad with panoramic sea views, near the beach
-  price: 26
-  price-description: per person per night
-  saved: 34
-  link: https://www.secretescapes.com/riad-mimouna-essaouira-morocco-uk/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Feb2018
+  description: An eco-friendly suite stay and renowned surfing at a Morocco beach resort
+  price: 399
+  price-description: per person for 5 nights
+  saved: 37
+  link: https://www.secretescapes.com/morocco-yoga-break-at-a-hip-surfer-haven-paradis-plage-agadir1/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Feb2018
 
-- title: All-inclusive Marrakech break with Atlas Mountain views
-  id: all-inclusive-marrakech-break-with-atlas-mountain-views
-  location: Be Live Experience Marrakech Palmeraie, Morocco
+- title: Enchanting Morocco escape from city to mountains
+  id: enchanting-morocco-escape-from-city-to-mountains
+  location: Dar el Mudal, Marrakech & Widiane Suites & Spa, Atlas Mountains
   destination: Morocco
-  description: All-inclusive bliss at a modern Marrakech base
-  price: 249
-  price-description: per person for 3 nights
-  saved: 33
-  link: https://www.secretescapes.com/all-inclusive-marrakech-break-with-atlas-mountain-views-be-live-experience-marrakech-palmeraie-morocco/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Feb2018
+  description: Explore Morocco's city splendour and mysterious mountains
+  price: 499
+  price-description: per person for 5 nights
+  saved: 41
+  link: https://www.secretescapes.com/enchanting-morocco-escape-from-city-to-mountains-dar-el-mudal-marrakech-and-widiane-suites-and-spa-atlas-mountains/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Feb2018
+
+- title: Stylish Marrakech & Atlas Mountains escape
+  id: stylish-marrakech-atlas-mountains-escape
+  location: Diverse Morocco stays in a city riad & luxury glamping retreat
+  destination: Morocco
+  description: A magnificent Morocco holiday with a chic riad stay and luxury glamping
+  price: 279
+  price-description: per person for 4 nights
+  saved: 20
+  link: https://www.secretescapes.com/stylish-marrakech-and-atlas-mountains-escape-diverse-morocco-stays-in-a-city-riad-and-luxury-glamping-retreat/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Feb2018
+
+- title: Riad Safar
+  id: riad-safar
+  location: Marrakech, Morocco
+  destination: Morocco
+  description: A chic and central Marrakech riad with rooftop terrace
+  price: 42
+  price-description: per person per night
+  saved: 48
+  link: https://www.secretescapes.com/riad-safar-marrakech-morocco/sale?gce_cli=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Feb2018
 
 
 
 ######## NEW YORK ########
-
-- title: Warwick New York
-  id: warwick-new-york
-  location: Midtown Manhattan, New York City
-  destination: New York
-  description: A central stay at one of New York's most historic hotels
-  price: 114
-  price-description: per room per night
-  saved: 49
-  link: https://www.secretescapes.com/warwick-new-york-midtown-manhattan-new-york-city/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Jan2018
 
 - title: Royalton Park Avenue
   id: royalton-park-avenue
@@ -97,26 +97,6 @@
   price-description: per room per night
   saved: 29
   link: https://www.secretescapes.com/royalton-park-avenue-flatiron-district-new-york/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork__Jan2018
-
-- title: Freehand New York
-  id: freehand-new-york
-  location: Midtown, New York
-  destination: New York
-  description: A brand-new, buzzed-about New York city pad
-  price: 79
-  price-description: per room per night
-  saved: 33
-  link: https://www.secretescapes.com/freehand-new-york-midtown-new-york/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Jan2018
-
-- title: Roger New York
-  id: roger-new-york
-  location: Midtown Manhattan, New York
-  destination: New York
-  description: A classic NYC base with designer interiors in the central NoMad 'hood
-  price: 92
-  price-description: per room per night
-  saved: 29
-  link: https://www.secretescapes.com/roger-new-york-midtown-manhattan-new-york/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Jan2018
 
 - title: The Gregory
   id: the-gregory
@@ -178,16 +158,6 @@
   saved: 68
   link: https://www.secretescapes.com/the-redbury-new-york-midtown-new-york/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Feb2018
 
-- title: The Time New York
-  id: the-time-new-york
-  location: Midtown, New York
-  destination: New York
-  description: A stylish New York hotel just steps from Times Square
-  price: 52
-  price-description: per person per night
-  saved: 26
-  link: https://www.secretescapes.com/the-time-new-york-midtown-new-york/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Feb2018
-
 - title: DoubleTree by Hilton New York Times Square West
   id: double-tree-by-hilton-new-york-times-square-west
   location: Times Square, New York City
@@ -198,12 +168,22 @@
   saved: 71
   link: https://www.secretescapes.com/doubletree-by-hilton-new-york-times-square-west-times-square-new-york-city/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Feb2018
 
-- title: The James New York - NoMad
-  id: the-james-new-york-no-mad
-  location: Midtown, New York
+- title: Avalon Hotel NYC
+  id: avalon-hotel-nyc
+  location: Midtown, New York City
   destination: New York
-  description: A new luxe stay by New York's Empire State Building
-  price: 110
+  description: A suite stay in the heart of Midtown Manhattan
+  price: 50
+  price-description: per person per night
+  saved: 37
+  link: https://www.secretescapes.com/avalon-hotel-nyc-midtown-new-york/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Feb2018
+
+- title: Andaz Wall Street
+  id: andaz-wall-street
+  location: Wall Street, New York City
+  destination: New York
+  description: A sleek, modern Manhattan hotel with an eco-friendly spa
+  price: 86
   price-description: per room per night
-  saved: 52
-  link: https://www.secretescapes.com/the-james-new-york-nomad-midtown-new-york/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Feb2018
+  saved: 44
+  link: https://www.secretescapes.com/andaz-wall-street-wall-street-new-york-city-uk/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Feb2018
