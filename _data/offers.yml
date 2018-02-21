@@ -20,7 +20,6 @@
   saved: 45
   link: https://www.secretescapes.com/luxury-iceland-stay-with-whale-watching-and-optional-tours-reykjavik-marina-residence-reykjavik/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Iceland_Feb2018
 
-<<<<<<< HEAD
 - title: Fantastic summer journey around Iceland
   id: fantastic-summer-journey-around-iceland
   location: Eight-day tour from Reykjavik circling Iceland's highlights
@@ -89,7 +88,6 @@
   saved: 43
   link: https://www.secretescapes.com/riad-al-mendili-kasbah-near-marrakech-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Feb2018
 
-<<<<<<< HEAD
 - title: Riad dar Alhambra
   id: riad-dar-alhambra
   location: Marrakech, Morocco
@@ -109,16 +107,6 @@
   price-description: per person per night
   saved: 37
   link: https://www.secretescapes.com/terra-mia-marrakech-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Feb2018
-=======
-- title: Riad Palais Blanc
-  id: riad-palais-blanc
-  location: Marrakech, Morocco
-  destination: Morocco
-  description: A newly opened Marrakech riad with impeccable style
-  price: 101
-  price-description: per room per night
-  saved: 40
-  link: https://www.secretescapes.com/riad-palais-blanc-marrakech-morocco-uk/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Jan2018
 
 
 
@@ -131,7 +119,6 @@
   price-description: per person per night
   saved: 43
   link: https://www.secretescapes.com/vibrant-morocco-tour-with-optional-excursion-marrakech-fez-and-chefchaouen/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Jan2018
->>>>>>> parent of 15752a8... offer update
 
 
 
@@ -177,27 +164,9 @@
   saved: 59
   link: https://www.secretescapes.com/nyma-midtown-new-york/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Feb2018
 
-<<<<<<< HEAD
 - title: SIXTY SoHo
   id: sixty-so-ho
   location: Soho, New York
-=======
-- title: Cassa Hotel
-  id: cassa-hotel
-  location: Midtown, New York
-  destination: New York
-  description: A boutique Midtown Manhattan hotel, just steps from Times Square
-  price: 137
-  price-description: per room per night
-  saved: 48
-  link: https://www.secretescapes.com/cassa-hotel-midtown-new-york/sale?gce_hpf=1&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Jan2018
-
-
-
-- title: Life Hotel
-  id: life-hotel
-  location: Manhattan, New York
->>>>>>> parent of 15752a8... offer update
   destination: New York
   description: A hip, boutique luxury hotel in New York City's stylish SoHo
   price: 93
@@ -255,25 +224,8 @@
   saved: 41
   link: https://www.secretescapes.com/the-plaza-new-york-midtown-new-york-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Feb2018
 
-<<<<<<< HEAD
 - title: Cassa Hotel
   id: cassa-hotel
-=======
-- title: Awe-inspiring Niagara Falls & New York getaway
-  id: awe-inspiring-niagara-falls-new-york-getaway
-  location: Bucket-list destinations in Canada & USA with optional helicopter tour
-  destination: New York
-  description: Niagara's thundering Falls and glamorous New York in one
-  price: 759
-  price-description: per person for 7 nights
-  saved: 39
-  link: https://www.secretescapes.com/awe-inspiring-niagara-falls-and-new-york-getaway-sheraton-on-the-falls-hotel-and-four-points-by-sheraton-new-york-downtown-hotel/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_Morocco_Jan2018
-
-
-
-- title: The Gregory
-  id: the-gregory
->>>>>>> parent of 15752a8... offer update
   location: Midtown, New York
   destination: New York
   description: A boutique New York hotel near Times Square
