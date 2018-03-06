@@ -1,48 +1,18 @@
 ######## ICELAND ########
 
-- title: Fantastic summer journey around Iceland
-  id: fantastic-summer-journey-around-iceland
-  location: Eight-day tour from Reykjavik circling Iceland's highlights
-  destination: Iceland
-  description: Tick Iceland off your bucket list with this epic journey through five locations
-  price: 1599
-  price-description: per person for 7 nights
-  saved: 29
-  link: https://www.secretescapes.com/fantastic-summer-journey-around-iceland-eight-day-tour-around-reykjavik-akureyri-breidalsvik-kalfafell-and-selfoss/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Feb2018
-
-- title: Epic Iceland summer break at a brand-new boutique hotel
-  id: epic-iceland-summer-break-at-a-brand-new-boutique-hotel
-  location: Exeter by Keahotels, Reykjavik
-  destination: Iceland
-  description: Epic Iceland Golden Circle break in a brand-new boutique hotel
-  price: 499
-  price-description: per person for 3 nights
-  saved: 31
-  link: https://www.secretescapes.com/summer-iceland-break-with-tours-and-a-whale-watching-option-exeter-hotel-reykjavik/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_Feb2018
+# - title:
+#   id:
+#   location:
+#   destination: Iceland
+#   description:
+#   price:
+#   price-description:
+#   saved:
+#   link:
 
 
 
 ######## MOROCCO ########
-
-- title: Cultural Marrakech break at a boutique riad
-  id: cultural-marrakech-break-at-a-boutique-riad
-  location: Riad Zaid, Morocco
-  destination: Morocco
-  description: Charm and an unbeatable location in the heart of Marrakech
-  price: 369
-  price-description: per person for 4 nights
-  saved: 17
-  link: https://www.secretescapes.com/cultural-marrakech-break-at-a-boutique-riad-riad-zaid-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_Feb2018
-
-- title: Hivernage Secret Suites & Garden
-  id: hivernage-secret-suites-garden
-  location: Marrakech, Morocco
-  destination: Morocco
-  description: A peaceful and modern Art Deco-style sanctuary in Marrakech
-  price: 56
-  price-description: per person per night
-  saved: 29
-  link: https://www.secretescapes.com/hivernage-secret-suites-and-garden-marrakech-morocco-1/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_Feb2018
 
 - title: Riad Caesar
   id: riad-caesar
@@ -54,19 +24,48 @@
   saved: 56
   link: https://www.secretescapes.com/riad-caesar-marrakech-morocco1/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_Feb2018
 
+- title: 5* tranquil Morocco break
+  id: 5-tranquil-morocco-break
+  location: Sofitel Essaouira Mogador Golf & Spa, Essaouira
+  destination: Morocco
+  description: A five-star golf and spa resort near Morocco's sandy coastline
+  price: 449
+  price-description: per person for 7 nights
+  saved: 33
+  link: https://www.secretescapes.com/5-star-morocco-break-sofitel-essaouira-mogador-golf-and-spa-essaouira/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
+
+- title: Magical Morocco city & coastal escape
+  id: magical-morocco-city-coastal-escape
+  location: With stays in Marrakech & Casablanca
+  destination: Morocco
+  description: A vibrant Moroccan foray to Marrakech and Casablanca
+  price: 579
+  price-description: per person for 5 nights
+  saved: 36
+  link: https://www.secretescapes.com/marrakech-and-casablanca-tour-marrakech-and-casablanca-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
+
+- title: Riad Asrari
+  id: riad-asrari
+  location: Marrakech, Morocco
+  destination: Morocco
+  description: An authentic and charming Marrakech riad in the heart of the medina
+  price: 28
+  price-description: per person per night
+  saved: 71
+  link: https://www.secretescapes.com/riad-asrari-marrakech-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
+
+- title: Caravan Serai
+  id: caravan-serai
+  location: Marrakech, Morocco
+  destination: Morocco
+  description: A luxurious hideaway in a serene corner of Marrakech
+  price: 37
+  price-description: per person per night
+  saved: 63
+  link: https://www.secretescapes.com/caravan-serai-marrakech-morocco-uk/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
 
 
 ######## NEW YORK ########
-
-- title: Stewart Hotel
-  id: stewart-hotel
-  location: New York City, New York
-  destination: New York
-  description: A modern Midtown hotel a stone's throw from Broadway theatres
-  price: 34
-  price-description: per person per night
-  saved: 29
-  link: https://www.secretescapes.com/stewart-hotel-new-york-city-new-york/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Feb2018
 
 - title: NYMA
   id: nyma
@@ -157,3 +156,23 @@
   price-description: per person per night
   saved: 59
   link: https://www.secretescapes.com/westhouse-hotel-midtown-manhattan-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_Feb2018
+
+- title: Hotel 50 Bowery NYC
+  id: hotel-50-bowery-nyc
+  location: Lower East Side, New York
+  destination: New York
+  description: A boutique hotel with rooftop lounge on New York’s oldest street
+  price: 58
+  price-description: per person per night
+  saved: 41
+  link: https://www.secretescapes.com/hotel-50-bowery-nyc-lower-east-side-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_March2018
+
+- title: NYLO New York City
+  id: nylo-new-york-city
+  location: Upper West Side, New York
+  destination: New York
+  description: An industrial-chic pad on New York's Upper West Side
+  price: 50
+  price-description: per person per night
+  saved: 36
+  link: https://www.secretescapes.com/nylo-new-york-city-upper-west-side-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_March2018
