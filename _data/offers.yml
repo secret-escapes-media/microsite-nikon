@@ -24,16 +24,6 @@
   saved: 56
   link: https://www.secretescapes.com/riad-caesar-marrakech-morocco1/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_Feb2018
 
-- title: 5* tranquil Morocco break
-  id: 5-tranquil-morocco-break
-  location: Sofitel Essaouira Mogador Golf & Spa, Essaouira
-  destination: Morocco
-  description: A five-star golf and spa resort near Morocco's sandy coastline
-  price: 449
-  price-description: per person for 7 nights
-  saved: 33
-  link: https://www.secretescapes.com/5-star-morocco-break-sofitel-essaouira-mogador-golf-and-spa-essaouira/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
-
 - title: Magical Morocco city & coastal escape
   id: magical-morocco-city-coastal-escape
   location: With stays in Marrakech & Casablanca
@@ -76,16 +66,6 @@
   price-description: per person per night
   saved: 59
   link: https://www.secretescapes.com/nyma-midtown-new-york/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Feb2018
-
-- title: SIXTY SoHo
-  id: sixty-so-ho
-  location: Soho, New York
-  destination: New York
-  description: A hip, boutique luxury hotel in New York City's stylish SoHo
-  price: 93
-  price-description: per person per night
-  saved: 47
-  link: https://www.secretescapes.com/sixty-soho-manhattan-new-york/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Feb2018
 
 - title: DoubleTree by Hilton New York Times Square West
   id: double-tree-by-hilton-new-york-times-square-west
