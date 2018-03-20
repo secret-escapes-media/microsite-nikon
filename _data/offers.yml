@@ -14,65 +14,15 @@
 
 ######## MOROCCO ########
 
-- title: Riad Asrari
-  id: riad-asrari
-  location: Marrakech, Morocco
-  destination: Morocco
-  description: An authentic and charming Marrakech riad in the heart of the medina
-  price: 28
-  price-description: per person per night
-  saved: 71
-  link: https://www.secretescapes.com/riad-asrari-marrakech-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
-
-- title: Caravan Serai
-  id: caravan-serai
-  location: Marrakech, Morocco
-  destination: Morocco
-  description: A luxurious hideaway in a serene corner of Marrakech
-  price: 37
-  price-description: per person per night
-  saved: 63
-  link: https://www.secretescapes.com/caravan-serai-marrakech-morocco-uk/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
-
-- title: Fellah Hotel
-  id: fellah-hotel
-  location: Marrakech, Morocco
-  destination: Morocco
-  description: Eclectic Marrakech city retreat filled with culture and modern style
-  price: 30
-  price-description: per person per night
-  saved: 55
-  link: https://www.secretescapes.com/fellah-hotel-marrakech-morocco-marrakech/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
-
-- title: Charming Essaouira riad break
-  id: charming-essaouira-riad-break
-  location: Riad Mimouna, Morocco
-  destination: Morocco
-  description: A romantic riad with panoramic sea views, near the beach
-  price: 199
-  price-description: per person for 3 nights
-  saved: 16
-  link: https://www.secretescapes.com/charming-essaouira-riad-break-riad-mimouna-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
-
-- title: Riad Luxe 40
-  id: riad-luxe-40
-  location: Marrakech, Morocco
-  destination: Morocco
-  description: Intimate Marrakech riad with outdoor pool and spa near Bahia Palace
-  price: 22
-  price-description: per person per night
-  saved: 44
-  link: https://www.secretescapes.com/riad-luxe-40-marrakech-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
-
-- title: Vibrant Morocco holiday with city & Sahara Desert stays
-  id: vibrant-morocco-holiday-with-city-sahara-desert-stays
-  location: Marrakech, Dades, Sahara Desert & Ourarazazate
-  destination: Morocco
-  description: An epic Morocco journey from Marrakech to the Sahara
-  price: 599
-  price-description: per person for 7 nights
-  saved:
-  link: https://www.secretescapes.com/vibrant-morocco-break-with-city-and-sahara-desert-stays-1-marrakech-dades-sahara-desert-and-ourarazazate/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
+# - title: 
+#   id:
+#   location:
+#   destination: Morocco
+#   description:
+#   price:
+#   price-description:
+#   saved:
+#   link:
 
 
 ######## NEW YORK ########
