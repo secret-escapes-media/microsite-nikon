@@ -10,32 +10,42 @@
   saved: 35
   link: https://www.secretescapes.com/amazing-iceland-break-with-excursion-options-hotel-holt-reykjavik/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Iceland_March2018
 
+- title: Breathtaking Iceland summer break with amazing tours
+  id: breathtaking-iceland-summer-break-with-amazing-tours
+  location: Reykjavik Lights Hotel, Reykjavik
+  destination: Iceland
+  description: Iceland summer escape with a choice of scenic tours
+  price: 329
+  price-description: per person for 3 nights
+  saved: 36
+  link: https://www.secretescapes.com/breathtaking-iceland-summer-break-with-amazing-tours-reykjavik-lights-hotel-reykjavik/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Iceland_March2018
+
 
 
 ######## MOROCCO ########
 
-# - title:
-#   id:
-#   location:
-#   destination: Morocco
-#   description:
-#   price:
-#   price-description:
-#   saved:
-#   link:
+- title: Riad Luxe 36
+  id: riad-luxe-36
+  location: Marrakech, Morocco
+  destination: Morocco
+  description: A charming traditional riad in the heart of Marrakech
+  price: 26
+  price-description: per person per night
+  saved: 44
+  link: https://www.secretescapes.com/riad-luxe-36-marrakech-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
+
+- title: Riad Ysalis
+  id: riad-ysalis
+  location: A traditional and characterful Marrakech riad
+  destination: Morocco
+  description: A traditional and characterful Marrakech riad
+  price: 129
+  price-description: per room per night
+  saved: 29
+  link: https://www.secretescapes.com/riad-ysalis-marrakech-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
 
 
 ######## NEW YORK ########
-
-- title: NYMA
-  id: nyma
-  location: Midtown, New York
-  destination: New York
-  description: Big Apple base near the Empire State Building
-  price: 32
-  price-description: per person per night
-  saved: 59
-  link: https://www.secretescapes.com/nyma-midtown-new-york/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Feb2018
 
 - title: Hudson New York
   id: hudson-new-york
@@ -66,16 +76,6 @@
   price-description: per person per night
   saved: 36
   link: https://www.secretescapes.com/omni-berkshire-place-manhattan-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_Feb2018
-
-- title: Warwick New York
-  id: warwick-new-york
-  location: Midtown Manhattan, New York City
-  destination: New York
-  description: A central stay at one of New York's most historic hotels
-  price: 145
-  price-description: per room per night
-  saved: 42
-  link: https://www.secretescapes.com/warwick-new-york-midtown-manhattan-new-york-city-usa/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_Feb2018
 
 - title: WestHouse Hotel
   id: west-house-hotel
@@ -110,9 +110,29 @@
 - title: The William
   id: the-william
   location: Midtown Manhattan, New York
-  destination: Morocco
+  destination: New York
   description: A boutique designer-decor pad in New York's Midtown
   price: 68
   price-description: per person per night
   saved: 37
   link: https://www.secretescapes.com/the-william-midtown-manhattan-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_March2018
+
+- title: The Gallivant Times Square
+  id: the-gallivant-times-square
+  location: Midtown Manhattan, New York
+  destination: New York
+  description: A hotel in the heart of the Theatre District by Times Square
+  price: 116
+  price-description: per room per night
+  saved: 52
+  link: https://www.secretescapes.com/the-gallivant-times-square-midtown-manhattan-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_March2018
+
+- title: IBEROSTAR 70 Park Avenue
+  id: iberostar-70-park-avenue
+  location: Midtown Manhattan, New York
+  destination: New York
+  description: A stylish hotel on iconic Park Avenue in Midtown Manhattan
+  price: 141
+  price-description: per room per night
+  saved: 51
+  link: https://www.secretescapes.com/iberostar-70-park-avenue-midtown-manhattan-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_March2018
