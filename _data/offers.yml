@@ -1,68 +1,28 @@
 ######## ICELAND ########
 
-# - title:
-#   id:
-#   location:
-#   destination: Iceland
-#   description:
-#   price:
-#   price-description:
-#   saved:
-#   link:
+- title: Epic Iceland summer break with excursions, optional car hire & an award-winning hotel
+  id: epic-iceland-summer-break-with-excursions-optional-car-hire-an-award-winning-hotel
+  location: Hotel Holt, Reykjavik
+  destination: Iceland
+  description: Marvel at Iceland's array of natural wonders
+  price: 399
+  price-description: per person for 3 nights
+  saved: 35
+  link: https://www.secretescapes.com/amazing-iceland-break-with-excursion-options-hotel-holt-reykjavik/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Iceland_March2018
 
 
 
 ######## MOROCCO ########
 
-- title: Riad Caesar
-  id: riad-caesar
-  location: Marrakech, Morocco
-  destination: Morocco
-  description: Stay in a former sultan's mansion in Marrakech
-  price: 20
-  price-description: per person per night
-  saved: 56
-  link: https://www.secretescapes.com/riad-caesar-marrakech-morocco1/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_Feb2018
-
-- title: 5* tranquil Morocco break
-  id: 5-tranquil-morocco-break
-  location: Sofitel Essaouira Mogador Golf & Spa, Essaouira
-  destination: Morocco
-  description: A five-star golf and spa resort near Morocco's sandy coastline
-  price: 449
-  price-description: per person for 7 nights
-  saved: 33
-  link: https://www.secretescapes.com/5-star-morocco-break-sofitel-essaouira-mogador-golf-and-spa-essaouira/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
-
-- title: Magical Morocco city & coastal escape
-  id: magical-morocco-city-coastal-escape
-  location: With stays in Marrakech & Casablanca
-  destination: Morocco
-  description: A vibrant Moroccan foray to Marrakech and Casablanca
-  price: 579
-  price-description: per person for 5 nights
-  saved: 36
-  link: https://www.secretescapes.com/marrakech-and-casablanca-tour-marrakech-and-casablanca-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
-
-- title: Riad Asrari
-  id: riad-asrari
-  location: Marrakech, Morocco
-  destination: Morocco
-  description: An authentic and charming Marrakech riad in the heart of the medina
-  price: 28
-  price-description: per person per night
-  saved: 71
-  link: https://www.secretescapes.com/riad-asrari-marrakech-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
-
-- title: Caravan Serai
-  id: caravan-serai
-  location: Marrakech, Morocco
-  destination: Morocco
-  description: A luxurious hideaway in a serene corner of Marrakech
-  price: 37
-  price-description: per person per night
-  saved: 63
-  link: https://www.secretescapes.com/caravan-serai-marrakech-morocco-uk/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
+# - title:
+#   id:
+#   location:
+#   destination: Morocco
+#   description:
+#   price:
+#   price-description:
+#   saved:
+#   link:
 
 
 ######## NEW YORK ########
@@ -77,26 +37,6 @@
   saved: 59
   link: https://www.secretescapes.com/nyma-midtown-new-york/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Feb2018
 
-- title: SIXTY SoHo
-  id: sixty-so-ho
-  location: Soho, New York
-  destination: New York
-  description: A hip, boutique luxury hotel in New York City's stylish SoHo
-  price: 93
-  price-description: per person per night
-  saved: 47
-  link: https://www.secretescapes.com/sixty-soho-manhattan-new-york/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Feb2018
-
-- title: DoubleTree by Hilton New York Times Square West
-  id: double-tree-by-hilton-new-york-times-square-west
-  location: Times Square, New York City
-  destination: New York
-  description: A stylish city-view room just minutes from New York's glittering Times Square
-  price: 36
-  price-description: per person per night
-  saved: 71
-  link: https://www.secretescapes.com/doubletree-by-hilton-new-york-times-square-west-times-square-new-york-city/sale?gce_sa=0&utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Nikon_NewYork_Feb2018
-
 - title: Hudson New York
   id: hudson-new-york
   location: Midtown, New York
@@ -106,16 +46,6 @@
   price-description: per room per night
   saved: 40
   link: https://www.secretescapes.com/hudson-new-york-midtown-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Feb2018
-
-- title: Cassa Hotel
-  id: cassa-hotel
-  location: Midtown, New York
-  destination: New York
-  description: A boutique New York hotel near Times Square
-  price: 62
-  price-description: per person per night
-  saved: 64
-  link: https://www.secretescapes.com/cassa-hotel-midtown-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Feb2018
 
 - title: Paramount Hotel
   id: paramount-hotel
@@ -176,3 +106,13 @@
   price-description: per person per night
   saved: 36
   link: https://www.secretescapes.com/nylo-new-york-city-upper-west-side-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_March2018
+
+- title: The William
+  id: the-william
+  location: Midtown Manhattan, New York
+  destination: Morocco
+  description: A boutique designer-decor pad in New York's Midtown
+  price: 68
+  price-description: per person per night
+  saved: 37
+  link: https://www.secretescapes.com/the-william-midtown-manhattan-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_March2018
