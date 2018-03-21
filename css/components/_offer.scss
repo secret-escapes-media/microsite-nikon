@@ -129,6 +129,7 @@
   &__saved {
     display: table-cell;
     padding-right: $s1;
+    margin-right: $s1;
     line-height: 1.2;
     text-align: center;
     border-right: 1px solid $grey-lighter;
@@ -151,6 +152,7 @@
     }
     @include bp(sm){
       padding-right: $s2;
+      margin-right: $s2;
     }
     @include bp(md){
       vertical-align: middle !important;
@@ -159,11 +161,11 @@
   &__details {
     display: table-cell;
     vertical-align: middle;
-    padding-left: $s2;
-    @include bp(sm){
+    &-pad {
       padding-left: $s2;
-    }
-    @include bp(md){
+      @include bp(sm){
+        padding-left: $s2;
+      }
     }
   }
   &__price {

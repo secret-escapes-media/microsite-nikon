@@ -49,6 +49,7 @@ gulp.task('js', function(){
       './js/_components/modal.js',
       './js/_components/journey-countdown.js',
       './js/_components/banner-carousel.js',
+      './js/_components/banner-video.js',
       './js/_components/testimonial-carousel.js',
       './js/_components/page-nav.js',
       './js/_components/accordion.js',

@@ -14,7 +14,9 @@
 
       {% include page/header.html %}
 
-      {% if page.banner.images.size > 1 %}
+      {% if page.id == 'overview' %}
+        {% include banner/video.html %}
+      {% elsif page.banner.images.size > 1 %}
         {% include banner/carousel.html %}
       {% elsif page.group %}
         {% include banner/article.html %}
