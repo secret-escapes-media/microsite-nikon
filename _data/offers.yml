@@ -1,15 +1,5 @@
 ######## ICELAND ########
 
-- title: Epic Iceland summer break with excursions, optional car hire & an award-winning hotel
-  id: epic-iceland-summer-break-with-excursions-optional-car-hire-an-award-winning-hotel
-  location: Hotel Holt, Reykjavik
-  destination: Iceland
-  description: Marvel at Iceland's array of natural wonders
-  price: 399
-  price-description: per person for 3 nights
-  saved: 35
-  link: https://www.secretescapes.com/amazing-iceland-break-with-excursion-options-hotel-holt-reykjavik/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Iceland_March2018
-
 - title: Breathtaking Iceland summer break with amazing tours
   id: breathtaking-iceland-summer-break-with-amazing-tours
   location: Reykjavik Lights Hotel, Reykjavik
@@ -33,25 +23,46 @@
 
 ######## MOROCCO ########
 
-- title: Riad Luxe 36
-  id: riad-luxe-36
+- title: Magical Morocco city-to-desert break
+  id: magical-morocco-city-to-desert-break
+  location: Marrakech & Sahara Desert
+  destination: Morocco
+  description: A diverse Morocco trip from Marrakech to the Sahara
+  price: 475
+  price-description: per person for 5 nights
+  saved: 32
+  link: https://www.secretescapes.com/magical-morocco-city-to-desert-break1-marrakech-and-sahara-desert/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
+
+- title: Luxury Morocco break to an authentic riad
+  id: luxury-morocco-break-to-an-authentic-riad
+  location: Art Place Hotel & Ryad, Marrakech
+  destination: Morocco
+  description: Morocco's Leading Boutique Hotel in the World Travel Awards 2016
+  price: 299
+  price-description: per person for 3 nights
+  saved: 18
+  link: https://www.secretescapes.com/luxury-morocco-break-to-an-authentic-riad-art-place-hotel-and-ryad-marrakech/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
+
+- title: Riad Palais Blanc
+  id: riad-palais-blanc
   location: Marrakech, Morocco
   destination: Morocco
-  description: A charming traditional riad in the heart of Marrakech
-  price: 26
-  price-description: per person per night
-  saved: 44
-  link: https://www.secretescapes.com/riad-luxe-36-marrakech-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
+  description: A crisp Marrakech riad with impeccable style
+  price: 50
+  price-description: A crisp Marrakech riad with impeccable style
+  saved: 56
+  link: https://www.secretescapes.com/riad-palais-blanc-marrakech-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
 
-- title: Riad Ysalis
-  id: riad-ysalis
-  location: A traditional and characterful Marrakech riad
+- title: Kasbah Igoudar
+  id: kasbah-igoudar
+  location: Near Marrakech, Morocco
   destination: Morocco
-  description: A traditional and characterful Marrakech riad
-  price: 129
-  price-description: per room per night
-  saved: 29
-  link: https://www.secretescapes.com/riad-ysalis-marrakech-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
+  description: A boutique Morocco hotel near the Atlas Mountains
+  price: 30
+  price-description: per person per night
+  saved: 76
+  link: https://www.secretescapes.com/kasbah-igoudar-near-marrakech-morocco23/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
+
 
 
 ######## NEW YORK ########
@@ -145,3 +156,23 @@
   price-description: per room per night
   saved: 51
   link: https://www.secretescapes.com/iberostar-70-park-avenue-midtown-manhattan-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_March2018
+
+- title: The New Yorker, a Wyndham Hotel
+  id: the-new-yorker-a-wyndham-hotel
+  location: Midtown, New York
+  destination: New York
+  description: An Art Deco-infused New York hotel with phenomenal Midtown West address
+  price: 50
+  price-description: per person per night
+  saved: 40
+  link: https://www.secretescapes.com/the-new-yorker-a-wyndham-hotel-midtown-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_March2018
+
+- title: PUBLIC Hotel
+  id: public-hotel
+  location: Lower East Side, New York
+  destination: New York
+  description: A trendy new luxury hotel in downtown Manhattan, with a buzzed-about restaurant and bar
+  price: 72
+  price-description: per person per night
+  saved: 38
+  link: https://www.secretescapes.com/public-hotel-lower-east-side-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_March2018
