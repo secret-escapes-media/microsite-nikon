@@ -1,15 +1,5 @@
 ######## ICELAND ########
 
-- title: Breathtaking Iceland summer break with amazing tours
-  id: breathtaking-iceland-summer-break-with-amazing-tours
-  location: Reykjavik Lights Hotel, Reykjavik
-  destination: Iceland
-  description: Iceland summer escape with a choice of scenic tours
-  price: 329
-  price-description: per person for 3 nights
-  saved: 36
-  link: https://www.secretescapes.com/breathtaking-iceland-summer-break-with-amazing-tours-reykjavik-lights-hotel-reykjavik/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Iceland_March2018
-
 - title: Stunning Iceland wellness city & country break with tours
   id: stunning-iceland-wellness-city-country-break-with-tours
   location: A five-day tour with Northern Lights, Blue Lagoon & more
@@ -18,6 +8,16 @@
   price: 699
   price-description: per person for 4 nights
   link: https://www.secretescapes.com/stunning-iceland-wellness-city-and-country-break-with-tours-a-five-day-tour-with-northern-lights-blue-lagoon-and-more/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Iceland_March2018
+
+- title: Ultra-affordable Iceland break with Northern Lights & optional tours
+  id: ultra-affordable-iceland-break-with-northern-lights-optional-tours
+  location: Nordurey Hotel Reykjavik Road, Hafnarfjörður
+  destination: Iceland
+  description: Insanely stunning Iceland tours from a contemporary hotel
+  price: 249
+  price-description: per person for 3 nights
+  saved: 38
+  link: https://www.secretescapes.com/ultra-affordable-iceland-break-with-northern-lights-and-optional-tours-nordurey-hotel-reykjavik-road-hafnarfjorur/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Iceland_April2018
 
 
 
@@ -53,15 +53,35 @@
   saved: 56
   link: https://www.secretescapes.com/riad-palais-blanc-marrakech-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
 
-- title: Kasbah Igoudar
-  id: kasbah-igoudar
-  location: Near Marrakech, Morocco
+- title: Riad Omri
+  id: riad-omri
+  location: Marrakech, Morocco
   destination: Morocco
-  description: A boutique Morocco hotel near the Atlas Mountains
-  price: 30
+  description: A suite stay in a leafy Marrakech riad with a pool
+  price: 50
   price-description: per person per night
-  saved: 76
-  link: https://www.secretescapes.com/kasbah-igoudar-near-marrakech-morocco23/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
+  saved: 49
+  link: https://www.secretescapes.com/riad-omri-marrakech-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_April2018
+
+- title: Les Terrasses du Lac
+  id: les-terrasses-du-lac
+  location: Lalla Takerkoust, Morocco
+  destination: Morocco
+  description: Traditional hotel in the shadow of Morocco’s Atlas Mountains
+  price: 46
+  price-description: per person per night
+  saved: 49
+  link: https://www.secretescapes.com/les-terrasses-du-lac-lalla-takerkoust-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_April2018
+
+- title: Stylish Marrakech city break
+  id: stylish-marrakech-city-break
+  location: La Ferme Medina, Morocco
+  destination: Morocco
+  description: An old-meets-new riad stay in colourful Marrakech
+  price: 389
+  price-description: per person for 5 nights
+  saved: 20
+  link: https://www.secretescapes.com/stylish-marrakech-city-break-la-ferme-medina-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_April2018
 
 
 
@@ -87,16 +107,6 @@
   saved: 40
   link: https://www.secretescapes.com/paramount-hotel-times-square-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Feb2018
 
-- title: Omni Berkshire Place
-  id: omni-berkshire-place
-  location: Manhattan, New York
-  destination: New York
-  description: A high-end hotel in the heart of New York City
-  price: 64
-  price-description: per person per night
-  saved: 36
-  link: https://www.secretescapes.com/omni-berkshire-place-manhattan-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_Feb2018
-
 - title: WestHouse Hotel
   id: west-house-hotel
   location: Midtown Manhattan, New York
@@ -116,26 +126,6 @@
   price-description: per person per night
   saved: 41
   link: https://www.secretescapes.com/hotel-50-bowery-nyc-lower-east-side-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_March2018
-
-- title: NYLO New York City
-  id: nylo-new-york-city
-  location: Upper West Side, New York
-  destination: New York
-  description: An industrial-chic pad on New York's Upper West Side
-  price: 50
-  price-description: per person per night
-  saved: 36
-  link: https://www.secretescapes.com/nylo-new-york-city-upper-west-side-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_March2018
-
-- title: The William
-  id: the-william
-  location: Midtown Manhattan, New York
-  destination: New York
-  description: A boutique designer-decor pad in New York's Midtown
-  price: 68
-  price-description: per person per night
-  saved: 37
-  link: https://www.secretescapes.com/the-william-midtown-manhattan-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_March2018
 
 - title: The Gallivant Times Square
   id: the-gallivant-times-square
@@ -176,3 +166,33 @@
   price-description: per person per night
   saved: 38
   link: https://www.secretescapes.com/public-hotel-lower-east-side-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_March2018
+
+- title: The Redbury New York
+  id: the-redbury-new-york
+  location: NoMad, New York
+  destination: New York
+  description: A sleek Midtown hotel with a Danny Meyer restaurant in trendy NoMad
+  price: 143
+  price-description: per room per night
+  saved: 34
+  link: https://www.secretescapes.com/the-redbury-nomad-new-york/sale-hotel?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_April2018
+
+- title: The James New York
+  id: the-james-new-york
+  location: SoHo, New York
+  destination: New York
+  description: Art-centric boutique digs in chic SoHo, with a rooftop pool
+  price: 127
+  price-description: per room per night
+  saved: 40
+  link: https://www.secretescapes.com/the-james-new-york-soho-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_April2018
+
+- title: Gild Hall, a Thompson Hotel
+  id: gild-hall-a-thompson-hotel
+  location: Financial District, New York City
+  destination: New York
+  description: A stylish stay with prime access to NYC’s best neighbourhoods
+  price: 101
+  price-description: per room per night
+  saved: 50
+  link: https://www.secretescapes.com/gild-hall-a-thompson-hotel-financial-district-new-york-city/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_April2018
