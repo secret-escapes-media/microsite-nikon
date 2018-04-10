@@ -28,10 +28,40 @@
   location: Marrakech & Sahara Desert
   destination: Morocco
   description: A diverse Morocco trip from Marrakech to the Sahara
-  price: 475
+  price: 479
   price-description: per person for 5 nights
   saved: 32
   link: https://www.secretescapes.com/magical-morocco-city-to-desert-break1-marrakech-and-sahara-desert/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
+
+- title: 5* Marrakech break in a palm-filled oasis
+  id: 5-marrakech-break-in-a-palm-filled-oasis
+  location: Palais Aziza & Spa, Morocco
+  destination: Morocco
+  description: A five-star opulent Moroccan oasis near Marrakech
+  price: 455
+  price-description: per person for 4 nights
+  saved: 39
+  link: https://www.secretescapes.com/5-star-marrakech-break-in-a-palm-filled-oasis-palais-aziza-and-spa-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_April2018
+
+- title: Dar Lalla F'dila
+  id: dar-lalla-f-dila
+  location: Marrakech, Morocco
+  destination: Morocco
+  description: A 19th-century Moroccan jewel in the heart of Marrakech
+  price: 78
+  price-description: per room per night
+  saved: 43
+  link: https://www.secretescapes.com/dar-lalla-fdila-marrakech-morocco1/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_April2018
+
+- title: Le Medina Privilège Riad & Spa
+  id: le-medina-privilège-riad-spa
+  location: Marrakech, Morocco
+  destination: Morocco
+  description: An old-meets-new riad in colourful Marrakech
+  price: 90
+  price-description: per room per night
+  saved: 57
+  link: https://www.secretescapes.com/le-medina-privilege-riad-and-spa-marrakech-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_April2018
 
 
 
@@ -42,8 +72,8 @@
   location: Midtown, New York
   destination: New York
   description: A legendary Manhattan hotel with Philippe Starck interiors
-  price: 58
-  price-description: per room per night
+  price: 36
+  price-description: per person per night
   saved: 40
   link: https://www.secretescapes.com/hudson-new-york-midtown-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Feb2018
 
@@ -53,8 +83,8 @@
   destination: New York
   description: A historic Theatre District hotel in New York City
   price: 55
-  price-description: per person per night
-  saved: 40
+  price-description: 55 per room per night
+  saved: 37
   link: https://www.secretescapes.com/paramount-hotel-times-square-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Feb2018
 
 - title: WestHouse Hotel
@@ -62,8 +92,8 @@
   location: Midtown Manhattan, New York
   destination: New York
   description: A Conde Nast Traveller recommended NYC boutique with 1920s flair
-  price: 50
-  price-description: per person per night
+  price: 99
+  price-description: per room per night
   saved: 59
   link: https://www.secretescapes.com/westhouse-hotel-midtown-manhattan-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_Feb2018
 
@@ -112,7 +142,7 @@
   location: NoMad, New York
   destination: New York
   description: A sleek Midtown hotel with a Danny Meyer restaurant in trendy NoMad
-  price: 143
+  price: 132
   price-description: per room per night
   saved: 34
   link: https://www.secretescapes.com/the-redbury-nomad-new-york/sale-hotel?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_April2018
@@ -132,7 +162,47 @@
   location: Financial District, New York City
   destination: New York
   description: A stylish stay with prime access to NYC’s best neighbourhoods
-  price: 101
-  price-description: per room per night
+  price: 50
+  price-description: per person per night
   saved: 50
   link: https://www.secretescapes.com/gild-hall-a-thompson-hotel-financial-district-new-york-city/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_April2018
+
+- title: The William Vale
+  id: the-william-vale
+  location: Brooklyn, New York
+  destination: New York
+  description: A brand-new boutique hotel in the heart of Williamsburg
+  price: 283
+  price-description: per room per night
+  saved: 20
+  link: https://www.secretescapes.com/the-william-vale-brooklyn-new-york/sale-hotel?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_April2018
+
+- title: Cassa Hotel
+  id: cassa-hotel
+  location: Midtown, New York
+  destination: New York
+  description: A boutique New York hotel near Times Square
+  price: 61
+  price-description: per person per night
+  saved: 55
+  link: https://www.secretescapes.com/cassa-hotel-midtown-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_April2018
+
+- title: Roger New York
+  id: roger-new-york
+  location: Midtown Manhattan, New York
+  destination: New York
+  description: A classic NYC base with designer interiors in the central NoMad 'hood
+  price: 101
+  price-description: per room per night
+  saved: 25
+  link: https://www.secretescapes.com/roger-new-york-midtown-manhattan-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_April2018
+
+- title: Park Central Hotel New York
+  id: park-central-hotel-new-york
+  location: Manhattan, New York
+  destination: New York
+  description: A Jazz Age icon in the heart of New York City
+  price: 44
+  price-description: per person per night
+  saved: 31
+  link: https://www.secretescapes.com/park-central-hotel-new-york-manhattan-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_April2018
