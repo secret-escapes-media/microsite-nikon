@@ -1,14 +1,5 @@
 ######## ICELAND ########
 
-- title: Stunning Iceland wellness city & country break with tours
-  id: stunning-iceland-wellness-city-country-break-with-tours
-  location: A five-day tour with Northern Lights, Blue Lagoon & more
-  destination: Iceland
-  description: Exquisite natural sights and cultural delights in Iceland
-  price: 699
-  price-description: per person for 4 nights
-  link: https://www.secretescapes.com/stunning-iceland-wellness-city-and-country-break-with-tours-a-five-day-tour-with-northern-lights-blue-lagoon-and-more/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Iceland_March2018
-
 - title: Ultra-affordable Iceland break with Northern Lights & optional tours
   id: ultra-affordable-iceland-break-with-northern-lights-optional-tours
   location: Nordurey Hotel Reykjavik Road, Hafnarfjörður
@@ -23,45 +14,15 @@
 
 ######## MOROCCO ########
 
-- title: Magical Morocco city-to-desert break
-  id: magical-morocco-city-to-desert-break
-  location: Marrakech & Sahara Desert
-  destination: Morocco
-  description: A diverse Morocco trip from Marrakech to the Sahara
-  price: 479
-  price-description: per person for 5 nights
-  saved: 32
-  link: https://www.secretescapes.com/magical-morocco-city-to-desert-break1-marrakech-and-sahara-desert/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_March2018
-
-- title: 5* Marrakech break in a palm-filled oasis
-  id: 5-marrakech-break-in-a-palm-filled-oasis
-  location: Palais Aziza & Spa, Morocco
-  destination: Morocco
-  description: A five-star opulent Moroccan oasis near Marrakech
-  price: 455
-  price-description: per person for 4 nights
-  saved: 39
-  link: https://www.secretescapes.com/5-star-marrakech-break-in-a-palm-filled-oasis-palais-aziza-and-spa-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_April2018
-
-- title: Dar Lalla F'dila
-  id: dar-lalla-f-dila
-  location: Marrakech, Morocco
-  destination: Morocco
-  description: A 19th-century Moroccan jewel in the heart of Marrakech
-  price: 78
-  price-description: per room per night
-  saved: 43
-  link: https://www.secretescapes.com/dar-lalla-fdila-marrakech-morocco1/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_April2018
-
-- title: Le Medina Privilège Riad & Spa
-  id: le-medina-privilège-riad-spa
-  location: Marrakech, Morocco
-  destination: Morocco
-  description: An old-meets-new riad in colourful Marrakech
-  price: 90
-  price-description: per room per night
-  saved: 57
-  link: https://www.secretescapes.com/le-medina-privilege-riad-and-spa-marrakech-morocco/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Morocco_April2018
+# - title:
+#   id:
+#   location:
+#   destination: Morocco
+#   description:
+#   price:
+#   price-description: per person for 5 nights
+#   saved:
+#   link:
 
 
 
@@ -97,16 +58,6 @@
   saved: 59
   link: https://www.secretescapes.com/westhouse-hotel-midtown-manhattan-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_Feb2018
 
-- title: The Gallivant Times Square
-  id: the-gallivant-times-square
-  location: Midtown Manhattan, New York
-  destination: New York
-  description: A hotel in the heart of the Theatre District by Times Square
-  price: 116
-  price-description: per room per night
-  saved: 52
-  link: https://www.secretescapes.com/the-gallivant-times-square-midtown-manhattan-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_March2018
-
 - title: IBEROSTAR 70 Park Avenue
   id: iberostar-70-park-avenue
   location: Midtown Manhattan, New York
@@ -136,16 +87,6 @@
   price-description: per person per night
   saved: 38
   link: https://www.secretescapes.com/public-hotel-lower-east-side-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_March2018
-
-- title: The Redbury New York
-  id: the-redbury-new-york
-  location: NoMad, New York
-  destination: New York
-  description: A sleek Midtown hotel with a Danny Meyer restaurant in trendy NoMad
-  price: 132
-  price-description: per room per night
-  saved: 34
-  link: https://www.secretescapes.com/the-redbury-nomad-new-york/sale-hotel?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_April2018
 
 - title: The James New York
   id: the-james-new-york
