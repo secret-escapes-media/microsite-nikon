@@ -3,43 +3,21 @@
 
   {% include page/head.html %}
 
-  <body id="top" class="page--{{page.id}}{% if page.group %} group--{{page.group}}{% endif %} layout--{{page.layout}}" data-current-page="{% if page.group %}{{page.group}}{% else %}{{page.id}}{% endif %}">
-    {% assign photos = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york %}
+  <body>
 
+    {% include components/tracking.html %}
 
-    {% include page/tracking.html %}
+    {% include page/header.html %}
 
+    {% include page/banner.html %}
 
-    <div class="site__content">
+    <div class="content-spacing section-spacing">
+      {{ content }}
+    </div>
 
-      {% include page/header.html %}
-
-      {% if page.id == 'overview' %}
-        {% include banner/video.html %}
-      {% elsif page.banner.images.size > 1 %}
-        {% include banner/carousel.html %}
-      {% elsif page.group %}
-        {% include banner/article.html %}
-      {% else %}
-        {% include banner/default.html %}
-      {% endif %}
-
-      <div class="page__content">
-        {{ content }}
-
-        {% unless page.id == 'competition' %}
-          {% include components/competition-promo.html %}
-        {% endunless %}
-      </div>
-
-      {% include page/sharing.html %}
-      {% include page/footer.html %}
-
-    </div><!-- END .site__content -->
-
+    {% include page/footer.html %}
 
     {% include modal/modal.html %}
-
 
   </body>
 

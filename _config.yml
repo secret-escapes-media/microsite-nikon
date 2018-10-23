@@ -1,18 +1,24 @@
 # Site settings
-title: Nikon
+title: Template
 client:
-  name: Nikon
-  link: https://www.europe-nikon.com/en_GB/?utm_source=partnership-hub&utm_medium=affiliate&utm_campaign=secret-escapes-nikon-Iceland-2017
+  name: Client Name
+  link: "#client-name"
+core-se-link: https://www.secretescapes.com/current-sales
 description: >
-  Immerse yourself in effortlessly photogenic destinations with Secret Escapes and Nikon. We sent three Secret Escapes colleagues, passionate about photography, to learn more about what it takes to capture the perfect shot.
-baseurl: "/nikon" # the subpath of your site, e.g. /blog/
-url: "http://mp.secretescapes.com" # the base hostname & protocol for your site
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+# file paths
+url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
+baseurl: "/template" # the subpath of your site, e.g. /blog/
+img:     "/template/_assets/img"
+css:     "/template/_assets/css"
+js:      "/template/_assets/js"
 
 
 # Build settings
 markdown: kramdown
 exclude: [node_modules, gulpfile.js, package.json, package-lock.json, js/script.js]
-keep_files: [js/scripts.min.js]
+keep_files: [_assets]
 sass:
     sass_dir: css
     style: compressed

@@ -1,12 +1,12 @@
-<footer>
-  {% include nav/microsite-nav.html second-level="false" %}
-  <div class="footer">
-    <div class="footer__logos">
-      <a class="logo logo--se logo--se-sm" href="https://www.secretescapes.com/"><img class="js-svg-swap" src="{{ site.baseurl }}/img/logo/secret-escapes.png" alt="Secret Escapes logo"></a>
-      {% include components/partner-logo.html small='true' %}
+<footer class="site-footer">
+  {% include nav/site.html theme="footer" %}
+  <div class="site-footer__wrap">
+    <div>
+      {% include components/logo-se.html placement="footer" small='true' %}
+      {% include components/logo-partner.html placement="footer" small='true' %}
     </div>
-    <div class="footer__info">
-      <p>© Copyright <span class="js-year">2017</span> Secret Escapes</p>
+    <div class="space--sm text--sm">
+      <p>© Copyright <span class="js-year">2018</span> Secret Escapes</p>
     </div>
   </div>
 </footer>

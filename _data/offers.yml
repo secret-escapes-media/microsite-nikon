@@ -1,149 +1,49 @@
-######## ICELAND ########
-
-- title: Ultra-affordable Iceland break with Northern Lights & optional tours
-  id: ultra-affordable-iceland-break-with-northern-lights-optional-tours
-  location: Nordurey Hotel Reykjavik Road, Hafnarfjörður
-  destination: Iceland
-  description: Insanely stunning Iceland tours from a contemporary hotel
-  price: 249
-  price-description: per person for 3 nights
-  saved: 38
-  link: https://www.secretescapes.com/ultra-affordable-iceland-break-with-northern-lights-and-optional-tours-nordurey-hotel-reykjavik-road-hafnarfjorur/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Iceland_April2018
-
-
-
-######## MOROCCO ########
-
-# - title:
-#   id:
-#   location:
-#   destination: Morocco
-#   description:
-#   price:
-#   price-description: per person for 5 nights
-#   saved:
-#   link:
-
-
-
-######## NEW YORK ########
-
-- title: Hudson New York
-  id: hudson-new-york
-  location: Midtown, New York
-  destination: New York
-  description: A legendary Manhattan hotel with Philippe Starck interiors
-  price: 36
-  price-description: per person per night
-  saved: 40
-  link: https://www.secretescapes.com/hudson-new-york-midtown-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Feb2018
-
-- title: Paramount Hotel
-  id: paramount-hotel
-  location: Times Square, New York
-  destination: New York
-  description: A historic Theatre District hotel in New York City
-  price: 55
-  price-description: 55 per room per night
+- title: Spectacular Oslo & Bergen break with optional fjord tour
+  id: spectacular-oslo-bergen-break-with-optional-fjord-tour
+  location: Scandic St. Olavs plass & Clarion Hotel Admiral, Norway
+  description: A fantastic four-night trip to Norway's Oslo and Bergen, with one of the world's most scenic train journeys between the two cities - including flights and an optional fjord tour
+  price: 459
+  price-description: per person for 4 nights
   saved: 37
-  link: https://www.secretescapes.com/paramount-hotel-times-square-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_Feb2018
+  expires: 2020/04/14
+  link: https://www.secretescapes.com/spectacular-oslo-and-bergen-break-with-optional-fjord-tour-scandic-st-olavs-plass-and-clarion-hotel-admiral-norway-2/sale?gce_urg=0&utm_source=SE&utm_campaign=7_Norway_201703&utm_medium=Hub
 
-- title: WestHouse Hotel
-  id: west-house-hotel
-  location: Midtown Manhattan, New York
-  destination: New York
-  description: A Conde Nast Traveller recommended NYC boutique with 1920s flair
-  price: 99
+- title: Farris Bad
+  id: farris-bad
+  location: Larvik, Norway
+  description: Upscale beachfront stay at the first Nordic balneological health resort, with a supersized spa
+  price: 214
   price-description: per room per night
-  saved: 59
-  link: https://www.secretescapes.com/westhouse-hotel-midtown-manhattan-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_Feb2018
+  saved: 33
+  expires: 2020/04/20
+  link: https://www.secretescapes.com/farris-bad-larvik-norway/sale?gce_urg=1&gce_scp=0&utm_source=SE&utm_medium=Hub&utm_campaign=12_Norway_201703
 
-- title: IBEROSTAR 70 Park Avenue
-  id: iberostar-70-park-avenue
-  location: Midtown Manhattan, New York
-  destination: New York
-  description: A stylish hotel on iconic Park Avenue in Midtown Manhattan
-  price: 141
+- title: First Hotel Marin
+  id: first-hotel-marin
+  location: Bergen, Norway
+  description: A unique stay in the centre of picturesque Bergen, just a stone's throw from the harbour
+  price: 48
   price-description: per room per night
-  saved: 51
-  link: https://www.secretescapes.com/iberostar-70-park-avenue-midtown-manhattan-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_March2018
+  saved: 43
+  expires: 2020/04/20
+  link: https://www.secretescapes.com/first-hotel-marin-bergen-norway/sale?gce_scp=1&utm_source=SE&utm_medium=Hub&utm_campaign=13_Norway_201704
 
-- title: The New Yorker, a Wyndham Hotel
-  id: the-new-yorker-a-wyndham-hotel
-  location: Midtown, New York
-  destination: New York
-  description: An Art Deco-infused New York hotel with phenomenal Midtown West address
-  price: 50
-  price-description: per person per night
-  saved: 40
-  link: https://www.secretescapes.com/the-new-yorker-a-wyndham-hotel-midtown-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_March2018
-
-- title: PUBLIC Hotel
-  id: public-hotel
-  location: Lower East Side, New York
-  destination: New York
-  description: A trendy new luxury hotel in downtown Manhattan, with a buzzed-about restaurant and bar
-  price: 72
-  price-description: per person per night
-  saved: 38
-  link: https://www.secretescapes.com/public-hotel-lower-east-side-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_March2018
-
-- title: The James New York
-  id: the-james-new-york
-  location: SoHo, New York
-  destination: New York
-  description: Art-centric boutique digs in chic SoHo, with a rooftop pool
-  price: 127
+- title: Magic Hotel
+  id: magic-hotel
+  location: Bergen, Norway
+  description: A brand-new hip hotel in the centre of Bergen, designed by a top New York designer
+  price: 73
   price-description: per room per night
-  saved: 40
-  link: https://www.secretescapes.com/the-james-new-york-soho-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_April2018
-
-- title: Gild Hall, a Thompson Hotel
-  id: gild-hall-a-thompson-hotel
-  location: Financial District, New York City
-  destination: New York
-  description: A stylish stay with prime access to NYC’s best neighbourhoods
-  price: 50
-  price-description: per person per night
-  saved: 50
-  link: https://www.secretescapes.com/gild-hall-a-thompson-hotel-financial-district-new-york-city/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_April2018
-
-- title: The William Vale
-  id: the-william-vale
-  location: Brooklyn, New York
-  destination: New York
-  description: A brand-new boutique hotel in the heart of Williamsburg
-  price: 283
-  price-description: per room per night
-  saved: 20
-  link: https://www.secretescapes.com/the-william-vale-brooklyn-new-york/sale-hotel?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_April2018
-
-- title: Cassa Hotel
-  id: cassa-hotel
-  location: Midtown, New York
-  destination: New York
-  description: A boutique New York hotel near Times Square
-  price: 61
-  price-description: per person per night
   saved: 55
-  link: https://www.secretescapes.com/cassa-hotel-midtown-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_April2018
+  expires: 2020/04/20
+  link: https://www.secretescapes.com/magic-hotel-bergen-norway/sale?gce_hpf=1&utm_source=SE&utm_medium=Hub&utm_campaign=14_Norway_201704
 
-- title: Roger New York
-  id: roger-new-york
-  location: Midtown Manhattan, New York
-  destination: New York
-  description: A classic NYC base with designer interiors in the central NoMad 'hood
-  price: 101
+- title: Sola Strand Hotel
+  id: sola-strand-hotel
+  location: Sola, Norway
+  description: Discover one of the world's sixth best beaches on Norway's gorgeous coast, with breakfast and more
+  price: 79
   price-description: per room per night
-  saved: 25
-  link: https://www.secretescapes.com/roger-new-york-midtown-manhattan-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_April2018
-
-- title: Park Central Hotel New York
-  id: park-central-hotel-new-york
-  location: Manhattan, New York
-  destination: New York
-  description: A Jazz Age icon in the heart of New York City
-  price: 44
-  price-description: per person per night
-  saved: 31
-  link: https://www.secretescapes.com/park-central-hotel-new-york-manhattan-new-york/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Nikon_NewYork_April2018
+  saved: 47
+  expires: 2020/04/20
+  link: https://www.secretescapes.com/sola-strand-hotel-sola-norway/sale?gce_hpf=1&utm_source=SE&utm_medium=Hub&utm_campaign=15_Norway_201704

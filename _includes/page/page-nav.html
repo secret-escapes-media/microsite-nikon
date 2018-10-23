@@ -1,9 +1,0 @@
-
-<div class="page-nav">
-  <div class="page-nav__wrap">
-    <ul class="page-nav__list">
-      {% assign page-sections = page.sections %}
-      {% for section in page-sections %}<li class="page-nav__item page-nav__item--{{ section.title | slugify }}"><a class="page-nav__link" href="#{{section.title|slugify}}">{{section.title}}</a>{% endfor %}
-    </ul>
-  </div>
-</div>

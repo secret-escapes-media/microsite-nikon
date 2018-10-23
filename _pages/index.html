@@ -1,112 +1,57 @@
 ---
 layout: default
 id: overview
-title: Overview
+nav: true
 nav-order: 1
-
-
-video-id: oykYu3ldaig
-
-banner:
-  content: >
-    <div class="banner__iam"></div>
-    <h1 class="title title--xxxl title--upper title--bolder title--kerning">Capture the Journey</h1>
-    <a href="javascript:void(0);" class="banner__play js-banner-play"></a>
-    <p class="text--xl text--bold">Three of the most photogenic destinations. Three inspiring journeys.<br /> Take a look behind the scenes – which one will you choose?</p>
-
-  images:
-
-
-
-intro: >
-  <p class="text--xl text--bold">Immerse yourself in effortlessly photogenic destinations with Secret&nbsp;Escapes and Nikon.</p>
-  <p class="text--lg">We sent three Secret Escapes colleagues, passionate about photography, to learn more about what it takes to capture the perfect shot. Accompanied by professional photographers, they set off to explore the wilds of Iceland, a riot of colour in Morocco, and the iconic metropolis of New York – discover their photographic journey.</p>
-  <p class="text--lg">Let these stories inspire your very own escape, with travel guides and irresistible hotel offers set to kickstart your wanderlust. </p>
-
-
-
+title: Overview
+intro: this is my home page
 ---
-{% assign photos = site.data.iceland | concat: site.data.morocco | concat: site.data.new-york %}
 
+<div class="container vpad--xxl">
 
+  <div class="title title--lg text--center">Bob layout</div>
 
-<section class="section bg--grey-darker text--white">
-  <div class="row row--padding text--center">
-    {{page.intro}}
-  </div>
-</section>
+  <div class="space--lg"></div>
 
-
-
-{% assign destinations = site.html_pages | where: "layout", "group" | sort: "nav-order" %}
-<section class="bg--grey-dark text--white">
-
-  {% for destination in destinations %}
-  <div class="section vpad--xxxl" style="background-image: url({{site.baseurl}}/img/bg/fade/overview/{{destination.id}}.jpg);">
-    <div class="row row--padding bob{% cycle '',' bob--swap' %}">
-
-      <div class="bob__image">
-
-        {% assign video = site.data.videos | where: "id", destination.video-id %}
-        {% if video.size > 0 %}
-          {% for video in video %}
-            <a href="javascript:void(0);" id="tracking-video-content-image" data-modal-item="{{video.id}}" data-video-id="{{video.video-id}}" data-video-link="{{video.link}}" class="js-open-modal video__link bg-img bg-img--16-9 bg--grey-darkest">
-              <div class="bg-img__content">
-                <img src="{{site.baseurl}}/img/icons/icon-play.png" class="js-svg-swap video__icon" alt="Play">
-              </div>
-              <div class="bg-img__bg" style="background-image: url({{site.baseurl}}/img/content/{{destination.id}}/video-poster.jpg);"></div>
-            </a>
-          {% endfor %}
-        {% else %}
-          <div class="bg-img bg-img--16-9 bg--grey-darkest" style="background-image: url({{site.baseurl}}/img/content/{{destination.id}}/video-poster.jpg);"></div>
-        {% endif %}
-
-        <div class="row row--nobp row--6-6-gutters">
-
-          {% for image in destination.intro-images %}
-            {% if image.photo-id %}
-              <div class="col">
-                {% assign photo = photos | where: "id", image.photo-id %}
-                {% for photo in photo %}
-                  {% include components/photo.html ratio="3-2" %}
-                {% endfor %}
-              </div>
-            {% else %}
-              <div class="col bg-img bg-img--3-2" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/{{destination.id}}-{{image.image}});"></div>
-            {% endif %}
-          {% endfor %}
-
-        </div>
-      </div>
-
-      <div class="bob__text">
-        <div class="title title--lg title--bold title--upper title--kerning">{{destination.title}}</div>
-        {{ destination.parent-intro }}
-        <a href="{{site.baseurl}}{{destination.url}}" class="btn btn--outline">Discover {{destination.title}}</a>
-      </div>
-
+  <div class="bob">
+    <div class="bob__img">
+      <a href="#image-link">
+        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');"></div>
+      </a>
+    </div>
+    <div class="bob__text">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias. Dolor repellendus atque aut magni sapiente nam et quas consectetur nulla nemo tempore, alias, quae eius obcaecati voluptas, quos neque, inventore minima officiis reprehenderit ullam. Asperiores adipisci possimus inventore quia odit aliquam incidunt commodi iste explicabo dolore impedit consequuntur temporibus iusto dolor repudiandae at tempore repellendus, atque hic accusantium doloribus placeat. Dolores provident tempore molestias laborum ad repudiandae.</p>
     </div>
   </div>
-  {% endfor %}
-
-</section>
-
-
-
-
-<section class="harvey bg--grey-darkest text--white">
-
-  <a href="{{site.baseurl}}/nikon-range" class="harvey__image bg-img bg-img--21-9 bg-img--lg-3-2" style="background-image: url({{site.baseurl}}/img/content/nikon-promo.jpg);"></a>
-
-  <div class="harvey__text">
-    <img src="{{site.baseurl}}/img/bg/iamchasing.png" class="js-svg-swap line-length--sm vpad-bottom--xs" alt="I am Chasing Moments">
-    <h4 class="title title--md title--bold">Get equipped with Nikon</h4>
-    <hr>
-    <p class="text--lg">Discover the Nikon D7500 and the D850, used by our photographers across this site...</p>
-    <a href="{{site.baseurl}}/nikon-range" class="btn btn--yellow">Explore the range</a>
+  <div class="bob bob--swap">
+    <div class="bob__img">
+      <a href="#image-link">
+        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');"></div>
+      </a>
+    </div>
+    <div class="bob__text">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias. Dolor repellendus atque aut magni sapiente nam et quas consectetur nulla nemo tempore, alias, quae eius obcaecati voluptas, quos neque, inventore minima officiis reprehenderit ullam. Asperiores adipisci possimus inventore quia odit aliquam incidunt commodi iste explicabo dolore impedit consequuntur temporibus iusto dolor repudiandae at tempore repellendus, atque hic accusantium doloribus placeat. Dolores provident tempore molestias laborum ad repudiandae.</p>
+    </div>
   </div>
 
-</section>
+</div>
 
+<div class="title title--lg vpad--lg text--center">Harvey layout</div>
 
+<div class="harvey">
+  <div class="harvey__img" style="background-image: url({{site.img}}/img.jpg);">
+    <a class="harvey__link" href="#image-link"></a>
+  </div>
+  <div class="harvey__text">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias. Dolor repellendus atque aut magni sapiente nam et quas consectetur nulla nemo tempore, alias, quae eius obcaecati voluptas, quos neque, inventore minima officiis reprehenderit ullam. Asperiores adipisci possimus inventore quia odit aliquam incidunt commodi iste explicabo dolore impedit consequuntur temporibus iusto dolor repudiandae at tempore repellendus, atque hic accusantium doloribus placeat. Dolores provident tempore molestias laborum ad repudiandae.</p>
+  </div>
+</div>
 
+<div class="harvey harvey--swap">
+  <div class="harvey__img" style="background-image: url({{site.img}}/img.jpg);">
+    <a class="harvey__link" href="#image-link"></a>
+  </div>
+  <div class="harvey__text">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias. Dolor repellendus atque aut magni sapiente nam et quas consectetur nulla nemo tempore, alias, quae eius obcaecati voluptas, quos neque, inventore minima officiis reprehenderit ullam. Asperiores adipisci possimus inventore quia odit aliquam incidunt commodi iste explicabo dolore impedit consequuntur temporibus iusto dolor repudiandae at tempore repellendus, atque hic accusantium doloribus placeat. Dolores provident tempore molestias laborum ad repudiandae.</p>
+  </div>
+</div>
