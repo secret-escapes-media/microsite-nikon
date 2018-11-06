@@ -40,4 +40,9 @@
       &:before { border-color: $orange; }
     }
   }
+
+  &--solid {
+    background-color: $nikon-yellow; color: $grey-darkest;
+    &:hover { background-color: darken($nikon-yellow,5); }
+  }
 }

@@ -1,1 +1,10 @@
 // general styles for the project that wouldn't be a reuseable component
+
+
+
+.gallery {
+  &__image {
+    margin-bottom: $s3;
+    background-color: $grey-darkest;
+  }
+}

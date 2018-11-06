@@ -1,5 +1,5 @@
 
-{% assign modal-items = site.data.modal.text | concat: site.data.modal.video %}
+{% assign modal-items = site.data.modal.text | concat: site.data.modal.story | concat: site.data.modal.video %}
 
 <div class="js-modal modal is-closed">
   <div class="js-close-modal modal__close"></div>
@@ -27,8 +27,8 @@
                   {% include modal/content/video.html %}
                 {% elsif item.iframe %}
                   {% include modal/content/form.html %}
-                {% elsif item.type == 'advent' %}
-                  {% include modal/content/advent.html %}
+                {% elsif item.type == 'story' %}
+                  {% include modal/content/story.html %}
                 {% else %}
                   {% include modal/content/text.html %}
                 {% endif %}

@@ -1,0 +1,21 @@
+<!-- Text only modal - e.g. terms and conditions -->
+<div class="container container--xl container--no-padding modal__content modal-story bg--white">
+  <div class="boxpad--xl">
+    <div class="row row--valign-center">
+      <div class="col col--3">
+        <div class="bg-img bg-img--1-1 bg-img--circle"></div>
+      </div>
+      <div class="col col--9">
+        <h4 class="title title--xxs text--bold">Meet {{item.photographer.firstname}}</h4>
+        <p><a class="instagram" href="https://www.instagram.com/{{subpage.photographer.instagram}}" target="_blank">{{item.photographer.instagram}}</a></p>
+        <p class="text--xl">{{item.photographer.about}}</p>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="boxpad--xl">
+    {{item.content}}
+    <div class="space--md"></div>
+    <a href="{{site.baseurl}}{{subpage.url}}" class="btn btn--solid">Watch {{item.photographer.firstname}}'s guide to {{item.title}}</a>
+  </div>
+</div>
