@@ -1,0 +1,11 @@
+
+
+- type: photo
+  id: photo
+  photo: photos/1.jpg
+  pages:
+    - id: norway
+
+
+
+

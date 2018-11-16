@@ -9,6 +9,7 @@ $offer-max-width: 600px;
   max-width: $offer-max-width;
   margin-left: auto;
   margin-right: auto;
+  color: $grey-darker;
   &__link {
     position: absolute;
     top: 0;

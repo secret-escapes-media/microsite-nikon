@@ -10,9 +10,8 @@
   min-height: 450px;
   max-height: 700px;
   color: $white;
-  background-color: $grey;
   @include bp($lg){
-    height: 90%;
+    height: 70%;
     min-height: 650px;
     max-height: none;
   }

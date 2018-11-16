@@ -12,15 +12,15 @@
   border-radius: 3px;
   cursor: pointer;
   @include transition;
-  &--sm { padding: $s1 $s4; font-size: $s-2; }
+  &--sm { padding: $s1 $s4; font-size: $s-1; }
   &--lg { padding: $s3 $s8; font-size: $s-1; }
   &--orange { background-color: $orange;
     &:hover { background-color: $orange-dark; }
   }
-  &--outline {
+  &--outline,
+  &--outline-white {
     color: inherit;
     &:before {
-      // button border within original padding
       content: '';
       position: absolute;
       top: 0;
@@ -33,16 +33,24 @@
       @include transition;
     }
   }
-  &--outline-orange {
-    &:before { border-color: $orange; }
+  &--outline-white {
+    &:before { border-color: $white; }
+    color: $white;
     &:hover {
-      background-color: $orange;
-      &:before { border-color: $orange; }
+      background-color: $white;
+      color: $grey-darkest;
+      &:before { border-color: $white; }
     }
   }
 
-  &--solid {
+  &--solid,
+  &--yellow {
     background-color: $nikon-yellow; color: $grey-darkest;
     &:hover { background-color: darken($nikon-yellow,5); }
+  }
+
+  &--black {
+    background-color: $grey-darkest; color: $nikon-yellow;
+    &:hover { background-color: $black; }
   }
 }

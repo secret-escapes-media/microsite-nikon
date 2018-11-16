@@ -5,32 +5,36 @@ title: Nikon
 nav: true
 nav-order: 4
 
+banner:
+  title: >
+    &nbsp;
+
 intro: >
-  <p class="text--lg">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla. Etiam porta sem malesuada magna mollis euismod.</p>
+  <p class="text--xxl text--medium">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla. Etiam porta sem malesuada magna mollis euismod.</p>
 
 features:
 
   - title: Feature 1
     id: feature-1
-    content: Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus.
+    content: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper. Curabitur blandit tempus porttitor.
 
   - title: Feature 2
     id: feature-2
-    content: Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus.
+    content: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper. Curabitur blandit tempus porttitor.
 
   - title: Feature 3
     id: feature-3
-    content: Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus.
+    content: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper. Curabitur blandit tempus porttitor.
 
 ---
 
 
-<div class="vpad--xxl">
+<div class="vpad--xxl bg--black">
   <div class="container container--xl text--center">
 
     {{page.intro}}
-    <div class="space--xxl"></div>
 
+    <!-- <div class="space--xxl"></div>
     <div class="container container--xl">
       <div class="bg-img bg-img--16-9">
         <a href="javascript:void(0);" data-modal-item="video" class="js-open-modal bg-img__link"></a>
@@ -39,22 +43,22 @@ features:
           <div class="bg-img__play"></div>
         </div>
       </div>
-    </div>
+    </div> -->
 
   </div>
 </div>
 
 
-<div class="vpad--xxl bg--grey-lightest">
+<div class="vpad--xxl bg--grey-darkest">
   <div class="container">
     {% for feature in page.features %}
       <div class="bob{% cycle "", ' bob--swap' %}">
         <div class="bob__img">
-          <div class="bg-img bg-img--4-3"></div>
+          <div class="bg-img bg-img--4-3" style="background-image: url({{site.img}}/img.jpg);"></div>
         </div>
         <div class="bob__text">
-          <h2 class="title title--md">{{feature.title}}</h2>
-          <p>{{feature.content}}</p>
+          <h2 class="title title--lg text--bold">{{feature.title}}</h2>
+          <p class="text--lg">{{feature.content}}</p>
         </div>
       </div>
     {% endfor %}

@@ -1,15 +1,17 @@
 // main footer for the microsite
 
+
+
 .site-footer {
 
   &__wrap {
     @include page-padding;
-    padding-top: $s8;
-    padding-bottom: $s8;
+    padding-top: $s6;
+    padding-bottom: $s6;
     color: $grey-lighter;
     font-weight: 400;
     text-align: center;
-    background-color: $grey-darkest;
+    background-color: $black;
   }
 
   // spacing for multiple logos in site footer
@@ -21,3 +23,37 @@
   //////////////////////////////////////////////////////////////////////////////
 
 }
+
+.footer {
+  position: relative;
+  width: 100%;
+}
+
+.nik-footer {
+  position: absolute;
+  left: 0; right: 0;
+  top: -40px;
+  height: 40px;
+  color: $nikon-yellow;
+  &__text {
+    text-align: right;
+    padding-bottom: 10px;
+  }
+  &__line-container {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+  }
+  &__line {
+    height: 2px; width: 100%;
+    background-color: $nikon-yellow;
+  }
+  &__line:before {
+    content: "";
+    position: absolute;
+    left: -50%;
+    height: 2px; width: 100%;
+    background-color: $nikon-yellow;
+  }
+}
+
+

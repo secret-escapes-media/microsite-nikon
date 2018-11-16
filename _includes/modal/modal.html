@@ -1,7 +1,7 @@
 
-{% assign modal-items = site.data.modal.text | concat: site.data.modal.story | concat: site.data.modal.video %}
+{% assign modal-items = site.data.modal.text | concat: site.data.modal.story | concat: site.data.modal.video | concat: site.data.modal.photo %}
 
-<div class="js-modal modal is-closed">
+<div class="js-modal modal is-closed content-spacing section-spacing">
   <div class="js-close-modal modal__close"></div>
 
   <div class="js-modal-nav modal__nav modal__nav--next" data-nav-direction="next"></div>
@@ -25,6 +25,8 @@
                   {% include modal/content/highlight.html %}
                 {% elsif item.youtube-id %}
                   {% include modal/content/video.html %}
+                {% elsif item.type == 'photo' %}
+                  {% include modal/content/photo.html %}
                 {% elsif item.iframe %}
                   {% include modal/content/form.html %}
                 {% elsif item.type == 'story' %}

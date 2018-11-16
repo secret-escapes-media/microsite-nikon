@@ -1,39 +1,79 @@
 
 
+
+
+
+
+
+
+
 - type: story
   id: norway-story
+  pages:
+    - id: overview
   title: Norway
+  intro: This is Gunvor’s story. She calls Norway home and has spent years capturing the raw qualities of this beguiling landscape. Discover what compels her to return with her camera to a captivating scene of mountains and fjords.
   photographer:
-    firstname: Gunver
+    firstname: Gunvor
     surname: Eline
     instagram: gunvoreline
     about: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.
-  content: >
-    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-    <p>Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-  pages:
-    - id: overview
+  sections:
+    - large-image: 6.jpg
+      content: >
+        <p class="text--lg">Imagine yourself on a windy island on the south coast of Norway. Where the summers are long, lush and dreamy and the winters dark, cold and windy. You’ve made it to my hometown, Skudeneshavn. I have always loved my sweet little hometown with its pretty white houses standing tall and steeped in the history of an old fishing village. Even though the winter weather can be quite rough, nothing beats the quiet summer nights when the sun slowly sets over the rooftops and leaves the town glowing in its own reflection on the calm water.</p>
+        <p class="text--lg">However, even though my love for my hometown stands strong, I have always had a fascination for what’s on the other side of the sea. I love to meet new people from diverse cultural backgrounds different from my own and to see landscapes that contrast with where I grew up. Experiencing what is out there would never be the same without bringing a little piece of it with me back home and as a photographer that is exactly what I do.</p>
+
+    - large-image: 2.jpg
+      inline-image: 3.jpg
+      content: >
+        <blockquote><p>But there’s nothing like returning to my home in Norway</p></blockquote>
+        <p class="text--lg">I’ve been fortunate enough to have lived in countries like England, Australia, Uganda and Tanzania and have travelled to countries such as China, Rwanda and Croatia. But there’s nothing like returning to my home in Norway. It’s unique, from the way the snow covered mountains drop straight down into the green fjords, to how a lush green summer changes to a moody red yellow autumn before being replaced by a dark and mysterious winter. Norway offers so much variety in such a relatively small place. </p>
+    - large-image: 4.jpg
+      content: >
+        <blockquote><p>Norway truly has it all with cosmopolitan experiences to be had in cities like Oslo and Bergen too. Wherever and whenever, Norway will always surprise you with another detail...</p></blockquote>
+        <p class="text--lg">Norway spoils you for choice. Although for me the little seaside towns like Reine in Lofoten offer travellers the quintessentially Norwegian experience. With its small red stilt houses, its dramatic backdrop of mountains and snow through to its unique history of cod fishing. Reine is as close to postcard Norway as you can get. Beyond the cozy towns lie majestic national parks such as Jotunheimen and Hardangervidda with their reindeer and mountain plateau that feed the fjords like Geirangerfjord and Nærøyfjord. Norway truly has it all with cosmopolitan experiences to be had in cities like Oslo and Bergen too. Wherever and whenever, Norway will always surprise you with another detail. It’s not all landscapes though, don’t miss out on the burgeoning coffee scene with a tasty baked treat like the now world-famous cinnamon bun.</p>
+        <p class="text--lg">In bringing people to Norway I want them to, not only observe, but experience the best of what the country has to offer...</p>
+
+
+
+
+
+
 
 
 
 
 - type: story
   id: singapore-story
+  pages:
+    - id: overview
   title: Singapore
+  intro: Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui.
   photographer:
     firstname: Jeryl
     surname:
-    instagram: j9ryl 
+    instagram: j9ryl
     about: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.
-  content: >
-    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-    <p>Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-  pages:
-    - id: overview
+  sections:
+    - large-image: 1.jpg
+      content: >
+        <p class="text--lg">I live in Singapore. Two things constantly fascinate me about Singapore (even as a local): the ever-changing landscape and the rich mix of culture in food and in architecture. The former shows the developments as a growing city, new buildings being constantly constructed – even a landscape shot two years back will seem different than captured this year; but even in this hustle to urbanise, the diversity of our culture remains as rich 50 years back as it is today. It is something rather special that I can’t imagine can be experienced so easily anywhere else in the world.</p>
+        <p class="text--lg">Living in Singapore affords me a very different perspective to those visiting the city as tourists. Singapore is a small and busy city. Singaporeans are always on the move. It’s always about the hustle and bustle of the city life here. And that’s what makes it special to photograph this place – the constant flow of people along the streets, the play of lights and shadows against façades of buildings, the night lights of the cityscape… </p>
 
-
+    - large-image: 1.jpg
+      inline-image: 1.jpg
+      content: >
+        <blockquote><p>It’s easy for one to just view the laser show, but to freeze the moment with the right camera settings is a challenge.</p></blockquote>
+        <p class="text--lg">I personally love shooting around housing estates in the day and chill by Marina Bay or at Gardens by the Bay in the evening during sunset. Housing estates are like the hidden gems scattered around Singapore for those keen in architectural photography, while the bay area has always been a classic hotspot for photography. I still enjoy shooting around Marina Bay simply because of the many possibilities of getting different shots depending on the weather and position one is at by the bay. Also, capturing the laser show by Merlion Park is something that I still enjoy shooting, although I’ve done it perhaps over a hundred times! It’s easy for one to just view the laser show, but to freeze the moment with the right camera settings is a challenge. And of course, there’s a ton of possibilities with compositions of the lasers, that’s what keeps me going back night after night to explore different possibilities to shoot it. </p>
+    - large-image: 1.jpg
+      content: >
+        <p class="text--lg">The beauty of shooting here is that over minutes or even seconds, the streets along, say, Chinatown, can change dramatically – a sudden downpour changes the bustling street to an empty moody alley; and over days and months, new art installations are erected around different places of the island. Over years and decades, new housing estates are established and new skyscrapers are built. Even the weather today will create a different mood to the cityscape by Marina Bay when compared to yesterday. It’s the unlimited possibilities packed into this small city that keeps me shooting. </p>
+        <p class="text--lg">I believe you can have a true experience of Singapore easily if you visit hawker centres for meals, be willing to explore the strong flavours of Asian food here and head over to Marina Bay for a jog or cycle – because the whole route around Marina Bay and Gardens by the Bay covers most of the iconic sights of Singapore! It’s going to be a long list if I would share all my favourite local dishes, but just to name some – lor mee, chicken rice, laksa, satay, BBQ seafood, fishball noodles, hor fun… That should get you started!</p>
+    - large-image: 1.jpg
+      content: >
+        <p class="text--lg">Throughout my travels around various parts of Asia (and Australia), I still can’t live without Singaporean food. It’s just something inside of me that makes me crave it after maybe travelling in Hong Kong for a month, or after five days in Norway, and that’s not because the food in those countries isn’t tasty; it’s just I generally miss the spices and sauce commonly used to prepare Asian food. </p>
+        <p class="text--lg">My advice to anyone who wants to shoot the city for the first time would be to take the MRT (our railway system). Hop off at various stops along the different lines and venture into the different estates away from the city centre; you’ll be surprised at what you can find, not just in terms of buildings to shoot, but food to eat, and people you might meet. It’s all about experiencing Singapore. And freezing these moments with the camera makes it even more memorable.</p>
 
 
 

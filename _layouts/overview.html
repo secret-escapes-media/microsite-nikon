@@ -3,23 +3,19 @@
 
   {% include page/head.html %}
 
-  <body>
+  <body class="layout--{{page.layout}}">
 
     {% include components/tracking.html %}
 
     {% include page/header.html %}
 
-    {% if page.layout == "campaign" %}
-      {% include campaign/banner.html %}
-    {% else %}
-      {% include page/banner.html %}
-    {% endif %}
-
     <div class="content-spacing section-spacing">
       {{ content }}
     </div>
 
-    {% include page/footer.html %}
+    <div class="overview__footer">
+      {% include page/nikon-footer.html %}
+    </div>
 
     {% include modal/modal.html %}
 

@@ -23,11 +23,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     color: $white;
     text-align: center;
     @include page-padding;
   }
-  &__bg-overlay {
+  &__overlay {
     position: absolute;
     top: 0;
     left: 0;

@@ -1,21 +1,64 @@
 <!-- Text only modal - e.g. terms and conditions -->
-<div class="container container--xl container--no-padding modal__content modal-story bg--white">
-  <div class="boxpad--xl">
-    <div class="row row--valign-center">
-      <div class="col col--3">
-        <div class="bg-img bg-img--1-1 bg-img--circle"></div>
+<div class="container container--xxl container--no-padding modal__content modal-story">
+  <div class="boxpad--xxl">
+
+
+
+    <div class="bg-img bg-img--21-9" style="background-image: url({{site.img}}/content/{{item.title | downcase}}/banner.jpg);">
+      <div class="bg-img__content">
+        <h2 class="title title--xl text--bold">{{item.title}}</h2>
+        <p class="text--xl text--medium">{{item.intro}}</p>
+        <div class="space--sm"></div>
+        <a href="{{site.baseurl}}/{{item.title | downcase}}" class="btn btn--outline-white">Watch the adventure in {{item.title}}</a>
       </div>
-      <div class="col col--9">
-        <h4 class="title title--xxs text--bold">Meet {{item.photographer.firstname}}</h4>
-        <p><a class="instagram" href="https://www.instagram.com/{{subpage.photographer.instagram}}" target="_blank">{{item.photographer.instagram}}</a></p>
-        <p class="text--xl">{{item.photographer.about}}</p>
+      <div class="bg-img__overlay"></div>
+    </div>
+
+
+
+    <div class="space--sm"></div>
+    <div class="story__profile boxpad--xl bg--white">
+      <div class="row row--valign-center">
+        <div class="col col--4">
+          <div class="bg-img bg-img--1-1" style="background-image: url({{site.img}}/content/overview/{{item.id}}/profile.jpg);"></div>
+        </div>
+        <div class="col col--8">
+          <h4 class="title title--sm text--bold">Meet {{item.photographer.firstname}}</h4>
+          <p class="text--lg">{{item.photographer.about}}</p>
+          <div class="space--xxs"></div>
+          <span class="instagram">
+            <div class="instagram__icon"></div>
+            <a class="title text--upper text--medium" href="https://www.instagram.com/{{item.photographer.instagram}}" target="_blank"> {{item.photographer.instagram}}</a>
+          </span>
+        </div>
       </div>
     </div>
-  </div>
-  <hr>
-  <div class="boxpad--xl">
-    {{item.content}}
-    <div class="space--md"></div>
-    <a href="{{site.baseurl}}{{subpage.url}}" class="btn btn--solid">Watch {{item.photographer.firstname}}'s guide to {{item.title}}</a>
+
+
+
+    <div class="boxpad--xxxl bg--grey-lightest">
+
+      <div class="story">
+        {% for section in item.sections %}
+        <div class="story__section">
+          {% if section.large-image %}
+          <div class="story__section-image bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/overview/{{item.id}}/{{section.large-image}});"></div>
+          {% endif %}
+          <div class="container container--lg">
+            {% if section.inline-image %}
+              <div class="story__section-inline-image bg-img bg-img--4-3" style="background-image: url({{site.img}}/content/overview/{{item.id}}/{{section.inline-image}});"></div>
+            {% endif %}
+            {{section.content}}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="text--center">
+        <a href="{{site.baseurl}}/{{item.title | downcase}}" class="btn btn--black">Watch the adventure in {{item.title}}</a>
+      </div>
+
+    </div>
+
   </div>
 </div>

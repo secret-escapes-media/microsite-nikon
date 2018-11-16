@@ -32,3 +32,20 @@
     &--bp-center { text-align: center; }
   }
 }
+
+
+
+blockquote {
+  float: right;
+  width: 50%;
+  margin: 0.5em 0 0.5em 1.5em;
+  & p {
+    display: block;
+    margin: $s0 0;
+    padding-left: 1em;
+    border-left: 1px solid rgba($grey-darkest,0.2);
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: italic;
+  }
+}
