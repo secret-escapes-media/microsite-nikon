@@ -11,29 +11,30 @@
   id: norway-story
   pages:
     - id: overview
+  date: 2018-11-01
   title: Norway
-  intro: This is Gunvor’s story. She calls Norway home and has spent years capturing the raw qualities of this beguiling landscape. Discover what compels her to return with her camera to a captivating scene of mountains and fjords.
+  intro: This is Gunvor Eline’s story. She calls Norway home and has spent years capturing the raw qualities of this beguiling landscape. Discover what compels her to return with her camera to a captivating scene of mountains and fjords.
   photographer:
-    firstname: Gunvor
-    surname: Eline
+    firstname: Gunvor Eline
+    surname:
     instagram: gunvoreline
-    about: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.
+    about: A passionate traveller, Gunvor Eline has always yearned to capture the unfamiliar. Hailing from the west coast of Norway, she regularly travels the world capturing everything from food to unmissable landscapes...
   sections:
-    - large-image: 6.jpg
-      content: >
-        <p class="text--lg">Imagine yourself on a windy island on the south coast of Norway. Where the summers are long, lush and dreamy and the winters dark, cold and windy. You’ve made it to my hometown, Skudeneshavn. I have always loved my sweet little hometown with its pretty white houses standing tall and steeped in the history of an old fishing village. Even though the winter weather can be quite rough, nothing beats the quiet summer nights when the sun slowly sets over the rooftops and leaves the town glowing in its own reflection on the calm water.</p>
-        <p class="text--lg">However, even though my love for my hometown stands strong, I have always had a fascination for what’s on the other side of the sea. I love to meet new people from diverse cultural backgrounds different from my own and to see landscapes that contrast with where I grew up. Experiencing what is out there would never be the same without bringing a little piece of it with me back home and as a photographer that is exactly what I do.</p>
+    - content: >
+        <p class="text--lg">Imagine yourself on a windy island on the south coast of Norway, where the summers are long, lush and dreamy and the winters dark, cold and windy. You’ve made it to my hometown, Skudeneshavn. I have always loved my sweet little hometown with its pretty white houses standing tall and steeped in the history of an old fishing village. Even though the winter weather can be quite rough, nothing beats the quiet summer nights when the sun slowly sets over the rooftops and leaves the town glowing in its own reflection on the calm water. The quality of the light in the Norwegian summer is truly unique! Having a lightweight camera that is able to capture such a broad range of tones is a must.</p>
+        <p class="text--lg">My journey with photography started when I was young. I was intrigued by the world around me and photography was a brilliant way to capture it. I have studied and worked in the photo industry for some time and continue to see photography as a way to communicate emotion and experience. </p>
+        <p class="text--lg">My inspiration comes from adventuring. A night tucked in a sleeping bag, hanging from one tree to another in a hammock, gazing up at the million stars above. This is what brings me to life and reminds me of why I take photos. </p>
 
     - large-image: 2.jpg
       inline-image: 3.jpg
       content: >
+        <p class="text--lg">Even though my love for my country stands strong, I have always had a fascination for what can be found elsewhere. I love to meet new people from diverse cultural backgrounds different from my own and to see landscapes that contrast with where I grew up. I am most fulfilled when I am able to combine these two things; travel and photography.</p>
         <blockquote><p>But there’s nothing like returning to my home in Norway</p></blockquote>
-        <p class="text--lg">I’ve been fortunate enough to have lived in countries like England, Australia, Uganda and Tanzania and have travelled to countries such as China, Rwanda and Croatia. But there’s nothing like returning to my home in Norway. It’s unique, from the way the snow covered mountains drop straight down into the green fjords, to how a lush green summer changes to a moody red yellow autumn before being replaced by a dark and mysterious winter. Norway offers so much variety in such a relatively small place. </p>
+        <p class="text--lg">I’ve been fortunate enough to have lived in countries like England, Australia and Uganda, and have travelled to countries such as China, Rwanda and Croatia. But there’s nothing like returning to my home in Norway. It’s unique. From the way the snow covered mountains drop straight down into the blue fjords, to how a lush green summer changes to a moody red yellow autumn, before being replaced by a dark and mysterious winter; Norway offers so much variety in such a relatively small place, it spoils you for choice – and for incredible shots. </p>
     - large-image: 4.jpg
       content: >
-        <blockquote><p>Norway truly has it all with cosmopolitan experiences to be had in cities like Oslo and Bergen too. Wherever and whenever, Norway will always surprise you with another detail...</p></blockquote>
-        <p class="text--lg">Norway spoils you for choice. Although for me the little seaside towns like Reine in Lofoten offer travellers the quintessentially Norwegian experience. With its small red stilt houses, its dramatic backdrop of mountains and snow through to its unique history of cod fishing. Reine is as close to postcard Norway as you can get. Beyond the cozy towns lie majestic national parks such as Jotunheimen and Hardangervidda with their reindeer and mountain plateau that feed the fjords like Geirangerfjord and Nærøyfjord. Norway truly has it all with cosmopolitan experiences to be had in cities like Oslo and Bergen too. Wherever and whenever, Norway will always surprise you with another detail. It’s not all landscapes though, don’t miss out on the burgeoning coffee scene with a tasty baked treat like the now world-famous cinnamon bun.</p>
-        <p class="text--lg">In bringing people to Norway I want them to, not only observe, but experience the best of what the country has to offer...</p>
+        <p class="text--lg">For me, the little seaside towns like Reine in Lofoten offer travellers the quintessentially Norwegian experience. With its small red stilt houses, its dramatic backdrop of mountains and snow through to its unique history of cod fishing. Reine is as close to postcard-Norway as you can get. Beyond the cosy towns lie majestic national parks such as Jotunheimen and Hardangervidda, with their reindeer and mountain plateau that feed the fjords like Geirangerfjord and Nærøyfjord. However, no matter how beautiful it is, it can be quite tricky to photograph. Patience is the key to success, as the weather inevitably keeps changing. </p>
+        <p class="text--lg">My hope for those who travel to Norway is to not only observe, but to experience the best of what the country has to offer. And don’t forget your camera!</p>
 
 
 
@@ -48,13 +49,14 @@
   id: singapore-story
   pages:
     - id: overview
+  date: 2019-01-01
   title: Singapore
-  intro: Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui.
+  intro: This is Jeryl’s story. He lives in the urban sprawl of Singapore, a city that offers him ever-changing scenes to capture. Discover what Jeryl loves about photographing the city, the place he calls home.
   photographer:
     firstname: Jeryl
     surname:
     instagram: j9ryl
-    about: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.
+    about: Jeryl is a self-taught photographer born and raised in Singapore. He has a soft spot for architecture and cityscapes which are his main sources of inspiration, fuelling his passion for photography. Being colourblind, his approach to colour and form is unique.
   sections:
     - large-image: 1.jpg
       content: >

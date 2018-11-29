@@ -1,10 +1,105 @@
 
 
 - type: photo
-  id: photo
-  photo: photos/1.jpg
+  id: norway-01
+  ratio: 1-1
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  lens: 18-105mm f/3.5-5.6
+  shutterspeed: 1/100
+  aperture: f/6.3
+  focallength: 75mm
+
+  page: norway
   pages:
     - id: norway
+
+
+
+- type: photo
+  id: norway-02
+  ratio: 16-9
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-03
+  ratio: 3-4
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-04
+  ratio: 1-1
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-05
+  ratio: 1-1
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-06
+  ratio: 1-1
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-07
+  ratio: 1-1
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-08
+  ratio: 1-1
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  page: norway
+  pages:
+    - id: norway
+
+
 
 
 

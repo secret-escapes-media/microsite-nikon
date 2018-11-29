@@ -13,6 +13,7 @@
   cursor: pointer;
   @include transition;
   &--sm { padding: $s1 $s4; font-size: $s-1; }
+  &--thin { padding: $s-2 $s4; }
   &--lg { padding: $s3 $s8; font-size: $s-1; }
   &--orange { background-color: $orange;
     &:hover { background-color: $orange-dark; }
@@ -52,5 +53,10 @@
   &--black {
     background-color: $grey-darkest; color: $nikon-yellow;
     &:hover { background-color: $black; }
+  }
+
+  &--white {
+    background-color: rgba($white,0.8); color: $grey-darkest;
+    &:hover { background-color: $white; }
   }
 }

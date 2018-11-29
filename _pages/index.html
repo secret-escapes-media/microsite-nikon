@@ -12,7 +12,7 @@ banner:
 intro: >
   <p class="text--xxl text--bold">Discover two beguiling destinations through the lens of the photographers that call them home.</p>
   <p class="text--xl">Two photographers showed each other around their homes. The pair started their adventure in Norway’s mesmerizing Lofoten Islands, before heading to the urban sprawl of Singapore. They captured the familiar and the unfamiliar, their home and someone else's. See their stories here and discover how perspectives can shift when you look, again, through the lens.</p>
-  <p class="text--xl">Nikon and Secret Escapes introduce Home. All images captured with the new Nikon Z 7.</p>
+  <p class="text--xl text--bold">All images captured with the new Nikon Z 7.</p>
 
 ---
 
@@ -20,15 +20,21 @@ intro: >
 <div class="site-header__offset"></div>
 <div class="site-nav__offset"></div>
 
-<div class="overview">
+
+
 
   <div class="overview__intro">
-    <div class="container container--lg boxpad--xxxl text--center">
-      <div class="title title--xxs text--medium">Nikon and Secret Escapes introduce</div>
-      <h2 class="title title--xxxxl text--bold">{{page.banner.title}}</h2>
+    <div class="container container--lg boxpad--xxxl">
+      <div class="title title--xs text--medium text--upper">Nikon and Secret Escapes introduce</div>
+      <div class="overview__title overview-banner-title">
+        <img src="{{site.img}}/content/{{page.id}}/title.gif" width="580" alt="HOME">
+      </div>
       {{page.intro}}
     </div>
   </div>
+
+
+
 
   <div class="overview__links">
 
@@ -37,15 +43,15 @@ intro: >
     <div class="overview__item" style="background-image: url({{site.img}}/content/{{subpage.id}}/banner.jpg);">
       <a class="overview__item-link js-open-modal" href="javascript:void(0);" data-modal-item="{{subpage.id}}-story"></a>
       <div class="overview__item-content container boxpad--xl">
-        <h2 class="title title--xxl text--bold">{{subpage.title}}</h2>
-        <div class="title title--xxs text--medium text--upper text--wide-kern">By {{subpage.photographer.firstname}} {{subpage.photographer.surname}}</div>
+        <div class="title title--xxs text--medium text--upper">{{subpage.parent.subtitle}}</div>
+        <div class="space--xxs"></div>
+        <h2 class="title title--lg text--bold">{{subpage.parent.title}}</h2>
         <div class="space--sm"></div>
-        <div class="btn btn--sm btn--outline-white">Explore now</div>
+        <div class="btn btn--sm btn--outline-white">Read now</div>
       </div>
       <div class="overview__item-overlay"></div>
     </div>
     {% endfor %}
 
   </div>
-</div>
-
+  

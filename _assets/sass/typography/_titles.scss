@@ -80,10 +80,36 @@
 .banner-title {
 
   // custom banner headline
+  position: relative;
   font-family: $font-title-01;
   font-size: $s5;
   font-weight: 600;
+  line-height: 1.2;
   @include bp($md){ font-size: $s7; }
   @include bp($xl){ font-size: $s11; }
+
+  &:before {
+    content: "";
+    width: 999%;
+    height: 2px;
+    position: absolute;
+    right: 100%;
+    background-color: $nikon-yellow;
+    top: 50%;
+    margin-top: -1px;
+    margin-right: $s2;
+  }
+}
+
+
+.overview-banner-title {
+
+  // custom banner headline
+  font-family: $font-title-01;
+  font-size: $s5;
+  font-weight: 600;
+  line-height: 1;
+  @include bp($md){ font-size: $s7; }
+  @include bp($xl){ font-size: $s13; }
 
 }

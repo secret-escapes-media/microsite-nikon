@@ -1,10 +1,11 @@
 
 <div class="page-bg" style="background-image: url('{{site.img}}/content/{{page.id}}/banner.jpg')">
-  <div class="page-bg__overlay js-overlay-fade"></div>
+  <div class="page-bg__overlay"></div>
 </div>
 
-<div class="banner">
+<div class="banner campaign-banner">
   <div class="site-header__offset"></div>
+  <div class="site-nav__offset"></div>
   <div class="banner__wrap">
 
       <div class="container">
@@ -12,10 +13,9 @@
           <div class="col col--6">
 
             {% if page.banner.title-sup %}<h2 class="sub-title">{{page.banner.title-sup}}</h2>{% endif %}
-            <h1 class="banner-title">
-              {% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}
-            </h1>
-            {% if page.banner.title-sub %}<h2 class="sub-title">{{page.banner.title-sub}}</h2>{% endif %}
+            {% if page.banner.title %}<h1 class="banner-title">{{page.banner.title}}</h1>{% endif %}
+
+            <div class="space--xxs"></div>
 
             {% if page.banner.intro %}
               {{page.banner.intro}}
@@ -24,7 +24,7 @@
           </div>
           <div class="col col--6">
             <!-- Video -->
-            <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/img.jpg);">
+            <div class="bg-img bg-img--1-1 bg-img--circle" style="background-image: url({{site.img}}/content/{{page.id}}/video.jpg);">
               <a href="javascript:void(0);" data-modal-item="video" class="js-open-modal bg-img__link"></a>
               <div class="bg-img__content">
                 <div class="bg-img__play"></div>
@@ -37,3 +37,5 @@
 
   </div>
 </div>
+
+

@@ -5,26 +5,28 @@ title: Nikon
 nav: true
 nav-order: 4
 
-banner:
-  title: >
-    &nbsp;
+
 
 intro: >
-  <p class="text--xxl text--medium">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla. Etiam porta sem malesuada magna mollis euismod.</p>
+  <h1 class="title title--lg">Discover mirrorless. Discover the Nikon Z 7.</h1>
+  <p class="text--xxl text--medium">Find out what features will make the Nikon Z 7 your next choice in photography and don’t miss our behind-the-scenes video that shows how we used the Z 7 to capture our journey in Norway and Singapore.</p>
+  <div class="space--sm"></div>
+  <a href="#" class="btn btn--yellow">Find out more</a>
+
 
 features:
 
-  - title: Feature 1
-    id: feature-1
-    content: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper. Curabitur blandit tempus porttitor.
+  - title: Go mirrorless
+    id: mirrorless
+    content: Capture light like never before. With no mirror to worry about, the Nikon Z 7’s full-frame, 45.7 megapixel CMOS sensor is just 16mm from the lens mount; a lens mount that is also the world’s widest full-frame mount. That means more light is captured in every shot. Enjoy unrivalled optical quality and sensor quality in all lighting situations, with an ISO range that covers 64-25600 ISO – with minimal noise and astounding dynamic range.
 
-  - title: Feature 2
-    id: feature-2
-    content: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper. Curabitur blandit tempus porttitor.
+  - title: Never miss the action
+    id: speed
+    content: Capture an astonishing 9 fps, with 493 focus points available; if you’re shooting something fast-moving, or something that just doesn’t want to play ball, you can be sure that your subject will be sharp and in focus all the time. No matter how quickly the decisive moment appears, in-camera five-axis optical Vibration Reduction (VR) compensates for camera shake in five directions. 4K video has never been steadier and stills, which can be captured as you film, never sharper.
 
-  - title: Feature 3
-    id: feature-3
-    content: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper. Curabitur blandit tempus porttitor.
+  - title: Connect
+    id: connect
+    content: The larger Z mount gives unmatched optical and sensor quality, plus a new range of cutting-edge lenses. But that doesn’t mean you can’t use your existing Nikon lenses with the Z 7; the clever FTZ mount adaptor connects the gap between Nikon’s existing lens family and the advantages of this new Z mount. Connect your Nikon Z 7 even further with Wi-Fi and Bluetooth connectivity, allowing you to quickly connect with a smart device and transfer JPEGs on the fly, or upload RAW files wirelessly to a computer.
 
 ---
 
@@ -54,11 +56,13 @@ features:
     {% for feature in page.features %}
       <div class="bob{% cycle "", ' bob--swap' %}">
         <div class="bob__img">
-          <div class="bg-img bg-img--4-3" style="background-image: url({{site.img}}/img.jpg);"></div>
+          <div class="bg-img bg-img--4-3" style="background-image: url({{site.img}}/content/{{page.id}}/{{feature.id}}.jpg);"></div>
         </div>
         <div class="bob__text">
-          <h2 class="title title--lg text--bold">{{feature.title}}</h2>
+          <h2 class="title title--md">{{feature.title}}</h2>
           <p class="text--lg">{{feature.content}}</p>
+          <div class="space--sm"></div>
+          <a href="#" class="btn btn--yellow">Read more</a>
         </div>
       </div>
     {% endfor %}

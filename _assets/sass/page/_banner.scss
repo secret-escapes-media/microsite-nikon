@@ -59,3 +59,10 @@
     }
   }
 }
+
+.campaign-banner {
+  height: 70%;
+  @include bp($lg){
+    height: 80%;
+  }
+}

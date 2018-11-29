@@ -3,52 +3,42 @@ layout: default
 ---
 
 
-<div class="campaign">
+<div class="container">
 
-  <div class="container">
-    <div class="width width--xl">
-      <h2 class="title title--xl text--upper text--wide-kern text--bold">Travel journal</h2>
-      <p class="text--xl text--medium">Sed posuere consectetur est at lobortis. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod.</p>
+
+  <!-- TITLE -->
+  <h2 class="title title--xl text--upper text--bold text--white">Photo journal</h2>
+  <span class="text--xl text--bold">All images captured with the new Nikon Z 7.</span>
+
+  <div class="space--lg"></div>
+
+  <!-- PHOTO JOURNAL -->
+  <div class="journal">
+    {% assign items = page.journal %}
+
+
+    {% for item in items %}
+
+      {% if item.photo %}
+        {% assign photodata = site.data.modal.photo | where: "id", item.photo %}
+        {% for photo in photodata %}
+        <div class="journal__item journal__item-photo">
+          <a href="javascript:void(0);" data-modal-item="{{photo.id}}" data-modal-group="page" class="js-open-modal campaign-gallery__image bg-img bg-img--{{photo.ratio}}" style="background-image: url({{site.img}}/photos/{{page.id}}/{{photo.id}}.jpg);"></a>
+        </div>
+        {% endfor %}
+      {% else %}
+      <div class="journal__item">
+        <div class="journal__item-content">
+          <span class="text--xxl text--italic">"{{item.quote}}"</span>
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
     </div>
 
-    <div class="space--lg"></div>
-
-    <div class="row">
-      <div class="col col--4">
-        <a href="javascript:void(0);" data-modal-item="photo" class="js-open-modal campaign-gallery__image bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/{{page.id}}/photos/1.jpg);"></a>
-        <a href="javascript:void(0);" data-modal-item="photo" class="js-open-modal campaign-gallery__image bg-img bg-img--4-3" style="background-image: url({{site.img}}/content/{{page.id}}/photos/2.jpg);"></a>
-        <div class="campaign-gallery__image bg-img bg-img--21-9">
-          <div class="bg-img__content">
-            <span class="text--xxl text--italic">"Maecenas sed diam eget risus varius blandit sit amet non magna." </span>
-          </div>
-        </div>
-        <a href="javascript:void(0);" data-modal-item="photo" class="js-open-modal campaign-gallery__image bg-img bg-img--1-1" style="background-image: url({{site.img}}/content/{{page.id}}/photos/3.jpg);"></a>
-        <a href="javascript:void(0);" data-modal-item="photo" class="js-open-modal campaign-gallery__image bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/{{page.id}}/photos/4.jpg);"></a>
-      </div>
-      <div class="col col--4">
-        <a href="javascript:void(0);" data-modal-item="photo" class="js-open-modal campaign-gallery__image bg-img bg-img--1-1" style="background-image: url({{site.img}}/content/{{page.id}}/photos/5.jpg);"></a>
-        <a href="javascript:void(0);" data-modal-item="photo" class="js-open-modal campaign-gallery__image bg-img bg-img--3-4" style="background-image: url({{site.img}}/content/{{page.id}}/photos/6.jpg);"></a>
-        <div class="campaign-gallery__image bg-img bg-img--21-9">
-          <div class="bg-img__content">
-            <span class="text--xxl text--italic">"Maecenas sed diam eget risus varius blandit sit amet non magna." </span>
-          </div>
-        </div>
-        <a href="javascript:void(0);" data-modal-item="photo" class="js-open-modal campaign-gallery__image bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/{{page.id}}/photos/4.jpg);"></a>
-      </div>
-      <div class="col col--4">
-        <a href="javascript:void(0);" data-modal-item="photo" class="js-open-modal campaign-gallery__image bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/{{page.id}}/photos/5.jpg);"></a>
-        <div class="campaign-gallery__image bg-img bg-img--21-9">
-          <div class="bg-img__content">
-            <span class="text--xxl text--italic">"Maecenas sed diam eget risus varius blandit sit amet non magna." </span>
-          </div>
-        </div>
-        <a href="javascript:void(0);" data-modal-item="photo" class="js-open-modal campaign-gallery__image bg-img bg-img--1-1" style="background-image: url({{site.img}}/content/{{page.id}}/photos/6.jpg);"></a>
-        <a href="javascript:void(0);" data-modal-item="photo" class="js-open-modal campaign-gallery__image bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/{{page.id}}/photos/1.jpg);"></a>
-        <a href="javascript:void(0);" data-modal-item="photo" class="js-open-modal campaign-gallery__image bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/{{page.id}}/photos/2.jpg);"></a>
-      </div>
-    </div>
   </div>
-
 </div>
+
+<div class="space--xxl"></div>
 
 

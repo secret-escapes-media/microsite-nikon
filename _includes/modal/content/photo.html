@@ -1,7 +1,32 @@
-<!-- Video modal - requires youtube-id -->
+<!-- Photo modal -->
 <div class="container container--no-padding modal-photo">
 
-  <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/{{page.id}}/{{item.photo}});">
+  <div class="photo">
+
+    <!-- Photo details -->
+    <div class="photo__content">
+
+      <h2 class="title title--sm"><span class="text--bold">{{item.location}}</span> | {{item.photographer}}</h2>
+      <div class="space--sm"></div>
+      <span class="btn btn--outline-white btn--thin">Photo details</span>
+
+      <!-- hidden details -->
+      <div class="photo__details">
+        <ul class="photo__details-list">
+          <li class="photo__details-list-item"><span class="text--bold">Lens:</span> {{item.lens}}</li>
+          <li class="photo__details-list-item"><span class="text--bold">Focal length:</span> {{item.focallength}}</li>
+          <li class="photo__details-list-item"><span class="text--bold">Aperture:</span> {{item.aperture}}</li>
+          <li class="photo__details-list-item"><span class="text--bold">Shutter speed:</span> {{item.shutterspeed}}</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Photo container -->
+    <div class="photo__img">
+      <img src="{{site.img}}/photos/{{page.id}}/{{item.id}}.jpg" alt="{{item.id}}">
+    </div>
+
   </div>
 
 </div>
