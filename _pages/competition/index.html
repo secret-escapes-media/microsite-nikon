@@ -7,37 +7,72 @@ nav-order: 6
 nav-title: Competition
 
 banner:
-  title: Competition
+  content: >
+    <div class="container container-xxl text--center">
+      <h1 class="title title--xl text--bold">Win an unforgettable escape to Norway and capture it with the Nikon Z 7</h1>
+      <div class="space--sm"></div>
+      <a href="#enter" class="btn btn--solid">Enter now</a>
+    </div>
 
 intro: >
-  <p class="text--lg">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla. Etiam porta sem malesuada magna mollis euismod.</p>
+  <p class="text--xxxl text--medium">Breathtaking landscapes await you. Piercing mountains, thick forests and beautiful fjords will be your backdrop for an adventure with the Nikon Z 7. Fly to Norway and spend four nights at the remarkable Herangtunet Boutique Hotel, nestled in the outdoor wonderland of Heggefjord.</p>
+  <div class="space--md"></div>
+  <a href="#enter" class="btn btn--solid">Enter now</a>
+  <div class="space--md"></div>
+
+
+features:
+
+  - id: stay
+    title: The stay
+    content: Surrounded by forests and lakes, Herangtunet makes for a rather magical stay. Family run and with unique design touches, Herangtunet is luxurious and cosy, a perfect retreat for outdoor adventures. Local produce is used for breakfast each morning, kickstarting a day of exploration with your Nikon Z 7...
+
+  - id: camera
+    title: The camera
+    content: Go mirrorless with the new Nikon Z 7 and capture light like never before. You’ll win the innovative new camera plus the XXX lens (and other things TBC) so you can capture the beguiling landscapes of Norway’s hinterland...
+
 
 ---
 
 
-<div class="vpad--xxl">
-  <div class="container container--xl text--center">
-    {{page.intro}}
-  </div>
-</div>
 
 <div class="container container--100 container--no-padding">
   <div class="row row--no-gutters row--constant-4-4-4">
     <div class="col">
-      <div class="bg-img bg-img--4-3" style="background-image: url({{site.img}}/img.jpg);"></div>
+      <div class="bg-img bg-img--1-1 bg-img--xl-16-9" style="background-image: url({{site.img}}/content/competition/1.jpg);"></div>
     </div>
     <div class="col">
-      <div class="bg-img bg-img--4-3" style="background-image: url({{site.img}}/img.jpg);"></div>
+      <div class="bg-img bg-img--1-1 bg-img--xl-16-9" style="background-image: url({{site.img}}/content/competition/2.jpg);"></div>
     </div>
     <div class="col">
-      <div class="bg-img bg-img--4-3" style="background-image: url({{site.img}}/img.jpg);"></div>
+      <div class="bg-img bg-img--1-1 bg-img--xl-16-9" style="background-image: url({{site.img}}/content/competition/3.jpg);"></div>
     </div>
   </div>
 </div>
 
+
 <div class="vpad--xxl">
-  <div class="container container--xl text--center">
-    <h2 class="title title--md">Enter below</h2>
+  <div class="container container--xxl text--center">
+    {{page.intro}}
   </div>
+
+  <div class="container container--xxl">
+    {% for feature in page.features %}
+    <div class="bob{% cycle '',' bob--swap' %}">
+      <div class="bob__img">
+        <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/competition/{{feature.id}}.jpg);"></div>
+      </div>
+      <div class="bob__text">
+        <h3 class="title title--sm text--bold">{{feature.title}}</h3>
+        <p>{{feature.content}}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="container container--xxl text--center">
+    <iframe src="https://promotion5767.strutta.me" width="100%" height="600"></iframe>
+  </div>
+
 </div>
 
