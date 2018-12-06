@@ -1,15 +1,16 @@
 
 
+
 - type: photo
-  id: norway-01
-  ratio: 1-1
+  id: gunvor1
+  ratio: 3-2
   title: Norway
-  location: Lofoten Islands, Norway
+  location: Reine, Norway
   photographer: Gunvor Eline
-  lens: 18-105mm f/3.5-5.6
-  shutterspeed: 1/100
-  aperture: f/6.3
-  focallength: 75mm
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/200s
+  aperture: f/4
+  focallength: 32.5mm
 
   page: norway
   pages:
@@ -18,11 +19,16 @@
 
 
 - type: photo
-  id: norway-02
-  ratio: 16-9
+  id: gunvor2
+  ratio: 3-2
   title: Norway
-  location: Lofoten Islands, Norway
+  location: Reine, Norway
   photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/80s
+  aperture: f/4
+  focallength: 24mm
+
   page: norway
   pages:
     - id: norway
@@ -30,11 +36,16 @@
 
 
 - type: photo
-  id: norway-03
-  ratio: 3-4
+  id: gunvor3
+  ratio: 3-2
   title: Norway
-  location: Lofoten Islands, Norway
+  location: Reinebringen, Norway
   photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1250s
+  aperture: f/4
+  focallength: 26mm
+
   page: norway
   pages:
     - id: norway
@@ -42,11 +53,16 @@
 
 
 - type: photo
-  id: norway-04
-  ratio: 1-1
+  id: gunvor4
+  ratio: 3-2
   title: Norway
-  location: Lofoten Islands, Norway
+  location: Reinebringen, Norway
   photographer: Gunvor Eline
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/2000s
+  aperture: f/2.8
+  focallength: 185mm
+
   page: norway
   pages:
     - id: norway
@@ -54,11 +70,16 @@
 
 
 - type: photo
-  id: norway-05
-  ratio: 1-1
+  id: gunvor5
+  ratio: 3-2
   title: Norway
-  location: Lofoten Islands, Norway
+  location: Reinebringen, Norway
   photographer: Gunvor Eline
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/8000s
+  aperture: f/2.8
+  focallength: 150mm
+
   page: norway
   pages:
     - id: norway
@@ -66,11 +87,16 @@
 
 
 - type: photo
-  id: norway-06
-  ratio: 1-1
+  id: gunvor6
+  ratio: 3-2
   title: Norway
-  location: Lofoten Islands, Norway
+  location: Reinebringen, Norway
   photographer: Gunvor Eline
+  lens: NIKKOR Z 35mm f/1.8 S
+  shutterspeed: 1/4000s
+  aperture: f/1.8
+  focallength: 35mm
+
   page: norway
   pages:
     - id: norway
@@ -78,11 +104,16 @@
 
 
 - type: photo
-  id: norway-07
-  ratio: 1-1
+  id: gunvor7
+  ratio: 2-3
   title: Norway
   location: Lofoten Islands, Norway
   photographer: Gunvor Eline
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/800s
+  aperture: f/2.8
+  focallength: 190mm
+
   page: norway
   pages:
     - id: norway
@@ -90,11 +121,288 @@
 
 
 - type: photo
-  id: norway-08
-  ratio: 1-1
+  id: gunvor8
+  ratio: 2-3
   title: Norway
   location: Lofoten Islands, Norway
   photographer: Gunvor Eline
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/2500s
+  aperture: f/2.8
+  focallength: 145mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: gunvor9
+  ratio: 2-3
+  title: Norway
+  location: Reinebringen, Norway
+  photographer: Gunvor Eline
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/320s
+  aperture: f/2.5
+  focallength: 35mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: gunvor10
+  ratio: 2-3
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1250s
+  aperture: f/4.5
+  focallength: 70mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: gunvor11
+  ratio: 3-2
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1000s
+  aperture: f/4
+  focallength: 24mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: gunvor12
+  ratio: 2-3
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1000s
+  aperture: f/4
+  focallength: 70mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: gunvor13
+  ratio: 3-2
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1000s
+  aperture: f/4
+  focallength: 24mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: gunvor14
+  ratio: 2-3
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1250s
+  aperture: f/4
+  focallength: 24mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: gunvor15
+  ratio: 3-2
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1250s
+  aperture: f/4
+  focallength: 24mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: gunvor16
+  ratio: 3-2
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1600s
+  aperture: f/4.5
+  focallength: 35mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: gunvor17
+  ratio: 3-2
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/250s
+  aperture: f/5
+  focallength: 24mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: gunvor18
+  ratio: 2-3
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1000s
+  aperture: f/4
+  focallength: 64mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: gunvor19
+  ratio: 3-2
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/500s
+  aperture: f/8
+  focallength: 35mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: gunvor20
+  ratio: 2-3
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 35mm f/1.8 S
+  shutterspeed: 1/6400s
+  aperture: f/1.8
+  focallength: 35mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: gunvor21
+  ratio: 3-2
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/800s
+  aperture: f/2.8
+  focallength: 200mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: gunvor22
+  ratio: 3-2
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 35mm f/1.8 S
+  shutterspeed: 1/250s
+  aperture: f/2.5
+  focallength: 35mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: gunvor23
+  ratio: 3-2
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/800s
+  aperture: f/2.8
+  focallength: 200mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: gunvor24
+  ratio: 2-3
+  title: Norway
+  location: Lofoten Islands, Norway
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 35mm f/1.8 S
+  shutterspeed: 1/2000s
+  aperture: f/2
+  focallength: 35mm
+
   page: norway
   pages:
     - id: norway

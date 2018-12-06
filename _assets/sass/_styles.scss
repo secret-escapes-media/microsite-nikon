@@ -160,8 +160,8 @@ $header-height: 126px;
       }
     }
     &-content {
-      padding: $s2 $s2;
-      border: 1px solid rgba($white,0.1);
+      padding: $s2 0;
+      border-top: 1px solid $nikon-yellow;
     }
   }
 }
