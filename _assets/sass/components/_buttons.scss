@@ -12,6 +12,7 @@
   border-radius: 3px;
   cursor: pointer;
   @include transition;
+  @include bp($lg){ letter-spacing: .1em; }
   &--sm { padding: $s1 $s4; font-size: $s-1; }
   &--thin { padding: $s-2 $s4; }
   &--lg { padding: $s3 $s8; font-size: $s-1; }

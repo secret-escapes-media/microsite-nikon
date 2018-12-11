@@ -11,46 +11,45 @@ banner:
 
 intro: >
   <p class="text--xxl text--bold">Discover two beguiling destinations through the lens of the photographers that call them home.</p>
-  <p class="text--xl">Nikon and Secret Escapes found two photographers from opposite ends of the earth and brought them together for two unforgettable adventures – in turn, they were sent home. The pair explored Norway’s mesmerizing Lofoten Islands, before heading to the urban sprawl of Singapore – each location home to one, and foreign to the other. Discover their story here and see how perspectives can shift when you look, again, through the lens.</p>
+  <p class="text--xl">Nikon and Secret Escapes found two photographers from opposite ends of the earth and brought them together for two unforgettable adventures – in turn, they were sent home. The pair explored Norway’s mesmerising Lofoten Islands, before heading to the urban sprawl of Singapore – each location home to one, and foreign to the other. Discover their story here and see how perspectives can shift when you look, again, through the lens.</p>
   <p class="text--xl text--bold">All images captured with the new Nikon Z 7.</p>
 
 ---
 
 
-<div class="site-header__offset"></div>
-<div class="site-nav__offset"></div>
+<div class="overview__intro">
+  <div class="container container--lg boxpad--xxxl">
 
-
-
-
-  <div class="overview__intro">
-    <div class="container container--lg boxpad--xxxl">
-      <div class="title title--xs text--medium text--upper">Nikon and Secret Escapes introduce</div>
-      <div class="overview__title overview-banner-title">
-        <img src="{{site.img}}/content/{{page.id}}/title.gif" width="580" alt="HOME">
-      </div>
-      {{page.intro}}
+    <div class="title title--xs text--medium text--upper">Nikon and Secret Escapes introduce</div>
+    <div class="overview__title overview-banner-title">
+      <img src="{{site.img}}/content/{{page.id}}/title.gif" width="580" alt="HOME">
     </div>
-  </div>
-
-
-
-
-  <div class="overview__links">
-
-    {% assign subpages = site.html_pages | where: "layout", "campaign" %}
-    {% for subpage in subpages %}
-    <div class="overview__item" style="background-image: url({{site.img}}/content/{{subpage.id}}/banner.jpg);">
-      <a class="overview__item-link js-open-modal" href="javascript:void(0);" data-modal-item="{{subpage.id}}-story"></a>
-      <div class="overview__item-content container boxpad--xl">
-        <div class="title title--xxs text--medium text--upper">{{subpage.parent.subtitle}}</div>
-        <div class="space--xxs"></div>
-        <h2 class="title title--lg text--bold">{{subpage.parent.title}}</h2>
-        <div class="space--sm"></div>
-        <div class="btn btn--sm btn--outline-white">Read now</div>
-      </div>
-      <div class="overview__item-overlay"></div>
+    {{page.intro}}
+    <div class="space--sm">
+      <a href="{{site.baseurl}}/norway/?modal=video-norway" class="btn btn--yellow">Watch the adventure in Norway</a>
     </div>
-    {% endfor %}
 
   </div>
+</div>
+
+
+
+
+<div class="overview__links">
+
+  {% assign subpages = site.html_pages | where: "layout", "campaign" %}
+  {% for subpage in subpages %}
+  <div class="overview__item" style="background-image: url({{site.img}}/content/{{subpage.id}}/banner.jpg);">
+    <a class="overview__item-link js-open-modal" href="javascript:void(0);" data-modal-item="{{subpage.id}}-story"></a>
+    <div class="overview__item-content container boxpad--xl">
+      <div class="title title--xxs text--medium text--upper">{{subpage.parent.subtitle}}</div>
+      <div class="space--xxs"></div>
+      <h2 class="title title--lg text--bold">{{subpage.parent.title}}</h2>
+      <div class="space--sm"></div>
+      <div class="btn btn--sm btn--outline-white">Read now</div>
+    </div>
+    <div class="overview__item-overlay"></div>
+  </div>
+  {% endfor %}
+
+</div>

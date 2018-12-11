@@ -20,8 +20,10 @@
     instagram: gunvoreline
     about: A passionate traveller, Gunvor Eline has always yearned to capture the unfamiliar. Hailing from the west coast of Norway, she regularly travels the world capturing everything from food to unmissable landscapes...
   sections:
-    - content: >
+    - inline-image: 1.jpg
+      content: >
         <p class="text--lg">Imagine yourself on a windy island on the south coast of Norway, where the summers are long, lush and dreamy and the winters dark, cold and windy. You’ve made it to my hometown, Skudeneshavn. I have always loved my sweet little hometown with its pretty white houses standing tall and steeped in the history of an old fishing village. Even though the winter weather can be quite rough, nothing beats the quiet summer nights when the sun slowly sets over the rooftops and leaves the town glowing in its own reflection on the calm water. The quality of the light in the Norwegian summer is truly unique! Having a lightweight camera that is able to capture such a broad range of tones is a must.</p>
+        <blockquote><p>Even though the winter weather can be quite rough, nothing beats the quiet summer nights when the sun slowly sets over the rooftops and leaves the town glowing in its own reflection on the calm water.</p></blockquote>
         <p class="text--lg">My journey with photography started when I was young. I was intrigued by the world around me and photography was a brilliant way to capture it. I have studied and worked in the photo industry for some time and continue to see photography as a way to communicate emotion and experience. </p>
         <p class="text--lg">My inspiration comes from adventuring. A night tucked in a sleeping bag, hanging from one tree to another in a hammock, gazing up at the million stars above. This is what brings me to life and reminds me of why I take photos. </p>
 
@@ -58,21 +60,21 @@
     instagram: j9ryl
     about: Jeryl is a self-taught photographer born and raised in Singapore. He has a soft spot for architecture and cityscapes which are his main sources of inspiration, fuelling his passion for photography. Being colour blind, his approach to colour and form is unique.
   sections:
-    - large-image: 1.jpg
+    - inline-image: 1.jpg
       content: >
         <p class="text--lg">I live in Singapore. Two things constantly fascinate me about Singapore (even as a local): the ever-changing landscape and the rich mix of culture in food and in architecture. The former shows the developments as a growing city, new buildings being constantly constructed – even a landscape shot two years back will seem different than captured this year; but even in this hustle to urbanise, the diversity of our culture remains as rich 50 years back as it is today. It is something rather special that I can’t imagine can be experienced so easily anywhere else in the world.</p>
         <p class="text--lg">Living in Singapore affords me a very different perspective to those visiting the city as tourists. Singapore is a small and busy city. Singaporeans are always on the move. It’s always about the hustle and bustle of the city life here. And that’s what makes it special to photograph this place – the constant flow of people along the streets, the play of lights and shadows against façades of buildings, the night lights of the cityscape… </p>
 
-    - large-image: 1.jpg
-      inline-image: 1.jpg
+    - large-image: 2.jpg
+      inline-image: 3.jpg
       content: >
         <blockquote><p>It’s easy for one to just view the laser show, but to freeze the moment with the right camera settings is a challenge.</p></blockquote>
         <p class="text--lg">I personally love shooting around housing estates in the day and chill by Marina Bay or at Gardens by the Bay in the evening during sunset. Housing estates are like the hidden gems scattered around Singapore for those keen in architectural photography, while the bay area has always been a classic hotspot for photography. I still enjoy shooting around Marina Bay simply because of the many possibilities of getting different shots depending on the weather and position one is at by the bay. Also, capturing the laser show by Merlion Park is something that I still enjoy shooting, although I’ve done it perhaps over a hundred times! It’s easy for one to just view the laser show, but to freeze the moment with the right camera settings is a challenge. And of course, there’s a ton of possibilities with compositions of the lasers, that’s what keeps me going back night after night to explore different possibilities to shoot it. </p>
-    - large-image: 1.jpg
+    - large-image: 4.jpg
       content: >
         <p class="text--lg">The beauty of shooting here is that over minutes or even seconds, the streets along, say, Chinatown, can change dramatically – a sudden downpour changes the bustling street to an empty moody alley; and over days and months, new art installations are erected around different places of the island. Over years and decades, new housing estates are established and new skyscrapers are built. Even the weather today will create a different mood to the cityscape by Marina Bay when compared to yesterday. It’s the unlimited possibilities packed into this small city that keeps me shooting. </p>
         <p class="text--lg">I believe you can have a true experience of Singapore easily if you visit hawker centres for meals, be willing to explore the strong flavours of Asian food here and head over to Marina Bay for a jog or cycle – because the whole route around Marina Bay and Gardens by the Bay covers most of the iconic sights of Singapore! It’s going to be a long list if I would share all my favourite local dishes, but just to name some – lor mee, chicken rice, laksa, satay, BBQ seafood, fishball noodles, hor fun… That should get you started!</p>
-    - large-image: 1.jpg
+    - large-image: 5.jpg
       content: >
         <p class="text--lg">Throughout my travels around various parts of Asia (and Australia), I still can’t live without Singaporean food. It’s just something inside of me that makes me crave it after maybe travelling in Hong Kong for a month, or after five days in Norway, and that’s not because the food in those countries isn’t tasty; it’s just I generally miss the spices and sauce commonly used to prepare Asian food. </p>
         <p class="text--lg">My advice to anyone who wants to shoot the city for the first time would be to take the MRT (our railway system). Hop off at various stops along the different lines and venture into the different estates away from the city centre; you’ll be surprised at what you can find, not just in terms of buildings to shoot, but food to eat, and people you might meet. It’s all about experiencing Singapore. And freezing these moments with the camera makes it even more memorable.</p>

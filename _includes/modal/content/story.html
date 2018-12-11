@@ -4,7 +4,7 @@
 
 
 
-    <div class="bg-img bg-img--21-9" style="background-image: url({{site.img}}/content/{{item.title | downcase}}/banner.jpg);">
+    <div class="story__banner bg-img bg-img--3-4 bg-img--md-4-3 bg-img--xxl-21-9" style="background-image: url({{site.img}}/content/{{item.title | downcase}}/banner.jpg);">
       <div class="bg-img__content">
         <h2 class="title title--xxl text--upper text--bold">{{item.title}}</h2>
         <p class="text--xl text--medium">{{item.intro}}</p>
@@ -17,19 +17,19 @@
             <h3 class="title--xs text--medium">Going live in: </h3>
             <div class="space--xs"></div>
             <div class="story__countdown-item">
-              <span class="countdown__days title--xl text--normal"></span><br />
+              <span class="story__countdown-days"></span><br />
               DAYS
             </div>
             <div class="story__countdown-item">
-              <span class="countdown__hours title--xl text--normal"></span><br />
+              <span class="story__countdown-hours"></span><br />
               HOURS
             </div>
             <div class="story__countdown-item">
-              <span class="countdown__minutes title--xl text--normal"></span><br />
+              <span class="story__countdown-minutes"></span><br />
               MINUTES
             </div>
             <div class="story__countdown-item">
-              <span class="countdown__seconds title--xl text--normal"></span><br />
+              <span class="story__countdown-seconds"></span><br />
               SECONDS
             </div>
           </div>
@@ -37,7 +37,7 @@
         </div>
 
       </div>
-      <div class="bg-img__overlay"></div>
+      <div class="story__banner-overlay bg-img__overlay"></div>
     </div>
 
 
@@ -45,10 +45,10 @@
     <div class="space--sm"></div>
     <div class="story__profile boxpad--xl bg--white">
       <div class="row row--valign-center">
-        <div class="col col--4">
+        <div class="col col--constant-4">
           <div class="bg-img bg-img--1-1" style="background-image: url({{site.img}}/content/overview/{{item.id}}/profile.jpg);"></div>
         </div>
-        <div class="col col--8">
+        <div class="col col--constant-8">
           <h4 class="title title--sm text--bold">Meet {{item.photographer.firstname}}</h4>
           <p class="text--xl">{{item.photographer.about}}</p>
           <div class="space--xxs"></div>
@@ -62,51 +62,49 @@
 
 
 
-    <div class="boxpad--xxxl bg--grey-lightest">
+    <div class="story bg--grey-lightest">
 
-      <div class="story">
-        {% for section in item.sections %}
-        <div class="story__section">
-          {% if section.large-image %}
-          <div class="story__section-image bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/overview/{{item.id}}/{{section.large-image}});"></div>
+      {% for section in item.sections %}
+      <div class="story__section">
+        {% if section.large-image %}
+        <div class="story__section-image bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/overview/{{item.id}}/{{section.large-image}});"></div>
+        {% endif %}
+        <div class="container container--lg">
+          {% if section.inline-image %}
+            <div class="story__section-inline-image bg-img bg-img--4-3" style="background-image: url({{site.img}}/content/overview/{{item.id}}/{{section.inline-image}});"></div>
           {% endif %}
-          <div class="container container--lg">
-            {% if section.inline-image %}
-              <div class="story__section-inline-image bg-img bg-img--4-3" style="background-image: url({{site.img}}/content/overview/{{item.id}}/{{section.inline-image}});"></div>
-            {% endif %}
-            {{section.content}}
-          </div>
+          {{section.content}}
         </div>
-        {% endfor %}
+      </div>
+      {% endfor %}
 
 
-        <div class="js-countdown is-active text--center" data-date="{{item.date}}">
-          <a href="{{site.baseurl}}/{{item.title | downcase}}" class="btn btn--yellow">Watch the adventure in {{item.title}}</a>
+      <div class="js-countdown is-active text--center" data-date="{{item.date}}">
+        <a href="{{site.baseurl}}/{{item.title | downcase}}" class="btn btn--yellow">Watch the adventure in {{item.title}}</a>
 
-          <div class="story__countdown title text--medium">
-            <h3 class="title title--xs text--medium">Going live in: </h3>
-            <div class="space--xs"></div>
-            <div class="story__countdown-item">
-              <span class="countdown__days title--xl text--normal"></span><br />
-              DAYS
-            </div>
-            <div class="story__countdown-item">
-              <span class="countdown__hours title--xl text--normal"></span><br />
-              HOURS
-            </div>
-            <div class="story__countdown-item">
-              <span class="countdown__minutes title--xl text--normal"></span><br />
-              MINUTES
-            </div>
-            <div class="story__countdown-item">
-              <span class="countdown__seconds title--xl text--normal"></span><br />
-              SECONDS
-            </div>
+        <div class="story__countdown title text--medium">
+          <h3 class="title title--xs text--medium">Going live in: </h3>
+          <div class="space--xs"></div>
+          <div class="story__countdown-item">
+            <span class="countdown__days title--xl text--normal"></span><br />
+            DAYS
           </div>
-
+          <div class="story__countdown-item">
+            <span class="countdown__hours title--xl text--normal"></span><br />
+            HOURS
+          </div>
+          <div class="story__countdown-item">
+            <span class="countdown__minutes title--xl text--normal"></span><br />
+            MINUTES
+          </div>
+          <div class="story__countdown-item">
+            <span class="countdown__seconds title--xl text--normal"></span><br />
+            SECONDS
+          </div>
         </div>
 
       </div>
+
     </div>
 
   </div>

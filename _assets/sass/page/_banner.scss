@@ -61,8 +61,14 @@
 }
 
 .campaign-banner {
-  height: 70%;
+  height: auto;
+  max-height: none;
+  padding: $s8 0;
+  text-align: center;
   @include bp($lg){
+    text-align: left;
+    padding: 0;
     height: 80%;
   }
+  & .row { flex-direction: row-reverse; }
 }

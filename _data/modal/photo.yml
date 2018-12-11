@@ -4,8 +4,7 @@
 - type: photo
   id: gunvor1
   ratio: 3-2
-  title: Norway
-  location: Reine, Norway
+  location: Henningsvær, Lofoten
   photographer: Gunvor Eline
   lens: NIKKOR Z 24-70mm f/4 S
   shutterspeed: 1/200s
@@ -21,8 +20,7 @@
 - type: photo
   id: gunvor2
   ratio: 3-2
-  title: Norway
-  location: Reine, Norway
+  location: Sørvågen, Lofoten
   photographer: Gunvor Eline
   lens: NIKKOR Z 24-70mm f/4 S
   shutterspeed: 1/80s
@@ -38,8 +36,7 @@
 - type: photo
   id: gunvor3
   ratio: 3-2
-  title: Norway
-  location: Reinebringen, Norway
+  location: Merraflestinden, Lofoten
   photographer: Gunvor Eline
   lens: NIKKOR Z 24-70mm f/4 S
   shutterspeed: 1/1250s
@@ -55,8 +52,7 @@
 - type: photo
   id: gunvor4
   ratio: 3-2
-  title: Norway
-  location: Reinebringen, Norway
+  location: Austberget, Lofoten
   photographer: Gunvor Eline
   lens: 70-200mm f/2.8
   shutterspeed: 1/2000s
@@ -72,8 +68,7 @@
 - type: photo
   id: gunvor5
   ratio: 3-2
-  title: Norway
-  location: Reinebringen, Norway
+  location: Narvtinden, Lofoten
   photographer: Gunvor Eline
   lens: 70-200mm f/2.8
   shutterspeed: 1/8000s
@@ -89,8 +84,7 @@
 - type: photo
   id: gunvor6
   ratio: 3-2
-  title: Norway
-  location: Reinebringen, Norway
+  location: Innersand, Lofoten
   photographer: Gunvor Eline
   lens: NIKKOR Z 35mm f/1.8 S
   shutterspeed: 1/4000s
@@ -106,8 +100,7 @@
 - type: photo
   id: gunvor7
   ratio: 2-3
-  title: Norway
-  location: Lofoten Islands, Norway
+  location: Fredvanghytta, Lofoten
   photographer: Gunvor Eline
   lens: 70-200mm f/2.8
   shutterspeed: 1/800s
@@ -123,8 +116,7 @@
 - type: photo
   id: gunvor8
   ratio: 2-3
-  title: Norway
-  location: Lofoten Islands, Norway
+  location: Ulvstinden, Lofoten
   photographer: Gunvor Eline
   lens: 70-200mm f/2.8
   shutterspeed: 1/2500s
@@ -140,8 +132,7 @@
 - type: photo
   id: gunvor9
   ratio: 2-3
-  title: Norway
-  location: Reinebringen, Norway
+  location: Torsfjordtinden, Lofoten
   photographer: Gunvor Eline
   lens: 70-200mm f/2.8
   shutterspeed: 1/320s
@@ -157,8 +148,7 @@
 - type: photo
   id: gunvor10
   ratio: 2-3
-  title: Norway
-  location: Lofoten Islands, Norway
+  location: Sennesvik, Lofoten
   photographer: Gunvor Eline
   lens: NIKKOR Z 24-70mm f/4 S
   shutterspeed: 1/1250s
@@ -174,8 +164,7 @@
 - type: photo
   id: gunvor11
   ratio: 3-2
-  title: Norway
-  location: Lofoten Islands, Norway
+  location: Skoren, Lofoten
   photographer: Gunvor Eline
   lens: NIKKOR Z 24-70mm f/4 S
   shutterspeed: 1/1000s
@@ -191,8 +180,7 @@
 - type: photo
   id: gunvor12
   ratio: 2-3
-  title: Norway
-  location: Lofoten Islands, Norway
+  location: Ramberg, Lofoten
   photographer: Gunvor Eline
   lens: NIKKOR Z 24-70mm f/4 S
   shutterspeed: 1/1000s
@@ -208,8 +196,7 @@
 - type: photo
   id: gunvor13
   ratio: 3-2
-  title: Norway
-  location: Lofoten Islands, Norway
+  location: Kjerringa, Lofoten
   photographer: Gunvor Eline
   lens: NIKKOR Z 24-70mm f/4 S
   shutterspeed: 1/1000s
@@ -225,8 +212,7 @@
 - type: photo
   id: gunvor14
   ratio: 2-3
-  title: Norway
-  location: Lofoten Islands, Norway
+  location: Kvalvika, Lofoten
   photographer: Gunvor Eline
   lens: NIKKOR Z 24-70mm f/4 S
   shutterspeed: 1/1250s
@@ -242,8 +228,7 @@
 - type: photo
   id: gunvor15
   ratio: 3-2
-  title: Norway
-  location: Lofoten Islands, Norway
+  location: Fredvang, Lofoten
   photographer: Gunvor Eline
   lens: NIKKOR Z 24-70mm f/4 S
   shutterspeed: 1/1250s
@@ -259,8 +244,7 @@
 - type: photo
   id: gunvor16
   ratio: 3-2
-  title: Norway
-  location: Lofoten Islands, Norway
+  location: Nordvalle, Lofoten
   photographer: Gunvor Eline
   lens: NIKKOR Z 24-70mm f/4 S
   shutterspeed: 1/1600s
@@ -276,8 +260,7 @@
 - type: photo
   id: gunvor17
   ratio: 3-2
-  title: Norway
-  location: Lofoten Islands, Norway
+  location: Bjørntinden, Lofoten
   photographer: Gunvor Eline
   lens: NIKKOR Z 24-70mm f/4 S
   shutterspeed: 1/250s
@@ -293,8 +276,7 @@
 - type: photo
   id: gunvor18
   ratio: 2-3
-  title: Norway
-  location: Lofoten Islands, Norway
+  location: Flakstadøya, Lofoten
   photographer: Gunvor Eline
   lens: NIKKOR Z 24-70mm f/4 S
   shutterspeed: 1/1000s
@@ -310,8 +292,7 @@
 - type: photo
   id: gunvor19
   ratio: 3-2
-  title: Norway
-  location: Lofoten Islands, Norway
+  location: Nonsdalen, Lofoten
   photographer: Gunvor Eline
   lens: NIKKOR Z 24-70mm f/4 S
   shutterspeed: 1/500s
@@ -327,8 +308,7 @@
 - type: photo
   id: gunvor20
   ratio: 2-3
-  title: Norway
-  location: Lofoten Islands, Norway
+  location: Bøosen, Lofoten
   photographer: Gunvor Eline
   lens: NIKKOR Z 35mm f/1.8 S
   shutterspeed: 1/6400s
@@ -344,8 +324,7 @@
 - type: photo
   id: gunvor21
   ratio: 3-2
-  title: Norway
-  location: Lofoten Islands, Norway
+  location: Stjerntinden, Lofoten
   photographer: Gunvor Eline
   lens: 70-200mm f/2.8
   shutterspeed: 1/800s
@@ -361,8 +340,7 @@
 - type: photo
   id: gunvor22
   ratio: 3-2
-  title: Norway
-  location: Lofoten Islands, Norway
+  location: Langneset, Lofoten
   photographer: Gunvor Eline
   lens: NIKKOR Z 35mm f/1.8 S
   shutterspeed: 1/250s
@@ -378,8 +356,7 @@
 - type: photo
   id: gunvor23
   ratio: 3-2
-  title: Norway
-  location: Lofoten Islands, Norway
+  location: Tinden, Lofoten
   photographer: Gunvor Eline
   lens: 70-200mm f/2.8
   shutterspeed: 1/800s
@@ -395,13 +372,236 @@
 - type: photo
   id: gunvor24
   ratio: 2-3
-  title: Norway
-  location: Lofoten Islands, Norway
+  location: Sakrisøya, Lofoten
   photographer: Gunvor Eline
   lens: NIKKOR Z 35mm f/1.8 S
   shutterspeed: 1/2000s
   aperture: f/2
   focallength: 35mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: jeryl1
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 15s
+  aperture: f/22
+  focallength: 42mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: jeryl2
+  ratio: 3-2
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: NIKKOR Z 35mm f/1.8 S
+  shutterspeed: 1/1600s
+  aperture: f/1.8
+  focallength: 35mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: jeryl3
+  ratio: 3-2
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/500s
+  aperture: f/4
+  focallength: 24mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: jeryl4
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/1250s
+  aperture: f/2.8
+  focallength: 82mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: jeryl5
+  ratio: 3-2
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/1250s
+  aperture: f/2.8
+  focallength: 110mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: jeryl6
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1250s
+  aperture: f/4
+  focallength: 36mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: jeryl7
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/320s
+  aperture: f/4
+  focallength: 24mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: jeryl8
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/400s
+  aperture: f/4
+  focallength: 24mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: jeryl9
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/640s
+  aperture: f/4
+  focallength: 24mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: jeryl10
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/400s
+  aperture: f/4
+  focallength: 25.5mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: jeryl11
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/60s
+  aperture: f/2.8
+  focallength: 200mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: jeryl12
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/3200s
+  aperture: f/2.8
+  focallength: 102mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: jeryl13
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/2000s
+  aperture: f/4
+  focallength: 200mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: jeryl14
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/400s
+  aperture: f/4
+  focallength: 70mm
 
   page: norway
   pages:

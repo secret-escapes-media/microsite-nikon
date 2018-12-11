@@ -2,11 +2,15 @@
 
 .text {
   // sizes
-  &--xxxl { font-size: 1.3rem; line-height: 1.6; letter-spacing: 0; }
-  &--xxl { font-size: 1.2rem; line-height: 1.6; letter-spacing: 0; }
+  &--xxxl { font-size: 1.1rem; line-height: 1.6; letter-spacing: 0; }
+  &--xxl { font-size: 1.1rem; line-height: 1.6; letter-spacing: 0; }
   &--xl  { font-size: 1.1rem; line-height: 1.6; letter-spacing: 0; }
   &--lg  { font-size: 1.05rem; letter-spacing: 0; }
   &--sm  { font-size: .8rem; }
+  @include bp($lg) {
+    &--xxxl { font-size: 1.3rem; line-height: 1.6; letter-spacing: 0; }
+    &--xxl { font-size: 1.2rem; line-height: 1.6; letter-spacing: 0; }
+  }
 
   // styles
   &--italic       { font-style: italic; }
@@ -37,9 +41,12 @@
 
 
 blockquote {
-  float: right;
-  width: 50%;
-  margin: 0.5em 0 0.5em 1.5em;
+  margin: 0.5em 0;
+  @include bp(lg) {
+    margin: 0.5em 0 0.5em 1.5em;
+    float: right;
+    width: 50%;
+  }
   & p {
     display: block;
     margin: $s0 0;

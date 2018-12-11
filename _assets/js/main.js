@@ -43,10 +43,10 @@ $('.js-countdown').each(function() {
       $(this).find('.btn').hide();
       $(this).removeClass('is-active').addClass('is-inactive');
 
-      $(this).find('.countdown__days').html(event.strftime('%D'));
-      $(this).find('.countdown__hours').html(event.strftime('%H'));
-      $(this).find('.countdown__minutes').html(event.strftime('%M'));
-      $(this).find('.countdown__seconds').html(event.strftime('%S'));
+      $(this).find('.story__countdown-days').html(event.strftime('%D'));
+      $(this).find('.story__countdown-hours').html(event.strftime('%H'));
+      $(this).find('.story__countdown-minutes').html(event.strftime('%M'));
+      $(this).find('.story__countdown-seconds').html(event.strftime('%S'));
     }else{
       $(this).removeClass('is-inactive').addClass('is-active');
       $(this).find('.story__countdown').hide();

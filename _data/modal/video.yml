@@ -1,9 +1,17 @@
 
 
-- id: video
+- id: video-norway
   youtube-id: kkn2z2uWpgU
   title:
   pages:
-    - id: all
+    - id: norway
+
+
+- id: video-singapore
+  youtube-id: kkn2z2uWpgU
+  title:
+  pages:
+    - id: singapore
+
 
 

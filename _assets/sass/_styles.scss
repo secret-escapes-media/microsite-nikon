@@ -26,44 +26,68 @@ $header-height: 126px;
 
 // OVERVIEW LAYOUT
 .overview {
+  background-color: $black;
   color: $white;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   position: relative;
-  width: 100%;
-  height: 100%;
   padding-top: 126px;
-  min-height: 600px;
+  width: 100%;
+  @include bp($xxl){
+    height: 100%;
+    min-height: 600px;
+    flex-direction: row;
+  }
 
   &__title {
     padding-bottom: $s0;
   }
   &__intro {
-    background-color: $black;
     position: relative;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    width: 50%;
+    width: 100%;
+    @include bp($xxl){
+      display: flex;
+      align-items: center;
+      width: 50%;
+      height: 100%;
+    }
   }
   &__links {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
+    width: 100%;
+    @include bp($lg){
+      display: flex;
+    }
+    @include bp($xxl){
+      align-items: center;
+      flex-direction: row;
+      flex-direction: column;
+      width: 50%;
+      height: auto;
+    }
   }
   &__item {
-    background-color: $grey-darkest;
     @include background-attributes;
+    background-color: $grey-darkest;
     position: relative;
-    height: 50%;
-    width: 100%;
-    display: flex;
-    flex: 1;
     text-align: center;
+    display: flex;
     align-items: center;
-    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    @include bp($lg){
+      height: 400px;
+      width: 50%;
+    }
+    @include bp($xxl){
+      display: flex;
+      flex: 1;
+      align-items: center;
+      height: 50%;
+      width: 100%;
+      flex-direction: row;
+    }
+
     &-content {
       position: relative;
       z-index: 1;
@@ -110,7 +134,18 @@ $header-height: 126px;
 
 
 .story {
+  // main story section
+  padding: $s2;
+    @include bp($xxl){
+    padding: $s8;
+  }
+
+
+
   & .title { color: $grey-darker; }
+  &__banner {
+    &-overlay { background-color: rgba($black,0.6); }
+  }
   &__profile {
     color: $grey-dark;
     & .title { color: $grey-darker; }
@@ -120,18 +155,27 @@ $header-height: 126px;
     margin-bottom: $s4;
     &-image { margin-bottom: $s4; }
     &-inline-image {
-      float: right;
-      width: 50%;
-      margin: 0.5em 0 0.5em 1.5em;
+      margin: 0.5em 0;
+      @include bp($xxl){
+        float: right;
+        width: 50%;
+      }
     }
   }
   &__countdown {
     &-item {
       display: inline-block;
       padding: 10px;
+      margin: 4px;
       border: 1px solid rgba($white,0.2);
       background-color: rgba($black,0.7);
       color: $white;
+    }
+    &-seconds, &-minutes, &-hours , &-days {
+      font-size: 1.6rem; font-weight: 600;
+      @include bp($lg){
+        font-size: 2.5rem; font-weight: 400;
+      }
     }
   }
 }
@@ -142,16 +186,29 @@ $header-height: 126px;
 .journal {
   color: $white;
   & .title { color: $white; }
-  // masonry
-  column-count: 3;
-  -webkit-column-count: 3;
-  column-gap: 0;
-  -webkit-column-gap: 0;
+  @include bp($lg) {
+    column-count: 2;
+    -webkit-column-count: 2;
+    column-gap: 0;
+    -webkit-column-gap: 0;
+  }
+  @include bp($xxl) {
+    column-count: 3;
+    -webkit-column-count: 3;
+    column-gap: 0;
+    -webkit-column-gap: 0;
+  }
+
   &__item {
     break-inside: avoid;
     -webkit-column-break-inside: avoid;
-    padding-right: $s2;
+    padding-right: 0;
+    padding-left: 0;
     padding-bottom: $s2;
+    @include bp($lg) {
+      padding-right: $s2;
+      padding-left: 0;
+    }
     &-photo {
       @include transition;
       transform: scale(1);
@@ -161,7 +218,16 @@ $header-height: 126px;
     }
     &-content {
       padding: $s2 0;
+    }
+    &-author {
+      margin-top: $s0;
+      padding-top: $s-1;
       border-top: 1px solid $nikon-yellow;
+      text-transform: uppercase;
+      text-align: right;
+      font-size: 0.9rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
     }
   }
 }
@@ -189,7 +255,10 @@ $header-height: 126px;
       display: inline-block;
       border-top: 1px solid rgba($white,0.2);
       margin-top: $s2;
-      &-item { list-style: none; }
+      &-item {
+        list-style: none;
+        text-shadow: 0 1px 4px rgba($black,0.6);
+      }
     }
   }
   &__img {
@@ -197,7 +266,7 @@ $header-height: 126px;
     display: flex;
     align-items: center;
     overflow-x: scroll;
-    padding: $s8;
+    padding: $s4;
     padding-top: $s12;
     position: absolute;
     top: 0;
@@ -205,8 +274,11 @@ $header-height: 126px;
     left: 0;
     right: 0;
     height: 100%;
+    @include bp($xxl) {
+      padding: $s8;
+      padding-top: $s12;
+    }
     & img {
-      height: 1080px;
       max-height: 100%;
       width: auto;
       margin: auto;

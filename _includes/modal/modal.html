@@ -1,5 +1,6 @@
 
-{% assign modal-items = site.data.modal.text | concat: site.data.modal.story | concat: site.data.modal.video | concat: site.data.modal.photo %}
+{% assign modal-photos = site.data.modal.photo | sample: 100 %}
+{% assign modal-items = site.data.modal.text | concat: site.data.modal.story | concat: site.data.modal.video | concat: modal-photos %}
 
 <div class="js-modal modal is-closed content-spacing section-spacing">
   <div class="js-close-modal modal__close"></div>

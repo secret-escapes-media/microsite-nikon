@@ -28,6 +28,10 @@
     &--xxxs   { font-size: $s1; }
   }
 
+  &--shadow {
+    text-shadow: 0 0 40px rgba($black,0.66);
+  }
+
 }
 
 .sub-title {
@@ -82,34 +86,34 @@
   // custom banner headline
   position: relative;
   font-family: $font-title-01;
-  font-size: $s5;
+  font-size: $s7;
   font-weight: 600;
   line-height: 1.2;
-  @include bp($md){ font-size: $s7; }
-  @include bp($xl){ font-size: $s11; }
-
-  &:before {
-    content: "";
-    width: 999%;
-    height: 2px;
-    position: absolute;
-    right: 100%;
-    background-color: $nikon-yellow;
-    top: 50%;
-    margin-top: -1px;
-    margin-right: $s2;
+  text-align: center;
+  @include bp($lg){
+    text-align: left;
+    font-size: $s9;
+    &:before {
+      content: "";
+      width: 999%;
+      height: 2px;
+      position: absolute;
+      right: 100%;
+      background-color: $nikon-yellow;
+      top: 50%;
+      margin-top: -1px;
+      margin-right: $s2;
+    }
   }
+  @include bp($xl){ font-size: $s11; }
 }
 
 
 .overview-banner-title {
-
-  // custom banner headline
   font-family: $font-title-01;
-  font-size: $s5;
+  font-size: $s7;
   font-weight: 600;
   line-height: 1;
-  @include bp($md){ font-size: $s7; }
-  @include bp($xl){ font-size: $s13; }
-
+  padding-top: 0.5em;
+  @include bp($xxl){ font-size: $s13; padding-top: 0; }
 }
