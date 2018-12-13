@@ -1,72 +1,72 @@
 
-- title: The Cornwall Hotel, Spa & Estate
-  id: the-cornwall-hotel-spa-and-estate
-  location: St Austell, Cornwall
-  description: A luxury Cornish retreat with state-of-the-art spa
-  price: 99
+- title: Magic Hotel Solheimsviken
+  id: magic-hotel-solheimsviken
+  location: Bergen, Norway
+  description: A brand-new hip hotel in the centre of scenic Bergen
+  price: 68
   price-description: per room per night
-  saved: 43
-  expires: 2018/10/30
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/72440/b94d5d16_4139_4201_b2cc_a07f57faf85b.jpg
-  link: https://www.secretescapes.com/spa-hotel-stay-in-cornwall-with-infinity-pool-the-cornwall-hotel-spa-and-estate-st-austell/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
+  saved: 30
+  expires: 2018/12/17
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/39581/7f5df4f8_b873_4418_b4a9_3a3b6159776e.jpg
+  link: https://www.secretescapes.com/magic-hotel-solheimsviken-bergen-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=December2018
   
 
-- title: North Yorkshire Georgian country estate with boutique rooms
-  id: north-yorkshire-georgian-country-estate-with-boutique-rooms
-  location: Middleton Lodge, Richmond
-  description: North Yorkshire romance at a Georgian country estate
-  price: 109
-  price-description: per room per night
-  saved: 41
-  expires: 2018/10/27
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/50556/9db20410_1f3e_4741_a07a_d7d5a293e35c.jpg
-  link: https://www.secretescapes.com/georgian-country-estate-in-north-yorkshire-middleton-lodge-richmond/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
-  
-
-- title: The Wordsworth Hotel & Spa
-  id: the-wordsworth-hotel-and-spa
-  location: Grasmere, Lake District
-  description: Award-winning dining and an organic spa in the Lake District
-  price: 179
-  price-description: per room per night
+- title: Spectacular Oslo & Bergen break with optional fjord tour
+  id: spectacular-oslo-and-bergen-break-with-optional-fjord-tour
+  location: Scandic St. Olavs plass & Clarion Hotel Admiral, Norway
+  description: An epic Norwegian city-hop with spectacular train trip
+  price: 469
+  price-description: per person for 4 nights
   saved: 37
-  expires: 2018/10/27
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/62935/4dcea871_ccd1_4e98_b1ab_f47f8fc77681.jpg
-  link: https://www.secretescapes.com/the-wordsworth-hotel-and-spa-grasmere-lake-district-uk/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
+  expires: 2018/12/17
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/55361/460a58ba_a661_41cc_97b4_538514318547.jpg
+  link: https://www.secretescapes.com/oslo-and-bergen-break-scandic-holberg-and-clarion-hotel-admiral-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=December2018
   
 
-- title: Edwardian hotel on Cornwall's west coast
-  id: edwardian-hotel-on-cornwalls-west-coast
-  location: Polurrian Bay Hotel, Mullion
-  description: A colourful Mullion retreat with Cornish coast views
-  price: 99
+- title: Fleischer's Hotel
+  id: fleischers-hotel
+  location: Voss, Norway
+  description: Lake views, traditional style and ski perks at a historic Voss hotel
+  price: 171
   price-description: per room per night
-  saved: 49
-  expires: 2018/10/30
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/46205/466e63db_481f_4302_bf6c_f12d4a63ec0f.jpg
-  link: https://www.secretescapes.com/polurrian-bay-hotel-mullion-cornwall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
+  saved: 35
+  expires: 2018/12/17
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/84430/d017e629_5c30_48dd_903c_7d4f875d377a.jpg
+  link: https://www.secretescapes.com/fleischers-hotel-voss-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=December2018
   
 
-- title: Tolcarne Beach Village
-  id: tolcarne-beach-village
-  location: Newquay, Cornwall
-  description: A boutique stay on Tolcarne Beach in Newquay Bay
-  price: 89
-  price-description: per room per night
-  saved: 48
-  expires: 2018/10/30
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/76528/9ba4690c_d53b_4b07_b35b_6b2da0201855.jpg
-  link: https://www.secretescapes.com/tolcarne-beach-village-newquay-cornwall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
+- title: Scenic all-inclusive Far East cruise with a Singapore stay
+  id: scenic-all-inclusive-far-east-cruise-with-a-singapore-stay
+  location: Seven Seas Voyager
+  description: Sophistication and all-inclusive luxury as you cruise the Far East
+  price: 5917
+  price-description: per person for 15 nights
+  saved: 23
+  expires: 2018/12/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/84552/845a067f_24ff_40ed_9cbc_32a092d795b3.jpg
+  link: https://www.secretescapes.com/scenic-all-inclusive-far-east-cruise-with-a-singapore-stay-seven-seas-voyager/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=December2018
   
 
-- title: The Elms
-  id: the-elms
-  location: Abberley, Worcestershire
-  description: A chic Worcestershire spa hotel within a grand mansion
-  price: 139
-  price-description: per room per night
-  saved: 33
-  expires: 2018/10/30
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/73770/47e192bd_4571_476a_bb18_fc89c49edaee.jpg
-  link: https://www.secretescapes.com/worcestershire-country-mansion-with-chic-spa-the-elms-hotel-abberley/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
+- title: Opus XVI
+  id: opus-xvi
+  location: Bergen, Norway
+  description: A new, design-led Bergen hotel in a grand and historic building
+  price: 0
+  price-description:
+  saved: 0
+  expires: 2019/01/03
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/65018/1982e39a_e854_4851_867a_e185bf8fdf0c.jpg
+  link: https://www.secretescapes.com/opus-xvi-bergen-norway-uk/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=December2018
+  
+
+- title: Rondane Hoyfjellshotell
+  id: rondane-hoyfjellshotell
+  location: Mysusæter, Norway
+  description: Scenic stay near Norway’s Rondane National Park
+  price: 0
+  price-description:
+  saved: 0
+  expires: 2019/01/03
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/36547/c8bd1b2c_87da_43cc_a77d_d6b8267365ae.jpg
+  link: https://www.secretescapes.com/rondane-hoyfjellshotell-mysusaeter-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=December2018
   
