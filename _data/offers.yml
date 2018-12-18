@@ -6,34 +6,11 @@
   price: 68
   price-description: per room per night
   saved: 30
-  expires: 2018/12/17
+  expires: 2018/12/27
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/39581/7f5df4f8_b873_4418_b4a9_3a3b6159776e.jpg
   link: https://www.secretescapes.com/magic-hotel-solheimsviken-bergen-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=December2018
-  
 
-- title: Spectacular Oslo & Bergen break with optional fjord tour
-  id: spectacular-oslo-and-bergen-break-with-optional-fjord-tour
-  location: Scandic St. Olavs plass & Clarion Hotel Admiral, Norway
-  description: An epic Norwegian city-hop with spectacular train trip
-  price: 469
-  price-description: per person for 4 nights
-  saved: 37
-  expires: 2018/12/17
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/55361/460a58ba_a661_41cc_97b4_538514318547.jpg
-  link: https://www.secretescapes.com/oslo-and-bergen-break-scandic-holberg-and-clarion-hotel-admiral-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=December2018
-  
 
-- title: Fleischer's Hotel
-  id: fleischers-hotel
-  location: Voss, Norway
-  description: Lake views, traditional style and ski perks at a historic Voss hotel
-  price: 171
-  price-description: per room per night
-  saved: 35
-  expires: 2018/12/17
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/84430/d017e629_5c30_48dd_903c_7d4f875d377a.jpg
-  link: https://www.secretescapes.com/fleischers-hotel-voss-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=December2018
-  
 
 - title: Scenic all-inclusive Far East cruise with a Singapore stay
   id: scenic-all-inclusive-far-east-cruise-with-a-singapore-stay
@@ -45,28 +22,56 @@
   expires: 2018/12/28
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/84552/845a067f_24ff_40ed_9cbc_32a092d795b3.jpg
   link: https://www.secretescapes.com/scenic-all-inclusive-far-east-cruise-with-a-singapore-stay-seven-seas-voyager/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=December2018
-  
+
+
+
+- title: Fleischer's Hotel
+  id: fleischers-hotel
+  location: Voss, Norway
+  description: Lake views, traditional style and ski perks at a historic Voss hotel
+  price: 171
+  price-description: per room per night
+  saved: 35
+  expires: 2019/01/03
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/84430/d017e629_5c30_48dd_903c_7d4f875d377a.jpg
+  link: https://www.secretescapes.com/fleischers-hotel-voss-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=December2018
+
+
+
+- title: Southeast Asia's most iconic cities with optional Dubai stay
+  id: southeast-asias-most-iconic-cities-with-optional-dubai-stay
+  location: Hong Kong, Bangkok, Kuala Lumpur & Singapore
+  description: See four stunning Southeast Asian cities, with optional Dubai stop
+  price: 1749
+  price-description: per person for 12 nights
+  saved: 24
+  expires: 2018/12/31
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/64763/565c87a6_3349_48e3_8325_c6010323a312.jpg
+  link: https://www.secretescapes.com/southeast-asias-most-iconic-cities-with-an-optional-dubai-stay-hong-kong-bangkok-kuala-lumpur-and-singapore/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=December2018
+
+
 
 - title: Opus XVI
   id: opus-xvi
   location: Bergen, Norway
   description: A new, design-led Bergen hotel in a grand and historic building
-  price: 0
-  price-description:
-  saved: 0
+  price: 132
+  price-description: per room per night
+  saved: 22
   expires: 2019/01/03
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/65018/1982e39a_e854_4851_867a_e185bf8fdf0c.jpg
   link: https://www.secretescapes.com/opus-xvi-bergen-norway-uk/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=December2018
-  
+
+
 
 - title: Rondane Hoyfjellshotell
   id: rondane-hoyfjellshotell
-  location: Mysusæter, Norway
+  location: Mysuseter, Norway
   description: Scenic stay near Norway’s Rondane National Park
-  price: 0
-  price-description:
-  saved: 0
+  price: 66
+  price-description: per room per night
+  saved: 32
   expires: 2019/01/03
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/36547/c8bd1b2c_87da_43cc_a77d_d6b8267365ae.jpg
   link: https://www.secretescapes.com/rondane-hoyfjellshotell-mysusaeter-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=December2018
-  
+
