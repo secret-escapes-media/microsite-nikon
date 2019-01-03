@@ -52,10 +52,13 @@
           <h4 class="title title--sm text--bold">Meet {{item.photographer.firstname}}</h4>
           <p class="text--xl">{{item.photographer.about}}</p>
           <div class="space--xxs"></div>
-          <span class="instagram">
-            <div class="instagram__icon"></div>
-            <a class="title text--upper text--medium" href="https://www.instagram.com/{{item.photographer.instagram}}" target="_blank"> {{item.photographer.instagram}}</a>
-          </span>
+          <p class="title text--upper text--medium instagram">
+            <span class="instagram__icon"></span>
+            <a class="title" href="https://www.instagram.com/{{item.photographer.instagram}}" target="_blank"> {{item.photographer.instagram}}</a>
+            {% if item.photographer.website %}
+              &nbsp;&nbsp;|&nbsp;&nbsp;<a class="title" href="{{item.photographer.website}}" target="_blank">Website</a>
+            {% endif %}
+          </p>
         </div>
       </div>
     </div>
