@@ -11,7 +11,7 @@
   id: norway-story
   pages:
     - id: overview
-  date: 2018-11-01
+  date: "2018/11/01"
   title: Norway
   intro: This is Gunvor Eline’s story. She calls Norway home and has spent years capturing the raw qualities of this beguiling landscape. Discover what compels her to return with her camera to a captivating scene of mountains and fjords.
   photographer:
@@ -52,7 +52,7 @@
   id: singapore-story
   pages:
     - id: overview
-  date: 2019-01-01
+  date: "2019-01-14 00:00:00"
   title: Singapore
   intro: This is Jeryl’s story. He lives in the urban sprawl of Singapore, a city that offers him ever-changing scenes to capture. Discover what Jeryl loves about photographing the city, the place he calls home.
   photographer:

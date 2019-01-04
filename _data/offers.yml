@@ -6,45 +6,9 @@
   price: 132
   price-description: per room per night
   saved: 22
-  expires: 2019/01/03
+  expires: 2019/01/07
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/65018/1982e39a_e854_4851_867a_e185bf8fdf0c.jpg
   link: https://www.secretescapes.com/opus-xvi-bergen-norway-uk/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
-  
-
-- title: Radisson Blu Royal Hotel Bergen
-  id: radisson-blu-royal-hotel-bergen
-  location: Bergen, Norway
-  description: A colourful, modern stay at the gateway to the Nordic fjords
-  price: 81
-  price-description: per room per night
-  saved: 42
-  expires: 2019/01/07
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/85609/73013e02_9211_45c6_ace1_6c54f5db3886.jpg
-  link: https://www.secretescapes.com/radisson-blu-royal-hotel-bergen-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
-  
-
-- title: Fleischer's Hotel
-  id: fleischers-hotel
-  location: Voss, Norway
-  description: Lake views, traditional style and ski perks at a historic Voss hotel
-  price: 171
-  price-description: per room per night
-  saved: 35
-  expires: 2019/01/03
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/84430/d017e629_5c30_48dd_903c_7d4f875d377a.jpg
-  link: https://www.secretescapes.com/fleischers-hotel-voss-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
-  
-
-- title: Rondane Hoyfjellshotell
-  id: rondane-hoyfjellshotell
-  location: Mysuseter, Norway
-  description: Scenic stay near Norway’s Rondane National Park
-  price: 66
-  price-description: per room per night
-  saved: 32
-  expires: 2019/01/03
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/36547/c8bd1b2c_87da_43cc_a77d_d6b8267365ae.jpg
-  link: https://www.secretescapes.com/rondane-hoyfjellshotell-mysusaeter-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
   
 
 - title: Incredible Borneo rainforest tour & Far East cruise with orangutans
@@ -59,6 +23,18 @@
   link: https://www.secretescapes.com/incredible-borneo-rainforest-tour-and-far-east-cruise-with-orangutans-kota-kinabalu-sandakan-and-more/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
   
 
+- title: Radisson Blu Royal Hotel Bergen
+  id: radisson-blu-royal-hotel-bergen
+  location: Bergen, Norway
+  description: A colourful, modern stay at the gateway to the Nordic fjords
+  price: 81
+  price-description: per room per night
+  saved: 42
+  expires: 2019/01/07
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/85609/73013e02_9211_45c6_ace1_6c54f5db3886.jpg
+  link: https://www.secretescapes.com/radisson-blu-royal-hotel-bergen-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
+  
+
 - title: Magic Hotel Korskirken
   id: magic-hotel-korskirken
   location: Bergen, Norway
@@ -69,4 +45,40 @@
   expires: 2019/01/07
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/74332/ed3a511b_23de_4af9_829a_cac9a16c7f85.jpg
   link: https://www.secretescapes.com/magic-hotel-korskirken-bergen-norway-2/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
+  
+
+- title: Fleischer's Hotel
+  id: fleischers-hotel
+  location: Voss, Norway
+  description: Lake views, traditional style and ski perks at a historic Voss hotel
+  price: 171
+  price-description: per room per night
+  saved: 35
+  expires: 2019/01/07
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/84430/d017e629_5c30_48dd_903c_7d4f875d377a.jpg
+  link: https://www.secretescapes.com/fleischers-hotel-voss-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
+  
+
+- title: Rondane Hoyfjellshotell
+  id: rondane-hoyfjellshotell
+  location: Mysuseter, Norway
+  description: Scenic stay near Norway’s Rondane National Park
+  price: 66
+  price-description: per room per night
+  saved: 32
+  expires: 2019/01/07
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/36547/c8bd1b2c_87da_43cc_a77d_d6b8267365ae.jpg
+  link: https://www.secretescapes.com/rondane-hoyfjellshotell-mysusaeter-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
+  
+
+- title: Scenic Norway fjords cruise & a beautiful Bergen stay
+  id: scenic-norway-fjords-cruise-and-a-beautiful-bergen-stay
+  location: MS Trollfjord & Scandis Ornen
+  description: Discover Norway with a stunning cruise and Bergen city break
+  price: 1729
+  price-description: per person for 13 nights
+  saved: 28
+  expires: 2019/01/14
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/85207/fbc77d81_365e_4226_b621_5351141ece15.jpg
+  link: https://www.secretescapes.com/scenic-norway-fjords-cruise-and-a-beautiful-bergen-stay-ms-trollfjord-and-scandis-ornen/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
   

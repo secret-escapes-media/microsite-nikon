@@ -36,6 +36,8 @@ $('.photo__content').click(function(){
 $('.js-countdown').each(function() {
   // gets the expires date from the object
   var endDate = $(this).data('date');
+  console.log(endDate);
+
   $(this).countdown(endDate, function(event) {
 
     if (event.offset.totalDays !== 0) {
