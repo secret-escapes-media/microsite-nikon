@@ -2,7 +2,7 @@
 
 
 - type: photo
-  id: gunvor1
+  id: norway-gunvor1
   ratio: 3-2
   location: Henningsvær, Lofoten
   photographer: Gunvor Eline
@@ -18,7 +18,7 @@
 
 
 - type: photo
-  id: gunvor2
+  id: norway-gunvor2
   ratio: 3-2
   location: Sørvågen, Lofoten
   photographer: Gunvor Eline
@@ -34,7 +34,7 @@
 
 
 - type: photo
-  id: gunvor3
+  id: norway-gunvor3
   ratio: 3-2
   location: Merraflestinden, Lofoten
   photographer: Gunvor Eline
@@ -50,7 +50,7 @@
 
 
 - type: photo
-  id: gunvor4
+  id: norway-gunvor4
   ratio: 3-2
   location: Austberget, Lofoten
   photographer: Gunvor Eline
@@ -66,7 +66,7 @@
 
 
 - type: photo
-  id: gunvor5
+  id: norway-gunvor5
   ratio: 3-2
   location: Narvtinden, Lofoten
   photographer: Gunvor Eline
@@ -82,7 +82,7 @@
 
 
 - type: photo
-  id: gunvor6
+  id: norway-gunvor6
   ratio: 3-2
   location: Innersand, Lofoten
   photographer: Gunvor Eline
@@ -98,7 +98,7 @@
 
 
 - type: photo
-  id: gunvor7
+  id: norway-gunvor7
   ratio: 2-3
   location: Fredvanghytta, Lofoten
   photographer: Gunvor Eline
@@ -114,7 +114,7 @@
 
 
 - type: photo
-  id: gunvor8
+  id: norway-gunvor8
   ratio: 2-3
   location: Ulvstinden, Lofoten
   photographer: Gunvor Eline
@@ -130,7 +130,7 @@
 
 
 - type: photo
-  id: gunvor9
+  id: norway-gunvor9
   ratio: 2-3
   location: Torsfjordtinden, Lofoten
   photographer: Gunvor Eline
@@ -146,7 +146,7 @@
 
 
 - type: photo
-  id: gunvor10
+  id: norway-gunvor10
   ratio: 2-3
   location: Sennesvik, Lofoten
   photographer: Gunvor Eline
@@ -162,7 +162,7 @@
 
 
 - type: photo
-  id: gunvor11
+  id: norway-gunvor11
   ratio: 3-2
   location: Skoren, Lofoten
   photographer: Gunvor Eline
@@ -178,7 +178,7 @@
 
 
 - type: photo
-  id: gunvor12
+  id: norway-gunvor12
   ratio: 2-3
   location: Ramberg, Lofoten
   photographer: Gunvor Eline
@@ -194,7 +194,7 @@
 
 
 - type: photo
-  id: gunvor13
+  id: norway-gunvor13
   ratio: 3-2
   location: Kjerringa, Lofoten
   photographer: Gunvor Eline
@@ -210,7 +210,7 @@
 
 
 - type: photo
-  id: gunvor14
+  id: norway-gunvor14
   ratio: 2-3
   location: Kvalvika, Lofoten
   photographer: Gunvor Eline
@@ -226,7 +226,7 @@
 
 
 - type: photo
-  id: gunvor15
+  id: norway-gunvor15
   ratio: 3-2
   location: Fredvang, Lofoten
   photographer: Gunvor Eline
@@ -242,7 +242,7 @@
 
 
 - type: photo
-  id: gunvor16
+  id: norway-gunvor16
   ratio: 3-2
   location: Nordvalle, Lofoten
   photographer: Gunvor Eline
@@ -258,7 +258,7 @@
 
 
 - type: photo
-  id: gunvor17
+  id: norway-gunvor17
   ratio: 3-2
   location: Bjørntinden, Lofoten
   photographer: Gunvor Eline
@@ -274,7 +274,7 @@
 
 
 - type: photo
-  id: gunvor18
+  id: norway-gunvor18
   ratio: 2-3
   location: Flakstadøya, Lofoten
   photographer: Gunvor Eline
@@ -290,7 +290,7 @@
 
 
 - type: photo
-  id: gunvor19
+  id: norway-gunvor19
   ratio: 3-2
   location: Nonsdalen, Lofoten
   photographer: Gunvor Eline
@@ -306,7 +306,7 @@
 
 
 - type: photo
-  id: gunvor20
+  id: norway-gunvor20
   ratio: 2-3
   location: Bøosen, Lofoten
   photographer: Gunvor Eline
@@ -322,7 +322,7 @@
 
 
 - type: photo
-  id: gunvor21
+  id: norway-gunvor21
   ratio: 3-2
   location: Stjerntinden, Lofoten
   photographer: Gunvor Eline
@@ -338,7 +338,7 @@
 
 
 - type: photo
-  id: gunvor22
+  id: norway-gunvor22
   ratio: 3-2
   location: Langneset, Lofoten
   photographer: Gunvor Eline
@@ -354,7 +354,7 @@
 
 
 - type: photo
-  id: gunvor23
+  id: norway-gunvor23
   ratio: 3-2
   location: Tinden, Lofoten
   photographer: Gunvor Eline
@@ -370,7 +370,7 @@
 
 
 - type: photo
-  id: gunvor24
+  id: norway-gunvor24
   ratio: 2-3
   location: Sakrisøya, Lofoten
   photographer: Gunvor Eline
@@ -386,7 +386,7 @@
 
 
 - type: photo
-  id: jeryl1
+  id: norway-jeryl1
   ratio: 2-3
   location: Lofoten, Norway
   photographer: Jeryl
@@ -402,7 +402,7 @@
 
 
 - type: photo
-  id: jeryl2
+  id: norway-jeryl2
   ratio: 3-2
   location: Lofoten, Norway
   photographer: Jeryl
@@ -418,7 +418,7 @@
 
 
 - type: photo
-  id: jeryl3
+  id: norway-jeryl3
   ratio: 3-2
   location: Lofoten, Norway
   photographer: Jeryl
@@ -434,7 +434,7 @@
 
 
 - type: photo
-  id: jeryl4
+  id: norway-jeryl4
   ratio: 2-3
   location: Lofoten, Norway
   photographer: Jeryl
@@ -450,7 +450,7 @@
 
 
 - type: photo
-  id: jeryl5
+  id: norway-jeryl5
   ratio: 3-2
   location: Lofoten, Norway
   photographer: Jeryl
@@ -466,7 +466,7 @@
 
 
 - type: photo
-  id: jeryl6
+  id: norway-jeryl6
   ratio: 2-3
   location: Lofoten, Norway
   photographer: Jeryl
@@ -482,7 +482,7 @@
 
 
 - type: photo
-  id: jeryl7
+  id: norway-jeryl7
   ratio: 2-3
   location: Lofoten, Norway
   photographer: Jeryl
@@ -498,7 +498,7 @@
 
 
 - type: photo
-  id: jeryl8
+  id: norway-jeryl8
   ratio: 2-3
   location: Lofoten, Norway
   photographer: Jeryl
@@ -514,7 +514,7 @@
 
 
 - type: photo
-  id: jeryl9
+  id: norway-jeryl9
   ratio: 2-3
   location: Lofoten, Norway
   photographer: Jeryl
@@ -530,7 +530,7 @@
 
 
 - type: photo
-  id: jeryl10
+  id: norway-jeryl10
   ratio: 2-3
   location: Lofoten, Norway
   photographer: Jeryl
@@ -546,7 +546,7 @@
 
 
 - type: photo
-  id: jeryl11
+  id: norway-jeryl11
   ratio: 2-3
   location: Lofoten, Norway
   photographer: Jeryl
@@ -562,7 +562,7 @@
 
 
 - type: photo
-  id: jeryl12
+  id: norway-jeryl12
   ratio: 2-3
   location: Lofoten, Norway
   photographer: Jeryl
@@ -578,7 +578,7 @@
 
 
 - type: photo
-  id: jeryl13
+  id: norway-jeryl13
   ratio: 2-3
   location: Lofoten, Norway
   photographer: Jeryl
@@ -594,7 +594,7 @@
 
 
 - type: photo
-  id: jeryl14
+  id: norway-jeryl14
   ratio: 2-3
   location: Lofoten, Norway
   photographer: Jeryl
@@ -606,6 +606,367 @@
   page: norway
   pages:
     - id: norway
+
+
+
+##############################################################
+#   SINGAPORE
+##############################################################
+
+
+
+- type: photo
+  id: singapore-gunvor1
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/80s
+  aperture: f/4
+  focallength: 49mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor2
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/800s
+  aperture: f/4
+  focallength: 53mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor3
+  ratio: 3-2
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/500s
+  aperture: f/4
+  focallength: 24mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor4
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/800s
+  aperture: f/4
+  focallength: 70mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor5
+  ratio: 3-2
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1000s
+  aperture: f/10
+  focallength: 33mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor6
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/500s
+  aperture: f/4
+  focallength: 70mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor7
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/2000s
+  aperture: f/4
+  focallength: 58mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor8
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/100s
+  aperture: f/4
+  focallength: 41mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor9
+  ratio: 3-2
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/100s
+  aperture: f/4
+  focallength: 24mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor10
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/25s
+  aperture: f/4
+  focallength: 24mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor11
+  ratio: 3-2
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/320s
+  aperture: f/1.8
+  focallength: 35mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor12
+  ratio: 3-2
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/640s
+  aperture: f/1.8
+  focallength: 35mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl1
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1000s
+  aperture: f/4
+  focallength: 70mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl2
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/3200s
+  aperture: f/2.8
+  focallength: 200mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl3
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1000s
+  aperture: f/4
+  focallength: 70mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl4
+  ratio: 3-2
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/640s
+  aperture: f/4
+  focallength: 70mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl5
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/400s
+  aperture: f/4
+  focallength: 70mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl6
+  ratio: 3-2
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1000s
+  aperture: f/4
+  focallength: 55mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl7
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1000s
+  aperture: f/4
+  focallength: 70mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl8
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/60s
+  aperture: f/4
+  focallength: 24mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl9
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/30s
+  aperture: f/4
+  focallength: 24mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl10
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 2.5s
+  aperture: f/4
+  focallength: 24mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
 
 
 
