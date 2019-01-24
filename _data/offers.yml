@@ -1,63 +1,63 @@
 
-- title: Radisson Blu Royal Hotel Bergen
-  id: radisson-blu-royal-hotel-bergen
-  location: Bergen, Norway
-  description: A colourful, modern stay at the gateway to the Nordic fjords
-  price: 81
-  price-description: per room per night
-  saved: 42
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/85609/73013e02_9211_45c6_ace1_6c54f5db3886.jpg
-  link: https://www.secretescapes.com/radisson-blu-royal-hotel-bergen-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
+- title: Thailand city & beach getaway with a 5* Singapore stay
+  id: thailand-city-and-beach-getaway-with-a-5-singapore-stay
+  location: Bangkok, Khao Lak & Singapore
+  description: Mix Thai bustle and beach with polished Singapore luxury
+  price: 1399
+  price-description: per person for 13 nights
+  saved: 25
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/86235/6e6e3a9c_54d4_419c_b71c_b4e1b8a34b34.jpg
+  link: https://www.secretescapes.com/thailand-city-and-beach-getaway-with-a-5-star-singapore-stay-bangkok-khao-lak-and-singapore/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
+  
 
+- title: Magical Norway city & fjord summer break with train travel
+  id: magical-norway-city-and-fjord-summer-break-with-train-travel
+  location: Oslo, Balestrand & Bergen with a scenic fjord cruise
+  description: Oslo, Bergen and Norway's epic fjords, with a magical railway journey
+  price: 899
+  price-description: per person for 6 nights
+  saved: 10
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/62244/257dda99_0f33_4cdc_a0f8_002ca79af9cf.jpg
+  link: https://www.secretescapes.com/magical-norway-city-and-fjord-summer-break-with-train-travel-oslo-balestrand-and-bergen-with-a-scenic-fjord-cruise/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
+  
 
-- title: Clarion Hotel The Hub
-  id: clarion-hotel-the-hub
-  location: Oslo, Norway
-  description: Stylish high-rise stay in the heart of Oslo
-  price: 89
-  price-description: per room per night
-  saved: 38
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/85804/114d00ae_a31c_435b_8547_90efbd1a3f6d.jpg
-  link: https://www.secretescapes.com/clarion-hotel-the-hub-oslo-norway-uk/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
-
-
-- title: Incredible Borneo rainforest tour & Far East cruise with orangutans
-  id: incredible-borneo-rainforest-tour-and-far-east-cruise-with-orangutans
-  location: Kota Kinabalu, Sandakan, Singapore & more
-  description: City, beach and nature thrills across Malaysia's best destinations
-  price: 2298
-  price-description: per person for 14 nights
-  saved: 14
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/51601/bc52c025_8ed0_45a1_a55b_947aef393bc4.jpg
-  link: https://www.secretescapes.com/incredible-borneo-rainforest-tour-and-far-east-cruise-with-orangutans-kota-kinabalu-sandakan-and-more/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
-
-
-- title: Magic Hotel Korskirken
-  id: magic-hotel-korskirken
-  location: Bergen, Norway
-  description: A hip designer-led hotel in the heart of Bergen
-  price: 77
-  price-description: per room per night
+- title: Dazzling Singapore break & two restorative Bali retreats
+  id: dazzling-singapore-break-and-two-restorative-bali-retreats
+  location: Singapore, Ubud & Candidasa
+  description: From sensational Singapore to two blissful boutique stays in Bali
+  price: 1169
+  price-description: per person for 9 nights
   saved: 33
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/74332/ed3a511b_23de_4af9_829a_cac9a16c7f85.jpg
-  link: https://www.secretescapes.com/magic-hotel-korskirken-bergen-norway-2/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/72756/072b3b1d_5143_4644_a7a7_1b8e21dab47e.jpg
+  link: https://www.secretescapes.com/dazzling-singapore-break-and-peaceful-bali-hideaways-singapore-ubud-and-candidasa/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
+  
 
-
-- title: YOTEL Singapore
-  id: yotel-singapore
+- title: Wangz Hotel
+  id: wangz-hotel
   location: Singapore
-  description: A high-tech hideaway in Singapore’s shopping and entertainment district
-  price: 110
-  price-description: per cabin per night
-  saved: 28
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/64910/b2636015_d153_4940_a3b6_203ea3dc957e.jpg
-  link: https://www.secretescapes.com/yotel-singapore-singapore1/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
+  description: A contemporary pad in Singapore's hippest neighbourhood - breakfast included
+  price: 101
+  price-description: per room per night
+  saved: 25
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/86531/76669040_7a51_45e0_a65d_4619a4446075.jpg
+  link: https://www.secretescapes.com/wangz-hotel-singapore/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
+  
 
+- title: Abu Dhabi Grand Prix & luxe Asia and Middle East cruise
+  id: abu-dhabi-grand-prix-and-luxe-asia-and-middle-east-cruise
+  location: Abu Dhabi, Dubai, Oman, India, Sri Lanka, Thailand & Singapore
+  description: Abu Dhabi's F1 Grand Prix before a luxury cruise
+  price: 2499
+  price-description: per person for 19 nights
+  saved: 21
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/85941/96751d5e_84e3_4c3e_b3dd_2d6738435f71.jpg
+  link: https://www.secretescapes.com/abu-dhabi-grand-prix-and-luxe-asia-cruise-abu-dhabi-dubai-oman-india-sri-lanka-thailand-and-singapore/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
+  
 
 - title: Farris Bad
   id: farris-bad
@@ -66,54 +66,7 @@
   price: 155
   price-description: per room per night
   saved: 22
-  expires: 2019/01/14
+  expires: 2019/01/28
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/45456/83a42c93_3380_4637_b1c5_ff96324e2016.jpg
   link: https://www.secretescapes.com/farris-bad-larvik-norway-uk/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
-
-
-- title: Scenic Norway fjords cruise & a beautiful Bergen stay
-  id: scenic-norway-fjords-cruise-and-a-beautiful-bergen-stay
-  location: MS Trollfjord & Scandis Ornen
-  description: Discover Norway with a stunning cruise and Bergen city break
-  price: 1729
-  price-description: per person for 13 nights
-  saved: 28
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/85207/fbc77d81_365e_4226_b621_5351141ece15.jpg
-  link: https://www.secretescapes.com/scenic-norway-fjords-cruise-and-a-beautiful-bergen-stay-ms-trollfjord-and-scandis-ornen/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
-
-
-- title: Abu Dhabi Grand Prix & luxe Asia and Middle East cruise
-  id: abu-dhabi-grand-prix-and-luxe-asia-and-middle-east-cruise
-  location: Abu Dhabi, Dubai, Oman, India, Sri Lanka, Thailand & Singapore
-  description: Abu Dhabi's F1 Grand Prix before a luxury cruise
-  price: 2599
-  price-description: per person for 19 nights
-  saved: 21
-  expires: 2019/01/21
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/85941/96751d5e_84e3_4c3e_b3dd_2d6738435f71.jpg
-  link: https://www.secretescapes.com/abu-dhabi-grand-prix-and-luxe-asia-cruise-abu-dhabi-dubai-oman-india-sri-lanka-thailand-and-singapore/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
-
-
-- title: Dazzling Singapore break & two restorative Bali retreats
-  id: dazzling-singapore-break-and-two-restorative-bali-retreats
-  location: Singapore, Ubud & Candidasa
-  description: From sensational Singapore to two blissful boutique stays in Bali
-  price: 1199
-  price-description: per person for 9 nights
-  saved: 33
-  expires: 2019/01/28
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/80705/d76bb81c_60c3_4107_bbdb_84de680c362f.jpg
-  link: https://www.secretescapes.com/dazzling-singapore-break-and-peaceful-bali-hideaways-singapore-ubud-and-candidasa/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
-
-
-- title: Thailand city & beach getaway with a 5* Singapore stay
-  id: thailand-city-and-beach-getaway-with-a-5-singapore-stay
-  location: Bangkok, Khao Lak & Singapore
-  description: Mix Thai bustle and beach with polished Singapore luxury
-  price: 1499
-  price-description: per person for 13 nights
-  saved: 25
-  expires: 2019/01/28
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/86235/6e6e3a9c_54d4_419c_b71c_b4e1b8a34b34.jpg
-  link: https://www.secretescapes.com/thailand-city-and-beach-getaway-with-a-5-star-singapore-stay-bangkok-khao-lak-and-singapore/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
+  
