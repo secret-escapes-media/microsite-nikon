@@ -7,11 +7,8 @@ nav-order: 4
 
 
 
-intro: >
-  <h1 class="title title--lg">Discover mirrorless. Discover the Nikon&nbsp;Z&nbsp;7.</h1>
-  <p class="text--xxl text--medium">Find out what features will make the Nikon Z 7 your next choice in photography and keep an eye out for our behind-the-scenes special that shows how we used the Z 7 to capture our journey in Norway and Singapore – going live on February 18. </p>
-  <div class="space--sm"></div>
-  <a href="https://www.nikon.co.uk/en_GB/products/category_pages/digital_cameras/mirrorless/overview.page?utm_source=secret-escapes&utm_medium=cta-button&utm_campaign=secret-escapes-home" target="_blank" id="tracking-button-nikon-intro" class="btn btn--yellow">Find out more</a>
+intro:
+
 
 
 features:
@@ -34,25 +31,29 @@ features:
 <div class="vpad--xxl bg--black">
   <div class="container container--xl text--center">
 
-    {{page.intro}}
-
-    <!-- <div class="space--xxl"></div>
-    <div class="container container--xl">
-      <div class="bg-img bg-img--16-9">
+    <div class="nikon-bts">
+      <div class="nikon-bts__video bg-img bg-img--16-9 bg-img--zoom" style="background-image: url({{site.img}}/content/{{page.id}}/bts.jpg);">
         <a href="javascript:void(0);" data-modal-item="video" class="js-open-modal bg-img__link"></a>
         <div class="bg-img__content">
-          <span class="title title--xxxs text--bold">Go behind the scenes </span>
-          <div class="bg-img__play"></div>
+          <div class="bg-img__play bg-img__play-sm"></div>
+          <div class="space--sm"></div>
+          <h1 class="title title--lg">Nikon Z 7 – tried and tested. <br /> <span class="text--bold">See behind the lens.</span></h1>
         </div>
+        <div class="bg-img__overlay"></div>
       </div>
-    </div> -->
+      <div class="space--md"></div>
+      <p class="text--xxl text--medium text--bold">Watch our behind-the-scenes special to see how we used the mirrorless Nikon Z 7 to capture our journey in Norway and Singapore. </p>
+      <div class="space--sm"></div>
+      <a href="javascript:void(0);" data-modal-item="video" class="js-open-modal btn btn--solid">Watch behind-the-scenes now</a>
+    </div>
 
   </div>
-</div>
 
 
-<div class="vpad--xxl bg--grey-darkest">
   <div class="container">
+    
+    <hr class="hr--center hr--yellow">
+    <div class="space--xxl"></div>
     {% for feature in page.features %}
       <div class="bob{% cycle "", ' bob--swap' %}">
         <div class="bob__img">

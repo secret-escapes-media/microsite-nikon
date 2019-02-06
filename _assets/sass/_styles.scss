@@ -285,3 +285,14 @@ $header-height: 126px;
     }
   }
 }
+
+
+
+
+
+.nikon-bts {
+  margin-top: -$s12;
+  &__video {
+    border-bottom: 1px solid $nikon-yellow;
+  }
+}

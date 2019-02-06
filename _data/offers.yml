@@ -6,19 +6,42 @@
   price: 899
   price-description: per person for 6 nights
   saved: 10
-  expires: 2019/02/04
+  expires: 2019/02/11
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/62244/257dda99_0f33_4cdc_a0f8_002ca79af9cf.jpg
-  link: https://www.secretescapes.com/magical-norway-city-and-fjord-summer-break-with-train-travel-oslo-balestrand-and-bergen-with-a-scenic-fjord-cruise/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
-  
+  link: https://www.secretescapes.com/magical-norway-city-and-fjord-summer-break-with-train-travel-oslo-balestrand-and-bergen-with-a-scenic-fjord-cruise/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=February2019
 
-- title: Wangz Hotel
-  id: wangz-hotel
+
+- title: Spectacular Singapore break & 5* Thailand beach hopping
+  id: spectacular-singapore-break-and-5-thailand-beach-hopping
+  location: Singapore, Phuket & Khao Lak
+  description: From mesmerising Singapore to two Thai beach paradises
+  price: 1099
+  price-description: per person for 9 nights
+  saved: 0
+  expires: 2019/02/18
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/87838/39c8d12d_4de4_4faf_9512_616a267c2a0a.jpg
+  link: https://www.secretescapes.com/thrilling-singapore-break-and-5-star-thailand-beach-hopping-singapore-phuket-and-khao-lak/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=February2019
+
+
+- title: Ramada Singapore at Zhongshan Park
+  id: ramada-singapore-at-zhongshan-park
   location: Singapore
-  description: A contemporary pad in Singapore's hippest neighbourhood - breakfast included
-  price: 101
+  description: Stylish digs by a park in the heart of Singapore - breakfast included
+  price: 111
   price-description: per room per night
-  saved: 25
-  expires: 2019/02/04
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/86531/76669040_7a51_45e0_a65d_4619a4446075.jpg
-  link: https://www.secretescapes.com/wangz-hotel-singapore/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=January2019
-  
+  saved: 47
+  expires: 2019/02/11
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/59342/e1aa7000_6efe_4b9b_9b44_be517d8824e5.jpg
+  link: https://www.secretescapes.com/ramada-singapore-at-zhongshan-park-singapore/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=February2019
+
+
+- title: Culture, beach & city holiday to Bali & Singapore
+  id: culture-beach-and-city-holiday-to-bali-and-singapore
+  location: Maya Ubud Resort & Spa, Maya Sanur Resort & Spa, and Royal Plaza on Scotts
+  description: Culture, beach &amp; city combine in Bali and buzzing Singapore
+  price: 1699
+  price-description: per person for 10 nights
+  saved: 28
+  expires: 2019/02/11
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/87487/6acf4213_68ca_4cff_85c3_a38225723fc7.jpg
+  link: https://www.secretescapes.com/culture-beach-and-city-holiday-to-bali-and-singapore-maya-ubud-resort-and-spa-maya-sanur-resort-and-spa-and-royal-plaza-on-scotts-singapore/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=February2019
