@@ -1,47 +1,71 @@
 
-- title: Magical Norway city & fjord summer break with train travel
-  id: magical-norway-city-and-fjord-summer-break-with-train-travel
-  location: Oslo, Balestrand & Bergen with a scenic fjord cruise
-  description: Oslo, Bergen and Norway's epic fjords, with a magical railway journey
-  price: 899
-  price-description: per person for 6 nights
-  saved: 10
-  expires: 2019/02/11
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/62244/257dda99_0f33_4cdc_a0f8_002ca79af9cf.jpg
-  link: https://www.secretescapes.com/magical-norway-city-and-fjord-summer-break-with-train-travel-oslo-balestrand-and-bergen-with-a-scenic-fjord-cruise/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=February2019
-
-
-- title: Spectacular Singapore break & 5* Thailand beach hopping
-  id: spectacular-singapore-break-and-5-thailand-beach-hopping
-  location: Singapore, Phuket & Khao Lak
-  description: From mesmerising Singapore to two Thai beach paradises
-  price: 1099
-  price-description: per person for 9 nights
-  saved: 0
-  expires: 2019/02/18
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/87838/39c8d12d_4de4_4faf_9512_616a267c2a0a.jpg
-  link: https://www.secretescapes.com/thrilling-singapore-break-and-5-star-thailand-beach-hopping-singapore-phuket-and-khao-lak/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=February2019
-
-
-- title: Ramada Singapore at Zhongshan Park
-  id: ramada-singapore-at-zhongshan-park
-  location: Singapore
-  description: Stylish digs by a park in the heart of Singapore - breakfast included
-  price: 111
+- title: First Hotel Marin
+  id: first-hotel-marin
+  location: Bergen, Norway
+  description: A converted Norwegian warehouse in Bergen's historic heart
+  price: 76
   price-description: per room per night
-  saved: 47
-  expires: 2019/02/11
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/59342/e1aa7000_6efe_4b9b_9b44_be517d8824e5.jpg
-  link: https://www.secretescapes.com/ramada-singapore-at-zhongshan-park-singapore/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=February2019
+  saved: 38
+  expires: 2019/03/04
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/12765/052a5d9e_4ebe_4dc0_93a1_1b22f47feb7d.jpg
+  link: https://www.secretescapes.com/first-hotel-marin-bergen-norway2/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=February2019
 
 
-- title: Culture, beach & city holiday to Bali & Singapore
-  id: culture-beach-and-city-holiday-to-bali-and-singapore
-  location: Maya Ubud Resort & Spa, Maya Sanur Resort & Spa, and Royal Plaza on Scotts
-  description: Culture, beach &amp; city combine in Bali and buzzing Singapore
-  price: 1699
+- title: Comfort Hotel Karl Johan
+  id: comfort-hotel-karl-johan
+  location: Oslo, Norway
+  description: An urban stay in the centre of Oslo
+  price: 80
+  price-description: per room per night
+  saved: 20
+  expires: 2019/03/04
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/88349/94dc0776_be4f_4384_8bce_dc56ee3b5c08.jpg
+  link: https://www.secretescapes.com/comfort-hotel-karl-johan-oslo-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=February2019
+
+
+- title: Singapore city break with Andaman Sea cruise & Dubai beach stay
+  id: singapore-city-break-with-andaman-sea-cruise-and-dubai-beach-stay
+  location: Singapore, Malaysia, Thailand & UAE
+  description: Action-packed Singapore and Dubai stays with a Penang and Phuket cruise
+  price: 1649
+  price-description: per person for 12 nights
+  saved: 29
+  expires: 2019/03/04
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/88636/8d07ca64_d66c_421e_9284_7fb04c417890.jpg
+  link: https://www.secretescapes.com/singapore-city-break-with-andaman-sea-cruise-and-dubai-beach-stay-singapore-malaysia-thailand-and-uae/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=February2019
+
+
+- title: Exotic Singapore & Indonesia island-hopping with spa perks
+  id: exotic-singapore-and-indonesia-island-hopping-with-spa-perks
+  location: Singapore, Bali & Lombok
+  description: Hop from iconic Singapore to two of Indonesia’s star islands
+  price: 1499
+  price-description: per person for 11 nights
+  saved: 32
+  expires: 2019/03/11
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/89042/d3965cd5_04c8_46b8_ae65_36448c0c4746.jpg
+  link: https://www.secretescapes.com/exotic-singapore-and-indonesia-island-hopping-with-spa-perks-singapore-bali-and-lombok/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=February2019
+
+
+- title: Incredible Taiwan tour with excellent excursions
+  id: incredible-taiwan-tour-with-excellent-excursions
+  location: Taipei, Sun Moon Lake, Kaohsiung, Taitung & Hualien
+  description: Take an epic Taiwan tour of historic sites and natural beauty
+  price: 1599
+  price-description: per person for 8 nights
+  saved: 33
+  expires: 2019/03/13
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/89235/4d573e9d_0bca_4d8d_9ba0_dcc9e3225204.jpg
+  link: https://www.secretescapes.com/incredible-taiwan-tour-with-excellent-excursions-taipei-sun-moon-lake-kaohsiung-taitung-and-hualien/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=February2019
+
+
+- title: Hong Kong stay before an incredible Taiwan tour
+  id: hong-kong-stay-before-an-incredible-taiwan-tour
+  location: Hong Kong, Taipei, Sun Moon Lake, Kaohsiung, Taitung & Hualien
+  description: A slick Hong Kong city stay before an incredible tour of Taiwan
+  price: 1799
   price-description: per person for 10 nights
-  saved: 28
-  expires: 2019/02/11
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/87487/6acf4213_68ca_4cff_85c3_a38225723fc7.jpg
-  link: https://www.secretescapes.com/culture-beach-and-city-holiday-to-bali-and-singapore-maya-ubud-resort-and-spa-maya-sanur-resort-and-spa-and-royal-plaza-on-scotts-singapore/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=February2019
+  saved: 32
+  expires: 2019/03/13
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/89507/70a45c05_d29a_4fb6_a803_655b7e651f6c.jpg
+  link: https://www.secretescapes.com/hong-kong-stay-before-an-incredible-taiwan-tour-hong-kong-taipei-sun-moon-lake-kaohsiung-taitung-and-hualien/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=February2019
