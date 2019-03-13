@@ -1,5 +1,4 @@
 
-
 - title: YOTEL Singapore
   id: yotel-singapore
   location: Singapore
@@ -7,21 +6,9 @@
   price: 106
   price-description: per cabin per night
   saved: 30
-  expires: 2019/03/11
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/64910/2f7adfef_722f_428e_8b00_ffbb15c0ec37.jpg
+  expires: 2019/03/18
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/64910/d5c84146_0028_413d_baf8_cf0052984c6d.jpg
   link: https://www.secretescapes.com/yotel-singapore-singapore/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=March2019
-
-
-- title: Thrilling city-hopping adventure around Southeast Asia
-  id: thrilling-city-hopping-adventure-around-southeast-asia
-  location: Kuala Lumpur, Singapore, Hong Kong & Bangkok
-  description: Discover four of Southeast Asia’s magnificent, melting-pot cities
-  price: 1599
-  price-description: per person for 12 nights
-  saved: 31
-  expires: 2019/03/11
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/65219/0677c197_4de2_43bf_bc96_cba00c0db126.jpg
-  link: https://www.secretescapes.com/southeast-asia-city-hopping-adventure-kuala-lumpur-singapore-hong-kong-and-bangkok/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=March2019
 
 
 - title: First Hotel Marin
@@ -31,45 +18,21 @@
   price: 76
   price-description: per room per night
   saved: 38
-  expires: 2019/03/11
+  expires: 2019/03/18
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/12765/052a5d9e_4ebe_4dc0_93a1_1b22f47feb7d.jpg
   link: https://www.secretescapes.com/first-hotel-marin-bergen-norway2/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=March2019
 
 
-- title: Exotic Singapore & Indonesia island-hopping with spa perks
-  id: exotic-singapore-and-indonesia-island-hopping-with-spa-perks
-  location: Singapore, Bali & Lombok
-  description: Hop from iconic Singapore to two of Indonesia’s star islands
-  price: 1499
-  price-description: per person for 11 nights
-  saved: 32
-  expires: 2019/03/11
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/89042/d3965cd5_04c8_46b8_ae65_36448c0c4746.jpg
-  link: https://www.secretescapes.com/exotic-singapore-and-indonesia-island-hopping-with-spa-perks-singapore-bali-and-lombok/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=March2019
-
-
-- title: Incredible Taiwan tour with excellent excursions
-  id: incredible-taiwan-tour-with-excellent-excursions
-  location: Taipei, Sun Moon Lake, Kaohsiung, Taitung & Hualien
-  description: Take an epic Taiwan tour of historic sites and natural beauty
-  price: 1599
-  price-description: per person for 8 nights
-  saved: 33
-  expires: 2019/03/13
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/89235/4d573e9d_0bca_4d8d_9ba0_dcc9e3225204.jpg
-  link: https://www.secretescapes.com/incredible-taiwan-tour-with-excellent-excursions-taipei-sun-moon-lake-kaohsiung-taitung-and-hualien/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=March2019
-
-
-- title: Hong Kong stay before an incredible Taiwan tour
-  id: hong-kong-stay-before-an-incredible-taiwan-tour
-  location: Hong Kong, Taipei, Sun Moon Lake, Kaohsiung, Taitung & Hualien
-  description: A slick Hong Kong city stay before an incredible tour of Taiwan
-  price: 1799
-  price-description: per person for 10 nights
-  saved: 32
-  expires: 2019/03/13
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/89507/70a45c05_d29a_4fb6_a803_655b7e651f6c.jpg
-  link: https://www.secretescapes.com/hong-kong-stay-before-an-incredible-taiwan-tour-hong-kong-taipei-sun-moon-lake-kaohsiung-taitung-and-hualien/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=March2019
+- title: Magical Norway city & fjord summer break with train travel
+  id: magical-norway-city-and-fjord-summer-break-with-train-travel
+  location: Oslo, Balestrand & Bergen with a scenic fjord cruise
+  description: An epic Norway trip from Oslo to Bergen, with magical fjord visits
+  price: 849
+  price-description: per person for 6 nights
+  saved: 10
+  expires: 2019/03/18
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/86780/254b66de_06a2_40e1_8305_f4c97bb47bcf.jpg
+  link: https://www.secretescapes.com/magical-norway-city-and-fjord-summer-break-with-train-travel-oslo-balestrand-and-bergen-with-a-scenic-fjord-cruise/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=March2019
 
 
 - title: Amerikalinjen
@@ -79,6 +42,6 @@
   price: 203
   price-description: per room per night
   saved: 20
-  expires: 2019/03/11
+  expires: 2019/03/18
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/89905/cb594693_247d_4728_a5a6_f7c76da61732.jpg
   link: https://www.secretescapes.com/amerikalinjen-oslo-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=March2019
