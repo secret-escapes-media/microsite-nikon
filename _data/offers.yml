@@ -1,28 +1,4 @@
 
-- title: YOTEL Singapore
-  id: yotel-singapore
-  location: Singapore
-  description: Turn left at a Singapore hotel inspired by first-class air travel
-  price: 106
-  price-description: per cabin per night
-  saved: 30
-  expires: 2019/03/18
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/64910/d5c84146_0028_413d_baf8_cf0052984c6d.jpg
-  link: https://www.secretescapes.com/yotel-singapore-singapore/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=March2019
-
-
-- title: First Hotel Marin
-  id: first-hotel-marin
-  location: Bergen, Norway
-  description: A converted Norwegian warehouse in Bergen's historic heart
-  price: 76
-  price-description: per room per night
-  saved: 38
-  expires: 2019/03/18
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/12765/052a5d9e_4ebe_4dc0_93a1_1b22f47feb7d.jpg
-  link: https://www.secretescapes.com/first-hotel-marin-bergen-norway2/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=March2019
-
-
 - title: Magical Norway city & fjord summer break with train travel
   id: magical-norway-city-and-fjord-summer-break-with-train-travel
   location: Oslo, Balestrand & Bergen with a scenic fjord cruise
@@ -30,9 +6,21 @@
   price: 849
   price-description: per person for 6 nights
   saved: 10
-  expires: 2019/03/18
+  expires: 2019/04/02
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/86780/254b66de_06a2_40e1_8305_f4c97bb47bcf.jpg
   link: https://www.secretescapes.com/magical-norway-city-and-fjord-summer-break-with-train-travel-oslo-balestrand-and-bergen-with-a-scenic-fjord-cruise/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=March2019
+
+
+- title: Comfort Hotel Karl Johan
+  id: comfort-hotel-karl-johan
+  location: Oslo, Norway
+  description: Explore Oslo's sights from this slick city centre stay
+  price: 70
+  price-description: per room per night
+  saved: 33
+  expires: 2019/04/02
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/88349/94dc0776_be4f_4384_8bce_dc56ee3b5c08.jpg
+  link: https://www.secretescapes.com/comfort-hotel-karl-johan-oslo-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=March2019
 
 
 - title: Amerikalinjen
@@ -42,6 +30,18 @@
   price: 203
   price-description: per room per night
   saved: 20
-  expires: 2019/03/18
+  expires: 2019/04/02
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/89905/cb594693_247d_4728_a5a6_f7c76da61732.jpg
   link: https://www.secretescapes.com/amerikalinjen-oslo-norway/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=March2019
+
+
+- title: Exotic Malaysia, Singapore & Thailand beach holiday
+  id: exotic-malaysia-singapore-and-thailand-beach-holiday
+  location: Kuala Lumpur, Singapore & Phuket
+  description: Explore the contrasts of Kuala Lumpur and Singapore, plus Phuket beach bliss
+  price: 1269
+  price-description: per person for 8 nights
+  saved: 31
+  expires: 2019/04/09
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/91015/728fd57b_916f_4e34_97a8_31ba5df3cee9.jpg
+  link: https://www.secretescapes.com/sensational-southeast-asia-city-and-beach-holiday-malaysia-singapore-and-thailand/sale?utm_source=SE_media&utm_medium=Nikon&utm_campaign=March2019
